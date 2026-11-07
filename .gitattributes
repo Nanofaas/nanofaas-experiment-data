@@ -1,0 +1,2 @@
+# Preserve original measurement bytes and checksums on every platform.
+experiments/** -text whitespace=cr-at-eol
