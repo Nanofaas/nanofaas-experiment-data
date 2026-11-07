@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "experiment": "01-module-cost",
+      "verifiedFiles": 422,
+      "results": {
+        "blocks": 3,
+        "arms": 24
+      }
+    },
+    {
+      "experiment": "02-platform-comparison",
+      "verifiedFiles": 662,
+      "results": {
+        "runs": 25,
+        "figurePoints": 104,
+        "tableRows": 13,
+        "latencyPercentiles": [
+          25,
+          50,
+          95
+        ]
+      }
+    },
+    {
+      "experiment": "03-concurrency-adaptation",
+      "verifiedFiles": 517,
+      "results": {
+        "evaluationRuns": 24,
+        "calibrationRuns": 4
+      }
+    },
+    {
+      "experiment": "04-replica-reactivation",
+      "verifiedFiles": 190,
+      "results": {
+        "configurations": 10,
+        "idleCycles": 30
+      }
+    },
+    {
+      "experiment": "05-fixed-target-offloading",
+      "verifiedFiles": 303,
+      "results": {
+        "arms": 15,
+        "rates": [
+          20,
+          100,
+          300,
+          400,
+          500
+        ]
+      }
+    },
+    {
+      "experiment": "06-ten-edge-offloading",
+      "verifiedFiles": 73,
+      "results": {
+        "runs": 2,
+        "epochsPerRun": 54,
+        "forecastCellsPerRun": 2700,
+        "edgeRequestsPerRun": 142242
+      }
+    }
+  ],
+  "archiveRoundTrip": "All archive members, reconstructed streams and partition checksums verified locally",
+  "contentCheck": {
+    "scannedFiles": 2173,
+    "credentialPatternFindings": 0,
+    "scope": "selected archive inputs; private-key, GitHub/AWS/Azure token, bearer-credential and assigned-secret patterns"
+  }
+}

@@ -1,0 +1,2117 @@
+{
+  "raw/runs/disabled-r20/environment.yaml": {
+    "bytes": 587,
+    "sha256": "49973bbef55ea46e7f8096feb02e8ed9d097ae4d7a55c1b3804129f166721746",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/environment.yaml"
+  },
+  "raw/runs/disabled-r20/results/cloud-route.json": {
+    "bytes": 1269,
+    "sha256": "10ab374bdd7cee7eb1f3456caa8a9b3bd33b541e8ea72b49e2ef221da690621b",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/cloud-route.json"
+  },
+  "raw/runs/disabled-r20/results/control-plane-cloud.log": {
+    "bytes": 3181,
+    "sha256": "e745fef30947169393c06f49e96d29e6021d5bb76b4d4ce5e782c61029299a5b",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/control-plane-cloud.log"
+  },
+  "raw/runs/disabled-r20/results/control-plane-stack.log": {
+    "bytes": 3040,
+    "sha256": "64f76e624da67c2d1e53f76dae2d31b909b4b0679502f89ec42b62934bf490b5",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/control-plane-stack.log"
+  },
+  "raw/runs/disabled-r20/results/execution.json": {
+    "bytes": 40,
+    "sha256": "4d4acc7527c76aa776599f9f14be80fc41365826882b9f30cc987626e04d7408",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/execution.json"
+  },
+  "raw/runs/disabled-r20/results/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/inputs/performance-medium.json"
+  },
+  "raw/runs/disabled-r20/results/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/inputs/runtime-contract.json"
+  },
+  "raw/runs/disabled-r20/results/k6-events.jsonl": {
+    "bytes": 4314959,
+    "sha256": "d76e461d7d8b0e7aafc5ef6eabea1043ffc9165c887f29891ef014c19282262c",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/k6-events.jsonl"
+  },
+  "raw/runs/disabled-r20/results/k6-result.json": {
+    "bytes": 352,
+    "sha256": "ca5af5e22be980e626825416037dd0020e083eee7ca690a9d26dbdf98b427313",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/k6-result.json"
+  },
+  "raw/runs/disabled-r20/results/k6-summary.json": {
+    "bytes": 4293,
+    "sha256": "277b83c39a5339eaf1f35a1011d50ea08e5606183244e2992d017411cad6bf7a",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/k6-summary.json"
+  },
+  "raw/runs/disabled-r20/results/measured-requests.csv": {
+    "bytes": 2046838,
+    "sha256": "816abdcf2b3a604f5490f9fdbce836bbb92a8c3bf52b6ddda8787aae7f77d78e",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/measured-requests.csv"
+  },
+  "raw/runs/disabled-r20/results/observations/cloud-after.json": {
+    "bytes": 4376638,
+    "sha256": "244cf39c5ea14ba2e4aced56028939a573228950c6bf81ec6fd8b1df86f1a279",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/observations/cloud-after.json"
+  },
+  "raw/runs/disabled-r20/results/observations/cloud-before.json": {
+    "bytes": 169475,
+    "sha256": "9ea0db60dfd30c0991f8d982f511dcad30aba409d25c56ecfc90b6c63558e440",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/observations/cloud-before.json"
+  },
+  "raw/runs/disabled-r20/results/observations/stack-after.json": {
+    "bytes": 4354755,
+    "sha256": "dee4a47048963bac5b1bca0098d3b1c5565f9ce56a28341d55c078fc89e2b286",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/observations/stack-after.json"
+  },
+  "raw/runs/disabled-r20/results/observations/stack-before.json": {
+    "bytes": 169790,
+    "sha256": "8a6b79d87757c5e7bd2dcbf3e3d01949715cd58802b155abf711bf5792bab00f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/observations/stack-before.json"
+  },
+  "raw/runs/disabled-r20/results/protocol.json": {
+    "bytes": 2219,
+    "sha256": "f870e97927d562d319ffb3073fbf606d5fb83ba1621fc69ea1eec1f6a9fc293b",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/protocol.json"
+  },
+  "raw/runs/disabled-r20/results/report.json": {
+    "bytes": 10528,
+    "sha256": "22dfe83d3aada4eace642f66fe13f7f08456697931539292a4f38ef52133edad",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/report.json"
+  },
+  "raw/runs/disabled-r20/results/report.md": {
+    "bytes": 1347,
+    "sha256": "c02c36dc2385dc4244160937cdc2e42ba2de98df0be6bb29bee7fba89e0ed5c7",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/report.md"
+  },
+  "raw/runs/disabled-r20/results/run-metadata.json": {
+    "bytes": 14615,
+    "sha256": "6d8aa44fd66eefc94a0efac2b43f2a9db495560c2c48a2193ec9860b84ff0803",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/results/run-metadata.json"
+  },
+  "raw/runs/disabled-r20/scenario.yaml": {
+    "bytes": 423,
+    "sha256": "bdfe85b0cde4ede0e8415486becc5c1d3e0f8ed4c034c4b492407e6cdf26c0f9",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "01-disabled-r20/scenario.yaml"
+  },
+  "raw/runs/pressure-r20/environment.yaml": {
+    "bytes": 587,
+    "sha256": "36312c0877af2a44011bb1e4ce4dd07cfee86fbb408e82174b7d9f2af312d87c",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/environment.yaml"
+  },
+  "raw/runs/pressure-r20/results/cloud-route.json": {
+    "bytes": 1269,
+    "sha256": "65566b3cd49c4f689cb9d6352cfb0668d9fe86043088cb11703d7d1f706d9452",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/cloud-route.json"
+  },
+  "raw/runs/pressure-r20/results/control-plane-cloud.log": {
+    "bytes": 3181,
+    "sha256": "10efefe348bf7f8f1cb63873d3578e6b46e3893374f46187d87c7ac4334d8cde",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/control-plane-cloud.log"
+  },
+  "raw/runs/pressure-r20/results/control-plane-stack.log": {
+    "bytes": 3039,
+    "sha256": "d5454579577f3572166c34be4dcdca3b60e63ff0b4f74c7c4df4f5d15b3f80da",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/control-plane-stack.log"
+  },
+  "raw/runs/pressure-r20/results/execution.json": {
+    "bytes": 40,
+    "sha256": "4d4acc7527c76aa776599f9f14be80fc41365826882b9f30cc987626e04d7408",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/execution.json"
+  },
+  "raw/runs/pressure-r20/results/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/inputs/performance-medium.json"
+  },
+  "raw/runs/pressure-r20/results/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/inputs/runtime-contract.json"
+  },
+  "raw/runs/pressure-r20/results/k6-events.jsonl": {
+    "bytes": 4314001,
+    "sha256": "226a5175aa6523ef24298d83cd28a1bb44f9ceec865417960fdc43f7cdb58ba0",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/k6-events.jsonl"
+  },
+  "raw/runs/pressure-r20/results/k6-result.json": {
+    "bytes": 351,
+    "sha256": "41b0d91e4327d76aa852e947c408a1ed2be25e36fc09a7ef4166284c4c1ef23f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/k6-result.json"
+  },
+  "raw/runs/pressure-r20/results/k6-summary.json": {
+    "bytes": 4193,
+    "sha256": "17018afb78ee052701c910d159a0f0f51228ce5cbe1272d683cb8acb6f981b0d",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/k6-summary.json"
+  },
+  "raw/runs/pressure-r20/results/measured-requests.csv": {
+    "bytes": 2046168,
+    "sha256": "3cb513ca2c69e1eba711c10a04f6b5792bb3772c7ea3c0e6208121e4c7b89586",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/measured-requests.csv"
+  },
+  "raw/runs/pressure-r20/results/observations/cloud-after.json": {
+    "bytes": 4376618,
+    "sha256": "8a5a9899dda15ba4b511bd4448fa32b46f2e5df65d4028889786ebc8779abc48",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/observations/cloud-after.json"
+  },
+  "raw/runs/pressure-r20/results/observations/cloud-before.json": {
+    "bytes": 169477,
+    "sha256": "a758266003464ca8fddf44b10f71a301815f37650cbf3329acd597bfdad2db4d",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/observations/cloud-before.json"
+  },
+  "raw/runs/pressure-r20/results/observations/stack-after.json": {
+    "bytes": 4354574,
+    "sha256": "45db6a3421f612fd4cf957fd3dacef463b6a3701c8f6fa048c1d9dc07d169bb1",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/observations/stack-after.json"
+  },
+  "raw/runs/pressure-r20/results/observations/stack-before.json": {
+    "bytes": 169811,
+    "sha256": "734b635eec4623050a388dc2edaa89f79156aad6f8b4a83434457a4172869a42",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/observations/stack-before.json"
+  },
+  "raw/runs/pressure-r20/results/protocol.json": {
+    "bytes": 2218,
+    "sha256": "b9068e95a97740903a707598f1dd18a35839a537c1d4b26a4efb5e0b28dd7dc6",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/protocol.json"
+  },
+  "raw/runs/pressure-r20/results/report.json": {
+    "bytes": 10513,
+    "sha256": "1c1a2988a0f732369efaf96f348a9ebb12cf7444b136b8f0cf2a5a1eefa1b247",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/report.json"
+  },
+  "raw/runs/pressure-r20/results/report.md": {
+    "bytes": 1333,
+    "sha256": "c9d6bdb9b2deb7ec6b890269fa4d4d6011261d16601cd088646b34f175c4dda4",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/report.md"
+  },
+  "raw/runs/pressure-r20/results/run-metadata.json": {
+    "bytes": 14609,
+    "sha256": "70c9fafab5c20e95d669384dc2f63ee93989f4896ab8f88695a6c2065d7de4f4",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/results/run-metadata.json"
+  },
+  "raw/runs/pressure-r20/scenario.yaml": {
+    "bytes": 423,
+    "sha256": "99a5175e5e06fd214100b2649212523025d2936cdda8ef1f81b522fc68c01290",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "02-pressure-r20/scenario.yaml"
+  },
+  "raw/runs/cloud-r20/environment.yaml": {
+    "bytes": 587,
+    "sha256": "59adb2d56141c6cbda21218fffacb3062a951094dd0870e895b9ec2066b9c939",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/environment.yaml"
+  },
+  "raw/runs/cloud-r20/results/cloud-route.json": {
+    "bytes": 1270,
+    "sha256": "381edcaf6eeb1525b35a4e870010ab88e37e5246b18df4fdfe558c28e1ab6364",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/cloud-route.json"
+  },
+  "raw/runs/cloud-r20/results/control-plane-cloud.log": {
+    "bytes": 3181,
+    "sha256": "0f22174ebb346617fa7f355ab59ebfe6c6dcf8e9af27e7a5da2961b2abdde5b2",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/control-plane-cloud.log"
+  },
+  "raw/runs/cloud-r20/results/control-plane-stack.log": {
+    "bytes": 3040,
+    "sha256": "6b27aaf1efbc8307ad30a3e417e883d5d28586c0c7bc96050d2914d9c37e3ebb",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/control-plane-stack.log"
+  },
+  "raw/runs/cloud-r20/results/execution.json": {
+    "bytes": 40,
+    "sha256": "4d4acc7527c76aa776599f9f14be80fc41365826882b9f30cc987626e04d7408",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/execution.json"
+  },
+  "raw/runs/cloud-r20/results/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/inputs/performance-medium.json"
+  },
+  "raw/runs/cloud-r20/results/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/inputs/runtime-contract.json"
+  },
+  "raw/runs/cloud-r20/results/k6-events.jsonl": {
+    "bytes": 4327749,
+    "sha256": "26fe92167db2ef49b54483216f8330d58ddd8abc8b03c3d1cb9d365cea21a6eb",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/k6-events.jsonl"
+  },
+  "raw/runs/cloud-r20/results/k6-result.json": {
+    "bytes": 352,
+    "sha256": "66e144f181cf9ea7f7b30d4a10035b9d8527fdbfbf7c848d9ccfa3140f3da60a",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/k6-result.json"
+  },
+  "raw/runs/cloud-r20/results/k6-summary.json": {
+    "bytes": 4244,
+    "sha256": "cc867ed998575de1175e39998ecd2144c6709899d53e4c02da2901d8659b010f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/k6-summary.json"
+  },
+  "raw/runs/cloud-r20/results/measured-requests.csv": {
+    "bytes": 2056885,
+    "sha256": "e9f6a9c0dbb9558f80cbc13de63c3131c53e8bde7616351b8890e0441269a5dc",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/measured-requests.csv"
+  },
+  "raw/runs/cloud-r20/results/observations/cloud-after.json": {
+    "bytes": 4419411,
+    "sha256": "54b0a846d1a839fc3ed6032ce6a6d128d54acb3d8a8b442ff33c0cfe1ec4925a",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/observations/cloud-after.json"
+  },
+  "raw/runs/cloud-r20/results/observations/cloud-before.json": {
+    "bytes": 169493,
+    "sha256": "7ecb63749f7afeca91d70261bf4336122c73acc83069bf4b324764f9699dc6dd",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/observations/cloud-before.json"
+  },
+  "raw/runs/cloud-r20/results/observations/stack-after.json": {
+    "bytes": 4321237,
+    "sha256": "497b18cf68907963ec50329c888f94c0e0d0e76a41e6bb4175dacec12aab72bc",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/observations/stack-after.json"
+  },
+  "raw/runs/cloud-r20/results/observations/stack-before.json": {
+    "bytes": 169813,
+    "sha256": "a8690282436d9f57c80607d955a1bd3765239b854bc39d5205903aca9a2294b4",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/observations/stack-before.json"
+  },
+  "raw/runs/cloud-r20/results/protocol.json": {
+    "bytes": 2216,
+    "sha256": "efd1714b7b1cc6e4dfc1da682fb32260db5730a005d7929038938f2b26954a48",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/protocol.json"
+  },
+  "raw/runs/cloud-r20/results/report.json": {
+    "bytes": 10512,
+    "sha256": "330172d1c1ac7aa50d6081dc52b4612d2a896354d6bf8574300ce8e87be3e836",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/report.json"
+  },
+  "raw/runs/cloud-r20/results/report.md": {
+    "bytes": 1333,
+    "sha256": "c9d6bdb9b2deb7ec6b890269fa4d4d6011261d16601cd088646b34f175c4dda4",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/report.md"
+  },
+  "raw/runs/cloud-r20/results/run-metadata.json": {
+    "bytes": 14598,
+    "sha256": "bb4d18a6a72061c38ed2e2dbc087699709dedcb3fd99ffc1dce832b5349ba8c7",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/results/run-metadata.json"
+  },
+  "raw/runs/cloud-r20/scenario.yaml": {
+    "bytes": 420,
+    "sha256": "eb6cc3f2ed2db43a38f8c416798b24b21b78e6d94763c5f90dcb43bf9a95335d",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "03-cloud-r20/scenario.yaml"
+  },
+  "raw/runs/pressure-r100/environment.yaml": {
+    "bytes": 587,
+    "sha256": "fae85d5e7c43c88e85c7f863b9b0094e6e609da757c0f606abd40b32023ddbfc",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/environment.yaml"
+  },
+  "raw/runs/pressure-r100/results/cloud-route.json": {
+    "bytes": 1269,
+    "sha256": "1afe82e2d337d632be06262dc057eec721dd7c5f424ace957601b15aad2560c8",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/cloud-route.json"
+  },
+  "raw/runs/pressure-r100/results/control-plane-cloud.log": {
+    "bytes": 3181,
+    "sha256": "0bed6a60483f0f0342a34ace01487e7cdada9f19d5eae6639cf50a0342e5319f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/control-plane-cloud.log"
+  },
+  "raw/runs/pressure-r100/results/control-plane-stack.log": {
+    "bytes": 3040,
+    "sha256": "da4730851275db300c457a83554682d5b541ea7fe90501e57d35af0da1f10cf8",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/control-plane-stack.log"
+  },
+  "raw/runs/pressure-r100/results/execution.json": {
+    "bytes": 40,
+    "sha256": "4d4acc7527c76aa776599f9f14be80fc41365826882b9f30cc987626e04d7408",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/execution.json"
+  },
+  "raw/runs/pressure-r100/results/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/inputs/performance-medium.json"
+  },
+  "raw/runs/pressure-r100/results/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/inputs/runtime-contract.json"
+  },
+  "raw/runs/pressure-r100/results/k6-events.jsonl": {
+    "bytes": 17262689,
+    "sha256": "8cf43c1748ae4c444fb93660f3f9fc1e24667b22854572860784b0ff788b3e3d",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/k6-events.jsonl"
+  },
+  "raw/runs/pressure-r100/results/k6-result.json": {
+    "bytes": 353,
+    "sha256": "b4e3a71e2ce7fed5a1f416b2cd45013fa3f9630062dab83eef67f7d825157ac2",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/k6-result.json"
+  },
+  "raw/runs/pressure-r100/results/k6-summary.json": {
+    "bytes": 4168,
+    "sha256": "317cf158d354d27701b5c777eda666b5673bf7b740f2bd530432873c428277c6",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/k6-summary.json"
+  },
+  "raw/runs/pressure-r100/results/measured-requests.csv": {
+    "bytes": 10243173,
+    "sha256": "c3becdb281f5bfa6c7e8ce7c5e7685313f183d7af6e0013441edee74b507a1c6",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/measured-requests.csv"
+  },
+  "raw/runs/pressure-r100/results/observations/cloud-after.json": {
+    "bytes": 4313179,
+    "sha256": "974ca12b3894185cc23090cb8802223722a25602c8ac0d20e94aa0cac98b7f35",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/observations/cloud-after.json"
+  },
+  "raw/runs/pressure-r100/results/observations/cloud-before.json": {
+    "bytes": 169493,
+    "sha256": "99ac4b83a222bedc3d5712adfcd584e49586bd4b6d9ba0df68f7abc56ed9318b",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/observations/cloud-before.json"
+  },
+  "raw/runs/pressure-r100/results/observations/stack-after.json": {
+    "bytes": 4360154,
+    "sha256": "5177dd11092edfef4dc81478c69560c2ee0cfb0a1f0360e4d5ebb0c6690b01a1",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/observations/stack-after.json"
+  },
+  "raw/runs/pressure-r100/results/observations/stack-before.json": {
+    "bytes": 169784,
+    "sha256": "a8431697672a88283d4af046154196f4536078efe991872639983bb5d3f7bf24",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/observations/stack-before.json"
+  },
+  "raw/runs/pressure-r100/results/protocol.json": {
+    "bytes": 2219,
+    "sha256": "00e220f0375470b88f8cc19f77d64b92bd318e8fb97df590f682786124250d62",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/protocol.json"
+  },
+  "raw/runs/pressure-r100/results/report.json": {
+    "bytes": 10536,
+    "sha256": "226bf3ca4cd9d6c5506c538461a37c4407ed47140098f97202d637d672b64a36",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/report.json"
+  },
+  "raw/runs/pressure-r100/results/report.md": {
+    "bytes": 1354,
+    "sha256": "dc6dd637bb4744ed9b44f8d1098a53bc811b27c245c83251fe6119f7e135b8df",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/report.md"
+  },
+  "raw/runs/pressure-r100/results/run-metadata.json": {
+    "bytes": 14615,
+    "sha256": "03f593db333ff545cca09ee9222600af12884de8d891d0eb86adec718e5d1dd2",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/results/run-metadata.json"
+  },
+  "raw/runs/pressure-r100/scenario.yaml": {
+    "bytes": 424,
+    "sha256": "dd9335183dc4520ef5c7f24808dca86d63f8808b748b26667a15550f230c4131",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "04-pressure-r100/scenario.yaml"
+  },
+  "raw/runs/disabled-r100/environment.yaml": {
+    "bytes": 587,
+    "sha256": "095c727c91c7f3f3c1e5d476b6c5aee5a220012f3e71cd95b5f7d13254d35894",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/environment.yaml"
+  },
+  "raw/runs/disabled-r100/results/cloud-route.json": {
+    "bytes": 1270,
+    "sha256": "d57d82d93bd381c4c7f7bc35ed8ca9fe41dde682d1ca999da277d73fda5a60f7",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/cloud-route.json"
+  },
+  "raw/runs/disabled-r100/results/control-plane-cloud.log": {
+    "bytes": 3181,
+    "sha256": "d91e7745983fc21ef329e4df0c579eef7f7021c8c8acb728f5c6b9b8c68cf3fa",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/control-plane-cloud.log"
+  },
+  "raw/runs/disabled-r100/results/control-plane-stack.log": {
+    "bytes": 3040,
+    "sha256": "3e8103fcf7bec20c575bc449df07e66cea886898fbef0909c54c8de2ed4ef10f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/control-plane-stack.log"
+  },
+  "raw/runs/disabled-r100/results/execution.json": {
+    "bytes": 40,
+    "sha256": "4d4acc7527c76aa776599f9f14be80fc41365826882b9f30cc987626e04d7408",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/execution.json"
+  },
+  "raw/runs/disabled-r100/results/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/inputs/performance-medium.json"
+  },
+  "raw/runs/disabled-r100/results/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/inputs/runtime-contract.json"
+  },
+  "raw/runs/disabled-r100/results/k6-events.jsonl": {
+    "bytes": 17262484,
+    "sha256": "09c2db64d93dc35166d664682270f6729cf60ac7d35c218b8270039c1c2f7dc1",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/k6-events.jsonl"
+  },
+  "raw/runs/disabled-r100/results/k6-result.json": {
+    "bytes": 352,
+    "sha256": "134bc825b78084c0076c932520a1fe41ab1a196a02384a247efeee4d68c67a9c",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/k6-result.json"
+  },
+  "raw/runs/disabled-r100/results/k6-summary.json": {
+    "bytes": 4189,
+    "sha256": "21f175c35e70905ddfa53d8360be71fd4237565a3eaa1553cec6d4283730117f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/k6-summary.json"
+  },
+  "raw/runs/disabled-r100/results/measured-requests.csv": {
+    "bytes": 10242612,
+    "sha256": "fc857f704dcc9e60af56771d69ad844745bb81b07857dbf8c648f569360530be",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/measured-requests.csv"
+  },
+  "raw/runs/disabled-r100/results/observations/cloud-after.json": {
+    "bytes": 4376737,
+    "sha256": "bfe96d37cbcc66c0f18fd1f9adc4671d05f8d850b9608dcf675f9e52309d5bf2",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/observations/cloud-after.json"
+  },
+  "raw/runs/disabled-r100/results/observations/cloud-before.json": {
+    "bytes": 169502,
+    "sha256": "8605a9a722c966bb1201e07aec4cb3696b89e07a5fbe4bc088d47280568fb073",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/observations/cloud-before.json"
+  },
+  "raw/runs/disabled-r100/results/observations/stack-after.json": {
+    "bytes": 4424816,
+    "sha256": "21a914d324c3f311bd8060ae8b10bf918e94a2c013e066be0e3875ca669c2629",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/observations/stack-after.json"
+  },
+  "raw/runs/disabled-r100/results/observations/stack-before.json": {
+    "bytes": 169792,
+    "sha256": "c6185055f30516ee64a2ed522f53fd925c483496d874f123071ff3c51dce2d5d",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/observations/stack-before.json"
+  },
+  "raw/runs/disabled-r100/results/protocol.json": {
+    "bytes": 2220,
+    "sha256": "a4cdf0c91516840d6cb6fe154d93ae3efb1acd3c23c35e8b90bb4d36dde01d41",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/protocol.json"
+  },
+  "raw/runs/disabled-r100/results/report.json": {
+    "bytes": 10527,
+    "sha256": "6c9ae97e86c4057cabdb8fbb53515d16976a9df0e2b3f72ab1cc402db3ec1ff0",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/report.json"
+  },
+  "raw/runs/disabled-r100/results/report.md": {
+    "bytes": 1341,
+    "sha256": "09dad68e8a61dfbcac053f677e865ea5c706780ab2b90ee779bead8b54070b60",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/report.md"
+  },
+  "raw/runs/disabled-r100/results/run-metadata.json": {
+    "bytes": 14615,
+    "sha256": "76f092609addf38c9a6b02c6ffef43e7470b8c1c1fd6cdbd1dc6dff1d16b1626",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/results/run-metadata.json"
+  },
+  "raw/runs/disabled-r100/scenario.yaml": {
+    "bytes": 424,
+    "sha256": "6cfbcc67fe02ea2219cbe2bebbb67d37f6e2a4c3b40917499c853e811783b006",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "05-disabled-r100/scenario.yaml"
+  },
+  "raw/runs/cloud-r100/environment.yaml": {
+    "bytes": 587,
+    "sha256": "1a86251e4755db9535907e2b72851544dd519f922b2bbe92046edc36ef57485e",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/environment.yaml"
+  },
+  "raw/runs/cloud-r100/results/cloud-route.json": {
+    "bytes": 1269,
+    "sha256": "06cefd4237be4cad1df71604bd5b2a75a3fa5fd77a6f41ace8e0552692e1a405",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/cloud-route.json"
+  },
+  "raw/runs/cloud-r100/results/control-plane-cloud.log": {
+    "bytes": 3181,
+    "sha256": "867e5e6234ba98e7429338748424cfa3b54202cd6decd53c95f533ecec6ee4e7",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/control-plane-cloud.log"
+  },
+  "raw/runs/cloud-r100/results/control-plane-stack.log": {
+    "bytes": 3040,
+    "sha256": "886e5fde1b2d99614adc12119e76fe72d512b08023558942ba652a09b66513f0",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/control-plane-stack.log"
+  },
+  "raw/runs/cloud-r100/results/execution.json": {
+    "bytes": 40,
+    "sha256": "4d4acc7527c76aa776599f9f14be80fc41365826882b9f30cc987626e04d7408",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/execution.json"
+  },
+  "raw/runs/cloud-r100/results/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/inputs/performance-medium.json"
+  },
+  "raw/runs/cloud-r100/results/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/inputs/runtime-contract.json"
+  },
+  "raw/runs/cloud-r100/results/k6-events.jsonl": {
+    "bytes": 17319292,
+    "sha256": "836b7e750e0ecddeece9f1f6c68289dba31c447930d7ece1da3341c17d12cb12",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/k6-events.jsonl"
+  },
+  "raw/runs/cloud-r100/results/k6-result.json": {
+    "bytes": 354,
+    "sha256": "e4d08225c5e1d63fc04888a7b4bfdaeb68639f7b395ada05e7652e1db7772bb8",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/k6-result.json"
+  },
+  "raw/runs/cloud-r100/results/k6-summary.json": {
+    "bytes": 4198,
+    "sha256": "a1e88a6faa2a2fe55fe19195befde00a99058434b675251eaa7118db3e3a6bac",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/k6-summary.json"
+  },
+  "raw/runs/cloud-r100/results/measured-requests.csv": {
+    "bytes": 10297022,
+    "sha256": "4279170011f9868ff183fabc38fca6d798c555772286a2dd8fa982c484815c5f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/measured-requests.csv"
+  },
+  "raw/runs/cloud-r100/results/observations/cloud-after.json": {
+    "bytes": 4427350,
+    "sha256": "c7476c928c903aa250dd57421a4c69baa3cc68776b016007e6ba518d68bf89d0",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/observations/cloud-after.json"
+  },
+  "raw/runs/cloud-r100/results/observations/cloud-before.json": {
+    "bytes": 169468,
+    "sha256": "89d43a3e93bfe1c00bac4928ea2dad00fc0cb335a46541d566a7dac8d0b0d776",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/observations/cloud-before.json"
+  },
+  "raw/runs/cloud-r100/results/observations/stack-after.json": {
+    "bytes": 4316499,
+    "sha256": "93569e18e59fe310e03c966affedca7391989a6dc38c2bfbb041fedada15c76f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/observations/stack-after.json"
+  },
+  "raw/runs/cloud-r100/results/observations/stack-before.json": {
+    "bytes": 169788,
+    "sha256": "a6555270dfff58fc00227a402de7b200b06b6364aacb094c58e77fc7d134d03a",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/observations/stack-before.json"
+  },
+  "raw/runs/cloud-r100/results/protocol.json": {
+    "bytes": 2218,
+    "sha256": "54eefb3160efbfa589b0f7d12dc6a92cd11e2798bd5414b78e1adbc268500d93",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/protocol.json"
+  },
+  "raw/runs/cloud-r100/results/report.json": {
+    "bytes": 10541,
+    "sha256": "e05c125dcd0ca1caf63e2d5943d15277fed94d615694bbd1d52884cd8fbd8ed3",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/report.json"
+  },
+  "raw/runs/cloud-r100/results/report.md": {
+    "bytes": 1354,
+    "sha256": "dc6dd637bb4744ed9b44f8d1098a53bc811b27c245c83251fe6119f7e135b8df",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/report.md"
+  },
+  "raw/runs/cloud-r100/results/run-metadata.json": {
+    "bytes": 14603,
+    "sha256": "079c1e42123abe177a248169e17de1d6ded518356d32b15c386150d35643334f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/results/run-metadata.json"
+  },
+  "raw/runs/cloud-r100/scenario.yaml": {
+    "bytes": 421,
+    "sha256": "e451c5cfc2fe96ccc31bf07377ea9f924499d17aa0d4b859be1bbabefb73ebaf",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "06-cloud-r100/scenario.yaml"
+  },
+  "raw/runs/disabled-r300/environment.yaml": {
+    "bytes": 587,
+    "sha256": "7fe8a75837dec8e6996f8ccc745c074d772235ba79801ff6dbeacda996da93f9",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/environment.yaml"
+  },
+  "raw/runs/disabled-r300/results/cloud-route.json": {
+    "bytes": 1269,
+    "sha256": "f3497fdb0d5d662cee6e072ae8e526867c575aa8959c7a56888dd27bc621f49e",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/cloud-route.json"
+  },
+  "raw/runs/disabled-r300/results/control-plane-cloud.log": {
+    "bytes": 3181,
+    "sha256": "8e8eddbdbffa3a882cddddd313d7f8f0b5dd4da2a0701077e1153ead57fed0aa",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/control-plane-cloud.log"
+  },
+  "raw/runs/disabled-r300/results/control-plane-stack.log": {
+    "bytes": 3040,
+    "sha256": "db8e654e0ed82d12ddaa9c985addd1e3c0590427e0bd73ef9e56d9816d2e45f3",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/control-plane-stack.log"
+  },
+  "raw/runs/disabled-r300/results/execution.json": {
+    "bytes": 40,
+    "sha256": "4d4acc7527c76aa776599f9f14be80fc41365826882b9f30cc987626e04d7408",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/execution.json"
+  },
+  "raw/runs/disabled-r300/results/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/inputs/performance-medium.json"
+  },
+  "raw/runs/disabled-r300/results/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/inputs/runtime-contract.json"
+  },
+  "raw/runs/disabled-r300/results/k6-events.jsonl": {
+    "bytes": 49647873,
+    "sha256": "9f2d5190b5d70bd68acbf713e8601d95bead02074ee2949c74b677a387ad2e02",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/k6-events.jsonl"
+  },
+  "raw/runs/disabled-r300/results/k6-result.json": {
+    "bytes": 355,
+    "sha256": "805a63c36c9e5f81af3a523a68801d010cbd7783d9c83a89ad24ef9d60b39ee2",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/k6-result.json"
+  },
+  "raw/runs/disabled-r300/results/k6-summary.json": {
+    "bytes": 4205,
+    "sha256": "99dc638904ba127f2962692e58618f7945c954247fa42091d12c6d874f02fa3a",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/k6-summary.json"
+  },
+  "raw/runs/disabled-r300/results/measured-requests.csv": {
+    "bytes": 30748362,
+    "sha256": "5e90c63106ad1ef84cb92ea00da2843def274ccecc1798b83c828af1e4383feb",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/measured-requests.csv"
+  },
+  "raw/runs/disabled-r300/results/observations/cloud-after.json": {
+    "bytes": 4313103,
+    "sha256": "587f4b64fb2052fc56cb024d21de9f5be442ba20dd1da159d49fffb407505292",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/observations/cloud-after.json"
+  },
+  "raw/runs/disabled-r300/results/observations/cloud-before.json": {
+    "bytes": 169481,
+    "sha256": "e54e4f78da62f8081e9c2def825df326ad01e51bbf279252fbadc15a8e4ec663",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/observations/cloud-before.json"
+  },
+  "raw/runs/disabled-r300/results/observations/stack-after.json": {
+    "bytes": 4365784,
+    "sha256": "816720e42b97cf00171836ad240d79af9c99c979eef64c89bc7896adcac339e9",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/observations/stack-after.json"
+  },
+  "raw/runs/disabled-r300/results/observations/stack-before.json": {
+    "bytes": 169785,
+    "sha256": "459d71792e5614ea77f2ea33e1c3525221c0eeb719aa28cf6c43f0d454e2cc68",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/observations/stack-before.json"
+  },
+  "raw/runs/disabled-r300/results/protocol.json": {
+    "bytes": 2218,
+    "sha256": "26910b82aeed258ac4699026592219bc313d7e6e7c40783cc715d67123ef3fdb",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/protocol.json"
+  },
+  "raw/runs/disabled-r300/results/report.json": {
+    "bytes": 10567,
+    "sha256": "5e53f56c86244c212c90d2bc49b61e44f52c0330c9dc6d9f4a3fdc5b9b1f6cb5",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/report.json"
+  },
+  "raw/runs/disabled-r300/results/report.md": {
+    "bytes": 1354,
+    "sha256": "3b069fb6aa14ed4649802d61973adc7e502c79a36354194677173023db81e501",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/report.md"
+  },
+  "raw/runs/disabled-r300/results/run-metadata.json": {
+    "bytes": 14614,
+    "sha256": "6e2f8447df9becee3fe03823a534798bd0f982ef96e51b070d816d8cfe85c6ab",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/results/run-metadata.json"
+  },
+  "raw/runs/disabled-r300/scenario.yaml": {
+    "bytes": 424,
+    "sha256": "71305c75311e57100ed977377fd41491dd5c8d8c4a89123dfc2673ef928abbf6",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "07-disabled-r300/scenario.yaml"
+  },
+  "raw/runs/pressure-r300/environment.yaml": {
+    "bytes": 587,
+    "sha256": "5723b1329037c7cc13202a30796573426a01a5c9883750abd94c83dd0e664030",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/environment.yaml"
+  },
+  "raw/runs/pressure-r300/results/cloud-route.json": {
+    "bytes": 1269,
+    "sha256": "571d85ca14fe6fb9795f2e78096c0036c85de69a10975bdaea6ef76444b91e90",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/cloud-route.json"
+  },
+  "raw/runs/pressure-r300/results/control-plane-cloud.log": {
+    "bytes": 3180,
+    "sha256": "f8c83af27dbf254b1f67479e2be417d0d26a50f55742e8205f0dbee8d5f2900d",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/control-plane-cloud.log"
+  },
+  "raw/runs/pressure-r300/results/control-plane-stack.log": {
+    "bytes": 3040,
+    "sha256": "052ddb02de04de896e7cc40ef2bfcf987bd752dd6aee3b5d299a3c5da36ce2af",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/control-plane-stack.log"
+  },
+  "raw/runs/pressure-r300/results/execution.json": {
+    "bytes": 40,
+    "sha256": "4d4acc7527c76aa776599f9f14be80fc41365826882b9f30cc987626e04d7408",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/execution.json"
+  },
+  "raw/runs/pressure-r300/results/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/inputs/performance-medium.json"
+  },
+  "raw/runs/pressure-r300/results/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/inputs/runtime-contract.json"
+  },
+  "raw/runs/pressure-r300/results/k6-events.jsonl": {
+    "bytes": 49650802,
+    "sha256": "7024d34046579e5b111e4763a49e750104684a64cdd91773c962bb105965f907",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/k6-events.jsonl"
+  },
+  "raw/runs/pressure-r300/results/k6-result.json": {
+    "bytes": 354,
+    "sha256": "d593bf5b9ea0c49f32c83beae340718313a590b0d209fd6ec6c81855449094f7",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/k6-result.json"
+  },
+  "raw/runs/pressure-r300/results/k6-summary.json": {
+    "bytes": 4191,
+    "sha256": "2f9bd29f9e7cb76dacc939c3b880e3dbfe29e34aa7e2b814b8300b2cba2788d6",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/k6-summary.json"
+  },
+  "raw/runs/pressure-r300/results/measured-requests.csv": {
+    "bytes": 30750978,
+    "sha256": "67e3ae5c993db605f0c717903f47594586f8bb69f8856d23a069d015895af5e3",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/measured-requests.csv"
+  },
+  "raw/runs/pressure-r300/results/observations/cloud-after.json": {
+    "bytes": 4385354,
+    "sha256": "84c3621fd802cf9481779d66c7d738033436226ef9b7e4bcedc8cce1d5c786dd",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/observations/cloud-after.json"
+  },
+  "raw/runs/pressure-r300/results/observations/cloud-before.json": {
+    "bytes": 169482,
+    "sha256": "f7231cd45f2de353191b686b30928699f6dabca2faa482fdba690285e957528e",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/observations/cloud-before.json"
+  },
+  "raw/runs/pressure-r300/results/observations/stack-after.json": {
+    "bytes": 4368648,
+    "sha256": "28944bad9b0ed1b944aec15c1d6a12307bb61e7b40eaea9d8cba19e2fe7e943b",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/observations/stack-after.json"
+  },
+  "raw/runs/pressure-r300/results/observations/stack-before.json": {
+    "bytes": 169795,
+    "sha256": "8cbb646ad8f211697cd6afc08aa961b91b3baf51929fc3805fa5c5d21f4fe2cd",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/observations/stack-before.json"
+  },
+  "raw/runs/pressure-r300/results/protocol.json": {
+    "bytes": 2221,
+    "sha256": "eb3dea17408e0d35e3712be9a8688b376f34994310af728a9f83cbde20e7d8af",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/protocol.json"
+  },
+  "raw/runs/pressure-r300/results/report.json": {
+    "bytes": 10566,
+    "sha256": "6f5a8c8fa331fa882442d8dfdb96a4112850fa0727a92e53f518102f34d67d89",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/report.json"
+  },
+  "raw/runs/pressure-r300/results/report.md": {
+    "bytes": 1341,
+    "sha256": "c5099ddbf2441285bd91d54942dbe9caa0e630274860cef7630d1efa66552848",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/report.md"
+  },
+  "raw/runs/pressure-r300/results/run-metadata.json": {
+    "bytes": 14610,
+    "sha256": "1778804380993e1f869e47745b8cb92aec31a8fb23d1f4fbe6ace37288bb54c7",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/results/run-metadata.json"
+  },
+  "raw/runs/pressure-r300/scenario.yaml": {
+    "bytes": 424,
+    "sha256": "8dbf8c20d8267906afa94db38515377a7360b929611eb7855d50beeee51b9a83",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "08-pressure-r300/scenario.yaml"
+  },
+  "raw/runs/cloud-r300/environment.yaml": {
+    "bytes": 587,
+    "sha256": "3db9b5899066a0eac7edd3d7e05541eae056c694bca48b682b61f52f0f47acbb",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/environment.yaml"
+  },
+  "raw/runs/cloud-r300/results/cloud-route.json": {
+    "bytes": 1269,
+    "sha256": "7f73343e2331dbd2d78b72307e20a0f195c756c46a82837acd9edbcab67bee32",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/cloud-route.json"
+  },
+  "raw/runs/cloud-r300/results/control-plane-cloud.log": {
+    "bytes": 3181,
+    "sha256": "80bc4d961931c7de49626168be4a2b673e07fe8df2dc2172305c86f34a4ced1a",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/control-plane-cloud.log"
+  },
+  "raw/runs/cloud-r300/results/control-plane-stack.log": {
+    "bytes": 3040,
+    "sha256": "904521de658e37e2ff350e4dbaee7801b7705b3a421126d26a353b078f801851",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/control-plane-stack.log"
+  },
+  "raw/runs/cloud-r300/results/execution.json": {
+    "bytes": 40,
+    "sha256": "4d4acc7527c76aa776599f9f14be80fc41365826882b9f30cc987626e04d7408",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/execution.json"
+  },
+  "raw/runs/cloud-r300/results/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/inputs/performance-medium.json"
+  },
+  "raw/runs/cloud-r300/results/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/inputs/runtime-contract.json"
+  },
+  "raw/runs/cloud-r300/results/k6-events.jsonl": {
+    "bytes": 49815330,
+    "sha256": "57e4186d8f0e4f54ddc95324a0aea0ee507c2d9ab367df2c5dd887bd8f481776",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/k6-events.jsonl"
+  },
+  "raw/runs/cloud-r300/results/k6-result.json": {
+    "bytes": 355,
+    "sha256": "7e529b175af936f8900f92d1a1d92edca1192541d53d6a5bd0493297146c2436",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/k6-result.json"
+  },
+  "raw/runs/cloud-r300/results/k6-summary.json": {
+    "bytes": 4261,
+    "sha256": "0639877a6bb50ae2d607e65973b4a725e94b43582eef5290a053b9e2e68fb15e",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/k6-summary.json"
+  },
+  "raw/runs/cloud-r300/results/measured-requests.csv": {
+    "bytes": 30912131,
+    "sha256": "c8399de375784a30fe8ac2d98616234a249a037f5b5073fe1d17a1c537046080",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/measured-requests.csv"
+  },
+  "raw/runs/cloud-r300/results/observations/cloud-after.json": {
+    "bytes": 4335499,
+    "sha256": "73071ff805455371c4660d4a57b08333a83c9ba046f86216d12e5891ee31b1c5",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/observations/cloud-after.json"
+  },
+  "raw/runs/cloud-r300/results/observations/cloud-before.json": {
+    "bytes": 169471,
+    "sha256": "8e346bd7622c9f2a457a1890602dd4847260a128b483974c8d338f78182651dd",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/observations/cloud-before.json"
+  },
+  "raw/runs/cloud-r300/results/observations/stack-after.json": {
+    "bytes": 4311451,
+    "sha256": "5aeb73bf7b992338ec2fb15c6b8b0fc60c342901f7e548df599da7af023a61b7",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/observations/stack-after.json"
+  },
+  "raw/runs/cloud-r300/results/observations/stack-before.json": {
+    "bytes": 169783,
+    "sha256": "1493c8eaab254b889dcd8c9675ff8565f2028a2b7a66ff8fa396b145ca865e52",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/observations/stack-before.json"
+  },
+  "raw/runs/cloud-r300/results/protocol.json": {
+    "bytes": 2217,
+    "sha256": "3449f4d3e8778308752371ff1287a0da3b9e4aae15b44bae858c21dc9f5461ce",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/protocol.json"
+  },
+  "raw/runs/cloud-r300/results/report.json": {
+    "bytes": 10536,
+    "sha256": "bf60645eb0302c084d84cace3b32946607c48ec1c0a4a3998f1ceac5d4d5f931",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/report.json"
+  },
+  "raw/runs/cloud-r300/results/report.md": {
+    "bytes": 1354,
+    "sha256": "4be2f6633a1c78740586bbbca02b3be0e3d3032b87523a7618784fb116bc9de5",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/report.md"
+  },
+  "raw/runs/cloud-r300/results/run-metadata.json": {
+    "bytes": 14602,
+    "sha256": "31775d859e9abe2ed50c7a78c342e4862f74c09912e408768d62115cd09d8ea2",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/results/run-metadata.json"
+  },
+  "raw/runs/cloud-r300/scenario.yaml": {
+    "bytes": 421,
+    "sha256": "274a844f4c879825d2c00646d91a5d35751e06e515efa2486553ff60d08e5570",
+    "sourceArchive": "experiments/offloading/results/2026-11-02/pilot-20261102T082027Z-15d97361ee.tar.gz",
+    "archiveSha256": "943d4a74a1f37ff9e04ba48c3a4ea698fcddf922f39efc814e699516e0a31565",
+    "member": "09-cloud-r300/scenario.yaml"
+  },
+  "raw/runs/disabled-r400/environment.yaml": {
+    "bytes": 587,
+    "sha256": "a8d1c7115f85096460a9eb5addc94de212a08920e2c0b4272c4cc3e03543719c",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/environment.yaml"
+  },
+  "raw/runs/disabled-r400/results/cloud-route.json": {
+    "bytes": 1269,
+    "sha256": "57ae1870f45830cce072a4f1e9e9809caa45d347d36ebfb47ad972f82432b98c",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/cloud-route.json"
+  },
+  "raw/runs/disabled-r400/results/control-plane-cloud.log": {
+    "bytes": 3181,
+    "sha256": "b1bdaf75e54af882c82715940fdaa8bfe771c484347d7a9158cab551cc6d23e5",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/control-plane-cloud.log"
+  },
+  "raw/runs/disabled-r400/results/control-plane-stack.log": {
+    "bytes": 3040,
+    "sha256": "db890f5fb62059db138d8f26896ca3f5889c30f6f7254adb8a67b067a3a31be5",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/control-plane-stack.log"
+  },
+  "raw/runs/disabled-r400/results/execution.json": {
+    "bytes": 40,
+    "sha256": "4d4acc7527c76aa776599f9f14be80fc41365826882b9f30cc987626e04d7408",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/execution.json"
+  },
+  "raw/runs/disabled-r400/results/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/inputs/performance-medium.json"
+  },
+  "raw/runs/disabled-r400/results/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/inputs/runtime-contract.json"
+  },
+  "raw/runs/disabled-r400/results/k6-events.jsonl": {
+    "bytes": 65835874,
+    "sha256": "a96fc0deb7eb469a3769fab5d569eb12ff6272f74296c7a3d62207a04029c056",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/k6-events.jsonl"
+  },
+  "raw/runs/disabled-r400/results/k6-result.json": {
+    "bytes": 354,
+    "sha256": "3a9954c5727e9f29a0fa6e9b747f091fc80d1d9e75cbb315a77c4b86fadcb681",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/k6-result.json"
+  },
+  "raw/runs/disabled-r400/results/k6-summary.json": {
+    "bytes": 4261,
+    "sha256": "93a4735efc1731dfedd15b33ef753940d6e441d623e184cee7547843f2f5d273",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/k6-summary.json"
+  },
+  "raw/runs/disabled-r400/results/measured-requests.csv": {
+    "bytes": 40997517,
+    "sha256": "aa162a5979c35f5dac82d6aaae5c29ec8b6680fb5f623ec87fbf8d9f5127e1b8",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/measured-requests.csv"
+  },
+  "raw/runs/disabled-r400/results/observations/cloud-after.json": {
+    "bytes": 4313119,
+    "sha256": "da63bab629544ff1276ceaa883318a254aa1a07e4582bc2118507a834863dbdf",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/observations/cloud-after.json"
+  },
+  "raw/runs/disabled-r400/results/observations/cloud-before.json": {
+    "bytes": 169498,
+    "sha256": "06691c4e36b566bef80deab6e59855ea74f6a4270e4deaccd7c26d8e189deb91",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/observations/cloud-before.json"
+  },
+  "raw/runs/disabled-r400/results/observations/stack-after.json": {
+    "bytes": 4365871,
+    "sha256": "7e5d4150024dc7d8842c49772909059ddb615f14101757758f7659295a2f7776",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/observations/stack-after.json"
+  },
+  "raw/runs/disabled-r400/results/observations/stack-before.json": {
+    "bytes": 169785,
+    "sha256": "3845e4b739e3dcffbf62d06405acc23bf9369c13390729d4c2baa11c69badaa7",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/observations/stack-before.json"
+  },
+  "raw/runs/disabled-r400/results/protocol.json": {
+    "bytes": 2219,
+    "sha256": "55f2addd41663c41b088d61bd7895e2f4a959669536eb9194f58f73cefe19f82",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/protocol.json"
+  },
+  "raw/runs/disabled-r400/results/report.json": {
+    "bytes": 10569,
+    "sha256": "0b10288d8bd2b23803269bc48121a744cc8a7280ac8ba2528cf98e52f5510d74",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/report.json"
+  },
+  "raw/runs/disabled-r400/results/report.md": {
+    "bytes": 2254,
+    "sha256": "389e9e956f44a3c03b51f8685b93c070042229825260491a91002bcc8f353a45",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/report.md"
+  },
+  "raw/runs/disabled-r400/results/run-metadata.json": {
+    "bytes": 14612,
+    "sha256": "5cdb1e7b485716e49fc0a895316bc720a47dbfb57afaeb22c0795868855a7a79",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/results/run-metadata.json"
+  },
+  "raw/runs/disabled-r400/scenario.yaml": {
+    "bytes": 424,
+    "sha256": "3da0e573d386c2b59034d36ad443a5b373ac8f319e954582f439085abf74e786",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "01-disabled-r400/scenario.yaml"
+  },
+  "raw/runs/pressure-r400/environment.yaml": {
+    "bytes": 587,
+    "sha256": "b466467c3e26daae6994e198497c1c98bc55d393fbcf44133758986ecc3725f0",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/environment.yaml"
+  },
+  "raw/runs/pressure-r400/results/cloud-route.json": {
+    "bytes": 1269,
+    "sha256": "97a8720cf529ddd42b45102ed4941aa56897d3eb3b904eccb014071006447252",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/cloud-route.json"
+  },
+  "raw/runs/pressure-r400/results/control-plane-cloud.log": {
+    "bytes": 3181,
+    "sha256": "775fcee357973bfad14d633f7ab54b094062282ffda842e7feb9108ab73bb76c",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/control-plane-cloud.log"
+  },
+  "raw/runs/pressure-r400/results/control-plane-stack.log": {
+    "bytes": 3040,
+    "sha256": "8c1c02221e72c62238f936ad923b2c98c78919046895ef454c31cf5e28e397dc",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/control-plane-stack.log"
+  },
+  "raw/runs/pressure-r400/results/execution.json": {
+    "bytes": 40,
+    "sha256": "4d4acc7527c76aa776599f9f14be80fc41365826882b9f30cc987626e04d7408",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/execution.json"
+  },
+  "raw/runs/pressure-r400/results/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/inputs/performance-medium.json"
+  },
+  "raw/runs/pressure-r400/results/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/inputs/runtime-contract.json"
+  },
+  "raw/runs/pressure-r400/results/k6-events.jsonl": {
+    "bytes": 65845096,
+    "sha256": "dcd4409bf68cc87bd49f336976851a34ad27049b78fdbba886cb9ba6c4ddf01d",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/k6-events.jsonl"
+  },
+  "raw/runs/pressure-r400/results/k6-result.json": {
+    "bytes": 354,
+    "sha256": "f0160437b54f9639eaebf09d22b8a98596749f57b8b42ead853e5dda1fa5ec36",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/k6-result.json"
+  },
+  "raw/runs/pressure-r400/results/k6-summary.json": {
+    "bytes": 4262,
+    "sha256": "e396e8dc0c15eda205e58e512fb15234163e5450c4d8146ff1aa4e512684df17",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/k6-summary.json"
+  },
+  "raw/runs/pressure-r400/results/measured-requests.csv": {
+    "bytes": 41004954,
+    "sha256": "3849ffa3edd5690b15201766cf5a9022fc7124cf1bdfc02c2d60ed9f06cdecba",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/measured-requests.csv"
+  },
+  "raw/runs/pressure-r400/results/observations/cloud-after.json": {
+    "bytes": 4385770,
+    "sha256": "aed74778450ca6165f5054e2aed501dd20ebee4119933edb62538ebab7485911",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/observations/cloud-after.json"
+  },
+  "raw/runs/pressure-r400/results/observations/cloud-before.json": {
+    "bytes": 169508,
+    "sha256": "1ce596ba3e797d6ac9d78c0ac196a9a3f76070576104bc4f72223ef2ae52477f",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/observations/cloud-before.json"
+  },
+  "raw/runs/pressure-r400/results/observations/stack-after.json": {
+    "bytes": 4372006,
+    "sha256": "6be5ec63c8a044b0048ee3a43a306e14710adf0491a409dca2a613e5045143a8",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/observations/stack-after.json"
+  },
+  "raw/runs/pressure-r400/results/observations/stack-before.json": {
+    "bytes": 169815,
+    "sha256": "b281c3142eccf4eaef8e66d14bae6c70161395c2322d9f167d7231aaa1adf2c3",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/observations/stack-before.json"
+  },
+  "raw/runs/pressure-r400/results/protocol.json": {
+    "bytes": 2220,
+    "sha256": "06688aa894759417fbe6e093b09da5625ce1e9d3b50bb6b59cca050238421639",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/protocol.json"
+  },
+  "raw/runs/pressure-r400/results/report.json": {
+    "bytes": 10478,
+    "sha256": "53b343892849df916c7a7753d85281953cee1dab4619266319a7aee43803ebef",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/report.json"
+  },
+  "raw/runs/pressure-r400/results/report.md": {
+    "bytes": 2242,
+    "sha256": "37fd8b305e054cfddd2fd87462335b69d6aadba138b62db2d5b51cca8b59a126",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/report.md"
+  },
+  "raw/runs/pressure-r400/results/run-metadata.json": {
+    "bytes": 14612,
+    "sha256": "9d4ad86b8506696b9a42f640027f9160db31a0578b45455ce920d550c49d97bd",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/results/run-metadata.json"
+  },
+  "raw/runs/pressure-r400/scenario.yaml": {
+    "bytes": 424,
+    "sha256": "75d0d78eae1cbd881feccadc1c9cbc2aeafeffafd56a70a8f1a72ab777df7118",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "02-pressure-r400/scenario.yaml"
+  },
+  "raw/runs/cloud-r400/environment.yaml": {
+    "bytes": 587,
+    "sha256": "82973456d9fdf53a3b329c2be977394a833dd31c290fa514365b727c8f544cd8",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/environment.yaml"
+  },
+  "raw/runs/cloud-r400/results/cloud-route.json": {
+    "bytes": 1270,
+    "sha256": "4108060ae6d4070bea872f2ee0adf5173da760738eeb3c468c7429eef51ca13c",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/cloud-route.json"
+  },
+  "raw/runs/cloud-r400/results/control-plane-cloud.log": {
+    "bytes": 3181,
+    "sha256": "16a8f151e12eadfa4ee4de4fbee3078a7636c792e6fafdd51f7a52d9d7b238d9",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/control-plane-cloud.log"
+  },
+  "raw/runs/cloud-r400/results/control-plane-stack.log": {
+    "bytes": 3040,
+    "sha256": "645e3f51b26bbb649c4362fee8e2f8d79d8c1c1ee825d476b9701a206478c7b7",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/control-plane-stack.log"
+  },
+  "raw/runs/cloud-r400/results/execution.json": {
+    "bytes": 40,
+    "sha256": "4d4acc7527c76aa776599f9f14be80fc41365826882b9f30cc987626e04d7408",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/execution.json"
+  },
+  "raw/runs/cloud-r400/results/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/inputs/performance-medium.json"
+  },
+  "raw/runs/cloud-r400/results/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/inputs/runtime-contract.json"
+  },
+  "raw/runs/cloud-r400/results/k6-events.jsonl": {
+    "bytes": 66061932,
+    "sha256": "2171463edd551887b4b81085d905a9015c1bcf211283e211619f65686accccc8",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/k6-events.jsonl"
+  },
+  "raw/runs/cloud-r400/results/k6-result.json": {
+    "bytes": 354,
+    "sha256": "0d3018e9e2fe4232d10d7595591f3b76f1c8da051c9a06429c84c970c7a995db",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/k6-result.json"
+  },
+  "raw/runs/cloud-r400/results/k6-summary.json": {
+    "bytes": 4187,
+    "sha256": "a9917f5ff8dc4c005a9b291fc0bb8d82bdedfd6a801e7b6b3a477b79c162ecac",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/k6-summary.json"
+  },
+  "raw/runs/cloud-r400/results/measured-requests.csv": {
+    "bytes": 41219653,
+    "sha256": "2a0d2f6d8f35ecae21d0f9d7e66a16aba3733ac3f0f35de8b00eefc1afeed159",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/measured-requests.csv"
+  },
+  "raw/runs/cloud-r400/results/observations/cloud-after.json": {
+    "bytes": 4384473,
+    "sha256": "b54d864e6ef71e75419dfe2eb36140d468a46fa07e1139ef3de3cf71165a7608",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/observations/cloud-after.json"
+  },
+  "raw/runs/cloud-r400/results/observations/cloud-before.json": {
+    "bytes": 169472,
+    "sha256": "6dae5bf022a8fb99f06c2ccd860c2599ce1b1e291e757156d5d14429153a9500",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/observations/cloud-before.json"
+  },
+  "raw/runs/cloud-r400/results/observations/stack-after.json": {
+    "bytes": 4374545,
+    "sha256": "f1514f1901337ebc9157f8db4f1f7ae51f49aca3f0e9b4c75cdcf353d825fb99",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/observations/stack-after.json"
+  },
+  "raw/runs/cloud-r400/results/observations/stack-before.json": {
+    "bytes": 169787,
+    "sha256": "2f9365762919743b047c793192eeecb857a96596ef2a33ab1426374a084f6a12",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/observations/stack-before.json"
+  },
+  "raw/runs/cloud-r400/results/protocol.json": {
+    "bytes": 2218,
+    "sha256": "c9e1b17cf332f60cec5c925bc6cd0efd93116bf5da623ebfe271dc1fbb2957ec",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/protocol.json"
+  },
+  "raw/runs/cloud-r400/results/report.json": {
+    "bytes": 10539,
+    "sha256": "51613ebc3b2c8b72beecd18f8a45b425ec1bbe4f9ca23c3cf70f9343c23dd5c4",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/report.json"
+  },
+  "raw/runs/cloud-r400/results/report.md": {
+    "bytes": 2255,
+    "sha256": "6a14620bab96daa703b1c3a43e45f991fc543dfaa6ac49ec17ff2f48902f1d26",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/report.md"
+  },
+  "raw/runs/cloud-r400/results/run-metadata.json": {
+    "bytes": 14597,
+    "sha256": "83a7760e767ff2ad6d1d0f35b1208c550d2c271c4d186cd84b542f9cbc070265",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/results/run-metadata.json"
+  },
+  "raw/runs/cloud-r400/scenario.yaml": {
+    "bytes": 421,
+    "sha256": "a60b1ee6c85dacd18b39c1d026cc3c12b3b2be142586b3bbda28667cc370d567",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "03-cloud-r400/scenario.yaml"
+  },
+  "raw/runs/pressure-r500/environment.yaml": {
+    "bytes": 587,
+    "sha256": "1d426dde28b33d9cbfab5a987e3a3abd95964eaf2f9b5529307dde700d4b2446",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/environment.yaml"
+  },
+  "raw/runs/pressure-r500/results/cloud-route.json": {
+    "bytes": 1269,
+    "sha256": "78a43d478fd8f9c78e143799ab5bf5945aca3d17ea25e9c7f1cfd1ae51162ed0",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/cloud-route.json"
+  },
+  "raw/runs/pressure-r500/results/control-plane-cloud.log": {
+    "bytes": 3181,
+    "sha256": "1214cb154f3a4d25e3ddd41ea91f79562d085996109b458c4535b455bfe26183",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/control-plane-cloud.log"
+  },
+  "raw/runs/pressure-r500/results/control-plane-stack.log": {
+    "bytes": 3040,
+    "sha256": "db2798f7e186efb3a2659d95a3419362666ee7788f2fb110c9e7c9de862d912a",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/control-plane-stack.log"
+  },
+  "raw/runs/pressure-r500/results/execution.json": {
+    "bytes": 40,
+    "sha256": "4d4acc7527c76aa776599f9f14be80fc41365826882b9f30cc987626e04d7408",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/execution.json"
+  },
+  "raw/runs/pressure-r500/results/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/inputs/performance-medium.json"
+  },
+  "raw/runs/pressure-r500/results/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/inputs/runtime-contract.json"
+  },
+  "raw/runs/pressure-r500/results/k6-events.jsonl": {
+    "bytes": 82052768,
+    "sha256": "906a1ac506113ec60fb1d7b0a7ab54efa60d0eca9fd633b8f6b9411b6e152466",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/k6-events.jsonl"
+  },
+  "raw/runs/pressure-r500/results/k6-result.json": {
+    "bytes": 353,
+    "sha256": "ff23137a0818789397cf7a8f3fb3a78514c4a9b55e83c83e9ce05ff3511396d5",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/k6-result.json"
+  },
+  "raw/runs/pressure-r500/results/k6-summary.json": {
+    "bytes": 4256,
+    "sha256": "2eb1c82c4ab282c1207f9d9574f88c1b10bb27cf619aecc7e567f43f46e68502",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/k6-summary.json"
+  },
+  "raw/runs/pressure-r500/results/measured-requests.csv": {
+    "bytes": 51272088,
+    "sha256": "6d5f3dad0bd965714831518b503c9cf5fa1215beca81a766a012e57c4b5f8b9e",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/measured-requests.csv"
+  },
+  "raw/runs/pressure-r500/results/observations/cloud-after.json": {
+    "bytes": 4347483,
+    "sha256": "24d960b7d58b350203a91f8a4602fca514e4c3c30eb485fe8b06ef721a71f88c",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/observations/cloud-after.json"
+  },
+  "raw/runs/pressure-r500/results/observations/cloud-before.json": {
+    "bytes": 169492,
+    "sha256": "cbe825c57c0e8b64ecae8fbb36036d5c75364859de8fb227e05fa0493d492bef",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/observations/cloud-before.json"
+  },
+  "raw/runs/pressure-r500/results/observations/stack-after.json": {
+    "bytes": 4439961,
+    "sha256": "aa9a72a5a41e2849d469e1609b6abb9e4106f8c6c6261f8003d5ff95762ab1ae",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/observations/stack-after.json"
+  },
+  "raw/runs/pressure-r500/results/observations/stack-before.json": {
+    "bytes": 169816,
+    "sha256": "1b95b40309d028ec9f8773976251693f1e03fffb5dd3e6195296d111da754e07",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/observations/stack-before.json"
+  },
+  "raw/runs/pressure-r500/results/protocol.json": {
+    "bytes": 2219,
+    "sha256": "531e4968993d2ebd8095dc7cd3b60590169c5dcaa7aa1e1d8684cc5a623a7d13",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/protocol.json"
+  },
+  "raw/runs/pressure-r500/results/report.json": {
+    "bytes": 10486,
+    "sha256": "c8d435e93328ad812a9f74f4c2c190fc8949e44c1678c90e295bc63147db676c",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/report.json"
+  },
+  "raw/runs/pressure-r500/results/report.md": {
+    "bytes": 2244,
+    "sha256": "74fe4ac9520534321470412a09018697204da90f4a3edd920aa02b767f6be2f1",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/report.md"
+  },
+  "raw/runs/pressure-r500/results/run-metadata.json": {
+    "bytes": 14614,
+    "sha256": "102760b0b4f4bbe70952d9aa354d7fce5f49dc2a600133a4c78192b9797d029c",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/results/run-metadata.json"
+  },
+  "raw/runs/pressure-r500/scenario.yaml": {
+    "bytes": 424,
+    "sha256": "5b2d108eaa52146db5084e86d6112981ef43ed6e7d3e914eef979b7d0cc69997",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "04-pressure-r500/scenario.yaml"
+  },
+  "raw/runs/disabled-r500/environment.yaml": {
+    "bytes": 587,
+    "sha256": "a8cd34f638d4dc233f18cdb7fee138ffc290e83bd06a693a8f0b3b7fffb5e496",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/environment.yaml"
+  },
+  "raw/runs/disabled-r500/results/cloud-route.json": {
+    "bytes": 1269,
+    "sha256": "3f61b54b4d805cddcc789461768da67381a625770c937de5008bd5cbcabdaee9",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/cloud-route.json"
+  },
+  "raw/runs/disabled-r500/results/control-plane-cloud.log": {
+    "bytes": 3181,
+    "sha256": "31ba9bcaca4e37e2a4eab73e9541385e4bbb5962a0b7d6e39d97f4d796aea517",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/control-plane-cloud.log"
+  },
+  "raw/runs/disabled-r500/results/control-plane-stack.log": {
+    "bytes": 3039,
+    "sha256": "13f23f3b85b1e93bc4fd8a228d2d9f5330a0967336d0df1d6963419c8eb99f08",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/control-plane-stack.log"
+  },
+  "raw/runs/disabled-r500/results/execution.json": {
+    "bytes": 40,
+    "sha256": "4d4acc7527c76aa776599f9f14be80fc41365826882b9f30cc987626e04d7408",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/execution.json"
+  },
+  "raw/runs/disabled-r500/results/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/inputs/performance-medium.json"
+  },
+  "raw/runs/disabled-r500/results/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/inputs/runtime-contract.json"
+  },
+  "raw/runs/disabled-r500/results/k6-events.jsonl": {
+    "bytes": 82027431,
+    "sha256": "ade1c708c095f71bb97832b412d276367b35890c934f14c141649758deb0cead",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/k6-events.jsonl"
+  },
+  "raw/runs/disabled-r500/results/k6-result.json": {
+    "bytes": 355,
+    "sha256": "f4784a827617891db446df43ff9b3b60a394993f9d8b5112034d30e79ef21df2",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/k6-result.json"
+  },
+  "raw/runs/disabled-r500/results/k6-summary.json": {
+    "bytes": 4256,
+    "sha256": "f06d22f90f881e03be60c0c75b2ee07b99ea070c18b1164fc81733a8d9ecdd30",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/k6-summary.json"
+  },
+  "raw/runs/disabled-r500/results/measured-requests.csv": {
+    "bytes": 51249572,
+    "sha256": "dfba77c5a232ae682a626d807993f1d0b4f1a68aa709eba8b25ad8a4ca7ad367",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/measured-requests.csv"
+  },
+  "raw/runs/disabled-r500/results/observations/cloud-after.json": {
+    "bytes": 4376538,
+    "sha256": "f715d50691966ceaedc924495a495cf30c784894bec97bedfeb848d2d38151bd",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/observations/cloud-after.json"
+  },
+  "raw/runs/disabled-r500/results/observations/cloud-before.json": {
+    "bytes": 169495,
+    "sha256": "d688cbe1388da7025e32f8e48ad7e76dd016e186c304548c42dc4a1a68b76305",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/observations/cloud-before.json"
+  },
+  "raw/runs/disabled-r500/results/observations/stack-after.json": {
+    "bytes": 4366844,
+    "sha256": "3847d2019c9d344073bd52b4a03dd198556b1444105de475e12a799dafd5d112",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/observations/stack-after.json"
+  },
+  "raw/runs/disabled-r500/results/observations/stack-before.json": {
+    "bytes": 169774,
+    "sha256": "84aa719a42dbbda7d53fc656b1e3cb6b13dc1b7442448c75e463206aee7c2cb7",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/observations/stack-before.json"
+  },
+  "raw/runs/disabled-r500/results/protocol.json": {
+    "bytes": 2218,
+    "sha256": "42c4b561355e21f2be512eb822b59bedd650da07c1c76b5a2d41575bd6a67279",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/protocol.json"
+  },
+  "raw/runs/disabled-r500/results/report.json": {
+    "bytes": 10555,
+    "sha256": "d6b67cccc71d218ce2982043b1d727a8210c970b9acd39bb77a3f0c94e8cd74f",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/report.json"
+  },
+  "raw/runs/disabled-r500/results/report.md": {
+    "bytes": 2242,
+    "sha256": "0a8c94e77de7efc4d59b9ddf22fa2163de597ddc5855de2de75a98cf09693947",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/report.md"
+  },
+  "raw/runs/disabled-r500/results/run-metadata.json": {
+    "bytes": 14610,
+    "sha256": "dd170d026c72754e14c4730bc74ee912c299e5c0b84ce2325900d70a571b46e8",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/results/run-metadata.json"
+  },
+  "raw/runs/disabled-r500/scenario.yaml": {
+    "bytes": 424,
+    "sha256": "95c6cdf4f0fbca5b36778454e3447b6491916f3f0bc49657915e360f1ac912a3",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "05-disabled-r500/scenario.yaml"
+  },
+  "raw/runs/cloud-r500/environment.yaml": {
+    "bytes": 587,
+    "sha256": "5e392fa4aa69fba927f3f469c14b11d209bee532b3954881d9a6ea42c34ae972",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/environment.yaml"
+  },
+  "raw/runs/cloud-r500/results/cloud-route.json": {
+    "bytes": 1270,
+    "sha256": "39c22a604fedb149fc81ee0cf07e4096382f83b9b94b4e34e0e3f1a86c658422",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/cloud-route.json"
+  },
+  "raw/runs/cloud-r500/results/control-plane-cloud.log": {
+    "bytes": 3181,
+    "sha256": "1de34ee2d43f96bea5a06ad2356b184c53aecd9c1338b156b42783955f493956",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/control-plane-cloud.log"
+  },
+  "raw/runs/cloud-r500/results/control-plane-stack.log": {
+    "bytes": 3040,
+    "sha256": "1650c7963e0fe63b2a4a81f463e9c11143b0ef3c528de6f21a5966f14e7b0370",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/control-plane-stack.log"
+  },
+  "raw/runs/cloud-r500/results/execution.json": {
+    "bytes": 40,
+    "sha256": "4d4acc7527c76aa776599f9f14be80fc41365826882b9f30cc987626e04d7408",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/execution.json"
+  },
+  "raw/runs/cloud-r500/results/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/inputs/performance-medium.json"
+  },
+  "raw/runs/cloud-r500/results/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/inputs/runtime-contract.json"
+  },
+  "raw/runs/cloud-r500/results/k6-events.jsonl": {
+    "bytes": 82125648,
+    "sha256": "137da3ab9a6aeea49387da872fdd84b08f106f824bb07f88b59fa0a9834faecd",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/k6-events.jsonl"
+  },
+  "raw/runs/cloud-r500/results/k6-result.json": {
+    "bytes": 355,
+    "sha256": "fef99c9603c2d9d99c088ffc01103d8235f447bac48c4b24855c6cc6c38b1aa9",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/k6-result.json"
+  },
+  "raw/runs/cloud-r500/results/k6-summary.json": {
+    "bytes": 4237,
+    "sha256": "e593a440a52286ba5053ff8b16c414d10c375c79f48a256757bf1496fb24759d",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/k6-summary.json"
+  },
+  "raw/runs/cloud-r500/results/measured-requests.csv": {
+    "bytes": 51390217,
+    "sha256": "2d87b23cdce4b345f40e45b5b9152e89bc72568e3b9be81bbcc2b799da0e8e3a",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/measured-requests.csv"
+  },
+  "raw/runs/cloud-r500/results/observations/cloud-after.json": {
+    "bytes": 4436747,
+    "sha256": "44cd8f388c81b3f67f8a046701ae6aea268663b2bf4e24e8851190b240348a7e",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/observations/cloud-after.json"
+  },
+  "raw/runs/cloud-r500/results/observations/cloud-before.json": {
+    "bytes": 169501,
+    "sha256": "367f37a1a68baecd4658dc69326a2aa49417ad3a8b03bb0196b1890a261d5121",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/observations/cloud-before.json"
+  },
+  "raw/runs/cloud-r500/results/observations/stack-after.json": {
+    "bytes": 4311177,
+    "sha256": "96371ab19b99359c6bf28d8487f41bf5eac19778e15d8585c751611feefaf930",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/observations/stack-after.json"
+  },
+  "raw/runs/cloud-r500/results/observations/stack-before.json": {
+    "bytes": 169819,
+    "sha256": "e3f0a463c8242d951d913fb1e77a2fa9613742cc9645abc5857ba049a038ed24",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/observations/stack-before.json"
+  },
+  "raw/runs/cloud-r500/results/protocol.json": {
+    "bytes": 2219,
+    "sha256": "45d7a217e0e9ca7051d5f4fc22fe74a97e6b877468da7b4d5fd212ac406f203c",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/protocol.json"
+  },
+  "raw/runs/cloud-r500/results/report.json": {
+    "bytes": 10572,
+    "sha256": "e4f510ce136832d23b5659e787b4e0dda83bcd0e294ff0a4f3151e7a3ebe0f92",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/report.json"
+  },
+  "raw/runs/cloud-r500/results/report.md": {
+    "bytes": 2254,
+    "sha256": "8dfc03373a212bcfb30926dafc7955bb9823830664c7cec2a11351606abb322e",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/report.md"
+  },
+  "raw/runs/cloud-r500/results/run-metadata.json": {
+    "bytes": 14607,
+    "sha256": "fc45b0c2c3dcee309a4baa9b31dbe2f66ea8464db5c63f0328f96cbe0c4c7f8e",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/results/run-metadata.json"
+  },
+  "raw/runs/cloud-r500/scenario.yaml": {
+    "bytes": 421,
+    "sha256": "3c7b57ef95889a10fd9e9b48d54a441d421e0a6b0abd1dbb1b4b1b89adee5a78",
+    "sourceArchive": "experiments/offloading/results/2026-11-03/pilot-20261102T124004Z-07b176e2a1.tar.gz",
+    "archiveSha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+    "member": "06-cloud-r500/scenario.yaml"
+  },
+  "derived/rates20-300.json": {
+    "bytes": 74656,
+    "sha256": "e480e1f38c4e57bd7e9177984665a35d34613a4343aef5e2185094edf6ac45f8",
+    "source": "experiments/offloading/analysis/output/analysis.json"
+  },
+  "derived/rates400-500.json": {
+    "bytes": 51715,
+    "sha256": "f034a81376727964c185e63a853f969821a607a1713013486e8f8dbdec2d94f0",
+    "source": "experiments/offloading/analysis/output-400-500/analysis.json"
+  },
+  "derived/high-load-diagnostics.json": {
+    "bytes": 100973,
+    "sha256": "78dbac2bedfb679d5887d3fbccdba06bb13fb9d20395c18c75909593f707dc4e",
+    "source": "experiments/offloading/analysis/output-400-500/diagnostics.json"
+  }
+}

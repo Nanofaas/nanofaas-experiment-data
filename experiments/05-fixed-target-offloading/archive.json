@@ -1,0 +1,18 @@
+{
+  "experiment": "05-fixed-target-offloading",
+  "format": "tar.zst split as an ordered byte stream",
+  "release": "paper-main-v1",
+  "archive": {
+    "name": "05-fixed-target-offloading.tar.zst",
+    "bytes": 55462172,
+    "sha256": "57b972c0ba29477e4fa08257339bc0e0822906f40a976a8cd7780a611f512e09"
+  },
+  "parts": [
+    {
+      "name": "05-fixed-target-offloading.tar.zst.part-001",
+      "bytes": 55462172,
+      "sha256": "57b972c0ba29477e4fa08257339bc0e0822906f40a976a8cd7780a611f512e09",
+      "url": "https://github.com/Nanofaas/nanofaas-experiment-data/releases/download/paper-main-v1/05-fixed-target-offloading.tar.zst.part-001"
+    }
+  ]
+}

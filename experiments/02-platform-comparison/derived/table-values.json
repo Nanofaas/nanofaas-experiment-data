@@ -1,0 +1,626 @@
+{
+  "latency": "Arithmetic means of per-run nearest-rank p25, p50 and p95 for correct responses in each send cohort; no pooling across runs; raw counts, p50 and p95 verified against archived summaries",
+  "producerSha256": "83f9e7b961a9a98e1a0f21f48835cd98a89b6417a7c45d61e0096c31fc67e989",
+  "extractionSha256": "5b8800f99660a9b1f86e313ca0bcb44118e9766bcd79da342b1bc0e328675726",
+  "ledgerParserSha256": "a3132f2f7b64eae3d34e6e28592636ed3b0f2b2492326660a2f9147bc63aa310",
+  "selection": "Baseline maximum session-mean goodput plus FunLess/tinyFaaS at 200 requests/s; P1 means of three shared-host repetitions per runtime; Spin single-run high-load measurements",
+  "rows": [
+    {
+      "label": "FunLess",
+      "rate": 100.0,
+      "n": 3,
+      "goodput": 100.00277777777778,
+      "successPercent": 100.0,
+      "p25Ms": 26.266605333333334,
+      "p50Ms": 26.888987,
+      "p95Ms": 34.609723,
+      "latencyEvidence": [
+        {
+          "repetition": 1,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/funless/cpu4-mem4096/run-1/attempts/1/k6-events.jsonl",
+          "eventsSha256": "75adc6078f49868f7210f0d1728a41b152b82c05d2327b4e8fd749cb98cdd896",
+          "phase": "step-03",
+          "sent": 12000,
+          "correct": 12000,
+          "p25Ms": 26.143806,
+          "p50Ms": 26.770434,
+          "p95Ms": 34.443965
+        },
+        {
+          "repetition": 2,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/funless/cpu4-mem4096/run-2/attempts/1/k6-events.jsonl",
+          "eventsSha256": "c06bddec024b416767054334bd556fd3a5c8afae17599f69043b8f63e3fcbb01",
+          "phase": "step-03",
+          "sent": 12001,
+          "correct": 12001,
+          "p25Ms": 26.396079,
+          "p50Ms": 27.052138,
+          "p95Ms": 34.60887
+        },
+        {
+          "repetition": 3,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/funless/cpu4-mem4096/run-3/attempts/1/k6-events.jsonl",
+          "eventsSha256": "d6db6e376699e3a822a8870c3846e447f2d27b3367ab3505336157ea24f73d22",
+          "phase": "step-03",
+          "sent": 12000,
+          "correct": 12000,
+          "p25Ms": 26.259931,
+          "p50Ms": 26.844389,
+          "p95Ms": 34.776334
+        }
+      ],
+      "source": "experiments/experiment-02/report/data/run-phases.csv",
+      "sha256": "b8b77fc74290560d1bea263048944fcad1e1d0a1b32431e6b671f93bdd015f41"
+    },
+    {
+      "label": "FunLess",
+      "rate": 200.0,
+      "n": 3,
+      "goodput": 5.966666666666667,
+      "successPercent": 3.8185232091244226,
+      "p25Ms": 1510.0631886666667,
+      "p50Ms": 3258.2890899999998,
+      "p95Ms": 25020.029318666668,
+      "latencyEvidence": [
+        {
+          "repetition": 1,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/funless/cpu4-mem4096/run-1/attempts/1/k6-events.jsonl",
+          "eventsSha256": "75adc6078f49868f7210f0d1728a41b152b82c05d2327b4e8fd749cb98cdd896",
+          "phase": "step-04",
+          "sent": 18730,
+          "correct": 835,
+          "p25Ms": 1593.334047,
+          "p50Ms": 3035.024843,
+          "p95Ms": 24313.639457
+        },
+        {
+          "repetition": 2,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/funless/cpu4-mem4096/run-2/attempts/1/k6-events.jsonl",
+          "eventsSha256": "c06bddec024b416767054334bd556fd3a5c8afae17599f69043b8f63e3fcbb01",
+          "phase": "step-04",
+          "sent": 18793,
+          "correct": 579,
+          "p25Ms": 1345.181515,
+          "p50Ms": 3539.93083,
+          "p95Ms": 25237.751244
+        },
+        {
+          "repetition": 3,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/funless/cpu4-mem4096/run-3/attempts/1/k6-events.jsonl",
+          "eventsSha256": "d6db6e376699e3a822a8870c3846e447f2d27b3367ab3505336157ea24f73d22",
+          "phase": "step-04",
+          "sent": 18741,
+          "correct": 734,
+          "p25Ms": 1591.674004,
+          "p50Ms": 3199.911597,
+          "p95Ms": 25508.697255
+        }
+      ],
+      "source": "experiments/experiment-02/report/data/run-phases.csv",
+      "sha256": "b8b77fc74290560d1bea263048944fcad1e1d0a1b32431e6b671f93bdd015f41"
+    },
+    {
+      "label": "tinyFaaS",
+      "rate": 100.0,
+      "n": 3,
+      "goodput": 100.00555555555556,
+      "successPercent": 100.0,
+      "p25Ms": 22.74762433333333,
+      "p50Ms": 23.005877333333334,
+      "p95Ms": 25.661405333333335,
+      "latencyEvidence": [
+        {
+          "repetition": 1,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/tinyfaas/cpu4-mem4096/run-1/attempts/1/k6-events.jsonl",
+          "eventsSha256": "d0c5beee881bdf9c389e751eb894902b2a9e50bbfafc881a521737beb96ab526",
+          "phase": "step-03",
+          "sent": 12000,
+          "correct": 12000,
+          "p25Ms": 22.570935,
+          "p50Ms": 22.806111,
+          "p95Ms": 24.155605
+        },
+        {
+          "repetition": 2,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/tinyfaas/cpu4-mem4096/run-2/attempts/1/k6-events.jsonl",
+          "eventsSha256": "f6d00e855a1140023d29f84eede5c3f07c835fcc7cadf214f7f4408d4d386d12",
+          "phase": "step-03",
+          "sent": 12001,
+          "correct": 12001,
+          "p25Ms": 22.900335,
+          "p50Ms": 23.179625,
+          "p95Ms": 26.427231
+        },
+        {
+          "repetition": 3,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/tinyfaas/cpu4-mem4096/run-3/attempts/1/k6-events.jsonl",
+          "eventsSha256": "27534e01075a1a7fac540dc68222cd598deb1def0a3333930ad955158b8a242d",
+          "phase": "step-03",
+          "sent": 12001,
+          "correct": 12001,
+          "p25Ms": 22.771603,
+          "p50Ms": 23.031896,
+          "p95Ms": 26.40138
+        }
+      ],
+      "source": "experiments/experiment-02/report/data/run-phases.csv",
+      "sha256": "b8b77fc74290560d1bea263048944fcad1e1d0a1b32431e6b671f93bdd015f41"
+    },
+    {
+      "label": "tinyFaaS",
+      "rate": 200.0,
+      "n": 3,
+      "goodput": 64.05,
+      "successPercent": 40.544614565842934,
+      "p25Ms": 7209.15403,
+      "p50Ms": 13675.612653333334,
+      "p95Ms": 28095.603260666667,
+      "latencyEvidence": [
+        {
+          "repetition": 1,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/tinyfaas/cpu4-mem4096/run-1/attempts/1/k6-events.jsonl",
+          "eventsSha256": "d0c5beee881bdf9c389e751eb894902b2a9e50bbfafc881a521737beb96ab526",
+          "phase": "step-04",
+          "sent": 18899,
+          "correct": 7824,
+          "p25Ms": 7654.412834,
+          "p50Ms": 15584.380972,
+          "p95Ms": 28469.555993
+        },
+        {
+          "repetition": 2,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/tinyfaas/cpu4-mem4096/run-2/attempts/1/k6-events.jsonl",
+          "eventsSha256": "f6d00e855a1140023d29f84eede5c3f07c835fcc7cadf214f7f4408d4d386d12",
+          "phase": "step-04",
+          "sent": 18938,
+          "correct": 7476,
+          "p25Ms": 6858.253081,
+          "p50Ms": 12351.906497,
+          "p95Ms": 28267.052182
+        },
+        {
+          "repetition": 3,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/tinyfaas/cpu4-mem4096/run-3/attempts/1/k6-events.jsonl",
+          "eventsSha256": "27534e01075a1a7fac540dc68222cd598deb1def0a3333930ad955158b8a242d",
+          "phase": "step-04",
+          "sent": 19034,
+          "correct": 7758,
+          "p25Ms": 7114.796175,
+          "p50Ms": 13090.550491,
+          "p95Ms": 27550.201607
+        }
+      ],
+      "source": "experiments/experiment-02/report/data/run-phases.csv",
+      "sha256": "b8b77fc74290560d1bea263048944fcad1e1d0a1b32431e6b671f93bdd015f41"
+    },
+    {
+      "label": "Serverledge",
+      "rate": 100.0,
+      "n": 3,
+      "goodput": 99.36666666666666,
+      "successPercent": 99.36389560129248,
+      "p25Ms": 24.036244333333332,
+      "p50Ms": 24.372882333333333,
+      "p95Ms": 27.337578999999998,
+      "latencyEvidence": [
+        {
+          "repetition": 1,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/serverledge/cpu4-mem4096/run-1/attempts/1/k6-events.jsonl",
+          "eventsSha256": "cd24923a0067ed8c4780087b88793b7fc8752764fa0c9208dcb787d057ab6248",
+          "phase": "step-03",
+          "sent": 12001,
+          "correct": 11972,
+          "p25Ms": 24.135874,
+          "p50Ms": 24.478807,
+          "p95Ms": 28.521203
+        },
+        {
+          "repetition": 2,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/serverledge/cpu4-mem4096/run-2/attempts/1/k6-events.jsonl",
+          "eventsSha256": "4d7127c9fab557b8c71f85e8f52d94687085d09d49c983909fe486a84b57c6e3",
+          "phase": "step-03",
+          "sent": 12000,
+          "correct": 11914,
+          "p25Ms": 24.021989,
+          "p50Ms": 24.370429,
+          "p95Ms": 27.354363
+        },
+        {
+          "repetition": 3,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/serverledge/cpu4-mem4096/run-3/attempts/1/k6-events.jsonl",
+          "eventsSha256": "0026859c66f7f20fbf1b8421d8d1f7e8575f33c05524c3def0e044e2c82c6abd",
+          "phase": "step-03",
+          "sent": 12000,
+          "correct": 11886,
+          "p25Ms": 23.95087,
+          "p50Ms": 24.269411,
+          "p95Ms": 26.137171
+        }
+      ],
+      "source": "experiments/experiment-02/report/data/run-phases.csv",
+      "sha256": "b8b77fc74290560d1bea263048944fcad1e1d0a1b32431e6b671f93bdd015f41"
+    },
+    {
+      "label": "Fn",
+      "rate": 200.0,
+      "n": 3,
+      "goodput": 71.4361111111111,
+      "successPercent": 43.126334842321576,
+      "p25Ms": 232.91543666666666,
+      "p50Ms": 5874.073059,
+      "p95Ms": 20472.807003666665,
+      "latencyEvidence": [
+        {
+          "repetition": 1,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/fn/cpu4-mem4096/run-1/attempts/1/k6-events.jsonl",
+          "eventsSha256": "b633744d78b8af734a571fa331bd8d356b550f811ccc84babc0796d63e4c5c70",
+          "phase": "step-04",
+          "sent": 18469,
+          "correct": 38,
+          "p25Ms": 35.397365,
+          "p50Ms": 14432.040978,
+          "p95Ms": 28456.703212
+        },
+        {
+          "repetition": 2,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/fn/cpu4-mem4096/run-2/attempts/1/k6-events.jsonl",
+          "eventsSha256": "14a877d549d4ea026cdc39003cc2fcad805460d1319154094512aebdaf8a6787",
+          "phase": "step-04",
+          "sent": 19876,
+          "correct": 12829,
+          "p25Ms": 295.787328,
+          "p50Ms": 1539.319837,
+          "p95Ms": 16502.87966
+        },
+        {
+          "repetition": 3,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/original.tar.xz",
+          "archiveSha256": "dcf17e13ec0e5888fa60182d56298576c0c80b407a31ebf7969490df5d44c952",
+          "member": "original/fn/cpu4-mem4096/run-3/attempts/1/k6-events.jsonl",
+          "eventsSha256": "c89cb841bb513ea9f66c86d7b9970f7440d2025e3fc095822b855ae84cc6f3f8",
+          "phase": "step-04",
+          "sent": 19883,
+          "correct": 12850,
+          "p25Ms": 367.561617,
+          "p50Ms": 1650.858362,
+          "p95Ms": 16458.838139
+        }
+      ],
+      "source": "experiments/experiment-02/report/data/run-phases.csv",
+      "sha256": "b8b77fc74290560d1bea263048944fcad1e1d0a1b32431e6b671f93bdd015f41"
+    },
+    {
+      "label": "faasd",
+      "rate": 100.0,
+      "n": 3,
+      "goodput": 94.84722222222223,
+      "successPercent": 95.68563499556547,
+      "p25Ms": 325.50157766666666,
+      "p50Ms": 607.7388693333334,
+      "p95Ms": 1777.9474440000001,
+      "latencyEvidence": [
+        {
+          "repetition": 1,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/faasd-recovery.tar.xz",
+          "archiveSha256": "2e7f9b184dd865857f9d0d17816f842b6b8de3721ac27131de70628d9da589d0",
+          "member": "faasd-recovery/faasd/cpu4-mem4096/run-1/attempts/1/k6-events.jsonl",
+          "eventsSha256": "f43f503d9ec0ad1bbf18c8b2a6f084ef6bb5c961e747af023f7a4e27f734ccc4",
+          "phase": "step-03",
+          "sent": 11651,
+          "correct": 10143,
+          "p25Ms": 916.570417,
+          "p50Ms": 1762.37282,
+          "p95Ms": 5269.120444
+        },
+        {
+          "repetition": 2,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/faasd-recovery.tar.xz",
+          "archiveSha256": "2e7f9b184dd865857f9d0d17816f842b6b8de3721ac27131de70628d9da589d0",
+          "member": "faasd-recovery/faasd/cpu4-mem4096/run-2/attempts/1/k6-events.jsonl",
+          "eventsSha256": "2d4810aac469cd2c89c424e03afd2e83eddace66fd5945f0e64127ecff582470",
+          "phase": "step-03",
+          "sent": 12001,
+          "correct": 12001,
+          "p25Ms": 30.508208,
+          "p50Ms": 31.038336,
+          "p95Ms": 33.18039
+        },
+        {
+          "repetition": 3,
+          "archive": "experiments/experiment-02/results/2026-10-30/archives/faasd-recovery.tar.xz",
+          "archiveSha256": "2e7f9b184dd865857f9d0d17816f842b6b8de3721ac27131de70628d9da589d0",
+          "member": "faasd-recovery/faasd/cpu4-mem4096/run-3/attempts/1/k6-events.jsonl",
+          "eventsSha256": "24bdc348f5cbd554e64e9204f85c5810b2744db3e2162de00b503606cfb153da",
+          "phase": "step-03",
+          "sent": 12001,
+          "correct": 12001,
+          "p25Ms": 29.426108,
+          "p50Ms": 29.805452,
+          "p95Ms": 31.541498
+        }
+      ],
+      "source": "experiments/experiment-02/report/data/run-phases.csv",
+      "sha256": "b8b77fc74290560d1bea263048944fcad1e1d0a1b32431e6b671f93bdd015f41"
+    },
+    {
+      "label": "P1 JVM",
+      "rate": 300,
+      "n": 3,
+      "goodput": 276.5805555555555,
+      "successPercent": 92.25914516368475,
+      "p25Ms": 11.258865,
+      "p50Ms": 14.995186333333333,
+      "p95Ms": 464.32361233333336,
+      "latencyEvidence": [
+        {
+          "repetition": 1,
+          "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/offline/runs/jvm-r1/events.log",
+          "eventsSha256": "73a47d97fbbac68547014c2e0a8a992b88692b1c9a4aa4ebe067ad627e40ca2e",
+          "phase": "step-04",
+          "sent": 36000,
+          "correct": 33624,
+          "p25Ms": 10.987648,
+          "p50Ms": 14.506587,
+          "p95Ms": 422.836436
+        },
+        {
+          "repetition": 2,
+          "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/offline/runs/jvm-r2/events.log",
+          "eventsSha256": "528e6ff24ee89f31dd471119aad926044d4d53a74462bc44423d2400f073bcae",
+          "phase": "step-04",
+          "sent": 35946,
+          "correct": 33279,
+          "p25Ms": 11.126812,
+          "p50Ms": 15.028566,
+          "p95Ms": 483.742432
+        },
+        {
+          "repetition": 3,
+          "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/offline/runs/jvm-r3/events.log",
+          "eventsSha256": "c2146443f7bbc5881bdca524f87ed2e4d3f7816a7201a89b5b594cb3e36ca627",
+          "phase": "step-04",
+          "sent": 35977,
+          "correct": 32666,
+          "p25Ms": 11.662135,
+          "p50Ms": 15.450406,
+          "p95Ms": 486.391969
+        }
+      ],
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json",
+      "sha256": "e226da527c5d943fc5dd6b90614013e90f3e815f5d6cbca719153892c49a5cfd",
+      "runs": [
+        {
+          "repetition": 1,
+          "correctPerSecond": 280.2,
+          "successPercent": 93.4,
+          "p50Ms": 14.506587,
+          "p95Ms": 422.836436,
+          "dropped": 0
+        },
+        {
+          "repetition": 2,
+          "correctPerSecond": 277.325,
+          "successPercent": 92.58053747287597,
+          "p50Ms": 15.028566,
+          "p95Ms": 483.742432,
+          "dropped": 54
+        },
+        {
+          "repetition": 3,
+          "correctPerSecond": 272.21666666666664,
+          "successPercent": 90.79689801817828,
+          "p50Ms": 15.450406,
+          "p95Ms": 486.391969,
+          "dropped": 23
+        }
+      ]
+    },
+    {
+      "label": "P1 native",
+      "rate": 300,
+      "n": 3,
+      "goodput": 272.61944444444447,
+      "successPercent": 90.87314814814815,
+      "p25Ms": 11.555534999999999,
+      "p50Ms": 16.078629666666664,
+      "p95Ms": 482.645642,
+      "latencyEvidence": [
+        {
+          "repetition": 1,
+          "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/offline/runs/native-r1/events.log",
+          "eventsSha256": "bd37a4cbd2de61555f8bcbf51d6c301c11a8460305ca9364dac9293640d84582",
+          "phase": "step-04",
+          "sent": 36000,
+          "correct": 32893,
+          "p25Ms": 11.437629,
+          "p50Ms": 15.840983,
+          "p95Ms": 472.799351
+        },
+        {
+          "repetition": 2,
+          "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/offline/runs/native-r2/events.log",
+          "eventsSha256": "69973e140525b05655b8cad55c1623eeab5fe94c758df9ae03a0ceeb891d11d5",
+          "phase": "step-04",
+          "sent": 36000,
+          "correct": 33007,
+          "p25Ms": 11.383515,
+          "p50Ms": 15.698303,
+          "p95Ms": 473.711088
+        },
+        {
+          "repetition": 3,
+          "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/offline/runs/native-r3/events.log",
+          "eventsSha256": "6046c5b6e3b46bb01a591eb86cc7ea6ebbbc2a843363e441fec242404f64c39e",
+          "phase": "step-04",
+          "sent": 36000,
+          "correct": 32243,
+          "p25Ms": 11.845461,
+          "p50Ms": 16.696603,
+          "p95Ms": 501.426487
+        }
+      ],
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json",
+      "sha256": "e226da527c5d943fc5dd6b90614013e90f3e815f5d6cbca719153892c49a5cfd",
+      "runs": [
+        {
+          "repetition": 1,
+          "correctPerSecond": 274.10833333333335,
+          "successPercent": 91.36944444444444,
+          "p50Ms": 15.840983,
+          "p95Ms": 472.799351,
+          "dropped": 0
+        },
+        {
+          "repetition": 2,
+          "correctPerSecond": 275.05833333333334,
+          "successPercent": 91.68611111111112,
+          "p50Ms": 15.698303,
+          "p95Ms": 473.711088,
+          "dropped": 0
+        },
+        {
+          "repetition": 3,
+          "correctPerSecond": 268.69166666666666,
+          "successPercent": 89.56388888888888,
+          "p50Ms": 16.696603,
+          "p95Ms": 501.426487,
+          "dropped": 0
+        }
+      ]
+    },
+    {
+      "label": "Spin",
+      "rate": 250,
+      "n": 1,
+      "goodput": 250.00833333333333,
+      "successPercent": 100.0,
+      "p25Ms": 17.20826,
+      "p50Ms": 17.358235,
+      "p95Ms": 40.118113,
+      "latencyEvidence": [
+        {
+          "repetition": 1,
+          "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-250/offline/spin/cpu4-mem4096/run-1/attempts/1/k6-events.jsonl",
+          "eventsSha256": "ba57dda9f794d19e9ec9adae039f7a4dc7c397658a9e1d4c28a2f567344bca86",
+          "phase": "step-05",
+          "sent": 30001,
+          "correct": 30001,
+          "p25Ms": 17.20826,
+          "p50Ms": 17.358235,
+          "p95Ms": 40.118113
+        }
+      ],
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-250/offline/experiment-02-summary.csv",
+      "sha256": "6bc8c99df5a993cae5d21f23bf371740b9c59568e73c50098532323c7514dd0e"
+    },
+    {
+      "label": "Spin",
+      "rate": 260,
+      "n": 1,
+      "goodput": 16.058333333333334,
+      "successPercent": 6.249189259307303,
+      "p25Ms": 716.389793,
+      "p50Ms": 1122.712462,
+      "p95Ms": 2335.152949,
+      "latencyEvidence": [
+        {
+          "repetition": 1,
+          "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-260/offline/spin/cpu4-mem4096/run-1/attempts/1/k6-events.jsonl",
+          "eventsSha256": "dd7f5c516751ada6393945979d0a05f3e37914e257caaa29befad500f7c33911",
+          "phase": "step-05",
+          "sent": 30836,
+          "correct": 1927,
+          "p25Ms": 716.389793,
+          "p50Ms": 1122.712462,
+          "p95Ms": 2335.152949
+        }
+      ],
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-260/offline/experiment-02-summary.csv",
+      "sha256": "87d6a41e22c2ad97bb11169c04f707de222afd6afb36f0a6d7e012df96ba8b3c"
+    },
+    {
+      "label": "Spin",
+      "rate": 270,
+      "n": 1,
+      "goodput": 10.408333333333333,
+      "successPercent": 3.8883008529979453,
+      "p25Ms": 583.313028,
+      "p50Ms": 894.836899,
+      "p95Ms": 1870.230345,
+      "latencyEvidence": [
+        {
+          "repetition": 1,
+          "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-270/offline/spin/cpu4-mem4096/run-1/attempts/1/k6-events.jsonl",
+          "eventsSha256": "ace152526a225c6e72f5746b9e909e39e13e366223966c116e877af62157b8c2",
+          "phase": "step-05",
+          "sent": 32122,
+          "correct": 1249,
+          "p25Ms": 583.313028,
+          "p50Ms": 894.836899,
+          "p95Ms": 1870.230345
+        }
+      ],
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-270/offline/experiment-02-summary.csv",
+      "sha256": "3869a02c8289753b97738f91aab17168024267cbe3bce0443e5cc10435b24bb1"
+    },
+    {
+      "label": "Spin",
+      "rate": 300,
+      "n": 1,
+      "goodput": 7.733333333333333,
+      "successPercent": 2.6026475207538704,
+      "p25Ms": 681.816087,
+      "p50Ms": 1027.965555,
+      "p95Ms": 2082.46222,
+      "latencyEvidence": [
+        {
+          "repetition": 1,
+          "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-300/offline/spin/cpu4-mem4096/run-1/attempts/1/k6-events.jsonl",
+          "eventsSha256": "59d095bf731adcd6ea051a0533f610e29ff77765c0dba853c5de96ce516c18e5",
+          "phase": "step-05",
+          "sent": 35656,
+          "correct": 928,
+          "p25Ms": 681.816087,
+          "p50Ms": 1027.965555,
+          "p95Ms": 2082.46222
+        }
+      ],
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-300/offline/experiment-02-summary.csv",
+      "sha256": "6e64b87c0e8da445be130064ecc6de6dc5bf7543aeb354485e08f5828a41f68f"
+    }
+  ]
+}

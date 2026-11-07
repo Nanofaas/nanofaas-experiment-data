@@ -1,0 +1,16 @@
+{
+  "repository": "Nanofaas/nanofaas-paper-overleaf",
+  "baseCommit": "e74c4e8d7b04c84a76515e6c03d77c8a5c5840a7",
+  "note": "Relevant working-tree input hashes are recorded separately; local editorial changes were present and were not modified by this data release.",
+  "inputs": {
+    "sections/results.tex": "7279665b7b02ddcbfd4d43eae5eec4d4cd7ef05ada8f43ba2a996354896f1844",
+    "sections/methodology.tex": "75edfad36f508e43631f6071976cfab59931344ab207d334fa779bfd572ac85e",
+    "sections/extensions.tex": "22b55926d991e322d18df7e70e9fb93623ce328b4460021c30400955329532dc",
+    "experiments/paper-layout/module-arms.tex": "2cb0ae74ade6182ba0436dbd782d1211ff6401590aa7125b6cda549467888781",
+    "experiments/paper-layout/qr-updated-data.json": "75a9b284b8decad0aa67590cd355fb9d96d5a4d9fc56bed1874c2d8dc3613ce5",
+    "experiments/experiment-02/high-load/provenance.json": "6a5a83c3147ba41fd09a4d591ced0ba609f5ae90a2e951086c91ac2ad4f848f7",
+    "experiments/concurrency/data.json": "eb886db21d641c291961a6d7d903da6a92d50ba34f3963e8f5e0b5262ff21b36",
+    "experiments/concurrency/table.tex": "1d1c95674bcf8ac65b8a835513a2afa24f428696db7013690a76826e95a1e115",
+    "experiments/offloading-ten-edge-2026-11-03/paper/provenance.json": "a8b639941108ee692993b25b8636a1eb8ff625af589d20e5f675592e4d0149b5"
+  }
+}

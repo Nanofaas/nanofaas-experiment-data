@@ -1,0 +1,2587 @@
+{
+  "raw/evaluation/contention-adaptive-c11-a1/configuration.json": {
+    "bytes": 3160,
+    "sha256": "b0062729db930098b35796d6d372148206514e7922dbbaacee29449e9191851f",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/configuration.json"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/containers.json": {
+    "bytes": 19752,
+    "sha256": "9d6154eb67787404f4cced5dcc606d279d0245f6ca3e5637a03448f7b36df247",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/containers.json"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/control-plane.log": {
+    "bytes": 5712,
+    "sha256": "2c517b9936f19b8e96eac15ca56ca330ef766b1c8edd377a16f1bebe2b94aeae",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/control-plane.log"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/events.log": {
+    "bytes": 42967537,
+    "sha256": "794ba6691715092cef3e899eb2c5e5ac0e1c9918a2f613e774038e28daefc4a4",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/events.log"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/generator.json": {
+    "bytes": 2805,
+    "sha256": "e10244b3d72e1ab63f1030779b3fc09089ad2a4aca170044aadee0329a90269a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/generator.json"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/generator.log": {
+    "bytes": 2524,
+    "sha256": "2ae383c1d0cffd39c6bea585d201dd44a307ed796474cce463efa6c297777c1f",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/generator.log"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/k6-summary.json": {
+    "bytes": 6645,
+    "sha256": "188149ef6caf6cea198877ac1a8354a1d399ce596934da312d9ad6f71a607041",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/k6-summary.json"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/load-monitor.log"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/load-system.txt": {
+    "bytes": 4103,
+    "sha256": "015d7fb58216cf553fdb61499040a36c5c54b1be20358ef1c7654b66b2a3e2d0",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/load-system.txt"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/load-telemetry.jsonl": {
+    "bytes": 100116,
+    "sha256": "896ad0df1bcb4f26a71361b057676038c00db21868341492846363ff2b5f32d9",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/metadata.json"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/qr-main-registration.json": {
+    "bytes": 1126,
+    "sha256": "6869ebe169c5434c2ed72987f0fd375b91891fdd861c01e03030a08b6b64d45e",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/qr-peer-registration.json": {
+    "bytes": 1126,
+    "sha256": "7c801e85981352377c2801df1399946d51fedd1572a7de2f7d72c1e91d839975",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/summary.json": {
+    "bytes": 4519,
+    "sha256": "1c01498e5f080848fd7dbf11a18e63a120bce1160277ffed2959d45df68f59d5",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/summary.json"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/sut-monitor.log"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "b5cfe617da5b417e7febc901e2f37089802ce3c5d41147c0b96a1e2eb2d7f482",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/sut-system.txt"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/sut-telemetry.jsonl": {
+    "bytes": 143571271,
+    "sha256": "0e0f854997572d63643e075ffdc78088bde79db3d80323fb42864a90a4c326fa",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-adaptive-c11-a1/windows.json": {
+    "bytes": 24831,
+    "sha256": "c7f16723b273b0b065fbe7e62eb89c3cc110ae2f29fe228c4f24d08c2d230541",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c11-a1/windows.json"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/configuration.json": {
+    "bytes": 3159,
+    "sha256": "e5f3a1f148836f2ee7155e509cbaad8b98c5111cf1a4ab0bfff4d0c7c4e1b2aa",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/configuration.json"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "9b903ef7ec74f8c481200dc2982e7ec8729ea7dea94be139af875e0767153de8",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/containers.json"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/control-plane.log": {
+    "bytes": 2640,
+    "sha256": "5b60b9ffeae4a64c6e9660196c2076630377deec0dd10fdc165c2ebd07c5503e",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/control-plane.log"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/events.log": {
+    "bytes": 42950515,
+    "sha256": "cbe9db96808efa827fa7a1d8ad7f4fe2f60797fa28fccc4d117c3e7ae84ffa39",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/events.log"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/generator.json": {
+    "bytes": 2805,
+    "sha256": "a563038685cbe9668efc833f13801d679296bf93bac95f9836e558d23f991a60",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/generator.json"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/generator.log": {
+    "bytes": 2567,
+    "sha256": "144bbaf7dc0a19833c660f2495cf3228fd7c036d3f6bfef18b959c305199119b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/generator.log"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/k6-summary.json": {
+    "bytes": 6638,
+    "sha256": "8e45f86d6d47927b57c0fa9cb7f5abff96a62fe1235b2fa479ad42ac1939dff9",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/k6-summary.json"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/load-monitor.log"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/load-system.txt": {
+    "bytes": 4104,
+    "sha256": "87ff186e02c79c96f491319fe19cac280c3e223c3c1144d60850ed784d2da575",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/load-system.txt"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/load-telemetry.jsonl": {
+    "bytes": 100245,
+    "sha256": "e749771bac6123fceb773a8b170603968c313ea1960371b26104b639d2c9da8c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/metadata.json"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/qr-main-registration.json": {
+    "bytes": 1119,
+    "sha256": "e7348f8a174f8e9ea7e6dccace93159eb308e66c4ce94bebdc1c9c3856afe403",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/qr-peer-registration.json": {
+    "bytes": 1119,
+    "sha256": "aab324f3df6f6a77dedb11fc450b99f725cfcecc4b6883f47328f56ff49194ad",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/summary.json": {
+    "bytes": 4570,
+    "sha256": "552a160a67585001a0e3c8941f943e9d853114826783ca4df3270c9d1f846f19",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/summary.json"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/sut-monitor.log"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "822d5010a09a719f78a196c03b7c1fb037477b242cf9f3662d3130c87d4ffae7",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/sut-system.txt"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/sut-telemetry.jsonl": {
+    "bytes": 143511897,
+    "sha256": "5128357a8583c9657cc7b0c00d9564def43d69bd7af0ea9aec965ecaf9c81375",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-budgeted-c09-a1/windows.json": {
+    "bytes": 24794,
+    "sha256": "ac2b5807df71497a3803dd29bc84288bb6cec786c4f410e906d6476f8c668d94",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c09-a1/windows.json"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/configuration.json": {
+    "bytes": 3159,
+    "sha256": "f3e26fc94c4d1f26fb4ebdae4704a0f1d1e535d697923c078b2ce74d32ecef22",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/configuration.json"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "b31b01b54cc07c49cedb03644124049b7bce2548c3af4ecd1f0a2f98d8aa0b71",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/containers.json"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/control-plane.log": {
+    "bytes": 3600,
+    "sha256": "124c7ea680fddc5417b18d5a9f97b7466b5dbbc9f129d7447819a15e03b9aa3a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/control-plane.log"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/events.log": {
+    "bytes": 42950692,
+    "sha256": "f2a5b4728138b10df601c1076fafe4ca8e7be4eeaf162fd5c25fccd6e950d0cc",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/events.log"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/generator.json": {
+    "bytes": 2805,
+    "sha256": "09f78fde45085b244f7a589832fed4faa688a2ac585b02d7796ddb836a010667",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/generator.json"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/generator.log": {
+    "bytes": 2556,
+    "sha256": "6e2be32193b377c781f7b251e32b90546d89ba3a4fc1a76067397a64f3f596a9",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/generator.log"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/k6-summary.json": {
+    "bytes": 6657,
+    "sha256": "0978a0d8c908e789218e3402686a1c1fce5d7b87385cd9743eb3802d0b4a29b6",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/k6-summary.json"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/load-monitor.log"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/load-system.txt": {
+    "bytes": 4103,
+    "sha256": "7895cdd2752aef25648c6ada1ed7ed7b5be0dd7698d3844ab749bfafefdaab9b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/load-system.txt"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/load-telemetry.jsonl": {
+    "bytes": 100175,
+    "sha256": "645bcc6cb9518966c17c8836e5408509fa858d218b107114943d9702fc3835b5",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/metadata.json"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/qr-main-registration.json": {
+    "bytes": 1119,
+    "sha256": "5fabebb9409daf9d035e97b1d587df959b338a848ccc7714acfe2496e8db1461",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/qr-peer-registration.json": {
+    "bytes": 1119,
+    "sha256": "0b8b2288fa76d8511ee4d99f804c8a2b0708c6f2072d6f950853212f4ea908b3",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/summary.json": {
+    "bytes": 4517,
+    "sha256": "ab25674fb76f94bdbc4e80bbe46b3f2993bc5d55031a90fadd7097c4cff89970",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/summary.json"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/sut-monitor.log"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "5f1cc2691023a7e0c56a5de204e2ccc63661633b77290d2dda13d490c5723210",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/sut-system.txt"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/sut-telemetry.jsonl": {
+    "bytes": 143542625,
+    "sha256": "739a111b13efff37eb9324cf1cd1fdf490ebbd96be0d861d40cbaca41d63956f",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-budgeted-c05-a1/windows.json": {
+    "bytes": 24795,
+    "sha256": "a186fcfe4891c6c568a2fdbfe00ef7d2546fa47e7d78ba4c2b2a976e6dffdab0",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c05-a1/windows.json"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/configuration.json": {
+    "bytes": 2833,
+    "sha256": "eb7d49200b68326dc325911b18202eb9a0f8bb82409fcf6a1181ed48cdc2035a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/configuration.json"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "98deb8d84d77ee81f0dc89bde1374a570c15965e16c8e2271f6224bc7c1c9e3c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/containers.json"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/control-plane.log": {
+    "bytes": 61008,
+    "sha256": "c12b06f300b653d8ab0846d4fae2729235e08c33a507bc4a24643bea6831023b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/control-plane.log"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/events.log": {
+    "bytes": 41015018,
+    "sha256": "c493502d190743cfb6b788abcb80c2de4b6de252e80bd9033a5e6d16773a8020",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/events.log"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/generator.json": {
+    "bytes": 2558,
+    "sha256": "c307d1052c1c7376a3ccbc2cb65d1a2d34172e9ffe8e596fc27f0e1492cdd3bb",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/generator.json"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/generator.log": {
+    "bytes": 2335,
+    "sha256": "e1d0806eb982ef4f2eef28d3d80a3bda04158378e24783d841a7e085c6cad118",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/generator.log"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/k6-summary.json": {
+    "bytes": 5851,
+    "sha256": "3890a9c6456aa991b1599ad983f2e24b5e9a74f1e018db03421e84c8556ade90",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/k6-summary.json"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/load-monitor.log"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/load-system.txt": {
+    "bytes": 4104,
+    "sha256": "d1da5dce5c5efa27b137da3300a637502db2dfb1c19663811d586a06b7a0e9d5",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/load-system.txt"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/load-telemetry.jsonl": {
+    "bytes": 100350,
+    "sha256": "19862b9bdbfabdbf5ff8230a639183d70aeb1df494e9ac1024e0bccdc21321e6",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/metadata.json"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/qr-main-registration.json": {
+    "bytes": 1120,
+    "sha256": "bc6a0b1e9fdbfa00099bc5f2c38b8fe753cdfeefb5c8c1d52ff31559a9b6e291",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/qr-peer-registration.json": {
+    "bytes": 1120,
+    "sha256": "0888059bf1fd2603acc02dfbe90afb069333d37b2b30391b6286364bc7dd2833",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/summary.json": {
+    "bytes": 3379,
+    "sha256": "07be12bdb63911a6b0ff1ea1e0741762940599919829db770f65af33436415dc",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/summary.json"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/sut-monitor.log"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "40b9e67ff38a9444dd47dd6533b0825068b92f0a9b6fc2d6386074282e72c49c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/sut-system.txt"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/sut-telemetry.jsonl": {
+    "bytes": 143608275,
+    "sha256": "3a3d82baf2cbc5984e466e5a6ab212940236fecd60a685400a1dd1071291575b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-sojourn-c01-a1/windows.json": {
+    "bytes": 17888,
+    "sha256": "8f4b298d243c504e915f3fb290cc103fa994df50ca913a7fb3415b55d7a03107",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c01-a1/windows.json"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/configuration.json": {
+    "bytes": 2833,
+    "sha256": "3861d565d25931e5afc928ba55f2b0e886ff5fd146d53d258b36ba04dd25e9d8",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/configuration.json"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "8730eb31c0db9570083241aa138a54bb9063b1311012709eb9e1f9df2f796119",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/containers.json"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/control-plane.log": {
+    "bytes": 41039,
+    "sha256": "c0c614278f256cbe8169763da7dcec16325e2edfda289f3d1ed2d892f08ba6a4",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/control-plane.log"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/events.log": {
+    "bytes": 40995417,
+    "sha256": "a77f98772395f040f33f7eb9e8ed04c32dfc97311aac37f60f6700e897034139",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/events.log"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/generator.json": {
+    "bytes": 2558,
+    "sha256": "c6c133b42a925f835aab10def0c65a904272d13a71c1158754d352b405144ec8",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/generator.json"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/generator.log": {
+    "bytes": 2326,
+    "sha256": "68b3f04e873b0102355ab567a47024db3557294f703a5806a605b9aa170224a6",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/generator.log"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/k6-summary.json": {
+    "bytes": 5846,
+    "sha256": "68694e8621f8fa5bb0e41c68b2b224e9b92568c182bdcb5ea9cbbdff34cd294f",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/k6-summary.json"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/load-monitor.log"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/load-system.txt": {
+    "bytes": 4145,
+    "sha256": "c28d6f973d1ea73935e325a059ed5c1a5244dc46584e12fa49aecd8107bf0789",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/load-system.txt"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/load-telemetry.jsonl": {
+    "bytes": 100688,
+    "sha256": "4c8468f15b3dd06229ca7b2620eef861a232fb0768f05bd8cb7f91e644f4d7e0",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/metadata.json"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/qr-main-registration.json": {
+    "bytes": 1120,
+    "sha256": "0a2970b10341c1d9e7a6097140114869d74b1ef31c6a0015395911a05e19f5cd",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/qr-peer-registration.json": {
+    "bytes": 1120,
+    "sha256": "65e40900f8555571a1fdff9942b6f7daae0296dbaa5ea6c1d951e80d8b5fef5d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/summary.json": {
+    "bytes": 3389,
+    "sha256": "e3b794c89539f7f5488ec9cc377f7c96832bef6f5ab8d3d8f64b042822bf0d2c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/summary.json"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/sut-monitor.log"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "b7d9b8063e309e03fbd73baab91fba2ff19807d9a1acfd603bed3de19518b82f",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/sut-system.txt"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/sut-telemetry.jsonl": {
+    "bytes": 143602344,
+    "sha256": "6ce8711b81cadc4cd5f779cd752b6826837540703fd6ac5ee64e53f61cad6395",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-sojourn-c00-a1/windows.json": {
+    "bytes": 17874,
+    "sha256": "678986f16a41c367e3268c1c98d260e3a7eb9c437c7dbd4bfafecba0152fcd65",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c00-a1/windows.json"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/configuration.json": {
+    "bytes": 3157,
+    "sha256": "84494f1687ee59d32c7cd609b473836217be9cc8bf361611190b6eb2511ad307",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/configuration.json"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "016644caf8fa1cfef8f9429218de21acc431a8c130d5d6a6561de5569ca40c8c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/containers.json"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/control-plane.log": {
+    "bytes": 7056,
+    "sha256": "440a85a1b65a1a976a2df8eba7d0deb674e4fb0687e094512116a1b964a930b2",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/control-plane.log"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/events.log": {
+    "bytes": 42948911,
+    "sha256": "dd6501187ab4482da1962a420181a15cac87ea167ecb84ae182cf76575c45aa6",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/events.log"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/generator.json": {
+    "bytes": 2802,
+    "sha256": "a44181bac3dadbcabe7a6b6601501e5bcc60cc8e4bff939830291ba6b30078b7",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/generator.json"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/generator.log": {
+    "bytes": 2556,
+    "sha256": "70c7db2ce8f1d1123a1e97084f8dfccba46975849759dbec74aa6cc05074d569",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/generator.log"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/k6-summary.json": {
+    "bytes": 6624,
+    "sha256": "659d777fb11b6fda0795c21631d9fadead401f21d2a47b1d45e649b4fe2933a5",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/k6-summary.json"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/load-monitor.log"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/load-system.txt": {
+    "bytes": 4106,
+    "sha256": "24beddd4dc01c7db48c6511ec5e0461e3e9895718ab01f8838c59b75c40743b7",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/load-system.txt"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/load-telemetry.jsonl": {
+    "bytes": 100572,
+    "sha256": "2da9abda2a04bdbba2b2f84f0afe57956c3ba144152a9ecb2a84f1d6a9821b1f",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/metadata.json"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/qr-main-registration.json": {
+    "bytes": 1125,
+    "sha256": "e41cd469c456cf753fa9397e490814db2b55a8b9d9b14160941f69f2454384c1",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/qr-peer-registration.json": {
+    "bytes": 1125,
+    "sha256": "9c8e294cedb5161bf4717d5f88fc5e804c16aee63314e0bd6ac36b4dc36e4252",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/summary.json": {
+    "bytes": 4484,
+    "sha256": "f6dec52f42d7ac94e211c7e36c746e8deb14905d73133f5324681e01933a9cbf",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/summary.json"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/sut-monitor.log"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/sut-system.txt": {
+    "bytes": 4103,
+    "sha256": "b27a191b8595f3f2c86e8f987bbb6996b0dd9f7508ad562d2a2e3a23daab5090",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/sut-system.txt"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/sut-telemetry.jsonl": {
+    "bytes": 143518104,
+    "sha256": "12ea4ae2ec94372136c73b1e3f60576027229968e95ab912878fba7b42617acc",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-fixed-c16-a1/windows.json": {
+    "bytes": 24787,
+    "sha256": "c2ed4638465f32d98697696ca0c72c7e934ce6ec7106f4bac725b4bc9cb9c25f",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c16-a1/windows.json"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/configuration.json": {
+    "bytes": 3160,
+    "sha256": "44a40adadf5bb226c932cbeb3c288291ebed1363db61ecf5f0767652e66b9e53",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/configuration.json"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "f99d6e968cdb1db8f3dad04388d26b0399600d4ca29b85635c52fe5fd8f66d40",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/containers.json"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/control-plane.log": {
+    "bytes": 5327,
+    "sha256": "48e2ede95db7f17d99a8dbaead406e35c41cd49248f048312d187f378aa3a8c1",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/control-plane.log"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/events.log": {
+    "bytes": 42958069,
+    "sha256": "8cd17d28eb67270dcf91362c81061f3452f707caafaf41219dab3be36e9cf537",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/events.log"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/generator.json": {
+    "bytes": 2805,
+    "sha256": "2f142b1b941689acb7db1760c80591a0673d98af8c6f1f9eeeded3429dc3898a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/generator.json"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/generator.log": {
+    "bytes": 2543,
+    "sha256": "6af847b4ce57e60b598ad1dab6d8a4daac70ac05ef318c65bab073eb1b1005e5",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/generator.log"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/k6-summary.json": {
+    "bytes": 6649,
+    "sha256": "22104b3143b9d0d0a254a96cfaf650d0d1dcf6340ab6005b3166ee634d937596",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/k6-summary.json"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/load-monitor.log"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/load-system.txt": {
+    "bytes": 4103,
+    "sha256": "76bca8a3049f2ab6efd61ce1ccbebcff1704d652fd6d184139f4f8a0ac063d19",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/load-system.txt"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/load-telemetry.jsonl": {
+    "bytes": 100936,
+    "sha256": "423bdfe9c356d4858f9151896b434bd89aa3ea2872d55189bd667ed42603be60",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/metadata.json"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/qr-main-registration.json": {
+    "bytes": 1119,
+    "sha256": "63a8c3f24fc9294f4603bbe390c3bdad6bc969629d8694ca8d9639f8230bf27d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/qr-peer-registration.json": {
+    "bytes": 1119,
+    "sha256": "9beffa1a5ac3e88dfd655ba6b955f8acd97121f7c135e84d35725fbeb82d3109",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/summary.json": {
+    "bytes": 4513,
+    "sha256": "d494d5314231dbfb3e069c1df61eaad7863229dcb50ecc3a282415b66da906c0",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/summary.json"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/sut-monitor.log"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "f989b1669c29af71248b1583d57e87fb379602c048da9ab808b283f411cb86fc",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/sut-system.txt"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/sut-telemetry.jsonl": {
+    "bytes": 143533459,
+    "sha256": "746f104e0a75e82ffeb3d244deb7275fedc278b94a42445cdfca2f571ec5a524",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-budgeted-c14-a1/windows.json": {
+    "bytes": 24793,
+    "sha256": "b344ad9b9a6b4711ee7109008ec06476a8a1fe7561af50213bee4cf11d958e54",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-budgeted-c14-a1/windows.json"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/configuration.json": {
+    "bytes": 2835,
+    "sha256": "c631395519c68376e9d60ee8ca6957cf842ff43f38865a8d8727ce15361d1c33",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/configuration.json"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/containers.json": {
+    "bytes": 19754,
+    "sha256": "9b087d32b593bd9e31e4c6862c74459164a11683fe751664664ed92c41b76685",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/containers.json"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/control-plane.log": {
+    "bytes": 36432,
+    "sha256": "cee10d5cb98bff56842617288d1c178a029d0ff57fc26195bc7ba88092e76fca",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/control-plane.log"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/events.log": {
+    "bytes": 40968949,
+    "sha256": "ea18f0cb67154a646b1d6e68e73e0232ae1c296ac5adfa0a4bb894e18df8c131",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/events.log"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/generator.json": {
+    "bytes": 2560,
+    "sha256": "109579a2ec16b8b4e7787109ddaddf0368f045ad830915f4693914e08442a4c2",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/generator.json"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/generator.log": {
+    "bytes": 2320,
+    "sha256": "c1375fff14498d272d1741f76c6593a07416c8242f648280d6ffcd12c95cb10d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/generator.log"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/k6-summary.json": {
+    "bytes": 5856,
+    "sha256": "c80f36d635b7f05d3d8e63dcac55af22b09075cc36471a8d35b1df849cea4f40",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/k6-summary.json"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/load-monitor.log"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/load-system.txt": {
+    "bytes": 4103,
+    "sha256": "f2e6009ff5679595cfd1e5c950722269cd7d34058ae39450cf20623cc5392889",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/load-system.txt"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/load-telemetry.jsonl": {
+    "bytes": 100004,
+    "sha256": "1f4cde37b3bc16ac4bec41be428a312aee12b668a05d987da4d5b829a4ebdc94",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/metadata.json"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/qr-main-registration.json": {
+    "bytes": 1119,
+    "sha256": "e45c34bed3e85ff7182c559b48e284d4f34beb1ee3da9cbb1202e33c8eb36325",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/qr-peer-registration.json": {
+    "bytes": 1119,
+    "sha256": "625d87e94d9a0969348dd15562a900c430246a072266363137eeaa24d7ffd05c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/summary.json": {
+    "bytes": 3427,
+    "sha256": "aab8ff716ca68ec7db184d5337664a95586fec36fa32b27e5a878371f3c3fbb2",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/summary.json"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/sut-monitor.log"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "6e758470452c22cd087b43df83d8e28a70d60b2fc17a130e1788c1593b8495ea",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/sut-system.txt"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/sut-telemetry.jsonl": {
+    "bytes": 143370443,
+    "sha256": "3c6b26017bf8fc459895c2a86b97bb911f4a070762b4c153d1e93644427ab365",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-budgeted-c21-a1/windows.json": {
+    "bytes": 17826,
+    "sha256": "9692d9b6b096267965108c640fcf61b681f13069b077975b71fd4d3580b4b2ee",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c21-a1/windows.json"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/configuration.json": {
+    "bytes": 2834,
+    "sha256": "80e9e2f694c04436e72156c046de95ed07466b1cbe835c20f36f47835cb74bcf",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/configuration.json"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/containers.json": {
+    "bytes": 19754,
+    "sha256": "b08d08a1f189daa8345c2e38be4f38dcdb6b212b1477d3b5a883777b7c1b9493",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/containers.json"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/control-plane.log": {
+    "bytes": 502992,
+    "sha256": "0cb2753194501e17ec1aa1bc4307d541838175643fa58f191faed92a3481130c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/control-plane.log"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/events.log": {
+    "bytes": 41023778,
+    "sha256": "685ffb18cb0327483bba9393ec9c2b9aa9019bab945046257bdcb68aaafe4703",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/events.log"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/generator.json": {
+    "bytes": 2560,
+    "sha256": "ed49e770093add6394392ac31455c81cf85cbdbec240223f9da0e727b39e623a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/generator.json"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/generator.log": {
+    "bytes": 2321,
+    "sha256": "f76d562e1e150d747e3ab83c9fc3ef88411135272e65a2e140584471368d0c07",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/generator.log"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/k6-summary.json": {
+    "bytes": 5873,
+    "sha256": "9e7fac3b8fa12f4d54c53511ab815a24eca19ca0d79dec6c68597a599b076673",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/k6-summary.json"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/load-monitor.log"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/load-system.txt": {
+    "bytes": 4103,
+    "sha256": "7f6eec7e50e562d37984502e69b819312e3950c9be70d177d0238cf8daa4995a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/load-system.txt"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/load-telemetry.jsonl": {
+    "bytes": 100535,
+    "sha256": "eef4646904032f2b0f111f5bd3f25d72763b5c06e3648de13e585fea8c4d0755",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/metadata.json"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/qr-main-registration.json": {
+    "bytes": 1126,
+    "sha256": "c4a48565583d3040ea838e25b06282b9e18a21676c493ba98da9d58195c5acd0",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/qr-peer-registration.json": {
+    "bytes": 1126,
+    "sha256": "117a5d51503cb8c876cdeb975d7c17fee982f23c3c809628a01bae8a57d63f2a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/summary.json": {
+    "bytes": 3360,
+    "sha256": "0ed073d3392364836f44d55a9682b5d21f26e28f6ab6054ad6ada66625840984",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/summary.json"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/sut-monitor.log"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "9552669de55c4f38a4b0f1cb4ca525d72dc258b21b51f41147a778133ed6172d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/sut-system.txt"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/sut-telemetry.jsonl": {
+    "bytes": 143399622,
+    "sha256": "829157d67e956e86a1389eac2e692b138825710cb6e602d9e66f597692889c30",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-adaptive-c06-a1/windows.json": {
+    "bytes": 17810,
+    "sha256": "6ff869859f0a21fb4a48de63af6808f5ed15d9e898a19702cd43d520c10549d2",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c06-a1/windows.json"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/configuration.json": {
+    "bytes": 2832,
+    "sha256": "6af0fe23a29b86a5d58b1dde316b125e88d799774c52825ba4d0d83979545ef5",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/configuration.json"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "6499cc5fca331d8fc2f7be5a733a29b39c4e8a6a47dd4e73c72eb98e128acee7",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/containers.json"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/control-plane.log": {
+    "bytes": 28944,
+    "sha256": "ca7bb55a2c72bc0c68124646245e53efcfa0863b7ebec1a92654b36c7325b455",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/control-plane.log"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/events.log": {
+    "bytes": 40965133,
+    "sha256": "a5d81ef9bbb3d75459049fd83851bd699953af571c4b5cf6493418e3241ca395",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/events.log"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/generator.json": {
+    "bytes": 2557,
+    "sha256": "e8ce5875ed5bc56814f368a9b23b9cb7eab5577646865247d0a9d936fd7ad5eb",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/generator.json"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/generator.log": {
+    "bytes": 2324,
+    "sha256": "ab659f2062767ec9ad99b6b6dbec60cad1298325af1f60a321e401ce73862e64",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/generator.log"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/k6-summary.json": {
+    "bytes": 5866,
+    "sha256": "ed42183ede3695695a2bc2407d4a03f507e521195749f0e10f96cce2854ee2ad",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/k6-summary.json"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/load-monitor.log"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/load-system.txt": {
+    "bytes": 4105,
+    "sha256": "b7c758d02f88f56e1b4b3a0b1b8eb470b9f6114db27c66195da77e4f0a3cfac6",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/load-system.txt"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/load-telemetry.jsonl": {
+    "bytes": 100144,
+    "sha256": "11effe915ae5ac02bd84e85f14b706512454f8205b7a8db189fc7e03467199c8",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/metadata.json"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/qr-main-registration.json": {
+    "bytes": 1125,
+    "sha256": "fcd0c77d01a9ec3553b833524048d46430c9dcbe03c5682d20f399744c64170f",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/qr-peer-registration.json": {
+    "bytes": 1125,
+    "sha256": "bd89ea18525bc6875389c9260f1e4356afe8cc50f0afdebac57d73c0276fcf41",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/summary.json": {
+    "bytes": 3407,
+    "sha256": "0a42638e7a65a8d9ab8f126c69b9087d00003ce5f3480dff7c5f719366393111",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/summary.json"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/sut-monitor.log"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "a18cb7e774bf16404a46fc076df4a07ede1119446dc451ca9619351727b080ff",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/sut-system.txt"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/sut-telemetry.jsonl": {
+    "bytes": 143591869,
+    "sha256": "b8b405fbd958cb8243fa3e1204a5ef12efed508fa88a8931fe21edba50eb9b87",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-fixed-c15-a1/windows.json": {
+    "bytes": 17826,
+    "sha256": "966736a8dfe6407cee989c96fe81489fcb036df22edf38ef16ee6ea9bd98f7d5",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c15-a1/windows.json"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/configuration.json": {
+    "bytes": 2835,
+    "sha256": "fe3519af5caab62322c0b7d220401dd8d15597ed275942031a27a29d68f98096",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/configuration.json"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/containers.json": {
+    "bytes": 19754,
+    "sha256": "ec444fe41a9910912a02968917b35d6070ad78d241c45ee009d00fb149263871",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/containers.json"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/control-plane.log": {
+    "bytes": 36815,
+    "sha256": "10ab2a7d411a267c6ac4e153989c9ef23277b7dd1a631b502546b906fca21acb",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/control-plane.log"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/events.log": {
+    "bytes": 40972281,
+    "sha256": "5aa3d4638c7feb6649710d13d39b57a6861834e507468f5cee0a4dfeb5ca5185",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/events.log"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/generator.json": {
+    "bytes": 2560,
+    "sha256": "97f6809f014479c4348d76a26a5256dbbbc1fc18385eb7779c3c68a5177705b1",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/generator.json"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/generator.log": {
+    "bytes": 2313,
+    "sha256": "5e14a5996a349d319393728d547737c1f97d526cb15490eef43811b1c96efb8c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/generator.log"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/k6-summary.json": {
+    "bytes": 5831,
+    "sha256": "106cb65294d9e803dbcb48f9a3c3db83301d12d44201c600496d459b44c20c8a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/k6-summary.json"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/load-monitor.log"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/load-system.txt": {
+    "bytes": 4103,
+    "sha256": "6c79600bce7ed7dd3679c02f245aaa4eeaf3008e04cca495e0426a209d5fb1f8",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/load-system.txt"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/load-telemetry.jsonl": {
+    "bytes": 99968,
+    "sha256": "bd52ca6de0324cb0217fb9430bff30e9de9873346664dc4425059d8cb2314233",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/metadata.json"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/qr-main-registration.json": {
+    "bytes": 1126,
+    "sha256": "f6c0671a8726e5b747544049726a207f1534b4756e1327e7e60edf70a0b4d07e",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/qr-peer-registration.json": {
+    "bytes": 1126,
+    "sha256": "0d85fb2b2d569d82ad250445240660b3d9512585b719510e74623548e1be3e4e",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/summary.json": {
+    "bytes": 3423,
+    "sha256": "af69e2ced02ef40a77a977996a6c608b9a3422ef27b173c86efc7b61851be6b6",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/summary.json"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/sut-monitor.log"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/sut-system.txt": {
+    "bytes": 4103,
+    "sha256": "0072ef1582ba6dbd4d3e869f2e2b5727e77dcec3c2b9bd29f56d0c1a79aea656",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/sut-system.txt"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/sut-telemetry.jsonl": {
+    "bytes": 143580561,
+    "sha256": "570106fc0701980fb35e3aab59cf597cda4e3f08491be75bdddfd217ab54a39a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-adaptive-c22-a1/windows.json": {
+    "bytes": 17826,
+    "sha256": "7cf06ed6ffd0370329bc60c7817eb5b25cd6cabaced7eeeb0c9f794e339ca118",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c22-a1/windows.json"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/configuration.json": {
+    "bytes": 3159,
+    "sha256": "6624db2c02bd6b2aaf1e73b94e35d94b5bc076d8111373429b94de8c3ffb2e1c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/configuration.json"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/containers.json": {
+    "bytes": 19753,
+    "sha256": "4d04e40d5765db94364823a851a5ca5092a90a65e8fd78019e8c36a3c7dcfca6",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/containers.json"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/control-plane.log": {
+    "bytes": 10320,
+    "sha256": "4c34722787b9e2c5ae3f6fc02fda203e59f0ce5710d7147c56502c9422faf8d4",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/control-plane.log"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/events.log": {
+    "bytes": 42971647,
+    "sha256": "33cb4cc15138526e5a9678e0b2ff19e4aba6f1ec9fd0572ecf3f6bb5fe3e0dd2",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/events.log"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/generator.json": {
+    "bytes": 2805,
+    "sha256": "c0c88e905f54ec1fc2bdeb9afc5de41df93d3ead3dc818f7b4782eab47c14ebf",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/generator.json"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/generator.log": {
+    "bytes": 2536,
+    "sha256": "52337734d83a42b593f5602b5b25691cb6b6c4b5d318070fc3670015ba9ae9b4",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/generator.log"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/k6-summary.json": {
+    "bytes": 6646,
+    "sha256": "bb1e7cfae7435efe6f2216f486e62fcf32e888fe55995ed739beacf4a5b726e6",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/k6-summary.json"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/load-monitor.log"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/load-system.txt": {
+    "bytes": 4104,
+    "sha256": "392cf5273bc35059b520ec59e25f1c581bdb82a4bbd70410ea74c495bf41c5b7",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/load-system.txt"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/load-telemetry.jsonl": {
+    "bytes": 100759,
+    "sha256": "6edd5b068813ee7bdb00c78497937d0a73a87851b0135f426ffb1e9b9a1ab7d7",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/metadata.json"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/qr-main-registration.json": {
+    "bytes": 1126,
+    "sha256": "3cb00ac0bf06c5b2a6ee5f67f7952b5dbeb83271d3958a7954d055eb4d43317d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/qr-peer-registration.json": {
+    "bytes": 1126,
+    "sha256": "19af2f63ca6dfb043db5a6ba73f6205415e6f7972faf816df70aa0c5692d8102",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/summary.json": {
+    "bytes": 4544,
+    "sha256": "5f2a8434fee58ce8d8441590f15e2eac0e13f5d3f84c55751ff7a74edacf8c7c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/summary.json"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/sut-monitor.log"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "2c4dae242db5581a8e3a5842d040d5a0233edda3ce5447f70968dc8493123672",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/sut-system.txt"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/sut-telemetry.jsonl": {
+    "bytes": 143565618,
+    "sha256": "a1f3ca42b08b32f8e052e8bc700176091ee98ee812ae18f25a84ca44df2ccd8a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-adaptive-c04-a1/windows.json": {
+    "bytes": 24823,
+    "sha256": "1cbaccd953e153740fbeb73e59d2476ece7a49e289ccf08f1b0dd557ae3dffeb",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c04-a1/windows.json"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/configuration.json": {
+    "bytes": 2835,
+    "sha256": "213dbb7f547fc6b5593e85975bc4d08368b2aaf786e87912583386e208fb21e5",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/configuration.json"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "1b1ba92e1b696b5deb8165cd8dcb4d021810373dbdcae07d096c1d1c0a284341",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/containers.json"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/control-plane.log": {
+    "bytes": 58703,
+    "sha256": "00b6cfc444ab857009e76d58af9ee3a2380cd28de32c144103ec3dc787adb61e",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/control-plane.log"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/events.log": {
+    "bytes": 40976471,
+    "sha256": "f4fafbec8fed683c5fe21c3cc2cdc99d98263134d08e221471c7fcf62b0abd30",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/events.log"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/generator.json": {
+    "bytes": 2560,
+    "sha256": "8eab4cceb0c0ecf48cf2df331be6ea2404ce3937ba7f9af7c65a9445b32a6f18",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/generator.json"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/generator.log": {
+    "bytes": 2335,
+    "sha256": "19fc744ab40ad70cf9a70f7b6da4f9cadec75ef405e737f5d3bfb6047e381310",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/generator.log"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/k6-summary.json": {
+    "bytes": 5851,
+    "sha256": "8e51d59c7981e82f98e3e29ed51c77d19886eaa39dd4a60d76ffa285c386e81b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/k6-summary.json"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/load-monitor.log"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/load-system.txt": {
+    "bytes": 4104,
+    "sha256": "32f7aed088a8ff455bcfaefcdffc419f8c459ebb8dffc30c12b54eb8d3e09d0b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/load-system.txt"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/load-telemetry.jsonl": {
+    "bytes": 100216,
+    "sha256": "d2753f1cecc43ce9b72d7723979bb28e576f1c5979b288af6554ffdc8aee892e",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/metadata.json"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/qr-main-registration.json": {
+    "bytes": 1126,
+    "sha256": "65c0c23b853fa4bbd54f594d6faa43fb4e3a12e3b5ad397d243dd18736d4eaa7",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/qr-peer-registration.json": {
+    "bytes": 1126,
+    "sha256": "a7c2c4d383b51ebc76999c957b0a9a60505008ed6d42b35c4e9db18e6ff7aab6",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/summary.json": {
+    "bytes": 3341,
+    "sha256": "036151d85a37e7aa799e027ce06fd00fe97dd414710a23d856710feab87f4e9c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/summary.json"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/sut-monitor.log"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/sut-system.txt": {
+    "bytes": 4103,
+    "sha256": "34307f91ab7a22ff2aac48bab98029bcea5bfa8413ba620a42a221f8ef56264c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/sut-system.txt"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/sut-telemetry.jsonl": {
+    "bytes": 143591700,
+    "sha256": "38ee06674f0462be2bcf7d63c9017ef95a7602f5afd159997648fdf8bb781e7a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-adaptive-c13-a1/windows.json": {
+    "bytes": 17826,
+    "sha256": "a536e6c54ff3952098d73dd0e775c3b9676ba856be5f5009544da27508f179f5",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-adaptive-c13-a1/windows.json"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/configuration.json": {
+    "bytes": 2835,
+    "sha256": "92b7ccc6ee85ce159699f65f194ecb07e1b441f66f2eb47512635303caffc53c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/configuration.json"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "ae2e7314940c5436f53b148aa49193a8721c62a8564505623c73819813d8407d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/containers.json"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/control-plane.log": {
+    "bytes": 56783,
+    "sha256": "6a6ac6c334999fadded6cccbecfd31b1f107b35d0c06da90e8d169997755e4cf",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/control-plane.log"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/events.log": {
+    "bytes": 40970319,
+    "sha256": "585caf0caa0153fe155bcfc1f864de5246b2256758e1ebf89502e91a197f8e93",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/events.log"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/generator.json": {
+    "bytes": 2560,
+    "sha256": "83e1e23617d8071f48164f072e7537a380cb475edb30cfe861a9ec9d59bc8ff1",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/generator.json"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/generator.log": {
+    "bytes": 2314,
+    "sha256": "0ea9804f2fa15464b517ee4c308d223d2d3785ff499211b1aff1085459704945",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/generator.log"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/k6-summary.json": {
+    "bytes": 5901,
+    "sha256": "2172c63c9ec955aafbbc2211ea46bac0c8ca0999b78ec93290e264a405835c40",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/k6-summary.json"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/load-monitor.log"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/load-system.txt": {
+    "bytes": 4104,
+    "sha256": "1e01bb0e07c76ff9b889483d72997a12679f26e05c3e28133b5a519e376f540f",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/load-system.txt"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/load-telemetry.jsonl": {
+    "bytes": 100730,
+    "sha256": "4aca8e3aafac7fa2dbcf69bf30bdc0c10d52acf58b94ed4092485a9ee99feee7",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/metadata.json"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/qr-main-registration.json": {
+    "bytes": 1119,
+    "sha256": "e6d00fe038810335c352239337c3c230ab8ed6021b110d4bc37494586d1e8a23",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/qr-peer-registration.json": {
+    "bytes": 1119,
+    "sha256": "26ea2e2368fb364c26fd27f928a6af1c4973671ce5a7b45c310d8a973861c2ae",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/summary.json": {
+    "bytes": 3421,
+    "sha256": "9c2c42b05ad2a09fe4b0d7c9e2ce0b50b33eda5a9d01c47f014c02a93ad04ab8",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/summary.json"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/sut-monitor.log"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "70c6bb89d4efdae44de4b1e3cdb8308996c25bb65caac4f8fcd6cb3a95faacb4",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/sut-system.txt"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/sut-telemetry.jsonl": {
+    "bytes": 143386162,
+    "sha256": "78e70acabccc1aae669732647bc4c8e08fecc57b003067aecca264a55461cee2",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-budgeted-c17-a1/windows.json": {
+    "bytes": 17827,
+    "sha256": "1552319f85caf1a671488b78e2aa599722a378577c05e7e780bdadc8c7c9ca46",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c17-a1/windows.json"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/configuration.json": {
+    "bytes": 2835,
+    "sha256": "c92778a82d4e421b5ae0b4bc24a18250a41e4da489b8bb9c67e709dd726fa74e",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/configuration.json"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "8795decf7e8ab5401ae424cf813f93d459716112bd73295c1f85b2138fa53089",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/containers.json"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/control-plane.log": {
+    "bytes": 54671,
+    "sha256": "ff096a66d341b4be3d8d7eaf310e270113f34f7b12fdc51ad9d8e0cae20a3045",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/control-plane.log"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/events.log": {
+    "bytes": 40968617,
+    "sha256": "5fa6da8531021492bccdfd24d2fe64737281a6db7f3930cac7e3121f279a590b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/events.log"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/generator.json": {
+    "bytes": 2560,
+    "sha256": "2aa96edb81e995e1a52ba8aa797393fb9c49e39a2d37c086f4842213daeda162",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/generator.json"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/generator.log": {
+    "bytes": 2342,
+    "sha256": "7aa3195d3b65fc5ca322174eaaf7a31af9483fd4ab1dac11a113c1496baeca3a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/generator.log"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/k6-summary.json": {
+    "bytes": 5843,
+    "sha256": "856cfe3d41459184203da729cacfb51f833ac1510578eba8568d95ef20a6333e",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/k6-summary.json"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/load-monitor.log"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/load-system.txt": {
+    "bytes": 4106,
+    "sha256": "9504cfc37c4c39a916bbe546a3a30126d263d4553085201ea465b2c031f024a7",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/load-system.txt"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/load-telemetry.jsonl": {
+    "bytes": 100163,
+    "sha256": "50f47543953b2e65a90865c9b17f056fa0da304d742005188e33262c630a7957",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/metadata.json"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/qr-main-registration.json": {
+    "bytes": 1119,
+    "sha256": "fd192f977e17829bb57f1084efea19c56daea20d44af1bf7ce85525c42147680",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/qr-peer-registration.json": {
+    "bytes": 1119,
+    "sha256": "e21979f453a2431aedfe8077e9c9865a8e01604fa8d217761393b4b99a1e1e76",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/summary.json": {
+    "bytes": 3388,
+    "sha256": "780a76c2a8a5a7cd55bed98c7f8400481f9f66fdaf3a0f5d9807199209e46d1f",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/summary.json"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/sut-monitor.log"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "e24eac685efac4bd6ffea7bc82c480ef840e3a2b4dfb5b6110ff4ed8221dab09",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/sut-system.txt"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/sut-telemetry.jsonl": {
+    "bytes": 143376927,
+    "sha256": "bb2462f3d5706a095b4c24624efe9d58fe734e5b8a5d73e0136606028c41dd44",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-budgeted-c12-a1/windows.json": {
+    "bytes": 17827,
+    "sha256": "b79ee832cac25815ba3f4cdc85e01108863e2069d313b4540f3b4b2fedbb93ef",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-budgeted-c12-a1/windows.json"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/configuration.json": {
+    "bytes": 3158,
+    "sha256": "8fe9417db3f74b507cce0c7ffaf140a33849c6dfed49202282288bc8a9042f84",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/configuration.json"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/containers.json": {
+    "bytes": 19754,
+    "sha256": "42b3260178d21377486baa2e6f2fa19602279a683d5a98e21afa09eab5da0ef5",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/containers.json"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/control-plane.log": {
+    "bytes": 1871,
+    "sha256": "b400a40e14ea68ab8f06456442f32f1dcd2e0d5c7424353387a75987f14ef9b7",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/control-plane.log"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/events.log": {
+    "bytes": 42959641,
+    "sha256": "8eaf9bbe66d701eb0c90000d2e2ecaf7147e9629ff29ba1c7b3350ca02473fed",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/events.log"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/generator.json": {
+    "bytes": 2803,
+    "sha256": "ffa3173ca2027ed6c33ea391a4cb431777946554fa516c339a1082c58952483b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/generator.json"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/generator.log": {
+    "bytes": 2548,
+    "sha256": "4e7b3a74a4bab38e305148878a0e8d96719f6f1cf7e1e2c2a11948432d409a44",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/generator.log"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/k6-summary.json": {
+    "bytes": 6655,
+    "sha256": "2f2bc43a99b0fb5408be83a58c72340e5fd11eea7ed0c1fd45bba0231bc8ceb2",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/k6-summary.json"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/load-monitor.log"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/load-system.txt": {
+    "bytes": 4104,
+    "sha256": "527fa7f139c65f8c6fd2f86b10e3db64874439a2dafc8926dcc2fcadb4617a02",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/load-system.txt"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/load-telemetry.jsonl": {
+    "bytes": 100535,
+    "sha256": "a2104075774dfb7dfed5288a8ff2c6d456321e7951359934db263319407ab079",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/metadata.json"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/qr-main-registration.json": {
+    "bytes": 1120,
+    "sha256": "a4ca58753aad474c8ef46d02f07ec32b77fb92af367e087de6f4e6f81d3c0bca",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/qr-peer-registration.json": {
+    "bytes": 1120,
+    "sha256": "2edc1c957320ad405856b6293c893be425fc0301dae6b4af6c6d2e10e3844140",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/summary.json": {
+    "bytes": 4504,
+    "sha256": "f8d81f35e53a7154e085f4d9fb35670bfdacc7882e82585c3a009ce76a656d10",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/summary.json"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/sut-monitor.log"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "1a5e104fea70aa2b692a00672c90475841d2a2290365c39ee82b6e0f204f9998",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/sut-system.txt"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/sut-telemetry.jsonl": {
+    "bytes": 143632978,
+    "sha256": "d402706518040aa0c4463c82f526b3ff62a11d9ca693924e393222a463469fc3",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-sojourn-c02-a1/windows.json": {
+    "bytes": 24787,
+    "sha256": "152e3adfec6375ed63ade1894d5d502acf097b9483070eb36673b56499270a3f",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c02-a1/windows.json"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/configuration.json": {
+    "bytes": 2832,
+    "sha256": "ad749f244f6a0ca42b5a83a398ff04c7b3b5ff50b0b2ab0eb0e301784202ca5f",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/configuration.json"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "15dfe38209405df034f429aad071a48ca659c53277022d9b78161a6720e93472",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/containers.json"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/control-plane.log": {
+    "bytes": 357456,
+    "sha256": "0d8537309b47e21bd47a530f9c1587783598637cdb4a4310f8055fe2d21d90bf",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/control-plane.log"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/events.log": {
+    "bytes": 41005308,
+    "sha256": "76b64a3c46b2ccdc94154a8cc489e95e36fc11e6dfef667c4f04dfc51852a018",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/events.log"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/generator.json": {
+    "bytes": 2557,
+    "sha256": "f7903a81b3cf8e08ef2a9f3b4a682ad4bc6ab937729c2d5232e3d49231504e90",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/generator.json"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/generator.log": {
+    "bytes": 2330,
+    "sha256": "0f33d1d9c075e6d3a2d7def73bb2daf42f44e4e14e684d39b43a0a0c311d4308",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/generator.log"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/k6-summary.json": {
+    "bytes": 5848,
+    "sha256": "0c6b11ec4326681785b5c8d4c2eec1834b1ca5150f0c7395de13a0a8f168d089",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/k6-summary.json"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/load-monitor.log"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/load-system.txt": {
+    "bytes": 4103,
+    "sha256": "c4db23f00889a2b7e8c7d0038472d2dd2f3182e9bc88ad7da042c2dbe85a6067",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/load-system.txt"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/load-telemetry.jsonl": {
+    "bytes": 100842,
+    "sha256": "32841efbd4621cf83d37bddff03e494866827f7a2c3d00c82c8b5269337a8781",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/metadata.json"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/qr-main-registration.json": {
+    "bytes": 1125,
+    "sha256": "195d44fb0f53669562717c833bf63031ac96ad73e383f9f6a7a92315b1a912e1",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/qr-peer-registration.json": {
+    "bytes": 1125,
+    "sha256": "6ec0f5c5ca98009bcec7087c9ed02ae11952b7f5f1e9f6754053fd53ea495353",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/summary.json": {
+    "bytes": 3418,
+    "sha256": "6c83b50095edd5e596ca08b32f082b0bb117267ce8f3517b8bf328261e362db8",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/summary.json"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/sut-monitor.log"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/sut-system.txt": {
+    "bytes": 4103,
+    "sha256": "94ec2e27b7d608f7c291b0ea9c9b0f01953e7e37b3f51d5e1de2427560c6d17e",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/sut-system.txt"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/sut-telemetry.jsonl": {
+    "bytes": 143393326,
+    "sha256": "d7fe68fe5e19790326bd1fb25c986d830c81a3dd206c03e92940ed99120677b1",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-fixed-c10-a1/windows.json": {
+    "bytes": 17812,
+    "sha256": "b7fcad4cc4702db0464b5b84524d3de8888fde3d78474732705c50bed505bda3",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c10-a1/windows.json"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/configuration.json": {
+    "bytes": 3159,
+    "sha256": "92a0e5af1bbb97f09e4d28764399ef2e0ef6fc9f8c65a56d66a7351a83c3231a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/configuration.json"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/containers.json": {
+    "bytes": 19752,
+    "sha256": "65481b6feef8f3b0a5c79c707cc9b196819f499d8a7403a804c4b8c858f79876",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/containers.json"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/control-plane.log": {
+    "bytes": 22608,
+    "sha256": "ddd2f7d5c3f5558ab2c34a36c12ddc78fec573cb198e63f6786593c767486234",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/control-plane.log"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/events.log": {
+    "bytes": 42990994,
+    "sha256": "a5797e52bd4cc9e2d957a78becf93e5be539816ccbc09bdf597c5ab8ade26aa9",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/events.log"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/generator.json": {
+    "bytes": 2805,
+    "sha256": "c842d8d9ab70e5daa862e306088c2d885f7280e982da491ea60e6bc0147bab4b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/generator.json"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/generator.log": {
+    "bytes": 2554,
+    "sha256": "634f715e288ae62f45f4e89b6f509bdedb3f6360d5e63f45f31ef98daf5920df",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/generator.log"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/k6-summary.json": {
+    "bytes": 6632,
+    "sha256": "290147e12b825e3d9b3e26fceaa583cd2356c6026d0a553edf4a37c436497b65",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/k6-summary.json"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/load-monitor.log"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/load-system.txt": {
+    "bytes": 4103,
+    "sha256": "847e45a4d67a85d3459734728fcbf732c24a41e98f1c4cc1bd0756820ccc786e",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/load-system.txt"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/load-telemetry.jsonl": {
+    "bytes": 101263,
+    "sha256": "810ddc593ab9de111aa0104ddf08b1e30e0d91c5d8480ec57e9426302c2acda5",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/metadata.json"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/qr-main-registration.json": {
+    "bytes": 1126,
+    "sha256": "05ed8ace494564719a35f5e96be57421ecc11752f3468e0075b4bbaed35aea4d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/qr-peer-registration.json": {
+    "bytes": 1126,
+    "sha256": "3af205999303c1a72391178e84c38f51697a1011d41cf7606897b7321f0785c1",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/summary.json": {
+    "bytes": 4533,
+    "sha256": "8423edd7e0820189debac7e48b384a28e044ab5ae84be9655275f951aefab603",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/summary.json"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/sut-monitor.log"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "493712a9651768d75df016ff2ad868e20326329b6fb60a8416f071fe88e8a552",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/sut-system.txt"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/sut-telemetry.jsonl": {
+    "bytes": 143778404,
+    "sha256": "4dab0faa73f60c887d6768407755a85678074da5f7b0ba8a492734546bc680c8",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-adaptive-c03-a1/windows.json": {
+    "bytes": 24839,
+    "sha256": "0929477ed39be009dda090f140eb43a1ad5a1a4c0b0a7de766a1258f01c3bb92",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-adaptive-c03-a1/windows.json"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/configuration.json": {
+    "bytes": 3157,
+    "sha256": "b1d1a3a39a05d99ac69c6b6f53b7f8d86b4fdd253add2618e916831ada1ed5a9",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/configuration.json"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "84180e2925c4e283bb51395f4af69ee61cc6669c0f4ae41eaf543351430b9b3e",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/containers.json"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/control-plane.log": {
+    "bytes": 7632,
+    "sha256": "9865799d66f8ffea93aebbf3585ad3e4f36091e0dc0a97e410a74911249ec473",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/control-plane.log"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/events.log": {
+    "bytes": 42955538,
+    "sha256": "4837cd07a4ffada4c754c9e978c70fb6614a496534745ce2d8b469957c4c76ea",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/events.log"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/generator.json": {
+    "bytes": 2802,
+    "sha256": "3e6c8fb73ff99037a8cc6611ccfb14c02f48be17caf4a34c0e56765a2eaf7d4a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/generator.json"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/generator.log": {
+    "bytes": 2567,
+    "sha256": "e8730d68b7327908b77e0203b433ecb0bb2bed4ba83940956b9041f5b6b73318",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/generator.log"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/k6-summary.json": {
+    "bytes": 6650,
+    "sha256": "ff41a58e9161b447bc5a74610e59ed14e0439a704cbe8c83d6623e672c6e5d1b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/k6-summary.json"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/load-monitor.log"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/load-system.txt": {
+    "bytes": 4103,
+    "sha256": "24a18766db14e25b3f9348697b287431b6bd604d39679b87e180c08ab500fc74",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/load-system.txt"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/load-telemetry.jsonl": {
+    "bytes": 100131,
+    "sha256": "12c47847a00d5c32400a66c838c45d3400fe8f5567238947f6ca77c167d37da4",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/metadata.json"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/qr-main-registration.json": {
+    "bytes": 1125,
+    "sha256": "79b653fc0d7c2a699e39b2f506d652cc1a3651f8fcd253cb0b471c60b744a3c1",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/qr-peer-registration.json": {
+    "bytes": 1125,
+    "sha256": "08876290d9e80b3ca428d15186b22715c260f7f40c3265090e2aae13321749c9",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/summary.json": {
+    "bytes": 4541,
+    "sha256": "5d6bcb6c131028655acbb19b992913fef741e357e466f80bda96aae5141231d6",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/summary.json"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/sut-monitor.log"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "c948b8d24fee5e508d9cabaefdc77343a543491708cba27aefd27d31adb1ad52",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/sut-system.txt"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/sut-telemetry.jsonl": {
+    "bytes": 143518510,
+    "sha256": "b464c348736bf7a7c434b025a956a026ee53bb5412c7bba2537fdafa4eb09769",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-fixed-c20-a1/windows.json": {
+    "bytes": 24787,
+    "sha256": "3b1fc8d10dba8175f617563b8f970ac7f8b9b412711cfaeaa7a1b3cea9a6bf09",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c20-a1/windows.json"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/configuration.json": {
+    "bytes": 2833,
+    "sha256": "2c6304cecaa81c7c769567ab2c4f8f4bcc64feefca495c2e305bc5e836f49b74",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/configuration.json"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "1f1da5cf25c86acd0633730eab8c39f239e50f8acdf14b89b6ea4f0eb969189c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/containers.json"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/control-plane.log": {
+    "bytes": 35856,
+    "sha256": "f25bb4095e674d77c5cc5a17c62a0eb86b8e91f41bff65f2c513b028440667ae",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/control-plane.log"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/events.log": {
+    "bytes": 40967188,
+    "sha256": "532de1f26dbf7c242bc502577293bb24c8dd5f6f71438eed92ea7e1684340a04",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/events.log"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/generator.json": {
+    "bytes": 2559,
+    "sha256": "81fc07b2cd1e6d41332ebbbfa11769d5f04612ac0fc165d9cd930637560ba73c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/generator.json"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/generator.log": {
+    "bytes": 2325,
+    "sha256": "ce3e4acf524650433a632acf0ef3a3c8c8dd3f15bbb174786783076f30b10d5f",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/generator.log"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/k6-summary.json": {
+    "bytes": 5827,
+    "sha256": "e98a359e6f76f86e39f39a7d67d7e508f996568d2cbeb230249fb608cd185e8d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/k6-summary.json"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/load-monitor.log"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/load-system.txt": {
+    "bytes": 4104,
+    "sha256": "b3f54db2288e2caafbb537939b70ace697b65b5ea5b0ef4c043fded90670c334",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/load-system.txt"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/load-telemetry.jsonl": {
+    "bytes": 100400,
+    "sha256": "5434f6b02833b747f9992b0731d4b0940358e17a595da24ab5a6bfd5043d44f8",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/metadata.json"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/qr-main-registration.json": {
+    "bytes": 1120,
+    "sha256": "fe5f36115eb9b614a9cc70130ba6d0eb16595dd256e5209a444af820d2df2b33",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/qr-peer-registration.json": {
+    "bytes": 1120,
+    "sha256": "f2fbcb35f63386ab8cf7df45438366fffeffcaf11046a5f99fc89900853eb0e9",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/summary.json": {
+    "bytes": 3393,
+    "sha256": "f94c3089179b616ed8f11a1a2847d44eef26301edd001cb648a1f56f84aa105b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/summary.json"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/sut-monitor.log"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "0ae5b7b113f66dd0214ee938189e69cb1b926fd5d129bd65523aae8f301bd0a7",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/sut-system.txt"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/sut-telemetry.jsonl": {
+    "bytes": 143389775,
+    "sha256": "3193cb2b701439157e1c27ff7495323176bd790c4c7b44baf5302ebdb3c8b9b9",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-sojourn-c08-a1/windows.json": {
+    "bytes": 17833,
+    "sha256": "925caa2b9af17215d6bad44127abba0742c39c797a3050ddfb78ddf439179028",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-sojourn-c08-a1/windows.json"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/configuration.json": {
+    "bytes": 2832,
+    "sha256": "6729c249b0d7b6b541a1db54a8e39ecbdee577e19f751b0638811e4373917782",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/configuration.json"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "8af0b482dedb35b4551548765b969cc376123e3c70d7939e297110415dfc7f87",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/containers.json"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/control-plane.log": {
+    "bytes": 25103,
+    "sha256": "456fb25347a8c30f6dd145a4cd2200fa9d0815e4d6f963d60f3613f4b71e88a9",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/control-plane.log"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/events.log": {
+    "bytes": 40968555,
+    "sha256": "87123fc3a85122bf71aecd908d362afa80ea06296ad31db04730308bbe6732dc",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/events.log"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/generator.json": {
+    "bytes": 2557,
+    "sha256": "0e8673ba34cb82f9b4dbfa884f4e46dd4ceeeeda5d68bd85e8f4022cebe93f59",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/generator.json"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/generator.log": {
+    "bytes": 2334,
+    "sha256": "84208d1292b55a6592f0202c581e9ad986c6e33b241e538190b8c927f5b62385",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/generator.log"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/k6-summary.json": {
+    "bytes": 5858,
+    "sha256": "bde1bdf9b09d0e66d0fa7046b91de7b574634348133b1980f0f9680d225ad05b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/k6-summary.json"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/load-monitor.log"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/load-system.txt": {
+    "bytes": 4103,
+    "sha256": "ab99ff948a5b9247cc51443441541e9bfe9a2ddb9bb0a212d41b56ee48e5ced0",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/load-system.txt"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/load-telemetry.jsonl": {
+    "bytes": 100798,
+    "sha256": "27a7bef09d60c0cbf344bfa78b25f1b5ec4b4a1871cd2beec1954902ca3e4d5b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/metadata.json"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/qr-main-registration.json": {
+    "bytes": 1125,
+    "sha256": "70de1670ed847fdfd362dcc068f269a2bdbf1ca7fb6656e163998d619b73ee8e",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/qr-peer-registration.json": {
+    "bytes": 1125,
+    "sha256": "205dfadb3bd6b3061be3b09ff8faaf863679e71b7dbf281b1efd5d956850243a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/summary.json": {
+    "bytes": 3357,
+    "sha256": "8c9b9b89199f9d0aa95d3d4cb17f6c3e15bcfbac841ba340fbfd4fba6cf489a9",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/summary.json"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/sut-monitor.log"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "f3f1f7a14c34ee2cfc69b983d5b62ae623061679c6242f4bc3e00f9422aefc7a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/sut-system.txt"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/sut-telemetry.jsonl": {
+    "bytes": 143366861,
+    "sha256": "f4ee4e458a6320932214e26c3403ee5491a2e4212e16012a4e8d4bb95bcb1710",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/burst-fixed-c18-a1/windows.json": {
+    "bytes": 17826,
+    "sha256": "932dccc22e3e81971c8f154047a405c1fc569539a744e86d96d8e961b5c454cc",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/burst-fixed-c18-a1/windows.json"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/configuration.json": {
+    "bytes": 3157,
+    "sha256": "5dbc7a7df11ea3d8be15e38807ae5d09dca277ab8af9253fc356945809e7180b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/configuration.json"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/containers.json": {
+    "bytes": 19754,
+    "sha256": "69666338a909d1323f25ecbea92bcde19d82a158410eca8ef72f1bfc6b2011e4",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/containers.json"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/control-plane.log": {
+    "bytes": 7822,
+    "sha256": "b7e101429f703fbd5bdf6a6ecd4ffd1710d887e150174a108bb404fc23148218",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/control-plane.log"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/events.log": {
+    "bytes": 42952562,
+    "sha256": "690064350ca87e01316937f4802c77cdeb07d9bab95b544da644111b6fe0ff5a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/events.log"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/generator.json": {
+    "bytes": 2802,
+    "sha256": "deb4923503b97700ad19735ffc4cf0e5ea215ca7ebb831a6cb97ac06667e0cb9",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/generator.json"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/generator.log": {
+    "bytes": 2555,
+    "sha256": "b3738b6f8f315cecf30a2904c90ef20e634b8ce6c499e6df1f38da839cdeee3a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/generator.log"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/k6-summary.json": {
+    "bytes": 6648,
+    "sha256": "cf43e8ccdbc5cc3a500883e01f1cc7fe37bc2e80281c7e77fbd7fcfea2292e45",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/k6-summary.json"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/load-monitor.log"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/load-system.txt": {
+    "bytes": 4104,
+    "sha256": "be460335e9933c48f9ebc77321527c084847f379f76dc22594bd9ed702b3239f",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/load-system.txt"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/load-telemetry.jsonl": {
+    "bytes": 100839,
+    "sha256": "90a52b7ca0e6d00c2e9dfcbd618dd7e976bff90eee0a4502811ddd25060d3169",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/metadata.json"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/qr-main-registration.json": {
+    "bytes": 1125,
+    "sha256": "d5f5c546c791761f41450f92c21b451b2459fdd4f681be9aaf0ef8fd8cde1859",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/qr-peer-registration.json": {
+    "bytes": 1125,
+    "sha256": "635614b4cd052f941a4759c78b900585408ff6696ec820a8a3ee26fa94fa712c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/summary.json": {
+    "bytes": 4540,
+    "sha256": "f6deb1655d051ab8e5ee97a516382e455b03ae42e9a15dbb52304afc1ad562e3",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/summary.json"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/sut-monitor.log"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/sut-system.txt": {
+    "bytes": 4103,
+    "sha256": "aef2c8dbb0c09ac1e54401db430850d54fdcefc6321665c846cf0f7f00abe993",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/sut-system.txt"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/sut-telemetry.jsonl": {
+    "bytes": 143729891,
+    "sha256": "63a2d1a3350cb96df09816b4da33eb88f0e96c84213accf9d85303654f3d6837",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-fixed-c23-a1/windows.json": {
+    "bytes": 24787,
+    "sha256": "6721eb68b4a6476f745fee914a5cbc17b89de036dc4455eeefb962ad8abbe67a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-fixed-c23-a1/windows.json"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/configuration.json": {
+    "bytes": 3159,
+    "sha256": "b5f66ac0dea163df910b10852d62f4d048a3dde1ce5b3d07f1cc248074003b39",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/configuration.json"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "f5207a8f1441b727c1519db988eb69cd37b4373251dfbbc04ae6729c34b160a8",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/containers.json"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/control-plane.log": {
+    "bytes": 1680,
+    "sha256": "7a84fea357125b9dcb870acb528194776f6538e33a57ffdd4388a20fba43618e",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/control-plane.log"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/events.log": {
+    "bytes": 42954797,
+    "sha256": "ccd3e508f6eccc00ff792a5fd726e7f31e313b7df503a024657e738d4c7372e3",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/events.log"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/generator.json": {
+    "bytes": 2804,
+    "sha256": "498daafc577b7fbf8d53797fa89ff2b29131ff53b152ad4c49ac757ce170d047",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/generator.json"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/generator.log": {
+    "bytes": 2533,
+    "sha256": "9c1be7c33638cceaac808b81eaca3793e86ba7f7952d15cab24f775e926c1bc9",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/generator.log"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/k6-summary.json": {
+    "bytes": 6618,
+    "sha256": "a4e40d21d2d10606d613ec4364ff51b8cff882e6db45fe279e5d728d0e801a8d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/k6-summary.json"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/load-monitor.log"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/load-system.txt": {
+    "bytes": 4103,
+    "sha256": "c292c2a9dcc9183a63fb53b83f6de52bb52dd184a1b5ec5d50907f1af72eaf57",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/load-system.txt"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/load-telemetry.jsonl": {
+    "bytes": 100209,
+    "sha256": "d22110dfea65c6020e1847dc4c4c3608931d18fbc073da16d5ebffb95e801030",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/metadata.json"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/qr-main-registration.json": {
+    "bytes": 1120,
+    "sha256": "726c132ef1ce6f48d405d6b09f5f35837867657aa8103f53dc33699de4c9a7e3",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/qr-peer-registration.json": {
+    "bytes": 1120,
+    "sha256": "c87cb8e88cd1f1a46f0474f162a4b0095f4e23b4dd98e767665f4e37a79fa3d4",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/summary.json": {
+    "bytes": 4569,
+    "sha256": "edd4d892c4e0c6e994c85ec1cfbd7cb9ddcbf31919ec92423e11a968e970274a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/summary.json"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/sut-monitor.log"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "c5ddf57c6816c19401f3324c39573c111c6433a740b7b493bf280b2043889103",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/sut-system.txt"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/sut-telemetry.jsonl": {
+    "bytes": 143703190,
+    "sha256": "f303d14e936cff5c4af03c48f4a0fe647d490085e86769c270fad0aa6127ba11",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-sojourn-c19-a1/windows.json": {
+    "bytes": 24788,
+    "sha256": "c602388f73b44c4d47b4876cd349d0ad13853ea780d860d1abce0ae9c6c45bd9",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c19-a1/windows.json"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/configuration.json": {
+    "bytes": 3158,
+    "sha256": "16b4730283c901c4430b5a66f46f39a6fd71406e49d7cc6b676ccd423014da9e",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/configuration.json"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "bbc9302a08207cd15aa7ff608f79631dca9f656568cfb7100915a368e5fad785",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/containers.json"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/control-plane.log": {
+    "bytes": 2064,
+    "sha256": "f50b5893d07588ba00741f187b7b6b6cd2f57829b61c12fbd87e63d2fb90ef7c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/control-plane.log"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/events.log": {
+    "bytes": 42983859,
+    "sha256": "def39ec506bca488614d02425ca860a720059864566623101d668c3cc5eda05c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/events.log"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/generator.json": {
+    "bytes": 2804,
+    "sha256": "d8b143f384ef9f5793d10009956c12201ad07e91b2f610f5b372abfa4804c56b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/generator.json"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/generator.log": {
+    "bytes": 2544,
+    "sha256": "2d688373ee552ec32580d0ac969c9824b4ec980cdeeca32d894cfb7f532b3b6d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/generator.log"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/k6-summary.json": {
+    "bytes": 6638,
+    "sha256": "0fe560380557220325275d1917e6d70da4db245c479e9ef8cf3221ebfa115864",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/k6-summary.json"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/load-monitor.log"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/load-system.txt": {
+    "bytes": 4103,
+    "sha256": "f36b3f4d2b8a49ee2e9888ba14448a3a9d002f5ab1131d8b375b80c4b6aa7a46",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/load-system.txt"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/load-telemetry.jsonl": {
+    "bytes": 100126,
+    "sha256": "8dd35d7ad7770e4cc85afbd6da2edcc0dc3c7059ee1c689c81055e92521bf6b1",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/load-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/metadata.json"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/qr-main-registration.json": {
+    "bytes": 1120,
+    "sha256": "7ed40e317e890bece28f1d15e749d41cb6169931e708f1f2d3cafd8197b76843",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/qr-main-registration.json"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/qr-peer-registration.json": {
+    "bytes": 1120,
+    "sha256": "46c0a51ac67cda8113d2605ba2c67f2470683c6837d64b4308d5859fb6b6bb8d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/qr-peer-registration.json"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/summary.json": {
+    "bytes": 4539,
+    "sha256": "580305f18a81799389f749ac32cd27308ecf323691c17e738d61c2f491a52652",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/summary.json"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/sut-monitor.log"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/sut-system.txt": {
+    "bytes": 4103,
+    "sha256": "7dd6a47963cc0f85edbf3558163124c158318357e1e7d0a4a149cec81c9eb214",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/sut-system.txt"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/sut-telemetry.jsonl": {
+    "bytes": 143653682,
+    "sha256": "c5373f3059d89344eb3dd4f6a8f9b13a1113608536c794ae0857fc446018bc60",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/sut-telemetry.jsonl"
+  },
+  "raw/evaluation/contention-sojourn-c07-a1/windows.json": {
+    "bytes": 24795,
+    "sha256": "0d923759d32fc173ce504ffd6c6d16e699146fc570787e72d7cf8340e55e8a48",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/contention-sojourn-c07-a1/windows.json"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/collection-recovery.json": {
+    "bytes": 509,
+    "sha256": "96aaaba6ec38b68a5ae9edab35d361c3ecdf65bd931728e7436ec3806944ac5d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/collection-recovery.json"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/configuration.json": {
+    "bytes": 2677,
+    "sha256": "5df68afd4b33ad5cddc239a5b42b796a09f7f9603d1117044fd76bdbb6b42e1a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/configuration.json"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/containers.json": {
+    "bytes": 19754,
+    "sha256": "f191de5a75d0fdb83fcfaeed2d49561c2efe9d6f828edd5688385ab65c71829b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/containers.json"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/control-plane.log": {
+    "bytes": 1899792,
+    "sha256": "ed7d4d8132c02ef52cd46273ee7359158b28faa606b995a0983538061161be30",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/control-plane.log"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/events.log": {
+    "bytes": 30974425,
+    "sha256": "554be478d398ddc237c6089fce66bc719c69011b22548e73522cf4d70a44e98d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/events.log"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/generator.json": {
+    "bytes": 2442,
+    "sha256": "97ea3abd2293ccbd0553348cee2a8eb7e594bfc5293ac577f3627533dbcba32a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/generator.json"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/generator.log": {
+    "bytes": 2223,
+    "sha256": "3120c4e2be64db5e14221ef9bea11578fcb18f2a4815dcb9ace786af2792e034",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/generator.log"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/k6-summary.json": {
+    "bytes": 5510,
+    "sha256": "a7eac0dc1a53f78d1a00d9e91ea707771c479f9b0dd33b248eb6dc3848772c22",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/k6-summary.json"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/load-monitor.log"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/load-system.txt": {
+    "bytes": 4103,
+    "sha256": "281858997dd82419cfb3e8d9e236752e8d5a0665604d1beaf23f7370c2a303d0",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/load-system.txt"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/load-telemetry.jsonl": {
+    "bytes": 66142,
+    "sha256": "2fa5282012b43cf1beb2afb3d8c070075aec2284e9ab5ccbb2527c43e8726cd5",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/load-telemetry.jsonl"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/metadata.json"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/qr-main-registration.json": {
+    "bytes": 1125,
+    "sha256": "826c58338f7175093767c6615932b1531e3c1c226f9c30407099efc986cbf3c2",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/qr-main-registration.json"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/qr-peer-registration.json": {
+    "bytes": 1125,
+    "sha256": "967a08963a06760266a6db86c9680c8c0cdefe86532b735c2174b556519ddfee",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/qr-peer-registration.json"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/summary.json": {
+    "bytes": 2900,
+    "sha256": "137f952cf36ca3f45fa07b5afb0fe52f55dcc3470bd323fb4c5aa9b60a247f07",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/summary.json"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/sut-monitor.log"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/sut-system.txt": {
+    "bytes": 4108,
+    "sha256": "a77f3e97850b5c70a37ee18df448b263ceadef01da47a3d28d459330e267dd84",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/sut-system.txt"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/sut-telemetry.jsonl": {
+    "bytes": 95048454,
+    "sha256": "9cc27ebf58352f65037dd3d549509ac94b97730f50f58b36379dee9b20bfaa60",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/sut-telemetry.jsonl"
+  },
+  "raw/calibration/calibration-fixed-c00-a1/windows.json": {
+    "bytes": 14188,
+    "sha256": "5c3ad126beb16803a565672a0fb6ad4ce1f0ee0f1059212255d39f7d422cc931",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c00-a1/windows.json"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/collection-recovery.json": {
+    "bytes": 509,
+    "sha256": "cdf3867e7aaa85f1e484657d9520327d70a0d677fc3168fa681184e74722dccd",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/collection-recovery.json"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/configuration.json": {
+    "bytes": 2677,
+    "sha256": "055b1ded8e270f622e80cb1b8cbb8036a7022a3943ca5ff492403414ccf73132",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/configuration.json"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/containers.json": {
+    "bytes": 19754,
+    "sha256": "0f1d325d2189cbda4d33d7da7787e9f6ec37f3ccba7c7fe81a79e52414eefd88",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/containers.json"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/control-plane.log": {
+    "bytes": 208656,
+    "sha256": "9450e53b70381137149a1c4dda4a9c299c8586bc326b017c19985d2ccf127a6b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/control-plane.log"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/events.log": {
+    "bytes": 30956477,
+    "sha256": "714258dc171c82f3f0a0c382e7b64a5f9bcc1e1fb9752d032173b025f01624e3",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/events.log"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/generator.json": {
+    "bytes": 2442,
+    "sha256": "901858b5104e70fe900a2e43ba7b6c1cad63f2e4a9a81e6b06d036c3a750ef52",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/generator.json"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/generator.log": {
+    "bytes": 2213,
+    "sha256": "e8433fbe731958c4eda488300f3826531444c3d23745cf84683cd0d8829d0807",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/generator.log"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/k6-summary.json": {
+    "bytes": 5490,
+    "sha256": "d26e1b152e696b3575809272f353774d290b7003331c797b3fe79f62d1e95ecb",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/k6-summary.json"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/load-monitor.log"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/load-system.txt": {
+    "bytes": 4106,
+    "sha256": "7f23ba5bf0c932308fbc96738c3171b628ae4fbe4863dd8c38362f05d7f63561",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/load-system.txt"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/load-telemetry.jsonl": {
+    "bytes": 66050,
+    "sha256": "407e432493e892ba02436e2fe168b492d67d13c03d6d368b79f933641e884578",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/load-telemetry.jsonl"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/metadata.json"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/qr-main-registration.json": {
+    "bytes": 1125,
+    "sha256": "8ff1b6eb7fd8038a8a300572c9fdbf5d21eec85da077b6a844373be7bf73ded7",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/qr-main-registration.json"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/qr-peer-registration.json": {
+    "bytes": 1125,
+    "sha256": "ea4557d76e2bd1cc7f6b304cc7f8180ddcb428224a8dc2feca3d623e8b609e0f",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/qr-peer-registration.json"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/summary.json": {
+    "bytes": 2877,
+    "sha256": "5e657b24f09cc8c809f8d75a5645ddb456f391a63d2f9c0a743529e5dbd31262",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/summary.json"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/sut-collection-error.txt": {
+    "bytes": 464,
+    "sha256": "bed41763e39fc43853ec4ad615a53d821656e0c932d3050ab47899a8ee840219",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/sut-collection-error.txt"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/sut-monitor.log"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/sut-system.txt": {
+    "bytes": 4103,
+    "sha256": "3a36cf787086a626b9de69a19ce2f0957c38248a9a93df46dfeebcbf58d61e14",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/sut-system.txt"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/sut-telemetry.jsonl": {
+    "bytes": 95174360,
+    "sha256": "573ccfff60f07042fba46bc43f4aee3c4ca7dc2acf3c4a8ca068c77d3065e771",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/sut-telemetry.jsonl"
+  },
+  "raw/calibration/calibration-fixed-c01-a1/windows.json": {
+    "bytes": 14217,
+    "sha256": "82c0364f419103dffc9943c6dfbb35055499bda1fb2e8580335560e48303c9c8",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c01-a1/windows.json"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/collection-recovery.json": {
+    "bytes": 509,
+    "sha256": "37ce3c0161423e50d22e378464610147df9b48d99c1dd51bbb8d5b66b1ab0eb6",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/collection-recovery.json"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/configuration.json": {
+    "bytes": 2677,
+    "sha256": "be3d97fc8673913c2ca2158fb2ed87908b17dc2e7ce52c8b505919cd67403435",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/configuration.json"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "77e0dc219dd4922b9fe7de9562b00094937b62c3102069ac800e0bb12ec894da",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/containers.json"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/control-plane.log": {
+    "bytes": 9167,
+    "sha256": "90867d6f8500a900ed40c01850116c183682d26e9f5d8bd2ba154f99702b584c",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/control-plane.log"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/events.log": {
+    "bytes": 30926273,
+    "sha256": "401b696a258f0fae44f204b198881438db4600280593da8c13994c494681ddfc",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/events.log"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/generator.json": {
+    "bytes": 2442,
+    "sha256": "486d329f575032c78b1f35b9228ef95e273e2fee2e86d14ccc522c643f8e18c9",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/generator.json"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/generator.log": {
+    "bytes": 2217,
+    "sha256": "760c8c98b682ec169b50d6038776073b0efc1e51753af40fd44852a7f79a63dc",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/generator.log"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/k6-summary.json": {
+    "bytes": 5460,
+    "sha256": "6845134cfd8bdf252c510fe1698ceaa5ee3235b9065c9a73d0ca2649714702b3",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/k6-summary.json"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/load-monitor.log"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/load-system.txt": {
+    "bytes": 4105,
+    "sha256": "0f46baee29a031e39d1bd61e44db7b6104431c9796a6ba54f32a54c1eeee7e75",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/load-system.txt"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/load-telemetry.jsonl": {
+    "bytes": 66551,
+    "sha256": "515bfe01fc09ec60fa4373b87c9eb812bf7de042c1b447ce39b7ce5c50781e25",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/load-telemetry.jsonl"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/metadata.json"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/qr-main-registration.json": {
+    "bytes": 1125,
+    "sha256": "944d9503b48a9b110c5958a8f2e6a0dec3216e35201630f5f7afcf7638a41249",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/qr-main-registration.json"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/qr-peer-registration.json": {
+    "bytes": 1125,
+    "sha256": "66ad40cb1083b6ed5d250b443cd16042f6fa07c924a8daa308730cf51ecaa7cc",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/qr-peer-registration.json"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/summary.json": {
+    "bytes": 2884,
+    "sha256": "dd8fcd26891ab45bbe307b5273a2e818248608724d0a9dbeb54e6be85a239093",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/summary.json"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/sut-collection-error.txt": {
+    "bytes": 464,
+    "sha256": "aa61daeab486accb6d6229f841a60b2a0008a3f857457501276d0f7cc56cc5df",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/sut-collection-error.txt"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/sut-monitor.log"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/sut-system.txt": {
+    "bytes": 4102,
+    "sha256": "6019c32293da833a7c0dea0528aeeded8a35cff018bfcaeb38868f05f211e584",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/sut-system.txt"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/sut-telemetry.jsonl": {
+    "bytes": 94796710,
+    "sha256": "04fa640597553f272917be435de0ebb6800bc2fff49cef0e9e7d38a05245e112",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/sut-telemetry.jsonl"
+  },
+  "raw/calibration/calibration-fixed-c02-a1/windows.json": {
+    "bytes": 14251,
+    "sha256": "f6c797ed35511fbf5e61f37d250817b38bf5918fd98c114428c011cbeaf2ea16",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c02-a1/windows.json"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/collection-recovery.json": {
+    "bytes": 509,
+    "sha256": "4e5d9e725179e86ce30a9d64a39deba905b38dde59a96a9b1b35118441caa9d4",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/collection-recovery.json"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/configuration.json": {
+    "bytes": 2677,
+    "sha256": "679a46862b0438c4280bfffbc81aedc40b06ccee844d9eb90d233c85cc85e7c6",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/configuration.json"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/containers.json": {
+    "bytes": 19755,
+    "sha256": "4eb362531addf18c436c0bc173ece482a4ac9afab2787597a90da8004c03c8a9",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/containers.json"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/control-plane.log": {
+    "bytes": 3372,
+    "sha256": "b5c30c9c3c3dbcc75764673521404292db6278b90105b8a6bf5e618c99596bc2",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/control-plane.log"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/events.log": {
+    "bytes": 30973388,
+    "sha256": "b92051b2966798ec7a8851721ecb26f4b6e31dce07414356615957d031ded59e",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/events.log"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/generator.json": {
+    "bytes": 2443,
+    "sha256": "e050f5ed666568cda9a65672e9a7cb8deac22ed84d19525b66114316acfe2fb1",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/generator.json"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/generator.log": {
+    "bytes": 2221,
+    "sha256": "600ad1fa638b8fcc2092a28e6403b19a1b6f69c50f6e9472fe9dd81b64ee0ea9",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/generator.log"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/k6-summary.json": {
+    "bytes": 5469,
+    "sha256": "82edff8fffbee8523c9ae1bc526a171d48b8a2f3e22aa8962bbf36e14fc9f15f",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/k6-summary.json"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/load-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/load-monitor.log"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/load-system.txt": {
+    "bytes": 4103,
+    "sha256": "6f2131b36f1d72ecea1cacdd025a3ca9074d34da1493d1c09fce3ebfeeeaef42",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/load-system.txt"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/load-telemetry.jsonl": {
+    "bytes": 66617,
+    "sha256": "1fa4ce28406cbdf015d24ea94c910660352062f42d2f68f1c5f0c42dd96cc4e7",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/load-telemetry.jsonl"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/metadata.json": {
+    "bytes": 667,
+    "sha256": "08b249bc107a9b6223a29e675c15b98c4e358f6aea4d9334454448470f98d69d",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/metadata.json"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/qr-main-registration.json": {
+    "bytes": 1125,
+    "sha256": "b709eeb592174b7b8ac0bac7e4c8a4852587526671caeef539fe31517a4dc859",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/qr-main-registration.json"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/qr-peer-registration.json": {
+    "bytes": 1125,
+    "sha256": "ccb708b821aa4a431b522354d1929431a1822ccc0936d90d778a6658fdbb3931",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/qr-peer-registration.json"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/summary.json": {
+    "bytes": 2870,
+    "sha256": "263d913e622c85cdc7109ecbb562fc171aa92c089d619a74edbcdc4e2ece458e",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/summary.json"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/sut-collection-error.txt": {
+    "bytes": 464,
+    "sha256": "cdd620ae3af6e57d8ac2aa2fc6cab1a046c8db99cf4692af1775a19ee9929625",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/sut-collection-error.txt"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/sut-monitor.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/sut-monitor.log"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/sut-system.txt": {
+    "bytes": 4103,
+    "sha256": "3f0aa44147d8c5060ca1aefcf28b88f09f9daa31f8f342f37de21c94ee943dfc",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/sut-system.txt"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/sut-telemetry.jsonl": {
+    "bytes": 94795834,
+    "sha256": "c59bf200317b2efd0013968b7217a8c2c1e35832f005e8fff6eca7b9e5a667ad",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/sut-telemetry.jsonl"
+  },
+  "raw/calibration/calibration-fixed-c03-a1/windows.json": {
+    "bytes": 14268,
+    "sha256": "b749910381e971c3cd0ebbaac06ed55825daa7524e062355ec530e42dfd5c62a",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/offline/runs/calibration-fixed-c03-a1/windows.json"
+  },
+  "derived/evaluation-results.json": {
+    "bytes": 118171,
+    "sha256": "cc7e5e3f153c185d6a5191683e41173c5112935a5acdf838ea9c80f697ad763b",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/evaluation-results.json"
+  },
+  "derived/calibration-results.json": {
+    "bytes": 14530,
+    "sha256": "1fb79e5fbe54673c94a9aef8f028d371603c3db2f85f8009be18199753051727",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/calibration-results.json"
+  },
+  "derived/frozen-evaluation.json": {
+    "bytes": 3271,
+    "sha256": "57db067298de43f715486705e329b54e8b6382ac7dc997852fc88eccfa6d3ed3",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/frozen-evaluation.json"
+  },
+  "derived/archive-verification.json": {
+    "bytes": 94,
+    "sha256": "4db54ed72895c0d2633fea4e36c7a703b7dde86ea86ee37645320e6b78c1a092",
+    "source": "experiments/runtime-comparison/results/2026-11-06-concurrency-adaptation/archive-verification.json"
+  },
+  "derived/runs.csv": {
+    "bytes": 4146,
+    "sha256": "5aaa1c6b7955baed585dd7264b1e3c870b5165768abb81596a08a4ce068775fa",
+    "source": "build/nanofaas-paper-overleaf/experiments/concurrency/runs.csv"
+  },
+  "derived/data.json": {
+    "bytes": 671211,
+    "sha256": "eb886db21d641c291961a6d7d903da6a92d50ba34f3963e8f5e0b5262ff21b36",
+    "source": "build/nanofaas-paper-overleaf/experiments/concurrency/data.json"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "pdfPages": 13,
+  "archiveFilesVerified": 1688,
+  "nodeEpochPlansPerRun": 540,
+  "forecastCellsPerRun": 2700,
+  "originalResultsPerRun": 160557,
+  "analyticalMetricChecks": "passed",
+  "sourceAndAccountingChecks": "passed",
+  "latexWarnings": 0,
+  "visualReview": "all 13 rendered pages; distribution and central-axis plots also reviewed separately",
+  "pdfSha256": "0f4b2e10b05d1af9f78fc2fb8d34f281db3c2751b2770334fec8e60145ea15ab"
+}

@@ -1,0 +1,1324 @@
+{
+  "raw/manifest.json": {
+    "bytes": 3999,
+    "sha256": "185ff1da4469e47d7cd3d18e1028529bd8760660c9e6812bcff52e8ab233d7db",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./manifest.json"
+  },
+  "raw/environment-javascript.yaml": {
+    "bytes": 563,
+    "sha256": "283fdc827d5d05b99cca08bf510ca3a0b0a61a4dea206d733f273f818fc7f695",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./environment-javascript.yaml"
+  },
+  "raw/environment-rust.yaml": {
+    "bytes": 551,
+    "sha256": "4685ea67a1e49d71c1c2fea2de36ce21bcf17e2cb3106d349af9e17505dbeea0",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./environment-rust.yaml"
+  },
+  "raw/scenario-go.yaml": {
+    "bytes": 387,
+    "sha256": "09f65b65615ee0b9cc7ee6aa0fcd76e68ba2d51449a5fb8f178e50b069a5e979",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./scenario-go.yaml"
+  },
+  "raw/environment-java.yaml": {
+    "bytes": 551,
+    "sha256": "5d6af3e4252b2d0c254a37144b9e7874a2d69aba0b7e489b09cc934a7b2f5860",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./environment-java.yaml"
+  },
+  "raw/environment-go.yaml": {
+    "bytes": 547,
+    "sha256": "9b86496e862d0f7fbc3872efcbc855caa2eded5af01f7ddf50038480214d816e",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./environment-go.yaml"
+  },
+  "raw/scenario-java.yaml": {
+    "bytes": 391,
+    "sha256": "e28af47fc4c1a4d8659c79343f2bddc2c0e190c053edcdbc540b9f0f5a07852c",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./scenario-java.yaml"
+  },
+  "raw/scenario-javascript.yaml": {
+    "bytes": 403,
+    "sha256": "ea219df74351c7692ba81b385fca787f4339ba41ee251f5abcd01955173e9dc4",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./scenario-javascript.yaml"
+  },
+  "raw/scenario-python.yaml": {
+    "bytes": 395,
+    "sha256": "423c6990ba03b414554e19874f72fdd79d287d1b1fbc18f048e726226ff34a9f",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./scenario-python.yaml"
+  },
+  "raw/environment-python.yaml": {
+    "bytes": 555,
+    "sha256": "6a79d125ddbfd681b4c7cf3246f71c5e5364d2f93e977413a4c9ced3e5473f61",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./environment-python.yaml"
+  },
+  "raw/results/java/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/inputs/performance-medium.json"
+  },
+  "raw/results/java/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/inputs/runtime-contract.json"
+  },
+  "raw/results/java/run-metadata.json": {
+    "bytes": 12240,
+    "sha256": "860d4d530f16f27ebe0be418c44013b17ba57068c71892d02569624f4dc2fff2",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/run-metadata.json"
+  },
+  "raw/results/java/keep-ready/qualification-0000.jsonl.stdout": {
+    "bytes": 4633,
+    "sha256": "54938a79e3b7894bb87d71689304f4046fcdbfe0facaaff48a2f797b3a960939",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/keep-ready/qualification-0000.jsonl.stdout"
+  },
+  "raw/results/java/keep-ready/cycle-0000.jsonl.stdout": {
+    "bytes": 6925,
+    "sha256": "9e660cbd87f7fca923dff179d6a6944756c818b30c80974372b927ba032246ea",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/keep-ready/cycle-0000.jsonl.stdout"
+  },
+  "raw/results/java/keep-ready/cycle-0002.jsonl.stdout": {
+    "bytes": 6869,
+    "sha256": "7b62a8a1735ddf4025389a31d07dd9ba5693b760d2a94a1c8ba848a0254a30fe",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/keep-ready/cycle-0002.jsonl.stdout"
+  },
+  "raw/results/java/keep-ready/lifecycle.jsonl": {
+    "bytes": 10905066,
+    "sha256": "874ee36dbfd746067411567a4510a53b121dd9c40c272871ddcfc342ec24873a",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/keep-ready/lifecycle.jsonl"
+  },
+  "raw/results/java/keep-ready/cycle-0002.jsonl": {
+    "bytes": 6869,
+    "sha256": "7b62a8a1735ddf4025389a31d07dd9ba5693b760d2a94a1c8ba848a0254a30fe",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/keep-ready/cycle-0002.jsonl"
+  },
+  "raw/results/java/keep-ready/control-plane.log": {
+    "bytes": 3110,
+    "sha256": "ffdf61f3be91ec66e28f63ca58bd00f3ce6f9d77897ca33fb1543a79792c055e",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/keep-ready/control-plane.log"
+  },
+  "raw/results/java/keep-ready/cycle-0001.jsonl": {
+    "bytes": 6779,
+    "sha256": "8dd8482386e55aea17f890e08c2ff6767795f634933c3999cec229058545cece",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/keep-ready/cycle-0001.jsonl"
+  },
+  "raw/results/java/keep-ready/warmup-0000.jsonl": {
+    "bytes": 68702,
+    "sha256": "1d26f6f6e603506b743b3805ed7e882a5f778266835f2a2246be8e4b09f8e1d3",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/keep-ready/warmup-0000.jsonl"
+  },
+  "raw/results/java/keep-ready/summary.json": {
+    "bytes": 21306,
+    "sha256": "3ac66f5a612b65ca961456fedf9663770f23c447aae17f720c14ec297762f511",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/keep-ready/summary.json"
+  },
+  "raw/results/java/keep-ready/metrics/prometheus-snapshot.json": {
+    "bytes": 9174862,
+    "sha256": "43bbd30f625c3d1e29bb0257fb70a6df0c8f21c9aac0ee025feb219a7cf8bc06",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/keep-ready/metrics/prometheus-snapshot.json"
+  },
+  "raw/results/java/keep-ready/cycles.json": {
+    "bytes": 19774,
+    "sha256": "1b6e1e383aad6e9a594c7a1b5549a0e0fc2453bcbcb9a4b0ed10d63a84778382",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/keep-ready/cycles.json"
+  },
+  "raw/results/java/keep-ready/cycle-0001.jsonl.stdout": {
+    "bytes": 6779,
+    "sha256": "8dd8482386e55aea17f890e08c2ff6767795f634933c3999cec229058545cece",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/keep-ready/cycle-0001.jsonl.stdout"
+  },
+  "raw/results/java/keep-ready/qualification-0000.jsonl": {
+    "bytes": 4633,
+    "sha256": "54938a79e3b7894bb87d71689304f4046fcdbfe0facaaff48a2f797b3a960939",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/keep-ready/qualification-0000.jsonl"
+  },
+  "raw/results/java/keep-ready/warmup-0000.jsonl.stdout": {
+    "bytes": 68702,
+    "sha256": "1d26f6f6e603506b743b3805ed7e882a5f778266835f2a2246be8e4b09f8e1d3",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/keep-ready/warmup-0000.jsonl.stdout"
+  },
+  "raw/results/java/keep-ready/cycle-0000.jsonl": {
+    "bytes": 6925,
+    "sha256": "9e660cbd87f7fca923dff179d6a6944756c818b30c80974372b927ba032246ea",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/keep-ready/cycle-0000.jsonl"
+  },
+  "raw/results/java/scale-to-zero/qualification-0000.jsonl.stdout": {
+    "bytes": 4640,
+    "sha256": "9c8e3da872ea92c7c8eb77b37bbf0bea81ba7a22c99bccf319db0c9bf37ae86e",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/scale-to-zero/qualification-0000.jsonl.stdout"
+  },
+  "raw/results/java/scale-to-zero/cycle-0000.jsonl.stdout": {
+    "bytes": 6939,
+    "sha256": "aa364937a27381736fdc651297213a3f1f413c4ab395b6498984319fd544e8b2",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/scale-to-zero/cycle-0000.jsonl.stdout"
+  },
+  "raw/results/java/scale-to-zero/cycle-0002.jsonl.stdout": {
+    "bytes": 6868,
+    "sha256": "37a88bde8f53f881c91a715a3aa8aae94139c9d03b88f6a25a497017f7c173ff",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/scale-to-zero/cycle-0002.jsonl.stdout"
+  },
+  "raw/results/java/scale-to-zero/lifecycle.jsonl": {
+    "bytes": 10220920,
+    "sha256": "12ca8e48f0f47ed68538b30a1b66610f7889d20a7a04b006fd1d8400160eea42",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/scale-to-zero/lifecycle.jsonl"
+  },
+  "raw/results/java/scale-to-zero/cycle-0002.jsonl": {
+    "bytes": 6868,
+    "sha256": "37a88bde8f53f881c91a715a3aa8aae94139c9d03b88f6a25a497017f7c173ff",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/scale-to-zero/cycle-0002.jsonl"
+  },
+  "raw/results/java/scale-to-zero/control-plane.log": {
+    "bytes": 3925,
+    "sha256": "f96c08964e2b681cb366cb6af1ccb5d4830a07f532a4daf6d652484c450c4a5b",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/scale-to-zero/control-plane.log"
+  },
+  "raw/results/java/scale-to-zero/cycle-0001.jsonl": {
+    "bytes": 6795,
+    "sha256": "8a50ebfe63b9012ed0122adacbed64879e70a212ceae82778d912e4a894652f8",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/scale-to-zero/cycle-0001.jsonl"
+  },
+  "raw/results/java/scale-to-zero/warmup-0000.jsonl": {
+    "bytes": 68819,
+    "sha256": "ac8f6aad72961cdd9565ad99aa442bf39af012d3f240a52c8218566bf7e8c162",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/scale-to-zero/warmup-0000.jsonl"
+  },
+  "raw/results/java/scale-to-zero/summary.json": {
+    "bytes": 21341,
+    "sha256": "5887a8c9090047be4d2d1ea25f7869bc257c246d6f8e72360f3aa4950cd28eac",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/scale-to-zero/summary.json"
+  },
+  "raw/results/java/scale-to-zero/metrics/prometheus-snapshot.json": {
+    "bytes": 8473307,
+    "sha256": "94ba8984bc9c28532804f988260f651e0cf887744ee438c9f4a9b0773e02e451",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/scale-to-zero/metrics/prometheus-snapshot.json"
+  },
+  "raw/results/java/scale-to-zero/cycles.json": {
+    "bytes": 19805,
+    "sha256": "a877210abdc6688d19112fe493ef50ae219f6ab002d4e7e2dd0f365e1ff34f4b",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/scale-to-zero/cycles.json"
+  },
+  "raw/results/java/scale-to-zero/cycle-0001.jsonl.stdout": {
+    "bytes": 6795,
+    "sha256": "8a50ebfe63b9012ed0122adacbed64879e70a212ceae82778d912e4a894652f8",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/scale-to-zero/cycle-0001.jsonl.stdout"
+  },
+  "raw/results/java/scale-to-zero/qualification-0000.jsonl": {
+    "bytes": 4640,
+    "sha256": "9c8e3da872ea92c7c8eb77b37bbf0bea81ba7a22c99bccf319db0c9bf37ae86e",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/scale-to-zero/qualification-0000.jsonl"
+  },
+  "raw/results/java/scale-to-zero/warmup-0000.jsonl.stdout": {
+    "bytes": 68819,
+    "sha256": "ac8f6aad72961cdd9565ad99aa442bf39af012d3f240a52c8218566bf7e8c162",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/scale-to-zero/warmup-0000.jsonl.stdout"
+  },
+  "raw/results/java/scale-to-zero/cycle-0000.jsonl": {
+    "bytes": 6939,
+    "sha256": "aa364937a27381736fdc651297213a3f1f413c4ab395b6498984319fd544e8b2",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/scale-to-zero/cycle-0000.jsonl"
+  },
+  "raw/results/java/protocol.json": {
+    "bytes": 1927,
+    "sha256": "b03b4e22cc589f1a8300341343c4156003edabeead606b7fa507f89c43d1afb0",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/protocol.json"
+  },
+  "raw/results/java/paired-summary.json": {
+    "bytes": 51189,
+    "sha256": "b5e9f82d5ff8163d2fd6f956b10f19e623df60c2a216bfc198d2a5f6a4983da1",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/java/paired-summary.json"
+  },
+  "raw/results/rust/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/inputs/performance-medium.json"
+  },
+  "raw/results/rust/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/inputs/runtime-contract.json"
+  },
+  "raw/results/rust/run-metadata.json": {
+    "bytes": 11981,
+    "sha256": "c76d787ed93b0b29e3248e591ea9db483e7fb1c96af1cff697880eb57ab327ba",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/run-metadata.json"
+  },
+  "raw/results/rust/keep-ready/qualification-0000.jsonl.stdout": {
+    "bytes": 4791,
+    "sha256": "e2254b05b83d020637cac3fe8bb5a92dacca66a52b37df8e93cbf6c1d418731d",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/keep-ready/qualification-0000.jsonl.stdout"
+  },
+  "raw/results/rust/keep-ready/cycle-0000.jsonl.stdout": {
+    "bytes": 7165,
+    "sha256": "56c34bfb29e7d6a851c51d574e66042270e8251458be2f15e927e9ddd3f3a843",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/keep-ready/cycle-0000.jsonl.stdout"
+  },
+  "raw/results/rust/keep-ready/cycle-0002.jsonl.stdout": {
+    "bytes": 7100,
+    "sha256": "1ff5d346f1ae2de001cefb6be97ab081f979f63ffa22528a6b8360e2aadecc38",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/keep-ready/cycle-0002.jsonl.stdout"
+  },
+  "raw/results/rust/keep-ready/lifecycle.jsonl": {
+    "bytes": 11104978,
+    "sha256": "8fff6d2c5bd735f21fb717236df5ce0bcb78c1480b55d5f9cfc00f5649b698dc",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/keep-ready/lifecycle.jsonl"
+  },
+  "raw/results/rust/keep-ready/cycle-0002.jsonl": {
+    "bytes": 7100,
+    "sha256": "1ff5d346f1ae2de001cefb6be97ab081f979f63ffa22528a6b8360e2aadecc38",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/keep-ready/cycle-0002.jsonl"
+  },
+  "raw/results/rust/keep-ready/control-plane.log": {
+    "bytes": 3110,
+    "sha256": "4fa1541868db824555f65d53c537f0fab82d7157828288e5f30528fc99dc54c9",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/keep-ready/control-plane.log"
+  },
+  "raw/results/rust/keep-ready/cycle-0001.jsonl": {
+    "bytes": 7022,
+    "sha256": "d7c708c612cfca8e31f46fafe78220829b39d37e70e0dfb47dc19f5416ad2af7",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/keep-ready/cycle-0001.jsonl"
+  },
+  "raw/results/rust/keep-ready/warmup-0000.jsonl": {
+    "bytes": 71097,
+    "sha256": "f62b167bd4fae2be38c84b6282496aee70f776dfba423f2fe337852cf5fb8261",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/keep-ready/warmup-0000.jsonl"
+  },
+  "raw/results/rust/keep-ready/summary.json": {
+    "bytes": 22022,
+    "sha256": "5d0670399693400eb0d9f4fbd2bc5f380884cee6b891769a21e1c76a7057fadd",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/keep-ready/summary.json"
+  },
+  "raw/results/rust/keep-ready/metrics/prometheus-snapshot.json": {
+    "bytes": 9170112,
+    "sha256": "41aca61342e7d790ebc57986b48a515ca8af2fed50e358a27c6156801e9c2fa6",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/keep-ready/metrics/prometheus-snapshot.json"
+  },
+  "raw/results/rust/keep-ready/cycles.json": {
+    "bytes": 20489,
+    "sha256": "250f0282d55a22fdb292bb0beb515f18976de4e5155c4cf551812476084e19d4",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/keep-ready/cycles.json"
+  },
+  "raw/results/rust/keep-ready/cycle-0001.jsonl.stdout": {
+    "bytes": 7022,
+    "sha256": "d7c708c612cfca8e31f46fafe78220829b39d37e70e0dfb47dc19f5416ad2af7",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/keep-ready/cycle-0001.jsonl.stdout"
+  },
+  "raw/results/rust/keep-ready/qualification-0000.jsonl": {
+    "bytes": 4791,
+    "sha256": "e2254b05b83d020637cac3fe8bb5a92dacca66a52b37df8e93cbf6c1d418731d",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/keep-ready/qualification-0000.jsonl"
+  },
+  "raw/results/rust/keep-ready/warmup-0000.jsonl.stdout": {
+    "bytes": 71097,
+    "sha256": "f62b167bd4fae2be38c84b6282496aee70f776dfba423f2fe337852cf5fb8261",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/keep-ready/warmup-0000.jsonl.stdout"
+  },
+  "raw/results/rust/keep-ready/cycle-0000.jsonl": {
+    "bytes": 7165,
+    "sha256": "56c34bfb29e7d6a851c51d574e66042270e8251458be2f15e927e9ddd3f3a843",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/keep-ready/cycle-0000.jsonl"
+  },
+  "raw/results/rust/scale-to-zero/qualification-0000.jsonl.stdout": {
+    "bytes": 4797,
+    "sha256": "f6433d9e3af79183d1c78536de029b4837c10ecfaa587a95085250bf4e245024",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/scale-to-zero/qualification-0000.jsonl.stdout"
+  },
+  "raw/results/rust/scale-to-zero/cycle-0000.jsonl.stdout": {
+    "bytes": 7181,
+    "sha256": "c058a57ea39486ea11940ee456ca73eed2ad7fe9531f40153588df027660cb60",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/scale-to-zero/cycle-0000.jsonl.stdout"
+  },
+  "raw/results/rust/scale-to-zero/cycle-0002.jsonl.stdout": {
+    "bytes": 7106,
+    "sha256": "ccbb4b4419a9d7ed3f0e9de9bc56fc697011d733678ae9ec770358e59e29e6a0",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/scale-to-zero/cycle-0002.jsonl.stdout"
+  },
+  "raw/results/rust/scale-to-zero/lifecycle.jsonl": {
+    "bytes": 10359605,
+    "sha256": "582a907ca5e0ee790d1c7f2e04f33f01f144f3ceab652ab8a31c84128f86bde6",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/scale-to-zero/lifecycle.jsonl"
+  },
+  "raw/results/rust/scale-to-zero/cycle-0002.jsonl": {
+    "bytes": 7106,
+    "sha256": "ccbb4b4419a9d7ed3f0e9de9bc56fc697011d733678ae9ec770358e59e29e6a0",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/scale-to-zero/cycle-0002.jsonl"
+  },
+  "raw/results/rust/scale-to-zero/control-plane.log": {
+    "bytes": 3926,
+    "sha256": "ea07d63045e348238a72c36e20b93ca6721e382189e5ae24ac900bf09cc42d2b",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/scale-to-zero/control-plane.log"
+  },
+  "raw/results/rust/scale-to-zero/cycle-0001.jsonl": {
+    "bytes": 7032,
+    "sha256": "b5a7d4d5a786ac716b384db8faf72867936af7fe362ba81d086f607c04101aed",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/scale-to-zero/cycle-0001.jsonl"
+  },
+  "raw/results/rust/scale-to-zero/warmup-0000.jsonl": {
+    "bytes": 71183,
+    "sha256": "e0a3a2ca1ac72b32352ee1dc2a763f7aab694f51cec12b31dae6be14fd5d6c3f",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/scale-to-zero/warmup-0000.jsonl"
+  },
+  "raw/results/rust/scale-to-zero/summary.json": {
+    "bytes": 22062,
+    "sha256": "821b9492d1ac9d9264dde07b6b6788ae98464081f6f4f87f9c907a1ac755ff05",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/scale-to-zero/summary.json"
+  },
+  "raw/results/rust/scale-to-zero/metrics/prometheus-snapshot.json": {
+    "bytes": 8380991,
+    "sha256": "b5c752b560dca63dfc7a07c8570192425dc5b1b289039ab1f55ca54b2a4a2601",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/scale-to-zero/metrics/prometheus-snapshot.json"
+  },
+  "raw/results/rust/scale-to-zero/cycles.json": {
+    "bytes": 20526,
+    "sha256": "2b9d52ff5749b61a8b8152bf3a2d34d5526424a1a82167810caf4586fa85bbcd",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/scale-to-zero/cycles.json"
+  },
+  "raw/results/rust/scale-to-zero/cycle-0001.jsonl.stdout": {
+    "bytes": 7032,
+    "sha256": "b5a7d4d5a786ac716b384db8faf72867936af7fe362ba81d086f607c04101aed",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/scale-to-zero/cycle-0001.jsonl.stdout"
+  },
+  "raw/results/rust/scale-to-zero/qualification-0000.jsonl": {
+    "bytes": 4797,
+    "sha256": "f6433d9e3af79183d1c78536de029b4837c10ecfaa587a95085250bf4e245024",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/scale-to-zero/qualification-0000.jsonl"
+  },
+  "raw/results/rust/scale-to-zero/warmup-0000.jsonl.stdout": {
+    "bytes": 71183,
+    "sha256": "e0a3a2ca1ac72b32352ee1dc2a763f7aab694f51cec12b31dae6be14fd5d6c3f",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/scale-to-zero/warmup-0000.jsonl.stdout"
+  },
+  "raw/results/rust/scale-to-zero/cycle-0000.jsonl": {
+    "bytes": 7181,
+    "sha256": "c058a57ea39486ea11940ee456ca73eed2ad7fe9531f40153588df027660cb60",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/scale-to-zero/cycle-0000.jsonl"
+  },
+  "raw/results/rust/protocol.json": {
+    "bytes": 1927,
+    "sha256": "54345bccd524941b73c957f4fb5300a1460628106936f72264db7cff07d807ba",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/protocol.json"
+  },
+  "raw/results/rust/paired-summary.json": {
+    "bytes": 52639,
+    "sha256": "dcea9a5ba7c1d608fcc8cd42c07a78fb81932380e03dfd87d9f47ab5408246ce",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/rust/paired-summary.json"
+  },
+  "raw/results/go/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/inputs/performance-medium.json"
+  },
+  "raw/results/go/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/inputs/runtime-contract.json"
+  },
+  "raw/results/go/run-metadata.json": {
+    "bytes": 11944,
+    "sha256": "6e7dc5d72bce4fa4f889acd1b9ce399730e8950d7eb98d7bde2856e2a32b7dd8",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/run-metadata.json"
+  },
+  "raw/results/go/keep-ready/qualification-0000.jsonl.stdout": {
+    "bytes": 4615,
+    "sha256": "c558c8da01f13441945adf553edb6bbfac419706339bf5bcd916ef8eefb4f326",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/keep-ready/qualification-0000.jsonl.stdout"
+  },
+  "raw/results/go/keep-ready/cycle-0000.jsonl.stdout": {
+    "bytes": 6904,
+    "sha256": "48cb228dddfbf14ff451f62d49aa6b39f3dc92f7b02a22082545f26822b076cf",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/keep-ready/cycle-0000.jsonl.stdout"
+  },
+  "raw/results/go/keep-ready/cycle-0002.jsonl.stdout": {
+    "bytes": 6828,
+    "sha256": "de5451355471b147d97ff2cff84decc80a75f69eede8ab248b9cb1318679569c",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/keep-ready/cycle-0002.jsonl.stdout"
+  },
+  "raw/results/go/keep-ready/lifecycle.jsonl": {
+    "bytes": 11121372,
+    "sha256": "18d03781de19a237ca44eaef50515acf1b0d1f310518f0b10a4f3a411edc5a09",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/keep-ready/lifecycle.jsonl"
+  },
+  "raw/results/go/keep-ready/cycle-0002.jsonl": {
+    "bytes": 6828,
+    "sha256": "de5451355471b147d97ff2cff84decc80a75f69eede8ab248b9cb1318679569c",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/keep-ready/cycle-0002.jsonl"
+  },
+  "raw/results/go/keep-ready/control-plane.log": {
+    "bytes": 3098,
+    "sha256": "a97d3bb6307f6477543d5a2d78778ce91b970b75a32804d728efd413c767b4b5",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/keep-ready/control-plane.log"
+  },
+  "raw/results/go/keep-ready/cycle-0001.jsonl": {
+    "bytes": 6757,
+    "sha256": "da0b83e0c990355a18d825bc69748988d649176b71ebf878d5c51b05aedb47cc",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/keep-ready/cycle-0001.jsonl"
+  },
+  "raw/results/go/keep-ready/warmup-0000.jsonl": {
+    "bytes": 68464,
+    "sha256": "6948bcd338d3bc4f3518e82918e5e944330e20bfb30031dc897feab75b78640a",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/keep-ready/warmup-0000.jsonl"
+  },
+  "raw/results/go/keep-ready/summary.json": {
+    "bytes": 21254,
+    "sha256": "0af9588e4363048122d496851aa721d5ed62bf32e9f3e77daafd7ad03733beb4",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/keep-ready/summary.json"
+  },
+  "raw/results/go/keep-ready/metrics/prometheus-snapshot.json": {
+    "bytes": 9136456,
+    "sha256": "ff1e9b824756803e726f1d1ab62b1f01834b957ec885611e895a297bd04b08a1",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/keep-ready/metrics/prometheus-snapshot.json"
+  },
+  "raw/results/go/keep-ready/cycles.json": {
+    "bytes": 19725,
+    "sha256": "7df9c8ea341243eb2e09abf16a8d779de7dcb5e75dbf2aa4698a202540ee67e8",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/keep-ready/cycles.json"
+  },
+  "raw/results/go/keep-ready/cycle-0001.jsonl.stdout": {
+    "bytes": 6757,
+    "sha256": "da0b83e0c990355a18d825bc69748988d649176b71ebf878d5c51b05aedb47cc",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/keep-ready/cycle-0001.jsonl.stdout"
+  },
+  "raw/results/go/keep-ready/qualification-0000.jsonl": {
+    "bytes": 4615,
+    "sha256": "c558c8da01f13441945adf553edb6bbfac419706339bf5bcd916ef8eefb4f326",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/keep-ready/qualification-0000.jsonl"
+  },
+  "raw/results/go/keep-ready/warmup-0000.jsonl.stdout": {
+    "bytes": 68464,
+    "sha256": "6948bcd338d3bc4f3518e82918e5e944330e20bfb30031dc897feab75b78640a",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/keep-ready/warmup-0000.jsonl.stdout"
+  },
+  "raw/results/go/keep-ready/cycle-0000.jsonl": {
+    "bytes": 6904,
+    "sha256": "48cb228dddfbf14ff451f62d49aa6b39f3dc92f7b02a22082545f26822b076cf",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/keep-ready/cycle-0000.jsonl"
+  },
+  "raw/results/go/scale-to-zero/qualification-0000.jsonl.stdout": {
+    "bytes": 4626,
+    "sha256": "8d0a1b1b81a0855921c482b529eb42a7ed0e07b0d93c23605dd3600cc70e4cbf",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/scale-to-zero/qualification-0000.jsonl.stdout"
+  },
+  "raw/results/go/scale-to-zero/cycle-0000.jsonl.stdout": {
+    "bytes": 6917,
+    "sha256": "b04fc5b9c4d82b7ca7a99204b6a41b63538f07e0489f77e37612d16eee06620e",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/scale-to-zero/cycle-0000.jsonl.stdout"
+  },
+  "raw/results/go/scale-to-zero/cycle-0002.jsonl.stdout": {
+    "bytes": 6844,
+    "sha256": "33290683a851440d7bf80f8705a429cd4bf3aa688336cd2646d428ef7014fef5",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/scale-to-zero/cycle-0002.jsonl.stdout"
+  },
+  "raw/results/go/scale-to-zero/lifecycle.jsonl": {
+    "bytes": 10364090,
+    "sha256": "4c4b39f8d45c731939f9cd003b3311820eeb002186c9eb1d215dfe979a9fc604",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/scale-to-zero/lifecycle.jsonl"
+  },
+  "raw/results/go/scale-to-zero/cycle-0002.jsonl": {
+    "bytes": 6844,
+    "sha256": "33290683a851440d7bf80f8705a429cd4bf3aa688336cd2646d428ef7014fef5",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/scale-to-zero/cycle-0002.jsonl"
+  },
+  "raw/results/go/scale-to-zero/control-plane.log": {
+    "bytes": 3905,
+    "sha256": "688120832e48b6ed53aa23a1cd145c1be8d4a2e19e526bc4a2cf4055b4fd1225",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/scale-to-zero/control-plane.log"
+  },
+  "raw/results/go/scale-to-zero/cycle-0001.jsonl": {
+    "bytes": 6771,
+    "sha256": "61137eaae3463eb98bd1e3dcfaa85eee5fe771948c60c97908f458d45c2270dd",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/scale-to-zero/cycle-0001.jsonl"
+  },
+  "raw/results/go/scale-to-zero/warmup-0000.jsonl": {
+    "bytes": 68569,
+    "sha256": "c5620329b4424f5287b3a016773c7b29a6801d22251ecd8a8ebba3bf20550a40",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/scale-to-zero/warmup-0000.jsonl"
+  },
+  "raw/results/go/scale-to-zero/summary.json": {
+    "bytes": 21298,
+    "sha256": "b010c79526cc256d17b5dd9d29df3599a6a5a35a3498dae7e2c669f18a156a71",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/scale-to-zero/summary.json"
+  },
+  "raw/results/go/scale-to-zero/metrics/prometheus-snapshot.json": {
+    "bytes": 8365860,
+    "sha256": "86426bb478adcd5589c8df3caf30c16f1d5146a15d814a0dfc520a9ee9d701b2",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/scale-to-zero/metrics/prometheus-snapshot.json"
+  },
+  "raw/results/go/scale-to-zero/cycles.json": {
+    "bytes": 19767,
+    "sha256": "f8954ad7a7d80b502d8828729ede5a48dd9fe227559446b1a0ce80fd4a4a21d9",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/scale-to-zero/cycles.json"
+  },
+  "raw/results/go/scale-to-zero/cycle-0001.jsonl.stdout": {
+    "bytes": 6771,
+    "sha256": "61137eaae3463eb98bd1e3dcfaa85eee5fe771948c60c97908f458d45c2270dd",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/scale-to-zero/cycle-0001.jsonl.stdout"
+  },
+  "raw/results/go/scale-to-zero/qualification-0000.jsonl": {
+    "bytes": 4626,
+    "sha256": "8d0a1b1b81a0855921c482b529eb42a7ed0e07b0d93c23605dd3600cc70e4cbf",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/scale-to-zero/qualification-0000.jsonl"
+  },
+  "raw/results/go/scale-to-zero/warmup-0000.jsonl.stdout": {
+    "bytes": 68569,
+    "sha256": "c5620329b4424f5287b3a016773c7b29a6801d22251ecd8a8ebba3bf20550a40",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/scale-to-zero/warmup-0000.jsonl.stdout"
+  },
+  "raw/results/go/scale-to-zero/cycle-0000.jsonl": {
+    "bytes": 6917,
+    "sha256": "b04fc5b9c4d82b7ca7a99204b6a41b63538f07e0489f77e37612d16eee06620e",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/scale-to-zero/cycle-0000.jsonl"
+  },
+  "raw/results/go/protocol.json": {
+    "bytes": 1923,
+    "sha256": "a6403bd87fa4e41c30ff2e22d9d6804d950c360b7197c4d9784debbd771c3436",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/protocol.json"
+  },
+  "raw/results/go/paired-summary.json": {
+    "bytes": 51596,
+    "sha256": "47779fa71b32794bf7335498527dcaf42bbafae9de9a769183789e7498c186fc",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/go/paired-summary.json"
+  },
+  "raw/results/javascript/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/inputs/performance-medium.json"
+  },
+  "raw/results/javascript/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/inputs/runtime-contract.json"
+  },
+  "raw/results/javascript/run-metadata.json": {
+    "bytes": 12088,
+    "sha256": "bbe73c7ad094bb4fd0330aa91ed793cbc17bb0f3f6e2a3a0c72736293d991df7",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/run-metadata.json"
+  },
+  "raw/results/javascript/keep-ready/qualification-0000.jsonl.stdout": {
+    "bytes": 4680,
+    "sha256": "53f2cbd2c688d54c68950e86de0745634132e2164621c990c9594be521508be8",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/keep-ready/qualification-0000.jsonl.stdout"
+  },
+  "raw/results/javascript/keep-ready/cycle-0000.jsonl.stdout": {
+    "bytes": 6999,
+    "sha256": "4bdab61526ee96f961593f7aa96e0fccdd729f5ba0640a2695251b890739c18b",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/keep-ready/cycle-0000.jsonl.stdout"
+  },
+  "raw/results/javascript/keep-ready/cycle-0002.jsonl.stdout": {
+    "bytes": 6924,
+    "sha256": "d563671f8870f2f973fa75a2a5e9d70909a191f9053cbb29f110f23a3da4693e",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/keep-ready/cycle-0002.jsonl.stdout"
+  },
+  "raw/results/javascript/keep-ready/lifecycle.jsonl": {
+    "bytes": 11211194,
+    "sha256": "1a5b8f20280edc60e5007571f820f69cae573aff542b927533401d8df99badb3",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/keep-ready/lifecycle.jsonl"
+  },
+  "raw/results/javascript/keep-ready/cycle-0002.jsonl": {
+    "bytes": 6924,
+    "sha256": "d563671f8870f2f973fa75a2a5e9d70909a191f9053cbb29f110f23a3da4693e",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/keep-ready/cycle-0002.jsonl"
+  },
+  "raw/results/javascript/keep-ready/control-plane.log": {
+    "bytes": 3146,
+    "sha256": "5c06f28b6336038ad03c82300aeae88c9ba2ceb6ddd139b2cef96bc3851ca999",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/keep-ready/control-plane.log"
+  },
+  "raw/results/javascript/keep-ready/cycle-0001.jsonl": {
+    "bytes": 6852,
+    "sha256": "ca9ae7574b4fbeb0511bab74cd58e0cd3d2e52ce22e06d7a76e9f7306d277a85",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/keep-ready/cycle-0001.jsonl"
+  },
+  "raw/results/javascript/keep-ready/warmup-0000.jsonl": {
+    "bytes": 69418,
+    "sha256": "f97cc8e55ab61d3bd3e98aee26429be619328974c321b068549689d41676811f",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/keep-ready/warmup-0000.jsonl"
+  },
+  "raw/results/javascript/keep-ready/summary.json": {
+    "bytes": 21418,
+    "sha256": "b6c07acd6f544c1b6275de46b9ec9f91e10383de508a908fb428c7e8cd1ac585",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/keep-ready/summary.json"
+  },
+  "raw/results/javascript/keep-ready/metrics/prometheus-snapshot.json": {
+    "bytes": 9291157,
+    "sha256": "72093d995aabcde3232d6ea0cb5f2a61c9bfdfdc95bb3745dde1ddc7dd8076c6",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/keep-ready/metrics/prometheus-snapshot.json"
+  },
+  "raw/results/javascript/keep-ready/cycles.json": {
+    "bytes": 19874,
+    "sha256": "9f7940817af597016235fb50da0843ba4a9fb1a0ebd9d3fa9150e508ce5597a7",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/keep-ready/cycles.json"
+  },
+  "raw/results/javascript/keep-ready/cycle-0001.jsonl.stdout": {
+    "bytes": 6852,
+    "sha256": "ca9ae7574b4fbeb0511bab74cd58e0cd3d2e52ce22e06d7a76e9f7306d277a85",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/keep-ready/cycle-0001.jsonl.stdout"
+  },
+  "raw/results/javascript/keep-ready/qualification-0000.jsonl": {
+    "bytes": 4680,
+    "sha256": "53f2cbd2c688d54c68950e86de0745634132e2164621c990c9594be521508be8",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/keep-ready/qualification-0000.jsonl"
+  },
+  "raw/results/javascript/keep-ready/warmup-0000.jsonl.stdout": {
+    "bytes": 69418,
+    "sha256": "f97cc8e55ab61d3bd3e98aee26429be619328974c321b068549689d41676811f",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/keep-ready/warmup-0000.jsonl.stdout"
+  },
+  "raw/results/javascript/keep-ready/cycle-0000.jsonl": {
+    "bytes": 6999,
+    "sha256": "4bdab61526ee96f961593f7aa96e0fccdd729f5ba0640a2695251b890739c18b",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/keep-ready/cycle-0000.jsonl"
+  },
+  "raw/results/javascript/scale-to-zero/qualification-0000.jsonl.stdout": {
+    "bytes": 4687,
+    "sha256": "e96bdeb28b1087e10b64817e8742b50a6a9de4b868fe23a53cae81fb01f0df68",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/scale-to-zero/qualification-0000.jsonl.stdout"
+  },
+  "raw/results/javascript/scale-to-zero/cycle-0000.jsonl.stdout": {
+    "bytes": 7013,
+    "sha256": "4c9de41afeb2b6bd72f57000afab7e06629bf9ea494b11e037c70ba0f869a3ef",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/scale-to-zero/cycle-0000.jsonl.stdout"
+  },
+  "raw/results/javascript/scale-to-zero/cycle-0002.jsonl.stdout": {
+    "bytes": 6942,
+    "sha256": "656f9f006cbb480933058fb9d38741336bbf7bc3852a4aacd341b3988515ad44",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/scale-to-zero/cycle-0002.jsonl.stdout"
+  },
+  "raw/results/javascript/scale-to-zero/lifecycle.jsonl": {
+    "bytes": 10412585,
+    "sha256": "04021d450d6c87b9667dedb77ce29f0d35a8eac0801ce89f5a00cb21fbe7602d",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/scale-to-zero/lifecycle.jsonl"
+  },
+  "raw/results/javascript/scale-to-zero/cycle-0002.jsonl": {
+    "bytes": 6942,
+    "sha256": "656f9f006cbb480933058fb9d38741336bbf7bc3852a4aacd341b3988515ad44",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/scale-to-zero/cycle-0002.jsonl"
+  },
+  "raw/results/javascript/scale-to-zero/control-plane.log": {
+    "bytes": 3985,
+    "sha256": "d41865a9a62f021731a12a5f30ddaf5f2726c38b0028ee12209338aa169943cc",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/scale-to-zero/control-plane.log"
+  },
+  "raw/results/javascript/scale-to-zero/cycle-0001.jsonl": {
+    "bytes": 6867,
+    "sha256": "f59409fb8068ac93c61ec9d338f49315d04482341c402db94acd90d247b847ca",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/scale-to-zero/cycle-0001.jsonl"
+  },
+  "raw/results/javascript/scale-to-zero/warmup-0000.jsonl": {
+    "bytes": 69540,
+    "sha256": "a0f0898ce70a7b118b9faf4cc3b018af56a704e35895dfcf302c62a86ba19341",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/scale-to-zero/warmup-0000.jsonl"
+  },
+  "raw/results/javascript/scale-to-zero/summary.json": {
+    "bytes": 21470,
+    "sha256": "d63f07d6a1ee824786c585ff6d72fa87cc6a79aa799f151acffea27847470776",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/scale-to-zero/summary.json"
+  },
+  "raw/results/javascript/scale-to-zero/metrics/prometheus-snapshot.json": {
+    "bytes": 8515916,
+    "sha256": "6d5c72e236b8bf47a4b364fddc710393a52184ee88d60b3b5ad9d5dc68ef80af",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/scale-to-zero/metrics/prometheus-snapshot.json"
+  },
+  "raw/results/javascript/scale-to-zero/cycles.json": {
+    "bytes": 19922,
+    "sha256": "7169d3c696b864245e3ba4d3920c1f2537b3be51fa3fc406c7e17dbd928173f4",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/scale-to-zero/cycles.json"
+  },
+  "raw/results/javascript/scale-to-zero/cycle-0001.jsonl.stdout": {
+    "bytes": 6867,
+    "sha256": "f59409fb8068ac93c61ec9d338f49315d04482341c402db94acd90d247b847ca",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/scale-to-zero/cycle-0001.jsonl.stdout"
+  },
+  "raw/results/javascript/scale-to-zero/qualification-0000.jsonl": {
+    "bytes": 4687,
+    "sha256": "e96bdeb28b1087e10b64817e8742b50a6a9de4b868fe23a53cae81fb01f0df68",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/scale-to-zero/qualification-0000.jsonl"
+  },
+  "raw/results/javascript/scale-to-zero/warmup-0000.jsonl.stdout": {
+    "bytes": 69540,
+    "sha256": "a0f0898ce70a7b118b9faf4cc3b018af56a704e35895dfcf302c62a86ba19341",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/scale-to-zero/warmup-0000.jsonl.stdout"
+  },
+  "raw/results/javascript/scale-to-zero/cycle-0000.jsonl": {
+    "bytes": 7013,
+    "sha256": "4c9de41afeb2b6bd72f57000afab7e06629bf9ea494b11e037c70ba0f869a3ef",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/scale-to-zero/cycle-0000.jsonl"
+  },
+  "raw/results/javascript/protocol.json": {
+    "bytes": 1939,
+    "sha256": "e8ed53e3121fd5800f99753476a6ce60f5b565bc24e1c6cc446dc161aa877927",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/protocol.json"
+  },
+  "raw/results/javascript/paired-summary.json": {
+    "bytes": 51945,
+    "sha256": "1b29174f339f8ddffbb8171a496429a8482fd1f91f2a3b81cd6e513bf5329240",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/javascript/paired-summary.json"
+  },
+  "raw/results/python/inputs/performance-medium.json": {
+    "bytes": 146751,
+    "sha256": "add6c51f3c197b6b2929383a56a288193d2f88d89a9225a198a3c9549ff0986f",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/inputs/performance-medium.json"
+  },
+  "raw/results/python/inputs/runtime-contract.json": {
+    "bytes": 158475,
+    "sha256": "5618ea9f7b4fb626bc8db1035461ffe43c38c8a2b8516b90a21f72ac10a82857",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/inputs/runtime-contract.json"
+  },
+  "raw/results/python/run-metadata.json": {
+    "bytes": 12014,
+    "sha256": "a0ccbad9a56205dbca5532d00e0a2f798fd450bd4f55fe4148ba62217565426d",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/run-metadata.json"
+  },
+  "raw/results/python/keep-ready/qualification-0000.jsonl.stdout": {
+    "bytes": 4648,
+    "sha256": "52b62862904e65acebbe6a92e0cc02b4e71f3a996de639a57d74fe65eabb2364",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/keep-ready/qualification-0000.jsonl.stdout"
+  },
+  "raw/results/python/keep-ready/cycle-0000.jsonl.stdout": {
+    "bytes": 6948,
+    "sha256": "e55b2972fa0f16e00b34d190513683e1faf638d841255a72f8eb1b76c2df9316",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/keep-ready/cycle-0000.jsonl.stdout"
+  },
+  "raw/results/python/keep-ready/cycle-0002.jsonl.stdout": {
+    "bytes": 6876,
+    "sha256": "e3237ae58053c37ed6f1cc3248acb29b2f073908281a9de75fd9faae87753493",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/keep-ready/cycle-0002.jsonl.stdout"
+  },
+  "raw/results/python/keep-ready/lifecycle.jsonl": {
+    "bytes": 11134158,
+    "sha256": "f458a8f9ffdee5da032577f017c6ee2caaa83e90a2511f469e76413370faa4fe",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/keep-ready/lifecycle.jsonl"
+  },
+  "raw/results/python/keep-ready/cycle-0002.jsonl": {
+    "bytes": 6876,
+    "sha256": "e3237ae58053c37ed6f1cc3248acb29b2f073908281a9de75fd9faae87753493",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/keep-ready/cycle-0002.jsonl"
+  },
+  "raw/results/python/keep-ready/control-plane.log": {
+    "bytes": 3122,
+    "sha256": "5fcd94da06eb914ebe0128e1edf374340b915792ae0ec56822fa17aaa17a77d0",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/keep-ready/control-plane.log"
+  },
+  "raw/results/python/keep-ready/cycle-0001.jsonl": {
+    "bytes": 6806,
+    "sha256": "c100035266a2468a259671e48f4ff4cd7d208a1f3c2c118f143b7a1adb681862",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/keep-ready/cycle-0001.jsonl"
+  },
+  "raw/results/python/keep-ready/warmup-0000.jsonl": {
+    "bytes": 68935,
+    "sha256": "ed06414f4b71a57bf1596d19f7be90fd7a12c868474b100d47bbea65f03088af",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/keep-ready/warmup-0000.jsonl"
+  },
+  "raw/results/python/keep-ready/summary.json": {
+    "bytes": 21336,
+    "sha256": "8d5395b67c9a499173f4b5cbc6bb5fb3301fd45b66e290349e38b4d320154cd4",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/keep-ready/summary.json"
+  },
+  "raw/results/python/keep-ready/metrics/prometheus-snapshot.json": {
+    "bytes": 9203273,
+    "sha256": "f35e0eab27611dbec0271aedffb07763f00fa824e60a7ee972120468a791d49f",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/keep-ready/metrics/prometheus-snapshot.json"
+  },
+  "raw/results/python/keep-ready/cycles.json": {
+    "bytes": 19799,
+    "sha256": "85a63ebee9866113a959017e4759250b13edf643e03bd48e40cf5a89dd1e89b0",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/keep-ready/cycles.json"
+  },
+  "raw/results/python/keep-ready/cycle-0001.jsonl.stdout": {
+    "bytes": 6806,
+    "sha256": "c100035266a2468a259671e48f4ff4cd7d208a1f3c2c118f143b7a1adb681862",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/keep-ready/cycle-0001.jsonl.stdout"
+  },
+  "raw/results/python/keep-ready/qualification-0000.jsonl": {
+    "bytes": 4648,
+    "sha256": "52b62862904e65acebbe6a92e0cc02b4e71f3a996de639a57d74fe65eabb2364",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/keep-ready/qualification-0000.jsonl"
+  },
+  "raw/results/python/keep-ready/warmup-0000.jsonl.stdout": {
+    "bytes": 68935,
+    "sha256": "ed06414f4b71a57bf1596d19f7be90fd7a12c868474b100d47bbea65f03088af",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/keep-ready/warmup-0000.jsonl.stdout"
+  },
+  "raw/results/python/keep-ready/cycle-0000.jsonl": {
+    "bytes": 6948,
+    "sha256": "e55b2972fa0f16e00b34d190513683e1faf638d841255a72f8eb1b76c2df9316",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/keep-ready/cycle-0000.jsonl"
+  },
+  "raw/results/python/scale-to-zero/qualification-0000.jsonl.stdout": {
+    "bytes": 4656,
+    "sha256": "87ef0adafbec7d79eabc00d7f3f8faded4a89d0b26b5b4524f54245a31355ca5",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/scale-to-zero/qualification-0000.jsonl.stdout"
+  },
+  "raw/results/python/scale-to-zero/cycle-0000.jsonl.stdout": {
+    "bytes": 6964,
+    "sha256": "76f2ad195216dd05e8aa0935254016b4609b4a02a1cf7d4d2969ecf61e3610cc",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/scale-to-zero/cycle-0000.jsonl.stdout"
+  },
+  "raw/results/python/scale-to-zero/cycle-0002.jsonl.stdout": {
+    "bytes": 6891,
+    "sha256": "746301859d3dbc5d74155cf318e3e558dc3d1eb57003c46bfc4b5b9525b5c6c9",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/scale-to-zero/cycle-0002.jsonl.stdout"
+  },
+  "raw/results/python/scale-to-zero/lifecycle.jsonl": {
+    "bytes": 10362577,
+    "sha256": "01d883d417f750f3b183c8c23e5e98cba1bcaf0cdd3e1182feb63792bd2e9ed6",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/scale-to-zero/lifecycle.jsonl"
+  },
+  "raw/results/python/scale-to-zero/cycle-0002.jsonl": {
+    "bytes": 6891,
+    "sha256": "746301859d3dbc5d74155cf318e3e558dc3d1eb57003c46bfc4b5b9525b5c6c9",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/scale-to-zero/cycle-0002.jsonl"
+  },
+  "raw/results/python/scale-to-zero/control-plane.log": {
+    "bytes": 3946,
+    "sha256": "8c08f869018701fb03f7fa714d8a6cdec5ee026be8015aa4bf4d1fab7ac22dd9",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/scale-to-zero/control-plane.log"
+  },
+  "raw/results/python/scale-to-zero/cycle-0001.jsonl": {
+    "bytes": 6817,
+    "sha256": "9c19a1dd11bf2da9a0bb5292998ba7266bafff696055d35d65c95ef9e897c926",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/scale-to-zero/cycle-0001.jsonl"
+  },
+  "raw/results/python/scale-to-zero/warmup-0000.jsonl": {
+    "bytes": 69067,
+    "sha256": "a9d4be9b8e5682bc9b2e98f0580ba392e01a96814e1be56ee131b74e06a25688",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/scale-to-zero/warmup-0000.jsonl"
+  },
+  "raw/results/python/scale-to-zero/summary.json": {
+    "bytes": 21382,
+    "sha256": "7f26f38c2fab86b13741275aa56bfdbb9cb8efd45b07d47263fa0e3231b8a9a9",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/scale-to-zero/summary.json"
+  },
+  "raw/results/python/scale-to-zero/metrics/prometheus-snapshot.json": {
+    "bytes": 8436023,
+    "sha256": "582061b939eac07cff92ac95386d660d1ebb86e2f6507944f132f6ca20d5ae64",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/scale-to-zero/metrics/prometheus-snapshot.json"
+  },
+  "raw/results/python/scale-to-zero/cycles.json": {
+    "bytes": 19843,
+    "sha256": "ef0e454ec0d9c8c55201f5d5f18416a83b9e00b6533eea6fc000b58f22828d48",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/scale-to-zero/cycles.json"
+  },
+  "raw/results/python/scale-to-zero/cycle-0001.jsonl.stdout": {
+    "bytes": 6817,
+    "sha256": "9c19a1dd11bf2da9a0bb5292998ba7266bafff696055d35d65c95ef9e897c926",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/scale-to-zero/cycle-0001.jsonl.stdout"
+  },
+  "raw/results/python/scale-to-zero/qualification-0000.jsonl": {
+    "bytes": 4656,
+    "sha256": "87ef0adafbec7d79eabc00d7f3f8faded4a89d0b26b5b4524f54245a31355ca5",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/scale-to-zero/qualification-0000.jsonl"
+  },
+  "raw/results/python/scale-to-zero/warmup-0000.jsonl.stdout": {
+    "bytes": 69067,
+    "sha256": "a9d4be9b8e5682bc9b2e98f0580ba392e01a96814e1be56ee131b74e06a25688",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/scale-to-zero/warmup-0000.jsonl.stdout"
+  },
+  "raw/results/python/scale-to-zero/cycle-0000.jsonl": {
+    "bytes": 6964,
+    "sha256": "76f2ad195216dd05e8aa0935254016b4609b4a02a1cf7d4d2969ecf61e3610cc",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/scale-to-zero/cycle-0000.jsonl"
+  },
+  "raw/results/python/protocol.json": {
+    "bytes": 1931,
+    "sha256": "feea8d1e0f9047a7909ca6da8958c896e3690051dc006e366ef7d4e8142453ac",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/protocol.json"
+  },
+  "raw/results/python/paired-summary.json": {
+    "bytes": 52247,
+    "sha256": "0c1196d9468198f7c030079f1668e7be5efd0ac0895ec5be7e9f2bd8d08da3ae",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./results/python/paired-summary.json"
+  },
+  "raw/scenario-rust.yaml": {
+    "bytes": 391,
+    "sha256": "423ba9a86e658e822546d37c44bc25fc53025a4d1486c383e812eeb8fb1116ff",
+    "sourceArchive": "experiments/runtime-comparison/results/2026-10-31/b6-idle-dispatchfix-raw-evidence.tar.gz",
+    "archiveSha256": "87cc09aaba4aa22200d2cb0485b6f067c4883a71caa8dcd6ed2f7933ae1bab91",
+    "member": "./scenario-rust.yaml"
+  },
+  "derived/analysis.json": {
+    "bytes": 26023,
+    "sha256": "03a4fda676d319cfae41538e051eb38f41dc8ebb8324142ac5789e8bec73c393",
+    "source": "experiments/runtime-comparison/analysis/output/b6/analysis.json"
+  },
+  "derived/arms.csv": {
+    "bytes": 2143,
+    "sha256": "0f8d799f1a2a34490891d793995462a37a02b7338b92cbc5f0dee46ae7239957",
+    "source": "experiments/runtime-comparison/analysis/output/b6/arms.csv"
+  },
+  "derived/comparisons.csv": {
+    "bytes": 1160,
+    "sha256": "1fec4ad7371047bac108b39b3e72b92ff5c933ede532a7dbe9bd18d9b2e1bb56",
+    "source": "experiments/runtime-comparison/analysis/output/b6/comparisons.csv"
+  },
+  "derived/cycles.csv": {
+    "bytes": 5567,
+    "sha256": "391c0d35b99e68564d51d110b9141c356a1aa008048178c2eb80b1a98a163fca",
+    "source": "experiments/runtime-comparison/analysis/output/b6/cycles.csv"
+  }
+}

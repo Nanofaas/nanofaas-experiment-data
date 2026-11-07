@@ -1,0 +1,32 @@
+{
+  "continuous-oracle": {
+    "archiveFilesVerified": 840,
+    "archiveBytesVerified": 8617502481,
+    "compressedSha256": "c89681d7800011dcbf95d7fd00a74c5357e1022daf3a1aab4c9a4c931f16934c",
+    "freezeFilesVerified": [
+      "distribution.json",
+      "environment.yaml",
+      "input-context.json",
+      "selected.json",
+      "source-used.py",
+      "trace.json",
+      "scenario.yaml",
+      "operator-protocol.json"
+    ]
+  },
+  "continuous-ari-history-fix": {
+    "archiveFilesVerified": 848,
+    "archiveBytesVerified": 8665561857,
+    "compressedSha256": "ebe3ecfb8e75674f079cabb0c10ca76e6dbd31b2223a16181f3d112a4856864d",
+    "freezeFilesVerified": [
+      "distribution.json",
+      "environment.yaml",
+      "input-context.json",
+      "selected.json",
+      "source-used.py",
+      "trace.json",
+      "scenario.yaml",
+      "operator-protocol.json"
+    ]
+  }
+}

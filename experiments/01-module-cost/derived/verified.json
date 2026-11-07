@@ -1,0 +1,2204 @@
+[
+  {
+    "schemaVersion": 1,
+    "protocol": {
+      "build_capacity": {
+        "cpus": 8,
+        "memory_mib": 32091
+      },
+      "concurrency": 2,
+      "cpu_memory_boundary": "control-plane container; function separate",
+      "environment": {
+        "azure": {
+          "architecture": "amd64",
+          "arm_image_urn": null,
+          "arm_vm_size": "Standard_D8ps_v5",
+          "eviction_policy": "Delete",
+          "image_urn": "Canonical:ubuntu-24_04-lts:server:24.04.202607140",
+          "loadgen_vm_size": "Standard_D8s_v5",
+          "location": "westeurope",
+          "max_bid_price": -1.0,
+          "operator_source_cidr": "auto",
+          "priority": "Spot",
+          "resource_group": "maurinoRicerca-rg",
+          "ssh_key_path": "/home/michele/.ssh/e02_operator.pub",
+          "vm_size": "Standard_D8s_v5",
+          "work_dir": null
+        },
+        "containerdMavenRepository": null,
+        "logging": null,
+        "placement": {},
+        "provider": "azure",
+        "proxmox": null,
+        "roles": {
+          "loadgen": {
+            "cpus": 4,
+            "disk": "30G",
+            "home": null,
+            "host": null,
+            "hpaScaleToZero": false,
+            "kubeconfig": null,
+            "memory": "12G",
+            "name": "mc-0d280893538b-1-loadgen",
+            "user": "azureuser"
+          },
+          "stack": {
+            "cpus": 4,
+            "disk": "128G",
+            "home": null,
+            "host": null,
+            "hpaScaleToZero": false,
+            "kubeconfig": null,
+            "memory": "12G",
+            "name": "mc-0d280893538b-1-stack",
+            "user": "azureuser"
+          }
+        },
+        "sites": {}
+      },
+      "heap_mib": 64,
+      "host": {
+        "boot_id": "94bdc630-328a-4ab3-b572-011d77467fa9",
+        "kernel": "6.17.0-1020-azure",
+        "machine": "x86_64"
+      },
+      "nanolab_source": {
+        "git_commit": "c4d8275307a02c8379805fd1c781ff6567d6e74d",
+        "git_diff_sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+        "git_dirty": false,
+        "git_status": []
+      },
+      "phases": {
+        "drain_seconds": 40,
+        "idle_seconds": 180,
+        "idle_window_seconds": 120,
+        "load_seconds": 180,
+        "rate": 40,
+        "warmup_seconds": 60
+      },
+      "protocol": {
+        "blockId": "mc-0d280893538b-1",
+        "order": [
+          "native-cs",
+          "jvm-s",
+          "native-c",
+          "native-base",
+          "native-s",
+          "jvm-cs",
+          "jvm-base",
+          "jvm-c"
+        ]
+      },
+      "queue": 20,
+      "replicas": 1,
+      "retries": 0,
+      "schemaVersion": 1,
+      "source": {
+        "git_commit": "b1cb1608f414df87fb039783aa8ecd6715b7db8e",
+        "git_diff_sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+        "git_dirty": false,
+        "git_status": []
+      },
+      "source_fingerprint": "463c5ab24c1f099433866058c3e4034c300ce153a8957081239432328d7098c5",
+      "tooling": {
+        "dependencies": {
+          "azure-vm-sdk": "0.9.0",
+          "nanolab": "0.6.0",
+          "sonata-engine": "0.6.20",
+          "sonata-tasks": "0.6.20"
+        },
+        "implementation_sha256": "1a2c5ed715e05497ce89b50f6e44e556e9914b71a111adbf38dae41cb09564ef"
+      }
+    },
+    "arms": {
+      "jvm-base": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 448.41504892451536,
+            "mib_seconds": 53809.80587094184,
+            "control_plane_mean_mib": 272.42628692854197,
+            "function_mean_mib": 175.98876199597336
+          },
+          "rss": {
+            "mean_mib": 440.8966659880942,
+            "mib_seconds": 52907.5999185713,
+            "control_plane_mean_mib": 269.0108152808622,
+            "function_mean_mib": 171.885850707232
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 477.126655908229,
+              "mib_seconds": 85871.82426324114,
+              "control_plane_mean_mib": 283.43547561466784,
+              "function_mean_mib": 193.6911802935612
+            },
+            "rss": {
+              "mean_mib": 469.0104629945533,
+              "mib_seconds": 84411.09620929696,
+              "control_plane_mean_mib": 278.84222171097406,
+              "function_mean_mib": 190.1682412835792
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.14111742285714285,
+            "function": 0.1403016742857143
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.005714426086956523,
+          "function": 0.004357834782608697
+        },
+        "load": {
+          "first_send_ms": 1793547041638,
+          "last_terminal_ms": 1793547221615,
+          "scheduled": 7200,
+          "emitted": 7200,
+          "dropped": 0,
+          "valid": 7200,
+          "status_counts": {
+            "200": 7200
+          },
+          "goodput_rps": 40.0,
+          "p50_ms": 4,
+          "p95_ms": 6,
+          "p99_ms": 11,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "app.jar": 50541385,
+          "config/recipe.yaml": 43,
+          "jvm.options": 219,
+          "launch.args": 17
+        },
+        "image_bytes": 96319316,
+        "control_plane_uid": "f1b812b4-6502-49a7-8136-9bbf9db10a48",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:6b3c750a55e6eeaf263364a15f298cac538afa741fd1cbcfef105b28e1db4f2f"
+      },
+      "jvm-c": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 455.0851616361489,
+            "mib_seconds": 54610.21939633787,
+            "control_plane_mean_mib": 277.7590690050895,
+            "function_mean_mib": 177.3260926310594
+          },
+          "rss": {
+            "mean_mib": 443.3980443882135,
+            "mib_seconds": 53207.76532658562,
+            "control_plane_mean_mib": 268.84774015468236,
+            "function_mean_mib": 174.55030423353116
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 479.68159744037735,
+              "mib_seconds": 86344.12659412436,
+              "control_plane_mean_mib": 284.538952800116,
+              "function_mean_mib": 195.1426446402613
+            },
+            "rss": {
+              "mean_mib": 466.80326756670945,
+              "mib_seconds": 84025.98858160432,
+              "control_plane_mean_mib": 274.8858908656924,
+              "function_mean_mib": 191.9173767010171
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.14487277714285715,
+            "function": 0.13386287428571428
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.008072852173913063,
+          "function": 0.00511298260869566
+        },
+        "load": {
+          "first_send_ms": 1793547534143,
+          "last_terminal_ms": 1793547714146,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 4,
+          "p95_ms": 6,
+          "p99_ms": 8,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 10.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "app.jar": 50586271,
+          "config/recipe.yaml": 43,
+          "jvm.options": 219,
+          "launch.args": 17
+        },
+        "image_bytes": 96356489,
+        "control_plane_uid": "eb79c898-e426-455d-acd2-21a4eabeb8b7",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:6b3c750a55e6eeaf263364a15f298cac538afa741fd1cbcfef105b28e1db4f2f"
+      },
+      "jvm-s": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 445.8516379840517,
+            "mib_seconds": 53502.1965580862,
+            "control_plane_mean_mib": 277.5475766637828,
+            "function_mean_mib": 168.30406132026886
+          },
+          "rss": {
+            "mean_mib": 436.3625435727959,
+            "mib_seconds": 52363.50522873551,
+            "control_plane_mean_mib": 271.10600931951774,
+            "function_mean_mib": 165.25653425327812
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 474.44584746236023,
+              "mib_seconds": 85402.62482675817,
+              "control_plane_mean_mib": 281.7057938187567,
+              "function_mean_mib": 192.7400536436035
+            },
+            "rss": {
+              "mean_mib": 465.0524870759275,
+              "mib_seconds": 83711.77298932336,
+              "control_plane_mean_mib": 275.65353787435293,
+              "function_mean_mib": 189.39894920157454
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.1421311714285714,
+            "function": 0.14326137714285714
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.0067629391304347775,
+          "function": 0.00440887826086958
+        },
+        "load": {
+          "first_send_ms": 1793544576349,
+          "last_terminal_ms": 1793544756354,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 5,
+          "p95_ms": 6,
+          "p99_ms": 8,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "app.jar": 50572755,
+          "config/recipe.yaml": 43,
+          "jvm.options": 219,
+          "launch.args": 17
+        },
+        "image_bytes": 96343326,
+        "control_plane_uid": "539211f7-f06f-49bb-bcb5-ae549e2e98c1",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:6b3c750a55e6eeaf263364a15f298cac538afa741fd1cbcfef105b28e1db4f2f"
+      },
+      "jvm-cs": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 443.7088783123841,
+            "mib_seconds": 53245.06539748609,
+            "control_plane_mean_mib": 273.6804820155104,
+            "function_mean_mib": 170.0283962968737
+          },
+          "rss": {
+            "mean_mib": 433.6242573538795,
+            "mib_seconds": 52034.91088246554,
+            "control_plane_mean_mib": 267.8019409672668,
+            "function_mean_mib": 165.82231638661275
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 464.902036316334,
+              "mib_seconds": 83685.15596866608,
+              "control_plane_mean_mib": 277.4246021219039,
+              "function_mean_mib": 187.47743419443006
+            },
+            "rss": {
+              "mean_mib": 453.2352414195534,
+              "mib_seconds": 81585.06288598664,
+              "control_plane_mean_mib": 270.9794156161282,
+              "function_mean_mib": 182.25582580342518
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.14190902857142856,
+            "function": 0.14445337142857143
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.009473608695652148,
+          "function": 0.005467965217391309
+        },
+        "load": {
+          "first_send_ms": 1793546549510,
+          "last_terminal_ms": 1793546729516,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 5,
+          "p95_ms": 6,
+          "p99_ms": 8,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "app.jar": 50617639,
+          "config/recipe.yaml": 43,
+          "jvm.options": 219,
+          "launch.args": 17
+        },
+        "image_bytes": 96384975,
+        "control_plane_uid": "c07fc908-723f-49c3-8104-7110f97e18f3",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:6b3c750a55e6eeaf263364a15f298cac538afa741fd1cbcfef105b28e1db4f2f"
+      },
+      "native-base": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 201.71113665343728,
+            "mib_seconds": 24205.336398412473,
+            "control_plane_mean_mib": 34.18613468587864,
+            "function_mean_mib": 167.52500196755864
+          },
+          "rss": {
+            "mean_mib": 196.41259719342148,
+            "mib_seconds": 23569.51166321058,
+            "control_plane_mean_mib": 31.94582026040492,
+            "function_mean_mib": 164.46677693301658
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 230.8221647953344,
+              "mib_seconds": 41548.68207946513,
+              "control_plane_mean_mib": 40.209197103138,
+              "function_mean_mib": 190.6129676921964
+            },
+            "rss": {
+              "mean_mib": 218.37087097758607,
+              "mib_seconds": 39307.41184109636,
+              "control_plane_mean_mib": 31.912358690942924,
+              "function_mean_mib": 186.45851228664316
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.11204795428571428,
+            "function": 0.13255396
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.0016130869565217471,
+          "function": 0.004022686956521743
+        },
+        "load": {
+          "first_send_ms": 1793545563841,
+          "last_terminal_ms": 1793545743844,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 5,
+          "p95_ms": 7,
+          "p99_ms": 9,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 10.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "application": 185060344,
+          "config/recipe.yaml": 43,
+          "libawt.so": 924120,
+          "libawt_headless.so": 35968,
+          "libawt_xawt.so": 520424,
+          "libjava.so": 9336,
+          "libjvm.so": 9336,
+          "libmanagement_ext.so": 33000
+        },
+        "image_bytes": 73036449,
+        "control_plane_uid": "f734b1d7-e86c-4ebd-b8e3-e9e6733b9597",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:6b3c750a55e6eeaf263364a15f298cac538afa741fd1cbcfef105b28e1db4f2f"
+      },
+      "native-c": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 208.67699277998568,
+            "mib_seconds": 25041.239133598283,
+            "control_plane_mean_mib": 36.161229518265465,
+            "function_mean_mib": 172.51576326172022
+          },
+          "rss": {
+            "mean_mib": 202.80409733088842,
+            "mib_seconds": 24336.49167970661,
+            "control_plane_mean_mib": 33.452828484758115,
+            "function_mean_mib": 169.3512688461303
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 231.15519066793294,
+              "mib_seconds": 41608.85892908648,
+              "control_plane_mean_mib": 35.83602783637542,
+              "function_mean_mib": 195.31916283155752
+            },
+            "rss": {
+              "mean_mib": 224.39884027395357,
+              "mib_seconds": 40392.688833116554,
+              "control_plane_mean_mib": 32.46345432529255,
+              "function_mean_mib": 191.935385948661
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.10302820571428571,
+            "function": 0.13634925714285714
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.001819930434782613,
+          "function": 0.005255608695652176
+        },
+        "load": {
+          "first_send_ms": 1793545068946,
+          "last_terminal_ms": 1793545248950,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 4,
+          "p95_ms": 6,
+          "p99_ms": 8,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 10.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "application": 185719800,
+          "config/recipe.yaml": 43,
+          "libawt.so": 924120,
+          "libawt_headless.so": 35968,
+          "libawt_xawt.so": 520424,
+          "libjava.so": 9336,
+          "libjvm.so": 9336,
+          "libmanagement_ext.so": 33000
+        },
+        "image_bytes": 73090455,
+        "control_plane_uid": "86ee650c-1949-4e29-9374-37d030855ba5",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:6b3c750a55e6eeaf263364a15f298cac538afa741fd1cbcfef105b28e1db4f2f"
+      },
+      "native-s": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 204.2992123180923,
+            "mib_seconds": 24515.905478171073,
+            "control_plane_mean_mib": 34.86636030063188,
+            "function_mean_mib": 169.4328520174604
+          },
+          "rss": {
+            "mean_mib": 198.91602228841123,
+            "mib_seconds": 23869.922674609348,
+            "control_plane_mean_mib": 32.535129435298344,
+            "function_mean_mib": 166.3808928531129
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 225.82441249160695,
+              "mib_seconds": 40649.07167262398,
+              "control_plane_mean_mib": 34.73355566958098,
+              "function_mean_mib": 191.09085682202598
+            },
+            "rss": {
+              "mean_mib": 219.23849355898255,
+              "mib_seconds": 39463.586508426815,
+              "control_plane_mean_mib": 31.486936515411255,
+              "function_mean_mib": 187.75155704357132
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.11592896,
+            "function": 0.13648597714285715
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.0017970956521739152,
+          "function": 0.004360182608695657
+        },
+        "load": {
+          "first_send_ms": 1793546057704,
+          "last_terminal_ms": 1793546237707,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 4,
+          "p95_ms": 7,
+          "p99_ms": 9,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "application": 185711608,
+          "config/recipe.yaml": 43,
+          "libawt.so": 924120,
+          "libawt_headless.so": 35968,
+          "libawt_xawt.so": 520424,
+          "libjava.so": 9336,
+          "libjvm.so": 9336,
+          "libmanagement_ext.so": 33000
+        },
+        "image_bytes": 73089819,
+        "control_plane_uid": "8e5c3eba-00d7-4b48-a15e-bdc5e9914245",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:6b3c750a55e6eeaf263364a15f298cac538afa741fd1cbcfef105b28e1db4f2f"
+      },
+      "native-cs": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 212.1582444299323,
+            "mib_seconds": 25458.989331591874,
+            "control_plane_mean_mib": 36.0051673134168,
+            "function_mean_mib": 176.15307711651548
+          },
+          "rss": {
+            "mean_mib": 206.22858196767046,
+            "mib_seconds": 24747.429836120456,
+            "control_plane_mean_mib": 33.256915053818375,
+            "function_mean_mib": 172.9716669138521
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 226.89478429717903,
+              "mib_seconds": 40841.96879504062,
+              "control_plane_mean_mib": 36.104770181801314,
+              "function_mean_mib": 190.79001411537772
+            },
+            "rss": {
+              "mean_mib": 219.98135717750245,
+              "mib_seconds": 39597.5242584981,
+              "control_plane_mean_mib": 32.66213306579865,
+              "function_mean_mib": 187.3192241117038
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.10536373714285714,
+            "function": 0.13695910285714286
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.0017498000000000023,
+          "function": 0.005516982608695657
+        },
+        "load": {
+          "first_send_ms": 1793544082196,
+          "last_terminal_ms": 1793544262200,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 5,
+          "p95_ms": 7,
+          "p99_ms": 8,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "application": 185768952,
+          "config/recipe.yaml": 43,
+          "libawt.so": 924120,
+          "libawt_headless.so": 35968,
+          "libawt_xawt.so": 520424,
+          "libjava.so": 9336,
+          "libjvm.so": 9336,
+          "libmanagement_ext.so": 33000
+        },
+        "image_bytes": 73111848,
+        "control_plane_uid": "ec8cab3c-82ae-41ea-9841-570e6e8fe732",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:6b3c750a55e6eeaf263364a15f298cac538afa741fd1cbcfef105b28e1db4f2f"
+      }
+    },
+    "errors": {},
+    "contrasts": {
+      "jvm": {
+        "working_set_mib": {
+          "c-base": 5.332782076547517,
+          "s-base": 5.12128973524085,
+          "cs-base": 1.2541950869684229,
+          "interaction": -9.199876724819944
+        },
+        "rss_mib": {
+          "c-base": -0.16307512617981956,
+          "s-base": 2.0951940386555634,
+          "cs-base": -1.2088743135954019,
+          "interaction": -3.1409932260711457
+        },
+        "cpu_cores": {
+          "c-base": 0.0023584260869565403,
+          "s-base": 0.001048513043478255,
+          "cs-base": 0.003759182608695626,
+          "interaction": 0.0003522434782608306
+        },
+        "image_bytes": {
+          "c-base": 37173,
+          "s-base": 24010,
+          "cs-base": 65659,
+          "interaction": 4476
+        },
+        "readiness_seconds": {
+          "c-base": -1.0,
+          "s-base": 0.0,
+          "cs-base": 0.0,
+          "interaction": 1.0
+        }
+      },
+      "native": {
+        "working_set_mib": {
+          "c-base": 1.975094832386823,
+          "s-base": 0.6802256147532404,
+          "cs-base": 1.8190326275381565,
+          "interaction": -0.8362878196019068
+        },
+        "rss_mib": {
+          "c-base": 1.5070082243531964,
+          "s-base": 0.589309174893426,
+          "cs-base": 1.3110947934134565,
+          "interaction": -0.7852226058331659
+        },
+        "cpu_cores": {
+          "c-base": 0.00020684347826086576,
+          "s-base": 0.00018400869565216808,
+          "cs-base": 0.00013671304347825518,
+          "interaction": -0.00025413913043477866
+        },
+        "image_bytes": {
+          "c-base": 54006,
+          "s-base": 53370,
+          "cs-base": 75399,
+          "interaction": -31977
+        },
+        "readiness_seconds": {
+          "c-base": 0.0,
+          "s-base": 1.0,
+          "cs-base": 1.0,
+          "interaction": 0.0
+        }
+      }
+    },
+    "comparable": true
+  },
+  {
+    "schemaVersion": 1,
+    "protocol": {
+      "build_capacity": {
+        "cpus": 8,
+        "memory_mib": 32091
+      },
+      "concurrency": 2,
+      "cpu_memory_boundary": "control-plane container; function separate",
+      "environment": {
+        "azure": {
+          "architecture": "amd64",
+          "arm_image_urn": null,
+          "arm_vm_size": "Standard_D8ps_v5",
+          "eviction_policy": "Delete",
+          "image_urn": "Canonical:ubuntu-24_04-lts:server:24.04.202607140",
+          "loadgen_vm_size": "Standard_D8s_v5",
+          "location": "westeurope",
+          "max_bid_price": -1.0,
+          "operator_source_cidr": "auto",
+          "priority": "Spot",
+          "resource_group": "maurinoRicerca-rg",
+          "ssh_key_path": "/home/michele/.ssh/e02_operator.pub",
+          "vm_size": "Standard_D8s_v5",
+          "work_dir": null
+        },
+        "containerdMavenRepository": null,
+        "logging": null,
+        "placement": {},
+        "provider": "azure",
+        "proxmox": null,
+        "roles": {
+          "loadgen": {
+            "cpus": 4,
+            "disk": "30G",
+            "home": null,
+            "host": null,
+            "hpaScaleToZero": false,
+            "kubeconfig": null,
+            "memory": "12G",
+            "name": "mc-0d280893538b-2-loadgen",
+            "user": "azureuser"
+          },
+          "stack": {
+            "cpus": 4,
+            "disk": "128G",
+            "home": null,
+            "host": null,
+            "hpaScaleToZero": false,
+            "kubeconfig": null,
+            "memory": "12G",
+            "name": "mc-0d280893538b-2-stack",
+            "user": "azureuser"
+          }
+        },
+        "sites": {}
+      },
+      "heap_mib": 64,
+      "host": {
+        "boot_id": "60053565-1b0e-445d-a579-5e97a5706906",
+        "kernel": "6.17.0-1020-azure",
+        "machine": "x86_64"
+      },
+      "nanolab_source": {
+        "git_commit": "c4d8275307a02c8379805fd1c781ff6567d6e74d",
+        "git_diff_sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+        "git_dirty": false,
+        "git_status": []
+      },
+      "phases": {
+        "drain_seconds": 40,
+        "idle_seconds": 180,
+        "idle_window_seconds": 120,
+        "load_seconds": 180,
+        "rate": 40,
+        "warmup_seconds": 60
+      },
+      "protocol": {
+        "blockId": "mc-0d280893538b-2",
+        "order": [
+          "jvm-c",
+          "jvm-base",
+          "jvm-cs",
+          "native-s",
+          "native-base",
+          "native-c",
+          "jvm-s",
+          "native-cs"
+        ]
+      },
+      "queue": 20,
+      "replicas": 1,
+      "retries": 0,
+      "schemaVersion": 1,
+      "source": {
+        "git_commit": "b1cb1608f414df87fb039783aa8ecd6715b7db8e",
+        "git_diff_sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+        "git_dirty": false,
+        "git_status": []
+      },
+      "source_fingerprint": "463c5ab24c1f099433866058c3e4034c300ce153a8957081239432328d7098c5",
+      "tooling": {
+        "dependencies": {
+          "azure-vm-sdk": "0.9.0",
+          "nanolab": "0.6.0",
+          "sonata-engine": "0.6.20",
+          "sonata-tasks": "0.6.20"
+        },
+        "implementation_sha256": "1a2c5ed715e05497ce89b50f6e44e556e9914b71a111adbf38dae41cb09564ef"
+      }
+    },
+    "arms": {
+      "jvm-base": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 441.2635772614895,
+            "mib_seconds": 52951.62927137874,
+            "control_plane_mean_mib": 271.97124437079765,
+            "function_mean_mib": 169.29233289069185
+          },
+          "rss": {
+            "mean_mib": 435.40834080264904,
+            "mib_seconds": 52249.000896317884,
+            "control_plane_mean_mib": 269.0987735425588,
+            "function_mean_mib": 166.30956726009026
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 470.413186462347,
+              "mib_seconds": 84677.19606208056,
+              "control_plane_mean_mib": 277.6134133640462,
+              "function_mean_mib": 192.7997730983008
+            },
+            "rss": {
+              "mean_mib": 462.07620845314085,
+              "mib_seconds": 83176.48999820556,
+              "control_plane_mean_mib": 272.6498599514565,
+              "function_mean_mib": 189.42634850168437
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.18120613714285713,
+            "function": 0.17511387428571426
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.006753278260869608,
+          "function": 0.005584947826086977
+        },
+        "load": {
+          "first_send_ms": 1793551037136,
+          "last_terminal_ms": 1793551217142,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 5,
+          "p95_ms": 8,
+          "p99_ms": 11,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "app.jar": 50541385,
+          "config/recipe.yaml": 43,
+          "jvm.options": 219,
+          "launch.args": 17
+        },
+        "image_bytes": 96319332,
+        "control_plane_uid": "d75cfae6-592e-40cc-b669-ea6fd394d151",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:53cf229f41a0db4d0dcd652a17ad8ae933286a183d6e8699463c48de44397aeb"
+      },
+      "jvm-c": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 446.73476359727016,
+            "mib_seconds": 53608.17163167242,
+            "control_plane_mean_mib": 272.5684424341501,
+            "function_mean_mib": 174.16632116312005
+          },
+          "rss": {
+            "mean_mib": 435.4095737613815,
+            "mib_seconds": 52249.14885136578,
+            "control_plane_mean_mib": 264.3483363038705,
+            "function_mean_mib": 171.06123745751103
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 478.26167522517204,
+              "mib_seconds": 86089.01456260215,
+              "control_plane_mean_mib": 284.78297610825405,
+              "function_mean_mib": 193.47869911691805
+            },
+            "rss": {
+              "mean_mib": 463.76356401446975,
+              "mib_seconds": 83479.29655297752,
+              "control_plane_mean_mib": 273.63709610336514,
+              "function_mean_mib": 190.1264679111046
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.21026031428571432,
+            "function": 0.18175263428571428
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.010169,
+          "function": 0.005368704347826034
+        },
+        "load": {
+          "first_send_ms": 1793550501601,
+          "last_terminal_ms": 1793550681605,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 6,
+          "p95_ms": 9,
+          "p99_ms": 12,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "app.jar": 50586271,
+          "config/recipe.yaml": 43,
+          "jvm.options": 219,
+          "launch.args": 17
+        },
+        "image_bytes": 96356500,
+        "control_plane_uid": "53f47c55-d179-443c-bfff-488414cda253",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:53cf229f41a0db4d0dcd652a17ad8ae933286a183d6e8699463c48de44397aeb"
+      },
+      "jvm-s": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 452.8179569335344,
+            "mib_seconds": 54338.15483202413,
+            "control_plane_mean_mib": 275.65102450226743,
+            "function_mean_mib": 177.16693243126696
+          },
+          "rss": {
+            "mean_mib": 441.458150518251,
+            "mib_seconds": 52974.978062190115,
+            "control_plane_mean_mib": 270.84473053443554,
+            "function_mean_mib": 170.6134199838154
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 477.7020871022802,
+              "mib_seconds": 85989.24191097822,
+              "control_plane_mean_mib": 282.42275056660054,
+              "function_mean_mib": 195.27933653567962
+            },
+            "rss": {
+              "mean_mib": 465.464251205431,
+              "mib_seconds": 83786.35802201647,
+              "control_plane_mean_mib": 277.0013746993125,
+              "function_mean_mib": 188.46287650611853
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.1844299657142857,
+            "function": 0.16333534285714288
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.009324069565217401,
+          "function": 0.005362947826086948
+        },
+        "load": {
+          "first_send_ms": 1793553508799,
+          "last_terminal_ms": 1793553688805,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 5,
+          "p95_ms": 8,
+          "p99_ms": 10,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "app.jar": 50572755,
+          "config/recipe.yaml": 43,
+          "jvm.options": 219,
+          "launch.args": 17
+        },
+        "image_bytes": 96343315,
+        "control_plane_uid": "947c05fa-1b07-4b5c-8f76-3fd0c47d8659",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:53cf229f41a0db4d0dcd652a17ad8ae933286a183d6e8699463c48de44397aeb"
+      },
+      "jvm-cs": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 448.2925354166577,
+            "mib_seconds": 53795.10424999893,
+            "control_plane_mean_mib": 277.92819279892524,
+            "function_mean_mib": 170.36434261773246
+          },
+          "rss": {
+            "mean_mib": 441.67389698926513,
+            "mib_seconds": 53000.86763871182,
+            "control_plane_mean_mib": 274.3663649411717,
+            "function_mean_mib": 167.30753204809346
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 474.28114365958186,
+              "mib_seconds": 85360.64599812962,
+              "control_plane_mean_mib": 286.93308008686574,
+              "function_mean_mib": 187.34806357271611
+            },
+            "rss": {
+              "mean_mib": 464.5189809678535,
+              "mib_seconds": 83603.66171814129,
+              "control_plane_mean_mib": 282.85214995384933,
+              "function_mean_mib": 181.66683101400415
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.17977702285714287,
+            "function": 0.1711695142857143
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.012591313043478304,
+          "function": 0.00619873043478261
+        },
+        "load": {
+          "first_send_ms": 1793551530074,
+          "last_terminal_ms": 1793551710053,
+          "scheduled": 7200,
+          "emitted": 7200,
+          "dropped": 0,
+          "valid": 7200,
+          "status_counts": {
+            "200": 7200
+          },
+          "goodput_rps": 40.0,
+          "p50_ms": 5,
+          "p95_ms": 8,
+          "p99_ms": 11,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "app.jar": 50617639,
+          "config/recipe.yaml": 43,
+          "jvm.options": 219,
+          "launch.args": 17
+        },
+        "image_bytes": 96384992,
+        "control_plane_uid": "b65a3989-0e81-4233-8b3e-5d7b75567687",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:53cf229f41a0db4d0dcd652a17ad8ae933286a183d6e8699463c48de44397aeb"
+      },
+      "native-base": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 208.75793535487415,
+            "mib_seconds": 25050.9522425849,
+            "control_plane_mean_mib": 34.516589251114056,
+            "function_mean_mib": 174.2413461037601
+          },
+          "rss": {
+            "mean_mib": 203.34710815432481,
+            "mib_seconds": 24401.652978518978,
+            "control_plane_mean_mib": 32.34352699061856,
+            "function_mean_mib": 171.00358116370626
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 227.41593686749735,
+              "mib_seconds": 40929.86552284192,
+              "control_plane_mean_mib": 36.29046442346978,
+              "function_mean_mib": 191.12547244402757
+            },
+            "rss": {
+              "mean_mib": 218.7329174322859,
+              "mib_seconds": 39367.11304950714,
+              "control_plane_mean_mib": 31.20954410821354,
+              "function_mean_mib": 187.52337332407234
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.15825865714285714,
+            "function": 0.1718520514285714
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.0017508173913043533,
+          "function": 0.005470313043478269
+        },
+        "load": {
+          "first_send_ms": 1793552520521,
+          "last_terminal_ms": 1793552700499,
+          "scheduled": 7200,
+          "emitted": 7200,
+          "dropped": 0,
+          "valid": 7200,
+          "status_counts": {
+            "200": 7200
+          },
+          "goodput_rps": 40.0,
+          "p50_ms": 6,
+          "p95_ms": 9,
+          "p99_ms": 12,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "application": 185060344,
+          "config/recipe.yaml": 43,
+          "libawt.so": 924120,
+          "libawt_headless.so": 35968,
+          "libawt_xawt.so": 520424,
+          "libjava.so": 9336,
+          "libjvm.so": 9336,
+          "libmanagement_ext.so": 33000
+        },
+        "image_bytes": 73032600,
+        "control_plane_uid": "5cd62fe8-1fbc-423b-82e1-ce36c20fe486",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:53cf229f41a0db4d0dcd652a17ad8ae933286a183d6e8699463c48de44397aeb"
+      },
+      "native-c": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 206.79334113585452,
+            "mib_seconds": 24815.200936302543,
+            "control_plane_mean_mib": 35.3539345881436,
+            "function_mean_mib": 171.43940654771092
+          },
+          "rss": {
+            "mean_mib": 201.19140820885076,
+            "mib_seconds": 24142.968985062093,
+            "control_plane_mean_mib": 32.74844017747479,
+            "function_mean_mib": 168.44296803137598
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 228.72239918749742,
+              "mib_seconds": 41171.40419774223,
+              "control_plane_mean_mib": 34.9564322413158,
+              "function_mean_mib": 193.7659669461816
+            },
+            "rss": {
+              "mean_mib": 221.91688972136544,
+              "mib_seconds": 39946.37166049611,
+              "control_plane_mean_mib": 31.578211131542393,
+              "function_mean_mib": 190.33867858982305
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.1546920342857143,
+            "function": 0.1782604742857143
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.0021509739130434846,
+          "function": 0.005392999999999991
+        },
+        "load": {
+          "first_send_ms": 1793553015437,
+          "last_terminal_ms": 1793553195443,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 6,
+          "p95_ms": 9,
+          "p99_ms": 11,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "application": 185719800,
+          "config/recipe.yaml": 43,
+          "libawt.so": 924120,
+          "libawt_headless.so": 35968,
+          "libawt_xawt.so": 520424,
+          "libjava.so": 9336,
+          "libjvm.so": 9336,
+          "libmanagement_ext.so": 33000
+        },
+        "image_bytes": 73086240,
+        "control_plane_uid": "8caed2d1-e048-4e7e-b0ba-c0d7027c6635",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:53cf229f41a0db4d0dcd652a17ad8ae933286a183d6e8699463c48de44397aeb"
+      },
+      "native-s": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 213.36516698226333,
+            "mib_seconds": 25603.8200378716,
+            "control_plane_mean_mib": 34.84823505505919,
+            "function_mean_mib": 178.51693192720413
+          },
+          "rss": {
+            "mean_mib": 207.81393246948718,
+            "mib_seconds": 24937.671896338463,
+            "control_plane_mean_mib": 32.44024909020712,
+            "function_mean_mib": 175.37368337928007
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 232.40233928688988,
+              "mib_seconds": 41833.58299911488,
+              "control_plane_mean_mib": 34.85440638854425,
+              "function_mean_mib": 197.54793289834564
+            },
+            "rss": {
+              "mean_mib": 224.12796811539684,
+              "mib_seconds": 40344.154819388874,
+              "control_plane_mean_mib": 31.625488703731456,
+              "function_mean_mib": 192.50247941166538
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.15311437142857143,
+            "function": 0.17848136571428572
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.0019921565217391347,
+          "function": 0.005499426086956521
+        },
+        "load": {
+          "first_send_ms": 1793552025539,
+          "last_terminal_ms": 1793552205544,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 5,
+          "p95_ms": 9,
+          "p99_ms": 11,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "application": 185711608,
+          "config/recipe.yaml": 43,
+          "libawt.so": 924120,
+          "libawt_headless.so": 35968,
+          "libawt_xawt.so": 520424,
+          "libjava.so": 9336,
+          "libjvm.so": 9336,
+          "libmanagement_ext.so": 33000
+        },
+        "image_bytes": 73082332,
+        "control_plane_uid": "42ff5dd1-72bd-46f0-ab72-881efc60d0e2",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:53cf229f41a0db4d0dcd652a17ad8ae933286a183d6e8699463c48de44397aeb"
+      },
+      "native-cs": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 215.7647468374266,
+            "mib_seconds": 25891.76962049119,
+            "control_plane_mean_mib": 40.3605545830292,
+            "function_mean_mib": 175.4041922543974
+          },
+          "rss": {
+            "mean_mib": 208.95715724138233,
+            "mib_seconds": 25074.85886896588,
+            "control_plane_mean_mib": 36.71697842245921,
+            "function_mean_mib": 172.2401788189231
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 239.57897232439709,
+              "mib_seconds": 43125.412940670736,
+              "control_plane_mean_mib": 44.05989343310924,
+              "function_mean_mib": 195.51907889128785
+            },
+            "rss": {
+              "mean_mib": 224.7318459801577,
+              "mib_seconds": 40452.8559613768,
+              "control_plane_mean_mib": 32.58007034895191,
+              "function_mean_mib": 192.15177563120577
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.14267714285714286,
+            "function": 0.1557124857142857
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.002233113043478272,
+          "function": 0.004245921739130441
+        },
+        "load": {
+          "first_send_ms": 1793554003465,
+          "last_terminal_ms": 1793554183470,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 5,
+          "p95_ms": 8,
+          "p99_ms": 10,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "application": 185768952,
+          "config/recipe.yaml": 43,
+          "libawt.so": 924120,
+          "libawt_headless.so": 35968,
+          "libawt_xawt.so": 520424,
+          "libjava.so": 9336,
+          "libjvm.so": 9336,
+          "libmanagement_ext.so": 33000
+        },
+        "image_bytes": 73134291,
+        "control_plane_uid": "d1ef2981-64a6-4acc-99cc-5e3cb5fb6121",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:53cf229f41a0db4d0dcd652a17ad8ae933286a183d6e8699463c48de44397aeb"
+      }
+    },
+    "errors": {},
+    "contrasts": {
+      "jvm": {
+        "working_set_mib": {
+          "c-base": 0.5971980633524367,
+          "s-base": 3.6797801314697836,
+          "cs-base": 5.956948428127589,
+          "interaction": 1.6799702333053688
+        },
+        "rss_mib": {
+          "c-base": -4.750437238688278,
+          "s-base": 1.745956991876767,
+          "cs-base": 5.267591398612922,
+          "interaction": 8.272071645424433
+        },
+        "cpu_cores": {
+          "c-base": 0.0034157217391303915,
+          "s-base": 0.0025707913043477937,
+          "cs-base": 0.005838034782608696,
+          "interaction": -0.00014847826086948884
+        },
+        "image_bytes": {
+          "c-base": 37168,
+          "s-base": 23983,
+          "cs-base": 65660,
+          "interaction": 4509
+        },
+        "readiness_seconds": {
+          "c-base": 0.0,
+          "s-base": 0.0,
+          "cs-base": 0.0,
+          "interaction": 0.0
+        }
+      },
+      "native": {
+        "working_set_mib": {
+          "c-base": 0.8373453370295465,
+          "s-base": 0.3316458039451362,
+          "cs-base": 5.843965331915143,
+          "interaction": 4.6749741909404605
+        },
+        "rss_mib": {
+          "c-base": 0.4049131868562341,
+          "s-base": 0.09672209958856115,
+          "cs-base": 4.373451431840657,
+          "interaction": 3.8718161453958615
+        },
+        "cpu_cores": {
+          "c-base": 0.0004001565217391313,
+          "s-base": 0.00024133913043478139,
+          "cs-base": 0.0004822956521739186,
+          "interaction": -0.0001591999999999941
+        },
+        "image_bytes": {
+          "c-base": 53640,
+          "s-base": 49732,
+          "cs-base": 101691,
+          "interaction": -1681
+        },
+        "readiness_seconds": {
+          "c-base": 0.0,
+          "s-base": 0.0,
+          "cs-base": 0.0,
+          "interaction": 0.0
+        }
+      }
+    },
+    "comparable": true
+  },
+  {
+    "schemaVersion": 1,
+    "protocol": {
+      "build_capacity": {
+        "cpus": 8,
+        "memory_mib": 32091
+      },
+      "concurrency": 2,
+      "cpu_memory_boundary": "control-plane container; function separate",
+      "environment": {
+        "azure": {
+          "architecture": "amd64",
+          "arm_image_urn": null,
+          "arm_vm_size": "Standard_D8ps_v5",
+          "eviction_policy": "Delete",
+          "image_urn": "Canonical:ubuntu-24_04-lts:server:24.04.202607140",
+          "loadgen_vm_size": "Standard_D8s_v5",
+          "location": "westeurope",
+          "max_bid_price": -1.0,
+          "operator_source_cidr": "auto",
+          "priority": "Spot",
+          "resource_group": "maurinoRicerca-rg",
+          "ssh_key_path": "/home/michele/.ssh/e02_operator.pub",
+          "vm_size": "Standard_D8s_v5",
+          "work_dir": null
+        },
+        "containerdMavenRepository": null,
+        "logging": null,
+        "placement": {},
+        "provider": "azure",
+        "proxmox": null,
+        "roles": {
+          "loadgen": {
+            "cpus": 4,
+            "disk": "30G",
+            "home": null,
+            "host": null,
+            "hpaScaleToZero": false,
+            "kubeconfig": null,
+            "memory": "12G",
+            "name": "mc-0d280893538b-3-loadgen",
+            "user": "azureuser"
+          },
+          "stack": {
+            "cpus": 4,
+            "disk": "128G",
+            "home": null,
+            "host": null,
+            "hpaScaleToZero": false,
+            "kubeconfig": null,
+            "memory": "12G",
+            "name": "mc-0d280893538b-3-stack",
+            "user": "azureuser"
+          }
+        },
+        "sites": {}
+      },
+      "heap_mib": 64,
+      "host": {
+        "boot_id": "fdbb21bc-6ea0-4a2c-9e57-e969ae659359",
+        "kernel": "6.17.0-1020-azure",
+        "machine": "x86_64"
+      },
+      "nanolab_source": {
+        "git_commit": "c4d8275307a02c8379805fd1c781ff6567d6e74d",
+        "git_diff_sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+        "git_dirty": false,
+        "git_status": []
+      },
+      "phases": {
+        "drain_seconds": 40,
+        "idle_seconds": 180,
+        "idle_window_seconds": 120,
+        "load_seconds": 180,
+        "rate": 40,
+        "warmup_seconds": 60
+      },
+      "protocol": {
+        "blockId": "mc-0d280893538b-3",
+        "order": [
+          "native-s",
+          "jvm-cs",
+          "jvm-base",
+          "jvm-c",
+          "native-cs",
+          "jvm-s",
+          "native-c",
+          "native-base"
+        ]
+      },
+      "queue": 20,
+      "replicas": 1,
+      "retries": 0,
+      "schemaVersion": 1,
+      "source": {
+        "git_commit": "b1cb1608f414df87fb039783aa8ecd6715b7db8e",
+        "git_diff_sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+        "git_dirty": false,
+        "git_status": []
+      },
+      "source_fingerprint": "463c5ab24c1f099433866058c3e4034c300ce153a8957081239432328d7098c5",
+      "tooling": {
+        "dependencies": {
+          "azure-vm-sdk": "0.9.0",
+          "nanolab": "0.6.0",
+          "sonata-engine": "0.6.20",
+          "sonata-tasks": "0.6.20"
+        },
+        "implementation_sha256": "1a2c5ed715e05497ce89b50f6e44e556e9914b71a111adbf38dae41cb09564ef"
+      }
+    },
+    "arms": {
+      "jvm-base": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 450.0049799137826,
+            "mib_seconds": 54000.59758965392,
+            "control_plane_mean_mib": 279.2200028291748,
+            "function_mean_mib": 170.78497708460782
+          },
+          "rss": {
+            "mean_mib": 441.6025259669793,
+            "mib_seconds": 52992.30311603751,
+            "control_plane_mean_mib": 276.1372371740872,
+            "function_mean_mib": 165.46528879289204
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 476.9435822391918,
+              "mib_seconds": 85840.78284952044,
+              "control_plane_mean_mib": 287.8477168175374,
+              "function_mean_mib": 189.09586542165445
+            },
+            "rss": {
+              "mean_mib": 469.51472811891693,
+              "mib_seconds": 84503.730256496,
+              "control_plane_mean_mib": 284.06208144408225,
+              "function_mean_mib": 185.45264667483468
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.11924981714285715,
+            "function": 0.11071641142857144
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.005737147826086928,
+          "function": 0.003887660869565224
+        },
+        "load": {
+          "first_send_ms": 1793557554538,
+          "last_terminal_ms": 1793557734519,
+          "scheduled": 7200,
+          "emitted": 7200,
+          "dropped": 0,
+          "valid": 7200,
+          "status_counts": {
+            "200": 7200
+          },
+          "goodput_rps": 40.0,
+          "p50_ms": 6,
+          "p95_ms": 8,
+          "p99_ms": 10,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "app.jar": 50541385,
+          "config/recipe.yaml": 43,
+          "jvm.options": 219,
+          "launch.args": 17
+        },
+        "image_bytes": 96319335,
+        "control_plane_uid": "771bdbc0-2b6b-40b9-96d7-c845015cb8bb",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:32c9539da401f1470f8484f8ffd953f4f61cb8148527d4af91c790263c6af870"
+      },
+      "jvm-c": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 442.32836788892746,
+            "mib_seconds": 53079.404146671295,
+            "control_plane_mean_mib": 272.13809042132146,
+            "function_mean_mib": 170.19027746760597
+          },
+          "rss": {
+            "mean_mib": 434.7802727728461,
+            "mib_seconds": 52173.632732741535,
+            "control_plane_mean_mib": 268.84164599316813,
+            "function_mean_mib": 165.93862677967797
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 477.87575967106034,
+              "mib_seconds": 86020.98185652494,
+              "control_plane_mean_mib": 284.97232696266525,
+              "function_mean_mib": 192.9034327083951
+            },
+            "rss": {
+              "mean_mib": 468.7760919688093,
+              "mib_seconds": 84382.97797272354,
+              "control_plane_mean_mib": 280.87320780583565,
+              "function_mean_mib": 187.90288416297366
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.12476036000000001,
+            "function": 0.11089344
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.006765313043478255,
+          "function": 0.005147704347826075
+        },
+        "load": {
+          "first_send_ms": 1793558047407,
+          "last_terminal_ms": 1793558227414,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 6,
+          "p95_ms": 8,
+          "p99_ms": 10,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "app.jar": 50586271,
+          "config/recipe.yaml": 43,
+          "jvm.options": 219,
+          "launch.args": 17
+        },
+        "image_bytes": 96356522,
+        "control_plane_uid": "49bbd6df-0dc0-420e-9e5b-e58fbe33685b",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:32c9539da401f1470f8484f8ffd953f4f61cb8148527d4af91c790263c6af870"
+      },
+      "jvm-s": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 456.333469990346,
+            "mib_seconds": 54760.016398841515,
+            "control_plane_mean_mib": 286.7428915818843,
+            "function_mean_mib": 169.59057840846168
+          },
+          "rss": {
+            "mean_mib": 440.9516881348255,
+            "mib_seconds": 52914.20257617906,
+            "control_plane_mean_mib": 276.49035959184016,
+            "function_mean_mib": 164.46132854298534
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 490.61075853293113,
+              "mib_seconds": 88313.37079626508,
+              "control_plane_mean_mib": 292.57652290284744,
+              "function_mean_mib": 198.03423563008366
+            },
+            "rss": {
+              "mean_mib": 473.7226454991941,
+              "mib_seconds": 85273.39223391656,
+              "control_plane_mean_mib": 281.341408866775,
+              "function_mean_mib": 192.3812366324191
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.11599895428571431,
+            "function": 0.11641846285714286
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.005084408695652188,
+          "function": 0.004096660869565235
+        },
+        "load": {
+          "first_send_ms": 1793559040209,
+          "last_terminal_ms": 1793559220216,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 6,
+          "p95_ms": 8,
+          "p99_ms": 10,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 10.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "app.jar": 50572755,
+          "config/recipe.yaml": 43,
+          "jvm.options": 219,
+          "launch.args": 17
+        },
+        "image_bytes": 96343333,
+        "control_plane_uid": "c86553a1-0d43-4b6b-a005-cf939084db0a",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:32c9539da401f1470f8484f8ffd953f4f61cb8148527d4af91c790263c6af870"
+      },
+      "jvm-cs": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 452.4831385823898,
+            "mib_seconds": 54297.976629886776,
+            "control_plane_mean_mib": 276.149553986111,
+            "function_mean_mib": 176.33358459627877
+          },
+          "rss": {
+            "mean_mib": 442.4393775160114,
+            "mib_seconds": 53092.72530192137,
+            "control_plane_mean_mib": 270.50568353105336,
+            "function_mean_mib": 171.93369398495804
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 475.576357683896,
+              "mib_seconds": 85606.59786120337,
+              "control_plane_mean_mib": 280.65670783452174,
+              "function_mean_mib": 194.91964984937428
+            },
+            "rss": {
+              "mean_mib": 464.88311312966044,
+              "mib_seconds": 83681.74968152493,
+              "control_plane_mean_mib": 274.62190665484644,
+              "function_mean_mib": 190.261206474814
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.11857305714285714,
+            "function": 0.10941521142857143
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.007141643478260871,
+          "function": 0.004125713043478239
+        },
+        "load": {
+          "first_send_ms": 1793557062807,
+          "last_terminal_ms": 1793557242813,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 6,
+          "p95_ms": 8,
+          "p99_ms": 10,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "app.jar": 50617639,
+          "config/recipe.yaml": 43,
+          "jvm.options": 219,
+          "launch.args": 17
+        },
+        "image_bytes": 96384975,
+        "control_plane_uid": "ba80dfb6-5d91-421f-adac-2d27e632f5ae",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:32c9539da401f1470f8484f8ffd953f4f61cb8148527d4af91c790263c6af870"
+      },
+      "native-base": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 208.17383875496066,
+            "mib_seconds": 24980.860650595278,
+            "control_plane_mean_mib": 40.920793830805145,
+            "function_mean_mib": 167.2530449241555
+          },
+          "rss": {
+            "mean_mib": 199.77885274930546,
+            "mib_seconds": 23973.462329916656,
+            "control_plane_mean_mib": 35.57455509559562,
+            "function_mean_mib": 164.20429765370986
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 234.91469060408713,
+              "mib_seconds": 42286.28870440088,
+              "control_plane_mean_mib": 43.698227338242496,
+              "function_mean_mib": 191.21646326584462
+            },
+            "rss": {
+              "mean_mib": 219.59729810746106,
+              "mib_seconds": 39529.050833728164,
+              "control_plane_mean_mib": 31.736087831844895,
+              "function_mean_mib": 187.86121027561617
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.08601473714285714,
+            "function": 0.10931942285714286
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.0015567043478260916,
+          "function": 0.0036895130434782585
+        },
+        "load": {
+          "first_send_ms": 1793560029334,
+          "last_terminal_ms": 1793560209341,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 6,
+          "p95_ms": 8,
+          "p99_ms": 10,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "application": 185060344,
+          "config/recipe.yaml": 43,
+          "libawt.so": 924120,
+          "libawt_headless.so": 35968,
+          "libawt_xawt.so": 520424,
+          "libjava.so": 9336,
+          "libjvm.so": 9336,
+          "libmanagement_ext.so": 33000
+        },
+        "image_bytes": 73022686,
+        "control_plane_uid": "d5194307-2e76-4f9d-8049-81b5f6a898a6",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:32c9539da401f1470f8484f8ffd953f4f61cb8148527d4af91c790263c6af870"
+      },
+      "native-c": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 206.57617147881538,
+            "mib_seconds": 24789.140577457845,
+            "control_plane_mean_mib": 35.35512907824013,
+            "function_mean_mib": 171.22104240057524
+          },
+          "rss": {
+            "mean_mib": 201.08745135200056,
+            "mib_seconds": 24130.494162240066,
+            "control_plane_mean_mib": 32.7975826453728,
+            "function_mean_mib": 168.28986870662774
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 233.74047990317442,
+              "mib_seconds": 42074.92255879752,
+              "control_plane_mean_mib": 36.25465649373647,
+              "function_mean_mib": 197.48582340943796
+            },
+            "rss": {
+              "mean_mib": 225.1847333380263,
+              "mib_seconds": 40534.82828710601,
+              "control_plane_mean_mib": 31.0327642726737,
+              "function_mean_mib": 194.1519690653526
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.08350149142857143,
+            "function": 0.11413159428571426
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.001806634782608695,
+          "function": 0.003916173913043477
+        },
+        "load": {
+          "first_send_ms": 1793559534638,
+          "last_terminal_ms": 1793559714645,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 6,
+          "p95_ms": 9,
+          "p99_ms": 10,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 11.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "application": 185719800,
+          "config/recipe.yaml": 43,
+          "libawt.so": 924120,
+          "libawt_headless.so": 35968,
+          "libawt_xawt.so": 520424,
+          "libjava.so": 9336,
+          "libjvm.so": 9336,
+          "libmanagement_ext.so": 33000
+        },
+        "image_bytes": 73091577,
+        "control_plane_uid": "c0cdf5ac-7228-49ef-9314-efff05a39d25",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:32c9539da401f1470f8484f8ffd953f4f61cb8148527d4af91c790263c6af870"
+      },
+      "native-s": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 205.48421590468692,
+            "mib_seconds": 24658.10590856243,
+            "control_plane_mean_mib": 35.47610588100118,
+            "function_mean_mib": 170.00811002368573
+          },
+          "rss": {
+            "mean_mib": 199.92671723500825,
+            "mib_seconds": 23991.20606820099,
+            "control_plane_mean_mib": 32.88109342967315,
+            "function_mean_mib": 167.0456238053351
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 219.40067021938523,
+              "mib_seconds": 39493.875822253525,
+              "control_plane_mean_mib": 35.139864069442055,
+              "function_mean_mib": 184.2608061499432
+            },
+            "rss": {
+              "mean_mib": 212.45810436295008,
+              "mib_seconds": 38244.15842828341,
+              "control_plane_mean_mib": 31.800616984028036,
+              "function_mean_mib": 180.65748737892204
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.09142033142857142,
+            "function": 0.11227512
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.0018066086956521697,
+          "function": 0.0041152260869565015
+        },
+        "load": {
+          "first_send_ms": 1793556569614,
+          "last_terminal_ms": 1793556749622,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 6,
+          "p95_ms": 8,
+          "p99_ms": 10,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 10.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "application": 185711608,
+          "config/recipe.yaml": 43,
+          "libawt.so": 924120,
+          "libawt_headless.so": 35968,
+          "libawt_xawt.so": 520424,
+          "libjava.so": 9336,
+          "libjvm.so": 9336,
+          "libmanagement_ext.so": 33000
+        },
+        "image_bytes": 73085292,
+        "control_plane_uid": "c2f85664-06cd-4193-ba90-035da270fe6d",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:32c9539da401f1470f8484f8ffd953f4f61cb8148527d4af91c790263c6af870"
+      },
+      "native-cs": {
+        "idle": {
+          "working_set": {
+            "mean_mib": 208.41671103208014,
+            "mib_seconds": 25010.00532384962,
+            "control_plane_mean_mib": 35.59007178704875,
+            "function_mean_mib": 172.8266392450314
+          },
+          "rss": {
+            "mean_mib": 202.74910062380755,
+            "mib_seconds": 24329.892074856907,
+            "control_plane_mean_mib": 33.078395517232515,
+            "function_mean_mib": 169.67070510657504
+          }
+        },
+        "load_resources": {
+          "memory": {
+            "working_set": {
+              "mean_mib": 228.93621495168773,
+              "mib_seconds": 41210.12123782188,
+              "control_plane_mean_mib": 41.456807831298406,
+              "function_mean_mib": 187.47940712038934
+            },
+            "rss": {
+              "mean_mib": 216.05150133282226,
+              "mib_seconds": 38890.78259382397,
+              "control_plane_mean_mib": 32.65560579673457,
+              "function_mean_mib": 183.3958955360877
+            }
+          },
+          "cpu_cores": {
+            "control_plane": 0.09707982857142856,
+            "function": 0.1259588514285714
+          }
+        },
+        "idle_cpu_cores": {
+          "control_plane": 0.0018531999999999973,
+          "function": 0.005402269565217365
+        },
+        "load": {
+          "first_send_ms": 1793558542017,
+          "last_terminal_ms": 1793558722024,
+          "scheduled": 7201,
+          "emitted": 7201,
+          "dropped": 0,
+          "valid": 7201,
+          "status_counts": {
+            "200": 7201
+          },
+          "goodput_rps": 40.00555555555555,
+          "p50_ms": 6,
+          "p95_ms": 9,
+          "p99_ms": 11,
+          "latency_population": "valid whole responses, including drain"
+        },
+        "readiness_seconds": 10.0,
+        "readiness_boundary": "container running to Pod Ready; Kubernetes clock, 1s resolution",
+        "artifact_files_bytes": {
+          "application": 185768952,
+          "config/recipe.yaml": 43,
+          "libawt.so": 924120,
+          "libawt_headless.so": 35968,
+          "libawt_xawt.so": 520424,
+          "libjava.so": 9336,
+          "libjvm.so": 9336,
+          "libmanagement_ext.so": 33000
+        },
+        "image_bytes": 73130670,
+        "control_plane_uid": "ac9524ca-7067-45d0-a852-5b4115d78853",
+        "function_image": "127.0.0.1:5000/nanofaas/word-stats-java@sha256:32c9539da401f1470f8484f8ffd953f4f61cb8148527d4af91c790263c6af870"
+      }
+    },
+    "errors": {},
+    "contrasts": {
+      "jvm": {
+        "working_set_mib": {
+          "c-base": -7.081912407853338,
+          "s-base": 7.522888752709491,
+          "cs-base": -3.0704488430637866,
+          "interaction": -3.51142518791994
+        },
+        "rss_mib": {
+          "c-base": -7.295591180919075,
+          "s-base": 0.3531224177529566,
+          "cs-base": -5.63155364303384,
+          "interaction": 1.3109151201322788
+        },
+        "cpu_cores": {
+          "c-base": 0.0010281652173913273,
+          "s-base": -0.0006527391304347397,
+          "cs-base": 0.0014044956521739429,
+          "interaction": 0.0010290695652173552
+        },
+        "image_bytes": {
+          "c-base": 37187,
+          "s-base": 23998,
+          "cs-base": 65640,
+          "interaction": 4455
+        },
+        "readiness_seconds": {
+          "c-base": 0.0,
+          "s-base": -1.0,
+          "cs-base": 0.0,
+          "interaction": 1.0
+        }
+      },
+      "native": {
+        "working_set_mib": {
+          "c-base": -5.565664752565013,
+          "s-base": -5.4446879498039635,
+          "cs-base": -5.330722043756396,
+          "interaction": 5.679630658612581
+        },
+        "rss_mib": {
+          "c-base": -2.7769724502228215,
+          "s-base": -2.69346166592247,
+          "cs-base": -2.4961595783631054,
+          "interaction": 2.974274537782186
+        },
+        "cpu_cores": {
+          "c-base": 0.00024993043478260335,
+          "s-base": 0.00024990434782607806,
+          "cs-base": 0.0002964956521739057,
+          "interaction": -0.0002033391304347757
+        },
+        "image_bytes": {
+          "c-base": 68891,
+          "s-base": 62606,
+          "cs-base": 107984,
+          "interaction": -23513
+        },
+        "readiness_seconds": {
+          "c-base": 0.0,
+          "s-base": -1.0,
+          "cs-base": -1.0,
+          "interaction": 0.0
+        }
+      }
+    },
+    "comparable": true
+  }
+]

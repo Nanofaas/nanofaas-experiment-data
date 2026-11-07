@@ -1,0 +1,24 @@
+{
+  "load": 142242,
+  "system": {
+    "local": {
+      "run": 122110,
+      "model": 123792.0,
+      "loadShareDifference": -0.011824918097327091
+    },
+    "peer": {
+      "run": 14290,
+      "model": 15012.0,
+      "loadShareDifference": -0.005075856638686183
+    },
+    "cloud": {
+      "run": 4843,
+      "model": 3438.0,
+      "loadShareDifference": 0.00987753265561508
+    },
+    "notServed": {
+      "run": 999,
+      "loadShare": 0.007023242080398195
+    }
+  }
+}

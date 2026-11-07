@@ -1,0 +1,18 @@
+{
+  "experiment": "02-platform-comparison",
+  "format": "tar.zst split as an ordered byte stream",
+  "release": "paper-main-v1",
+  "archive": {
+    "name": "02-platform-comparison.tar.zst",
+    "bytes": 22806660,
+    "sha256": "4f77fb79ed0334a4cd2eea96f368bb13082e1740164797dbbbb4f7081ecc6728"
+  },
+  "parts": [
+    {
+      "name": "02-platform-comparison.tar.zst.part-001",
+      "bytes": 22806660,
+      "sha256": "4f77fb79ed0334a4cd2eea96f368bb13082e1740164797dbbbb4f7081ecc6728",
+      "url": "https://github.com/Nanofaas/nanofaas-experiment-data/releases/download/paper-main-v1/02-platform-comparison.tar.zst.part-001"
+    }
+  ]
+}

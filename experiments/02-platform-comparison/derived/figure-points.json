@@ -1,0 +1,852 @@
+{
+  "budget": "4 CPU / 4 GiB",
+  "points": [
+    {
+      "platform": "fn",
+      "campaign": "original",
+      "run": "1",
+      "offered": 25.0,
+      "correctPerSecond": 6.183333333333334,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "fn",
+      "campaign": "original",
+      "run": "1",
+      "offered": 50.0,
+      "correctPerSecond": 1.7416666666666667,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "fn",
+      "campaign": "original",
+      "run": "1",
+      "offered": 100.0,
+      "correctPerSecond": 0.5583333333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "fn",
+      "campaign": "original",
+      "run": "1",
+      "offered": 200.0,
+      "correctPerSecond": 0.31666666666666665,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "fn",
+      "campaign": "original",
+      "run": "2",
+      "offered": 25.0,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "fn",
+      "campaign": "original",
+      "run": "2",
+      "offered": 50.0,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "fn",
+      "campaign": "original",
+      "run": "2",
+      "offered": 100.0,
+      "correctPerSecond": 99.46666666666667,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "fn",
+      "campaign": "original",
+      "run": "2",
+      "offered": 200.0,
+      "correctPerSecond": 106.90833333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "fn",
+      "campaign": "original",
+      "run": "3",
+      "offered": 25.0,
+      "correctPerSecond": 15.191666666666666,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "fn",
+      "campaign": "original",
+      "run": "3",
+      "offered": 50.0,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "fn",
+      "campaign": "original",
+      "run": "3",
+      "offered": 100.0,
+      "correctPerSecond": 100.0,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "fn",
+      "campaign": "original",
+      "run": "3",
+      "offered": 200.0,
+      "correctPerSecond": 107.08333333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "funless",
+      "campaign": "original",
+      "run": "1",
+      "offered": 25.0,
+      "correctPerSecond": 25.0,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "funless",
+      "campaign": "original",
+      "run": "1",
+      "offered": 50.0,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "funless",
+      "campaign": "original",
+      "run": "1",
+      "offered": 100.0,
+      "correctPerSecond": 100.0,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "funless",
+      "campaign": "original",
+      "run": "1",
+      "offered": 200.0,
+      "correctPerSecond": 6.958333333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "funless",
+      "campaign": "original",
+      "run": "2",
+      "offered": 25.0,
+      "correctPerSecond": 25.0,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "funless",
+      "campaign": "original",
+      "run": "2",
+      "offered": 50.0,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "funless",
+      "campaign": "original",
+      "run": "2",
+      "offered": 100.0,
+      "correctPerSecond": 100.00833333333334,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "funless",
+      "campaign": "original",
+      "run": "2",
+      "offered": 200.0,
+      "correctPerSecond": 4.825,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "funless",
+      "campaign": "original",
+      "run": "3",
+      "offered": 25.0,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "funless",
+      "campaign": "original",
+      "run": "3",
+      "offered": 50.0,
+      "correctPerSecond": 50.0,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "funless",
+      "campaign": "original",
+      "run": "3",
+      "offered": 100.0,
+      "correctPerSecond": 100.0,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "funless",
+      "campaign": "original",
+      "run": "3",
+      "offered": 200.0,
+      "correctPerSecond": 6.116666666666666,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "serverledge",
+      "campaign": "original",
+      "run": "1",
+      "offered": 25.0,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "serverledge",
+      "campaign": "original",
+      "run": "1",
+      "offered": 50.0,
+      "correctPerSecond": 50.0,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "serverledge",
+      "campaign": "original",
+      "run": "1",
+      "offered": 100.0,
+      "correctPerSecond": 99.76666666666667,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "serverledge",
+      "campaign": "original",
+      "run": "1",
+      "offered": 200.0,
+      "correctPerSecond": 83.34166666666667,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "serverledge",
+      "campaign": "original",
+      "run": "2",
+      "offered": 25.0,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "serverledge",
+      "campaign": "original",
+      "run": "2",
+      "offered": 50.0,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "serverledge",
+      "campaign": "original",
+      "run": "2",
+      "offered": 100.0,
+      "correctPerSecond": 99.28333333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "serverledge",
+      "campaign": "original",
+      "run": "2",
+      "offered": 200.0,
+      "correctPerSecond": 99.06666666666666,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "serverledge",
+      "campaign": "original",
+      "run": "3",
+      "offered": 25.0,
+      "correctPerSecond": 24.958333333333332,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "serverledge",
+      "campaign": "original",
+      "run": "3",
+      "offered": 50.0,
+      "correctPerSecond": 50.0,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "serverledge",
+      "campaign": "original",
+      "run": "3",
+      "offered": 100.0,
+      "correctPerSecond": 99.05,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "serverledge",
+      "campaign": "original",
+      "run": "3",
+      "offered": 200.0,
+      "correctPerSecond": 102.225,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "tinyfaas",
+      "campaign": "original",
+      "run": "1",
+      "offered": 25.0,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "tinyfaas",
+      "campaign": "original",
+      "run": "1",
+      "offered": 50.0,
+      "correctPerSecond": 50.0,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "tinyfaas",
+      "campaign": "original",
+      "run": "1",
+      "offered": 100.0,
+      "correctPerSecond": 100.0,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "tinyfaas",
+      "campaign": "original",
+      "run": "1",
+      "offered": 200.0,
+      "correctPerSecond": 65.2,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "tinyfaas",
+      "campaign": "original",
+      "run": "2",
+      "offered": 25.0,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "tinyfaas",
+      "campaign": "original",
+      "run": "2",
+      "offered": 50.0,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "tinyfaas",
+      "campaign": "original",
+      "run": "2",
+      "offered": 100.0,
+      "correctPerSecond": 100.00833333333334,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "tinyfaas",
+      "campaign": "original",
+      "run": "2",
+      "offered": 200.0,
+      "correctPerSecond": 62.3,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "tinyfaas",
+      "campaign": "original",
+      "run": "3",
+      "offered": 25.0,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "tinyfaas",
+      "campaign": "original",
+      "run": "3",
+      "offered": 50.0,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "tinyfaas",
+      "campaign": "original",
+      "run": "3",
+      "offered": 100.0,
+      "correctPerSecond": 100.00833333333334,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "tinyfaas",
+      "campaign": "original",
+      "run": "3",
+      "offered": 200.0,
+      "correctPerSecond": 64.65,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "faasd",
+      "campaign": "faasd-recovery",
+      "run": "1",
+      "offered": 25.0,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "faasd",
+      "campaign": "faasd-recovery",
+      "run": "1",
+      "offered": 50.0,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "faasd",
+      "campaign": "faasd-recovery",
+      "run": "1",
+      "offered": 100.0,
+      "correctPerSecond": 84.525,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "faasd",
+      "campaign": "faasd-recovery",
+      "run": "1",
+      "offered": 200.0,
+      "correctPerSecond": 9.533333333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "faasd",
+      "campaign": "faasd-recovery",
+      "run": "2",
+      "offered": 25.0,
+      "correctPerSecond": 25.0,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "faasd",
+      "campaign": "faasd-recovery",
+      "run": "2",
+      "offered": 50.0,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "faasd",
+      "campaign": "faasd-recovery",
+      "run": "2",
+      "offered": 100.0,
+      "correctPerSecond": 100.00833333333334,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "faasd",
+      "campaign": "faasd-recovery",
+      "run": "2",
+      "offered": 200.0,
+      "correctPerSecond": 10.675,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "faasd",
+      "campaign": "faasd-recovery",
+      "run": "3",
+      "offered": 25.0,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "faasd",
+      "campaign": "faasd-recovery",
+      "run": "3",
+      "offered": 50.0,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "faasd",
+      "campaign": "faasd-recovery",
+      "run": "3",
+      "offered": 100.0,
+      "correctPerSecond": 100.00833333333334,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "faasd",
+      "campaign": "faasd-recovery",
+      "run": "3",
+      "offered": 200.0,
+      "correctPerSecond": 13.183333333333334,
+      "source": "experiments/experiment-02/report/data/run-phases.csv"
+    },
+    {
+      "platform": "p1-jvm",
+      "campaign": "updated-p1",
+      "run": 1,
+      "offered": 25,
+      "correctPerSecond": 25.0,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-jvm",
+      "campaign": "updated-p1",
+      "run": 1,
+      "offered": 50,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-jvm",
+      "campaign": "updated-p1",
+      "run": 1,
+      "offered": 100,
+      "correctPerSecond": 100.0,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-jvm",
+      "campaign": "updated-p1",
+      "run": 1,
+      "offered": 300,
+      "correctPerSecond": 280.2,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-native",
+      "campaign": "updated-p1",
+      "run": 1,
+      "offered": 25,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-native",
+      "campaign": "updated-p1",
+      "run": 1,
+      "offered": 50,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-native",
+      "campaign": "updated-p1",
+      "run": 1,
+      "offered": 100,
+      "correctPerSecond": 100.00833333333334,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-native",
+      "campaign": "updated-p1",
+      "run": 1,
+      "offered": 300,
+      "correctPerSecond": 274.10833333333335,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-native",
+      "campaign": "updated-p1",
+      "run": 2,
+      "offered": 25,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-native",
+      "campaign": "updated-p1",
+      "run": 2,
+      "offered": 50,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-native",
+      "campaign": "updated-p1",
+      "run": 2,
+      "offered": 100,
+      "correctPerSecond": 100.00833333333334,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-native",
+      "campaign": "updated-p1",
+      "run": 2,
+      "offered": 300,
+      "correctPerSecond": 275.05833333333334,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-jvm",
+      "campaign": "updated-p1",
+      "run": 2,
+      "offered": 25,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-jvm",
+      "campaign": "updated-p1",
+      "run": 2,
+      "offered": 50,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-jvm",
+      "campaign": "updated-p1",
+      "run": 2,
+      "offered": 100,
+      "correctPerSecond": 100.00833333333334,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-jvm",
+      "campaign": "updated-p1",
+      "run": 2,
+      "offered": 300,
+      "correctPerSecond": 277.325,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-jvm",
+      "campaign": "updated-p1",
+      "run": 3,
+      "offered": 25,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-jvm",
+      "campaign": "updated-p1",
+      "run": 3,
+      "offered": 50,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-jvm",
+      "campaign": "updated-p1",
+      "run": 3,
+      "offered": 100,
+      "correctPerSecond": 100.0,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-jvm",
+      "campaign": "updated-p1",
+      "run": 3,
+      "offered": 300,
+      "correctPerSecond": 272.21666666666664,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-native",
+      "campaign": "updated-p1",
+      "run": 3,
+      "offered": 25,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-native",
+      "campaign": "updated-p1",
+      "run": 3,
+      "offered": 50,
+      "correctPerSecond": 50.0,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-native",
+      "campaign": "updated-p1",
+      "run": 3,
+      "offered": 100,
+      "correctPerSecond": 100.0,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "p1-native",
+      "campaign": "updated-p1",
+      "run": 3,
+      "offered": 300,
+      "correctPerSecond": 268.69166666666666,
+      "source": "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 250,
+      "offered": 25.0,
+      "correctPerSecond": 25.0,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-250/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 250,
+      "offered": 50.0,
+      "correctPerSecond": 50.0,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-250/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 250,
+      "offered": 100.0,
+      "correctPerSecond": 100.0,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-250/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 250,
+      "offered": 200.0,
+      "correctPerSecond": 200.00833333333333,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-250/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 250,
+      "offered": 250.0,
+      "correctPerSecond": 250.00833333333333,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-250/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 260,
+      "offered": 25.0,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-260/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 260,
+      "offered": 50.0,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-260/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 260,
+      "offered": 100.0,
+      "correctPerSecond": 100.00833333333334,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-260/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 260,
+      "offered": 200.0,
+      "correctPerSecond": 200.00833333333333,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-260/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 260,
+      "offered": 260.0,
+      "correctPerSecond": 16.058333333333334,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-260/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 270,
+      "offered": 25.0,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-270/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 270,
+      "offered": 50.0,
+      "correctPerSecond": 50.00833333333333,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-270/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 270,
+      "offered": 100.0,
+      "correctPerSecond": 100.0,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-270/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 270,
+      "offered": 200.0,
+      "correctPerSecond": 200.00833333333333,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-270/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 270,
+      "offered": 270.0,
+      "correctPerSecond": 10.408333333333333,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-270/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 300,
+      "offered": 25.0,
+      "correctPerSecond": 25.008333333333333,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-300/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 300,
+      "offered": 50.0,
+      "correctPerSecond": 50.0,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-300/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 300,
+      "offered": 100.0,
+      "correctPerSecond": 100.00833333333334,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-300/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 300,
+      "offered": 200.0,
+      "correctPerSecond": 200.0,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-300/offline/experiment-02-summary.csv"
+    },
+    {
+      "platform": "spin",
+      "campaign": "high-load-spin",
+      "run": 300,
+      "offered": 300.0,
+      "correctPerSecond": 7.733333333333333,
+      "source": "experiments/experiment-02/results/2026-11-05-spin-rate200-300/offline/experiment-02-summary.csv"
+    }
+  ],
+  "inputs": {
+    "experiments/paper-layout/updated_qr.py": "47dd31bd672325c792f9c52589ecb6105262d90fe07f277bc243420b577942ae",
+    "experiments/experiment-02/report/data/run-phases.csv": "b8b77fc74290560d1bea263048944fcad1e1d0a1b32431e6b671f93bdd015f41",
+    "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/archive-verification.json": "4a247f68f2b7693aaa861b486d7f3f4bd448d083e4ed402cd914800508560813",
+    "experiments/experiment-02/results/2026-11-06-p1-direct-rate300/analysis.json": "e226da527c5d943fc5dd6b90614013e90f3e815f5d6cbca719153892c49a5cfd",
+    "experiments/experiment-02/results/2026-11-05-spin-rate200-250/offline-verification.json": "481b85add5d74caec8753a7940e894a5af040ec78f8af34a4faf7194d1681300",
+    "experiments/experiment-02/results/2026-11-05-spin-rate200-250/offline/experiment-02-summary.csv": "6bc8c99df5a993cae5d21f23bf371740b9c59568e73c50098532323c7514dd0e",
+    "experiments/experiment-02/results/2026-11-05-spin-rate200-260/offline-verification.json": "54d62173077f3737f28f35c8f30c8cfe5efc91933422de363312d1232f607a18",
+    "experiments/experiment-02/results/2026-11-05-spin-rate200-260/offline/experiment-02-summary.csv": "87d6a41e22c2ad97bb11169c04f707de222afd6afb36f0a6d7e012df96ba8b3c",
+    "experiments/experiment-02/results/2026-11-05-spin-rate200-270/offline-verification.json": "b088b4c210d19f4ca4a64c2caef15be5cd7ab8f2d74c3ff431cceadb1e8f4e24",
+    "experiments/experiment-02/results/2026-11-05-spin-rate200-270/offline/experiment-02-summary.csv": "3869a02c8289753b97738f91aab17168024267cbe3bce0443e5cc10435b24bb1",
+    "experiments/experiment-02/results/2026-11-05-spin-rate200-300/offline-verification.json": "c0c2066b318dfe7b6f4422e5a9c08238ae1b962e60ca79024aa344c54ca24995",
+    "experiments/experiment-02/results/2026-11-05-spin-rate200-300/offline/experiment-02-summary.csv": "6e64b87c0e8da445be130064ecc6de6dc5bf7543aeb354485e08f5828a41f68f",
+    "experiments/experiment-02/report/high-load/provenance.json": "dff01e1a3a354618a3b9956ba751ff35d69e66df22a529d2184272f1e574641e"
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "experiment": "01-module-cost",
+    "title": "JVM/native builds and retained-module costs",
+    "paper": "Resource table (tab:module-arms) and Figure fig:module-cost",
+    "selection": "Three final independent VM blocks, eight configurations per block (JVM/native \u00d7 Base/C/S/CS). All 24 arms are retained. Failed launches and the incomplete predecessor campaign are excluded.",
+    "files": 422,
+    "rawBytes": 463054890,
+    "compressedBytes": 11231946,
+    "parts": 1
+  },
+  {
+    "experiment": "02-platform-comparison",
+    "title": "Cross-platform QR service",
+    "paper": "Table tab:platform-results and Figure fig:platform-throughput",
+    "selection": "One consolidated campaign with 25 definitive runs and 104 plotted load phases: FunLess, tinyFaaS, Serverledge, Fn and faasd (three runs each); nanofaas JVM/native (three runs each at a final 300 requests/s); Spin (one run each at final rates 250, 260, 270 and 300 requests/s). Only the four-CPU/4-GiB runs used in the current results are included. Earlier nanofaas versions, two-CPU runs, the direct reference, and superseded Spin trials are excluded. Original source identifiers remain in run-index.json; aggregation does not imply identical configuration or replication across platforms.",
+    "files": 662,
+    "rawBytes": 935305470,
+    "compressedBytes": 22806660,
+    "parts": 1
+  },
+  {
+    "experiment": "03-concurrency-adaptation",
+    "title": "Concurrency adaptation with fixed replica counts",
+    "paper": "Table tab:concurrency and Figure fig:concurrency",
+    "selection": "The final 24 evaluation runs: four policies \u00d7 two scenarios \u00d7 three repetitions on separate VM pairs. Four calibration runs are retained separately because they underpin the calibrated fixed limit. Qualification/debug attempts and earlier experiments are excluded. Extended diagnostic summaries changed after archival and are not used by the main paper; they are excluded. Original request ledgers and telemetry match the frozen archive hashes.",
+    "files": 517,
+    "rawBytes": 4964826915,
+    "compressedBytes": 87498545,
+    "parts": 1
+  },
+  {
+    "experiment": "04-replica-reactivation",
+    "title": "Keep-ready versus scale-to-zero",
+    "paper": "Figure fig:reactivation",
+    "selection": "Only the final dispatch-fix campaign: five function runtimes, two treatments, three idle/reactivation cycles per treatment (30 cycles). Cycles reuse deployments and are not independent VM repetitions. Earlier lifecycle pilots are excluded.",
+    "files": 190,
+    "rawBytes": 199590010,
+    "compressedBytes": 818142,
+    "parts": 1
+  },
+  {
+    "experiment": "05-fixed-target-offloading",
+    "title": "Pressure-triggered forwarding to a fixed target",
+    "paper": "Section extensions / Fixed-target forwarding",
+    "selection": "One consolidated campaign of 15 final arms: local-only, pressure forwarding and direct cloud at 20, 100, 300, 400 and 500 requests/s. The successful initial sweep and the subsequent 400/500 extension are combined, preserving each original source. The failed launch that preceded measurement is excluded. Each mode/rate has one run.",
+    "files": 303,
+    "rawBytes": 1205846259,
+    "compressedBytes": 55462172,
+    "parts": 1
+  },
+  {
+    "experiment": "06-ten-edge-offloading",
+    "title": "Coordinated execution on ten edge nodes",
+    "paper": "Section sec:ten-edge and Figures fig:ten-edge-dynamics / fig:ten-edge-results",
+    "selection": "Only the selected afternoon Oracle and corrected ARI pair, plus their common frozen Python allocation reference: 54 one-minute epochs and 142,242 edge-origin requests per run. The five-edge studies, the earlier uncorrected ARI run and the overnight pair are excluded. Retained raw files are the verified analysis inputs (request ledgers, outcomes, forecasts, plans, activation records and frozen reference), not a full VM diagnostic dump. All retained original bytes match the source provenance hashes.",
+    "files": 73,
+    "rawBytes": 706254318,
+    "compressedBytes": 31073742,
+    "parts": 1
+  }
+]

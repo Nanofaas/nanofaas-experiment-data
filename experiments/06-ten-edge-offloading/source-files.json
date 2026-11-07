@@ -1,0 +1,367 @@
+{
+  "raw/continuous-oracle/run/cloud-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/cloud-queue-preflight.json"
+  },
+  "raw/continuous-oracle/run/edge-1-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/edge-1-queue-preflight.json"
+  },
+  "raw/continuous-oracle/run/edge-10-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/edge-10-queue-preflight.json"
+  },
+  "raw/continuous-oracle/run/edge-2-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/edge-2-queue-preflight.json"
+  },
+  "raw/continuous-oracle/run/edge-3-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/edge-3-queue-preflight.json"
+  },
+  "raw/continuous-oracle/run/edge-4-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/edge-4-queue-preflight.json"
+  },
+  "raw/continuous-oracle/run/edge-5-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/edge-5-queue-preflight.json"
+  },
+  "raw/continuous-oracle/run/edge-6-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/edge-6-queue-preflight.json"
+  },
+  "raw/continuous-oracle/run/edge-7-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/edge-7-queue-preflight.json"
+  },
+  "raw/continuous-oracle/run/edge-8-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/edge-8-queue-preflight.json"
+  },
+  "raw/continuous-oracle/run/edge-9-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/edge-9-queue-preflight.json"
+  },
+  "raw/continuous-oracle/run/epoch-observations.jsonl": {
+    "bytes": 15679,
+    "sha256": "2c45b3d8e425a27c6cc5961073b4872b0ca6346147f9f556f28638e46dc65638",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/epoch-observations.jsonl"
+  },
+  "raw/continuous-oracle/run/epochs-activations.jsonl": {
+    "bytes": 3118494,
+    "sha256": "aed35c3bb86001288c3e3549c40d71c18da86addebffce7a7b8347037471fbef",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/epochs-activations.jsonl"
+  },
+  "raw/continuous-oracle/run/epochs.jsonl": {
+    "bytes": 3178254,
+    "sha256": "1b1f5557df6626ac7a30ed5d9c7ff594fee8f285373bb6f07abaf4529b799a14",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/epochs.jsonl"
+  },
+  "raw/continuous-oracle/run/forecast-errors.csv": {
+    "bytes": 370083,
+    "sha256": "a7919ac5fd8626b68532524ccf9d68c5f16e189e84db01fcaac89cc04de14977",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/forecast-errors.csv"
+  },
+  "raw/continuous-oracle/run/forecast-errors.json": {
+    "bytes": 58427,
+    "sha256": "158d331a05c829d87095a01f399055b2b5cfeea2627774926b26feb913b941b1",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/forecast-errors.json"
+  },
+  "raw/continuous-oracle/run/generator.jsonl": {
+    "bytes": 304354387,
+    "sha256": "2767b5cdb57336ee20e1beca3bbc8e441f1bde906008a3a371494568ae1e8930",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/generator.jsonl"
+  },
+  "raw/continuous-oracle/run/manifest.json": {
+    "bytes": 18063,
+    "sha256": "b0dfafd90972985a3d64923641609eb54c7231a126e139bcd898a57212741c9c",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/manifest.json"
+  },
+  "raw/continuous-oracle/run/report.json": {
+    "bytes": 26464931,
+    "sha256": "9124c519bbfef2d5832fb1713ddcc4bb117f5ec4c290c5c61ce19c1461f59490",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/report.json"
+  },
+  "raw/continuous-oracle/run/responses.json": {
+    "bytes": 2945757,
+    "sha256": "706386d7ae46a2a225a96eec606c57008f16909e8c2710ef5d447e9b14b768db",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/responses.json"
+  },
+  "raw/continuous-oracle/run/status.json": {
+    "bytes": 693,
+    "sha256": "207e2f40815b591b6d5b55b2c6a1f6590f376e5e912fd7c5262db7518596ce26",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/status.json"
+  },
+  "raw/continuous-oracle/run/trace.json": {
+    "bytes": 75860,
+    "sha256": "4cb503ffb0d55b0bce8cbc51c209d72f4247db720dca4618a83f2a973cd7c912",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/run/trace.json"
+  },
+  "raw/continuous-oracle/freeze/distribution.json": {
+    "bytes": 2917,
+    "sha256": "c6ca977c293a513689822a10f4809ed255e759d948fe7e830eb159a3be7c9c47",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/freeze/distribution.json"
+  },
+  "raw/continuous-oracle/freeze/environment.yaml": {
+    "bytes": 1831,
+    "sha256": "6a486b8efb503f0b5e3392c1fdbe5183f15de95f30e32ef8d40d3dc4dd13c1cd",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/freeze/environment.yaml"
+  },
+  "raw/continuous-oracle/freeze/input-context.json": {
+    "bytes": 54572,
+    "sha256": "8c01a53b2f7ee8fa9619edc88a350ca147955e91cbfae13fc6707ce5aaa9ed3e",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/freeze/input-context.json"
+  },
+  "raw/continuous-oracle/freeze/operator-protocol.json": {
+    "bytes": 1107,
+    "sha256": "193e6f6a622cb9eabd7c459755373cccf23a2f9f1c6d2674811464dff9b00ee9",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/freeze/operator-protocol.json"
+  },
+  "raw/continuous-oracle/freeze/scenario.yaml": {
+    "bytes": 120752,
+    "sha256": "db554564832824e7629424a0d303176a7963926545dfb13bbef57d998b46129f",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/freeze/scenario.yaml"
+  },
+  "raw/continuous-oracle/freeze/selected.json": {
+    "bytes": 10913980,
+    "sha256": "e34dc7dcb5a1b166b8d18bc2338a9eca9ec53979427ca40a535829baa8b8d87d",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/freeze/selected.json"
+  },
+  "raw/continuous-oracle/freeze/source-used.py": {
+    "bytes": 32658,
+    "sha256": "eee6592d07e024faa322b7dcf604dc3b8a80a1dbda638d2a00001787216bbb1d",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/freeze/source-used.py"
+  },
+  "raw/continuous-oracle/freeze/trace.json": {
+    "bytes": 115693,
+    "sha256": "2054b8d0b09c39e0dd304d15330595ddc953c1e81cdbe8a4ec40e5eb86b44ce1",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/freeze/trace.json"
+  },
+  "raw/continuous-oracle/original-provenance.json": {
+    "bytes": 256276,
+    "sha256": "32f6a820029fe3ad03cdfe778a794279f4818b5e6ada9341a0b901328e29bded",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-oracle/provenance.json"
+  },
+  "raw/continuous-ari-history-fix/run/cloud-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/cloud-queue-preflight.json"
+  },
+  "raw/continuous-ari-history-fix/run/edge-1-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/edge-1-queue-preflight.json"
+  },
+  "raw/continuous-ari-history-fix/run/edge-10-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/edge-10-queue-preflight.json"
+  },
+  "raw/continuous-ari-history-fix/run/edge-2-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/edge-2-queue-preflight.json"
+  },
+  "raw/continuous-ari-history-fix/run/edge-3-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/edge-3-queue-preflight.json"
+  },
+  "raw/continuous-ari-history-fix/run/edge-4-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/edge-4-queue-preflight.json"
+  },
+  "raw/continuous-ari-history-fix/run/edge-5-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/edge-5-queue-preflight.json"
+  },
+  "raw/continuous-ari-history-fix/run/edge-6-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/edge-6-queue-preflight.json"
+  },
+  "raw/continuous-ari-history-fix/run/edge-7-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/edge-7-queue-preflight.json"
+  },
+  "raw/continuous-ari-history-fix/run/edge-8-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/edge-8-queue-preflight.json"
+  },
+  "raw/continuous-ari-history-fix/run/edge-9-queue-preflight.json": {
+    "bytes": 133,
+    "sha256": "f8b1eea5ea4efa2563beb03bfa5abd0284c157e7853d2ef1cf09e78034d6f9e4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/edge-9-queue-preflight.json"
+  },
+  "raw/continuous-ari-history-fix/run/epoch-observations.jsonl": {
+    "bytes": 15671,
+    "sha256": "184e96bca8f716da2c5acf61aa2f3aca3ab8e49e970288ccd617613c9b15338f",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/epoch-observations.jsonl"
+  },
+  "raw/continuous-ari-history-fix/run/epochs-activations.jsonl": {
+    "bytes": 3133471,
+    "sha256": "31199b2c64f12015455e08d51c67841dc8d1f0b8fbcc5b2f80e111f52790fef1",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/epochs-activations.jsonl"
+  },
+  "raw/continuous-ari-history-fix/run/epochs.jsonl": {
+    "bytes": 3193225,
+    "sha256": "95543293fe42c13c979a0326fcda00175c40f84860c22425490ef9c470a2cdff",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/epochs.jsonl"
+  },
+  "raw/continuous-ari-history-fix/run/forecast-errors.csv": {
+    "bytes": 584939,
+    "sha256": "b54fbec959a0355b1c99305176848d6c222267e5d0a900e2f6204d22ef545b55",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/forecast-errors.csv"
+  },
+  "raw/continuous-ari-history-fix/run/forecast-errors.json": {
+    "bytes": 72790,
+    "sha256": "9e692472d1e98171266c71739941200c4523a2de78e1f0f0016a62bdd7a00789",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/forecast-errors.json"
+  },
+  "raw/continuous-ari-history-fix/run/generator.jsonl": {
+    "bytes": 304355741,
+    "sha256": "5f3247993e7efc4654b5fd839df2899c35f167be406226fabce54e5f603fc0b1",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/generator.jsonl"
+  },
+  "raw/continuous-ari-history-fix/run/manifest.json": {
+    "bytes": 18157,
+    "sha256": "da189201df0477e767485cce431c9649a8d6a4ee5150a662e31ffaf88fbe76e5",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/manifest.json"
+  },
+  "raw/continuous-ari-history-fix/run/report.json": {
+    "bytes": 26542506,
+    "sha256": "a3ac7e07c76f47376be5b52a00ef56d6211d65c02303961d3b87452324ae9021",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/report.json"
+  },
+  "raw/continuous-ari-history-fix/run/responses.json": {
+    "bytes": 2958168,
+    "sha256": "e0ad57252213092806ab7633089671cd9630f53c098726edf2af3734123181a6",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/responses.json"
+  },
+  "raw/continuous-ari-history-fix/run/status.json": {
+    "bytes": 700,
+    "sha256": "cedafdb389e501e6d6432916b6793474b846afca68305c22f74bade5b7ba01a6",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/status.json"
+  },
+  "raw/continuous-ari-history-fix/run/trace.json": {
+    "bytes": 75860,
+    "sha256": "4cb503ffb0d55b0bce8cbc51c209d72f4247db720dca4618a83f2a973cd7c912",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/run/trace.json"
+  },
+  "raw/continuous-ari-history-fix/freeze/distribution.json": {
+    "bytes": 2917,
+    "sha256": "3db54427f55e9323b1d87f1d0aad7a2b696bf99121a34e38d1cdbaf9a6e58d8d",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/freeze/distribution.json"
+  },
+  "raw/continuous-ari-history-fix/freeze/environment.yaml": {
+    "bytes": 1831,
+    "sha256": "6a486b8efb503f0b5e3392c1fdbe5183f15de95f30e32ef8d40d3dc4dd13c1cd",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/freeze/environment.yaml"
+  },
+  "raw/continuous-ari-history-fix/freeze/input-context.json": {
+    "bytes": 54572,
+    "sha256": "8c01a53b2f7ee8fa9619edc88a350ca147955e91cbfae13fc6707ce5aaa9ed3e",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/freeze/input-context.json"
+  },
+  "raw/continuous-ari-history-fix/freeze/operator-protocol.json": {
+    "bytes": 1207,
+    "sha256": "a32b25f8c2da338aad6c4fbb6efaf282daf8b91f79b7939dc09b954f2b4258c5",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/freeze/operator-protocol.json"
+  },
+  "raw/continuous-ari-history-fix/freeze/scenario.yaml": {
+    "bytes": 120754,
+    "sha256": "44a0642234a7745b8d61a07257740707764be70503c78e6e3e6d82c56f48a7cb",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/freeze/scenario.yaml"
+  },
+  "raw/continuous-ari-history-fix/freeze/selected.json": {
+    "bytes": 10913980,
+    "sha256": "e34dc7dcb5a1b166b8d18bc2338a9eca9ec53979427ca40a535829baa8b8d87d",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/freeze/selected.json"
+  },
+  "raw/continuous-ari-history-fix/freeze/source-used.py": {
+    "bytes": 32658,
+    "sha256": "eee6592d07e024faa322b7dcf604dc3b8a80a1dbda638d2a00001787216bbb1d",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/freeze/source-used.py"
+  },
+  "raw/continuous-ari-history-fix/freeze/trace.json": {
+    "bytes": 115693,
+    "sha256": "2054b8d0b09c39e0dd304d15330595ddc953c1e81cdbe8a4ec40e5eb86b44ce1",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/freeze/trace.json"
+  },
+  "raw/continuous-ari-history-fix/original-provenance.json": {
+    "bytes": 257409,
+    "sha256": "35147908138ada352e6ea95f9d83168b7cf81016839c11fa0c753bac16448638",
+    "source": "experiments/offloading-ten-edge-2026-11-03/evidence/continuous-ari-history-fix/provenance.json"
+  },
+  "derived/summary.json": {
+    "bytes": 9955,
+    "sha256": "709687e2206a0f23b9fda2809bda69ebd0ac817633e2a11bc0b16fad2b1f52d2",
+    "source": "experiments/offloading-ten-edge-2026-11-03/report/generated/summary.json"
+  },
+  "derived/forecasts.csv": {
+    "bytes": 967053,
+    "sha256": "b7dc0d277b00e949d40327a60818edc7ab7e7cec65b9be3f0415051a1570e476",
+    "source": "experiments/offloading-ten-edge-2026-11-03/report/generated/forecasts.csv"
+  },
+  "derived/errors-epoch.csv": {
+    "bytes": 3807,
+    "sha256": "b7e5ac1eefab5226c8d0dd4989e2bc3c63eeb373afede2e4f30dfcc594eb84e1",
+    "source": "experiments/offloading-ten-edge-2026-11-03/report/generated/errors-epoch.csv"
+  },
+  "derived/model-cells.csv": {
+    "bytes": 142069,
+    "sha256": "9bf13ff4ac833da9741adf8c823e29ff2955598ab6df0f37b60166522e6a57cf",
+    "source": "experiments/offloading-ten-edge-2026-11-03/report/generated/model-cells.csv"
+  },
+  "derived/timing.csv": {
+    "bytes": 6930,
+    "sha256": "e05b9681c0a2ed770b73de93bb62f8af0e9e82388b4ce7c7773b22fb2269135d",
+    "source": "experiments/offloading-ten-edge-2026-11-03/report/generated/timing.csv"
+  },
+  "derived/activations.csv": {
+    "bytes": 92277,
+    "sha256": "0303ba236ab213a97d7d2fc35945acc9f4ccd896be905ffab12c50126bb38254",
+    "source": "experiments/offloading-ten-edge-2026-11-03/report/generated/activations.csv"
+  },
+  "derived/plans.csv": {
+    "bytes": 474380,
+    "sha256": "6c38b3deab7c98aa45a66b2edbb6997eb6a2ae825950eed7055d5dbf6f9ded01",
+    "source": "experiments/offloading-ten-edge-2026-11-03/report/generated/plans.csv"
+  },
+  "derived/oracle-comparison.json": {
+    "bytes": 471,
+    "sha256": "9351828d4689ebf78de11a805352cc14735c147e2bbe84825ce127ee825867f4",
+    "source": "experiments/offloading-ten-edge-2026-11-03/report/generated/oracle-comparison.json"
+  },
+  "derived/ari-comparison.json": {
+    "bytes": 472,
+    "sha256": "f2b88d9bcd8f9a8022687a82c9a40ac69bf14d7f4ded4b070fcbaa3f3f4c6388",
+    "source": "experiments/offloading-ten-edge-2026-11-03/report/generated/ari-comparison.json"
+  },
+  "derived/verification.json": {
+    "bytes": 439,
+    "sha256": "7e99b96352119d8cc35511879b3e8a4568d162d785a365c41add9e949718f794",
+    "source": "experiments/offloading-ten-edge-2026-11-03/report/generated/verification.json"
+  },
+  "derived/integrity.json": {
+    "bytes": 876,
+    "sha256": "13a6004e38a674583db7985c47bb79cce764bef827ca4ded585f30a393e29a8c",
+    "source": "experiments/offloading-ten-edge-2026-11-03/report/generated/integrity.json"
+  }
+}

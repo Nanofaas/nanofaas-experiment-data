@@ -1,0 +1,156 @@
+[
+  {
+    "id": "funless-r1",
+    "platform": "funless",
+    "repetition": 1,
+    "source": "original"
+  },
+  {
+    "id": "funless-r2",
+    "platform": "funless",
+    "repetition": 2,
+    "source": "original"
+  },
+  {
+    "id": "funless-r3",
+    "platform": "funless",
+    "repetition": 3,
+    "source": "original"
+  },
+  {
+    "id": "tinyfaas-r1",
+    "platform": "tinyfaas",
+    "repetition": 1,
+    "source": "original"
+  },
+  {
+    "id": "tinyfaas-r2",
+    "platform": "tinyfaas",
+    "repetition": 2,
+    "source": "original"
+  },
+  {
+    "id": "tinyfaas-r3",
+    "platform": "tinyfaas",
+    "repetition": 3,
+    "source": "original"
+  },
+  {
+    "id": "serverledge-r1",
+    "platform": "serverledge",
+    "repetition": 1,
+    "source": "original"
+  },
+  {
+    "id": "serverledge-r2",
+    "platform": "serverledge",
+    "repetition": 2,
+    "source": "original"
+  },
+  {
+    "id": "serverledge-r3",
+    "platform": "serverledge",
+    "repetition": 3,
+    "source": "original"
+  },
+  {
+    "id": "fn-r1",
+    "platform": "fn",
+    "repetition": 1,
+    "source": "original"
+  },
+  {
+    "id": "fn-r2",
+    "platform": "fn",
+    "repetition": 2,
+    "source": "original"
+  },
+  {
+    "id": "fn-r3",
+    "platform": "fn",
+    "repetition": 3,
+    "source": "original"
+  },
+  {
+    "id": "faasd-r1",
+    "platform": "faasd",
+    "repetition": 1,
+    "source": "faasd-recovery"
+  },
+  {
+    "id": "faasd-r2",
+    "platform": "faasd",
+    "repetition": 2,
+    "source": "faasd-recovery"
+  },
+  {
+    "id": "faasd-r3",
+    "platform": "faasd",
+    "repetition": 3,
+    "source": "faasd-recovery"
+  },
+  {
+    "id": "nanofaas-jvm-r1",
+    "platform": "nanofaas-jvm",
+    "repetition": 1,
+    "source": "2026-11-06-p1-direct-rate300"
+  },
+  {
+    "id": "nanofaas-jvm-r2",
+    "platform": "nanofaas-jvm",
+    "repetition": 2,
+    "source": "2026-11-06-p1-direct-rate300"
+  },
+  {
+    "id": "nanofaas-jvm-r3",
+    "platform": "nanofaas-jvm",
+    "repetition": 3,
+    "source": "2026-11-06-p1-direct-rate300"
+  },
+  {
+    "id": "nanofaas-native-r1",
+    "platform": "nanofaas-native",
+    "repetition": 1,
+    "source": "2026-11-06-p1-direct-rate300"
+  },
+  {
+    "id": "nanofaas-native-r2",
+    "platform": "nanofaas-native",
+    "repetition": 2,
+    "source": "2026-11-06-p1-direct-rate300"
+  },
+  {
+    "id": "nanofaas-native-r3",
+    "platform": "nanofaas-native",
+    "repetition": 3,
+    "source": "2026-11-06-p1-direct-rate300"
+  },
+  {
+    "id": "spin-rate250-r1",
+    "platform": "spin",
+    "repetition": 1,
+    "finalRate": 250,
+    "source": "2026-11-05-spin-rate200-250"
+  },
+  {
+    "id": "spin-rate260-r1",
+    "platform": "spin",
+    "repetition": 1,
+    "finalRate": 260,
+    "source": "2026-11-05-spin-rate200-260"
+  },
+  {
+    "id": "spin-rate270-r1",
+    "platform": "spin",
+    "repetition": 1,
+    "finalRate": 270,
+    "source": "2026-11-05-spin-rate200-270"
+  },
+  {
+    "id": "spin-rate300-r1",
+    "platform": "spin",
+    "repetition": 1,
+    "finalRate": 300,
+    "source": "2026-11-05-spin-rate200-300"
+  }
+]

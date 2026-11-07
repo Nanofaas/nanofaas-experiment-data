@@ -1,0 +1,18 @@
+{
+  "experiment": "06-ten-edge-offloading",
+  "format": "tar.zst split as an ordered byte stream",
+  "release": "paper-main-v1",
+  "archive": {
+    "name": "06-ten-edge-offloading.tar.zst",
+    "bytes": 31073742,
+    "sha256": "b46697ae40fb4dcec14984e18859ce9f579d9d5b3d5e645b19d3338c4fc8bdd6"
+  },
+  "parts": [
+    {
+      "name": "06-ten-edge-offloading.tar.zst.part-001",
+      "bytes": 31073742,
+      "sha256": "b46697ae40fb4dcec14984e18859ce9f579d9d5b3d5e645b19d3338c4fc8bdd6",
+      "url": "https://github.com/Nanofaas/nanofaas-experiment-data/releases/download/paper-main-v1/06-ten-edge-offloading.tar.zst.part-001"
+    }
+  ]
+}

@@ -1,0 +1,3099 @@
+{
+  "01-disabled-r400": {
+    "estimated_start_epoch": 1793654033.857,
+    "refusal_codes": {
+      "EMPTY_BODY": 14
+    },
+    "refusal_offset_range_seconds": [
+      0.0,
+      0.06799983978271484
+    ],
+    "offload_offset_range_seconds": null,
+    "arrival_bins_30s": [
+      {
+        "refused": 14,
+        "success": 11989
+      },
+      {
+        "success": 12000
+      },
+      {
+        "success": 12000
+      },
+      {
+        "success": 12000
+      },
+      {
+        "success": 12000
+      },
+      {
+        "success": 11998
+      }
+    ],
+    "offload_markers_bins_30s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "nodes": {
+      "stack": {
+        "cpu": {
+          "function": {
+            "start": 1793654035.342,
+            "end": 1793654210.342,
+            "seconds": 175.0,
+            "cpu_seconds": 69.042077,
+            "mean_cores": 0.3945261542857143,
+            "samples": 36
+          },
+          "control-plane": {
+            "start": 1793654035.342,
+            "end": 1793654210.342,
+            "seconds": 175.0,
+            "cpu_seconds": 63.019814,
+            "mean_cores": 0.3601132228571428,
+            "samples": 36
+          }
+        },
+        "raw_counters": {
+          "before": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 0.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          },
+          "after": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 73192.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 73192.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 14.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          }
+        },
+        "deployed": {
+          "function": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "512Mi"
+              },
+              "requests": {
+                "cpu": "1",
+                "memory": "256Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "FUNCTION_NAME",
+                "value": "word-stats-java"
+              },
+              {
+                "name": "WARM",
+                "value": "true"
+              },
+              {
+                "name": "TIMEOUT_MS",
+                "value": "30000"
+              },
+              {
+                "name": "CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              }
+            ]
+          },
+          "control-plane": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "2Gi"
+              },
+              "requests": {
+                "cpu": "250m",
+                "memory": "512Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "NANOFAAS_P2P_SHAREFUNCTIONS",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHAREIMAGES",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHARERESOURCES",
+                "value": "false"
+              },
+              {
+                "name": "SERVER_PORT",
+                "value": "8080"
+              },
+              {
+                "name": "MANAGEMENT_SERVER_PORT",
+                "value": "8081"
+              },
+              {
+                "name": "POD_NAMESPACE",
+                "valueFrom": {
+                  "fieldRef": {
+                    "apiVersion": "v1",
+                    "fieldPath": "metadata.namespace"
+                  }
+                }
+              },
+              {
+                "name": "NANOFAAS_REGISTRY_PATH",
+                "value": "/var/lib/nanofaas/functions.json"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACKURL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "NANOFAAS_SCHEDULER_STRATEGY"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_INGRESS_BODY_BYTES",
+                "value": "1048576"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_GLOBAL",
+                "value": "4096"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_PER_FUNCTION",
+                "value": "512"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_GLOBAL",
+                "value": "134217728"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_PER_FUNCTION",
+                "value": "33554432"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_GLOBAL",
+                "value": "67108864"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_PER_FUNCTION",
+                "value": "16777216"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_GLOBAL",
+                "value": "8192"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_PER_FUNCTION",
+                "value": "1024"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_MAX_INPUT_REFERENCES",
+                "value": "64"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_DEPTH",
+                "value": "32"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_CONTAINER_ENTRIES",
+                "value": "16384"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_VISITED_NODES",
+                "value": "65536"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_BYTES_PER_EXECUTION",
+                "value": "1048576"
+              },
+              {
+                "name": "JAVA_TOOL_OPTIONS",
+                "value": "-Dreactor.netty.ioWorkerCount=2"
+              },
+              {
+                "name": "NANOFAAS_DEPLOYMENT_DEFAULT_BACKEND",
+                "value": "k8s"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "SYNC_QUEUE_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_ADMISSION_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_DEPTH",
+                "value": "20"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_ESTIMATED_WAIT",
+                "value": "2s"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_QUEUE_WAIT",
+                "value": "30s"
+              },
+              {
+                "name": "SYNC_QUEUE_RETRY_AFTER_SECONDS",
+                "value": "2"
+              },
+              {
+                "name": "SYNC_QUEUE_THROUGHPUT_WINDOW",
+                "value": "10s"
+              },
+              {
+                "name": "SYNC_QUEUE_PER_FUNCTION_MIN_SAMPLES",
+                "value": "1"
+              },
+              {
+                "name": "NANOFAAS_METRICS_PROFILE",
+                "value": "advanced"
+              },
+              {
+                "name": "NANOFAAS_ADMISSION_PROFILE",
+                "value": "SYNC_QUEUE"
+              },
+              {
+                "name": "NANOFAAS_OFFLOAD_TARGETURL",
+                "value": "http://20.101.77.23:30080"
+              }
+            ]
+          }
+        },
+        "concurrency_observed": [
+          2.0
+        ]
+      },
+      "cloud": {
+        "cpu": {
+          "function": {
+            "start": 1793654035.513,
+            "end": 1793654210.513,
+            "seconds": 175.0,
+            "cpu_seconds": 0.9514609999999983,
+            "mean_cores": 0.00543691999999999,
+            "samples": 36
+          },
+          "control-plane": {
+            "start": 1793654035.513,
+            "end": 1793654210.513,
+            "seconds": 175.0,
+            "cpu_seconds": 1.7747580000000003,
+            "mean_cores": 0.010141474285714287,
+            "samples": 36
+          }
+        },
+        "raw_counters": {
+          "before": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 0.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          },
+          "after": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 4.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 4.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          }
+        },
+        "deployed": {
+          "function": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "512Mi"
+              },
+              "requests": {
+                "cpu": "1",
+                "memory": "256Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "FUNCTION_NAME",
+                "value": "word-stats-java"
+              },
+              {
+                "name": "WARM",
+                "value": "true"
+              },
+              {
+                "name": "TIMEOUT_MS",
+                "value": "30000"
+              },
+              {
+                "name": "CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              }
+            ]
+          },
+          "control-plane": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "2Gi"
+              },
+              "requests": {
+                "cpu": "250m",
+                "memory": "512Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "NANOFAAS_P2P_SHAREFUNCTIONS",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHAREIMAGES",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHARERESOURCES",
+                "value": "false"
+              },
+              {
+                "name": "SERVER_PORT",
+                "value": "8080"
+              },
+              {
+                "name": "MANAGEMENT_SERVER_PORT",
+                "value": "8081"
+              },
+              {
+                "name": "POD_NAMESPACE",
+                "valueFrom": {
+                  "fieldRef": {
+                    "apiVersion": "v1",
+                    "fieldPath": "metadata.namespace"
+                  }
+                }
+              },
+              {
+                "name": "NANOFAAS_REGISTRY_PATH",
+                "value": "/var/lib/nanofaas/functions.json"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACKURL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "NANOFAAS_SCHEDULER_STRATEGY"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_INGRESS_BODY_BYTES",
+                "value": "1048576"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_GLOBAL",
+                "value": "4096"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_PER_FUNCTION",
+                "value": "512"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_GLOBAL",
+                "value": "134217728"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_PER_FUNCTION",
+                "value": "33554432"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_GLOBAL",
+                "value": "67108864"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_PER_FUNCTION",
+                "value": "16777216"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_GLOBAL",
+                "value": "8192"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_PER_FUNCTION",
+                "value": "1024"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_MAX_INPUT_REFERENCES",
+                "value": "64"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_DEPTH",
+                "value": "32"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_CONTAINER_ENTRIES",
+                "value": "16384"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_VISITED_NODES",
+                "value": "65536"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_BYTES_PER_EXECUTION",
+                "value": "1048576"
+              },
+              {
+                "name": "JAVA_TOOL_OPTIONS",
+                "value": "-Dreactor.netty.ioWorkerCount=2"
+              },
+              {
+                "name": "NANOFAAS_DEPLOYMENT_DEFAULT_BACKEND",
+                "value": "k8s"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "SYNC_QUEUE_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_ADMISSION_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_DEPTH",
+                "value": "100"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_ESTIMATED_WAIT",
+                "value": "2s"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_QUEUE_WAIT",
+                "value": "30s"
+              },
+              {
+                "name": "SYNC_QUEUE_RETRY_AFTER_SECONDS",
+                "value": "2"
+              },
+              {
+                "name": "SYNC_QUEUE_THROUGHPUT_WINDOW",
+                "value": "10s"
+              },
+              {
+                "name": "SYNC_QUEUE_PER_FUNCTION_MIN_SAMPLES",
+                "value": "1"
+              },
+              {
+                "name": "NANOFAAS_METRICS_PROFILE",
+                "value": "advanced"
+              },
+              {
+                "name": "NANOFAAS_ADMISSION_PROFILE",
+                "value": "SYNC_QUEUE"
+              }
+            ]
+          }
+        },
+        "concurrency_observed": [
+          20.0
+        ]
+      }
+    }
+  },
+  "02-pressure-r400": {
+    "estimated_start_epoch": 1793655064.076,
+    "refusal_codes": {
+      "OFFLOAD_FAILED": 1
+    },
+    "refusal_offset_range_seconds": [
+      0.01399993896484375,
+      0.01399993896484375
+    ],
+    "offload_offset_range_seconds": [
+      0.0,
+      0.06100010871887207
+    ],
+    "arrival_bins_30s": [
+      {
+        "success": 12002,
+        "refused": 1
+      },
+      {
+        "success": 12000
+      },
+      {
+        "success": 12000
+      },
+      {
+        "success": 12000
+      },
+      {
+        "success": 12000
+      },
+      {
+        "success": 11998
+      }
+    ],
+    "offload_markers_bins_30s": [
+      12,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "nodes": {
+      "stack": {
+        "cpu": {
+          "function": {
+            "start": 1793655065.568,
+            "end": 1793655240.568,
+            "seconds": 175.0,
+            "cpu_seconds": 86.664692,
+            "mean_cores": 0.49522681142857145,
+            "samples": 36
+          },
+          "control-plane": {
+            "start": 1793655065.568,
+            "end": 1793655240.568,
+            "seconds": 175.0,
+            "cpu_seconds": 74.327171,
+            "mean_cores": 0.42472669142857145,
+            "samples": 36
+          }
+        },
+        "raw_counters": {
+          "before": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 0.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          },
+          "after": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 73194.0,
+            "function_error_total{function=\"word-stats-java\"}": 1.0,
+            "function_success_total{function=\"word-stats-java\"}": 73205.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 12.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          }
+        },
+        "deployed": {
+          "function": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "512Mi"
+              },
+              "requests": {
+                "cpu": "1",
+                "memory": "256Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "FUNCTION_NAME",
+                "value": "word-stats-java"
+              },
+              {
+                "name": "WARM",
+                "value": "true"
+              },
+              {
+                "name": "TIMEOUT_MS",
+                "value": "30000"
+              },
+              {
+                "name": "CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              }
+            ]
+          },
+          "control-plane": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "2Gi"
+              },
+              "requests": {
+                "cpu": "250m",
+                "memory": "512Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "NANOFAAS_P2P_SHAREFUNCTIONS",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHAREIMAGES",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHARERESOURCES",
+                "value": "false"
+              },
+              {
+                "name": "SERVER_PORT",
+                "value": "8080"
+              },
+              {
+                "name": "MANAGEMENT_SERVER_PORT",
+                "value": "8081"
+              },
+              {
+                "name": "POD_NAMESPACE",
+                "valueFrom": {
+                  "fieldRef": {
+                    "apiVersion": "v1",
+                    "fieldPath": "metadata.namespace"
+                  }
+                }
+              },
+              {
+                "name": "NANOFAAS_REGISTRY_PATH",
+                "value": "/var/lib/nanofaas/functions.json"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACKURL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "NANOFAAS_SCHEDULER_STRATEGY"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_INGRESS_BODY_BYTES",
+                "value": "1048576"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_GLOBAL",
+                "value": "4096"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_PER_FUNCTION",
+                "value": "512"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_GLOBAL",
+                "value": "134217728"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_PER_FUNCTION",
+                "value": "33554432"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_GLOBAL",
+                "value": "67108864"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_PER_FUNCTION",
+                "value": "16777216"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_GLOBAL",
+                "value": "8192"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_PER_FUNCTION",
+                "value": "1024"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_MAX_INPUT_REFERENCES",
+                "value": "64"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_DEPTH",
+                "value": "32"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_CONTAINER_ENTRIES",
+                "value": "16384"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_VISITED_NODES",
+                "value": "65536"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_BYTES_PER_EXECUTION",
+                "value": "1048576"
+              },
+              {
+                "name": "JAVA_TOOL_OPTIONS",
+                "value": "-Dreactor.netty.ioWorkerCount=2"
+              },
+              {
+                "name": "NANOFAAS_DEPLOYMENT_DEFAULT_BACKEND",
+                "value": "k8s"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "SYNC_QUEUE_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_ADMISSION_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_DEPTH",
+                "value": "20"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_ESTIMATED_WAIT",
+                "value": "2s"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_QUEUE_WAIT",
+                "value": "30s"
+              },
+              {
+                "name": "SYNC_QUEUE_RETRY_AFTER_SECONDS",
+                "value": "2"
+              },
+              {
+                "name": "SYNC_QUEUE_THROUGHPUT_WINDOW",
+                "value": "10s"
+              },
+              {
+                "name": "SYNC_QUEUE_PER_FUNCTION_MIN_SAMPLES",
+                "value": "1"
+              },
+              {
+                "name": "NANOFAAS_METRICS_PROFILE",
+                "value": "advanced"
+              },
+              {
+                "name": "NANOFAAS_ADMISSION_PROFILE",
+                "value": "SYNC_QUEUE"
+              },
+              {
+                "name": "NANOFAAS_OFFLOAD_TARGETURL",
+                "value": "http://20.93.129.129:30080"
+              }
+            ]
+          }
+        },
+        "concurrency_observed": [
+          2.0
+        ]
+      },
+      "cloud": {
+        "cpu": {
+          "function": {
+            "start": 1793655065.739,
+            "end": 1793655240.739,
+            "seconds": 175.0,
+            "cpu_seconds": 1.6751190000000005,
+            "mean_cores": 0.009572108571428574,
+            "samples": 36
+          },
+          "control-plane": {
+            "start": 1793655065.739,
+            "end": 1793655240.739,
+            "seconds": 175.0,
+            "cpu_seconds": 2.5900479999999995,
+            "mean_cores": 0.014800274285714283,
+            "samples": 36
+          }
+        },
+        "raw_counters": {
+          "before": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 0.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          },
+          "after": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 15.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 15.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 1.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          }
+        },
+        "deployed": {
+          "function": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "512Mi"
+              },
+              "requests": {
+                "cpu": "1",
+                "memory": "256Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "FUNCTION_NAME",
+                "value": "word-stats-java"
+              },
+              {
+                "name": "WARM",
+                "value": "true"
+              },
+              {
+                "name": "TIMEOUT_MS",
+                "value": "30000"
+              },
+              {
+                "name": "CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              }
+            ]
+          },
+          "control-plane": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "2Gi"
+              },
+              "requests": {
+                "cpu": "250m",
+                "memory": "512Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "NANOFAAS_P2P_SHAREFUNCTIONS",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHAREIMAGES",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHARERESOURCES",
+                "value": "false"
+              },
+              {
+                "name": "SERVER_PORT",
+                "value": "8080"
+              },
+              {
+                "name": "MANAGEMENT_SERVER_PORT",
+                "value": "8081"
+              },
+              {
+                "name": "POD_NAMESPACE",
+                "valueFrom": {
+                  "fieldRef": {
+                    "apiVersion": "v1",
+                    "fieldPath": "metadata.namespace"
+                  }
+                }
+              },
+              {
+                "name": "NANOFAAS_REGISTRY_PATH",
+                "value": "/var/lib/nanofaas/functions.json"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACKURL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "NANOFAAS_SCHEDULER_STRATEGY"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_INGRESS_BODY_BYTES",
+                "value": "1048576"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_GLOBAL",
+                "value": "4096"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_PER_FUNCTION",
+                "value": "512"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_GLOBAL",
+                "value": "134217728"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_PER_FUNCTION",
+                "value": "33554432"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_GLOBAL",
+                "value": "67108864"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_PER_FUNCTION",
+                "value": "16777216"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_GLOBAL",
+                "value": "8192"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_PER_FUNCTION",
+                "value": "1024"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_MAX_INPUT_REFERENCES",
+                "value": "64"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_DEPTH",
+                "value": "32"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_CONTAINER_ENTRIES",
+                "value": "16384"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_VISITED_NODES",
+                "value": "65536"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_BYTES_PER_EXECUTION",
+                "value": "1048576"
+              },
+              {
+                "name": "JAVA_TOOL_OPTIONS",
+                "value": "-Dreactor.netty.ioWorkerCount=2"
+              },
+              {
+                "name": "NANOFAAS_DEPLOYMENT_DEFAULT_BACKEND",
+                "value": "k8s"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "SYNC_QUEUE_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_ADMISSION_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_DEPTH",
+                "value": "100"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_ESTIMATED_WAIT",
+                "value": "2s"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_QUEUE_WAIT",
+                "value": "30s"
+              },
+              {
+                "name": "SYNC_QUEUE_RETRY_AFTER_SECONDS",
+                "value": "2"
+              },
+              {
+                "name": "SYNC_QUEUE_THROUGHPUT_WINDOW",
+                "value": "10s"
+              },
+              {
+                "name": "SYNC_QUEUE_PER_FUNCTION_MIN_SAMPLES",
+                "value": "1"
+              },
+              {
+                "name": "NANOFAAS_METRICS_PROFILE",
+                "value": "advanced"
+              },
+              {
+                "name": "NANOFAAS_ADMISSION_PROFILE",
+                "value": "SYNC_QUEUE"
+              }
+            ]
+          }
+        },
+        "concurrency_observed": [
+          20.0
+        ]
+      }
+    }
+  },
+  "03-cloud-r400": {
+    "estimated_start_epoch": 1793656087.719,
+    "refusal_codes": {},
+    "refusal_offset_range_seconds": null,
+    "offload_offset_range_seconds": null,
+    "arrival_bins_30s": [
+      {
+        "success": 12004
+      },
+      {
+        "success": 12000
+      },
+      {
+        "success": 12000
+      },
+      {
+        "success": 12000
+      },
+      {
+        "success": 12000
+      },
+      {
+        "success": 11997
+      }
+    ],
+    "offload_markers_bins_30s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "nodes": {
+      "stack": {
+        "cpu": {
+          "function": {
+            "start": 1793656089.108,
+            "end": 1793656264.108,
+            "seconds": 175.0,
+            "cpu_seconds": 0.9615770000000001,
+            "mean_cores": 0.005494725714285715,
+            "samples": 36
+          },
+          "control-plane": {
+            "start": 1793656089.108,
+            "end": 1793656264.108,
+            "seconds": 175.0,
+            "cpu_seconds": 1.3048990000000007,
+            "mean_cores": 0.007456565714285718,
+            "samples": 36
+          }
+        },
+        "raw_counters": {
+          "before": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 0.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          },
+          "after": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 4.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 4.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          }
+        },
+        "deployed": {
+          "function": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "512Mi"
+              },
+              "requests": {
+                "cpu": "1",
+                "memory": "256Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "FUNCTION_NAME",
+                "value": "word-stats-java"
+              },
+              {
+                "name": "WARM",
+                "value": "true"
+              },
+              {
+                "name": "TIMEOUT_MS",
+                "value": "30000"
+              },
+              {
+                "name": "CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              }
+            ]
+          },
+          "control-plane": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "2Gi"
+              },
+              "requests": {
+                "cpu": "250m",
+                "memory": "512Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "NANOFAAS_P2P_SHAREFUNCTIONS",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHAREIMAGES",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHARERESOURCES",
+                "value": "false"
+              },
+              {
+                "name": "SERVER_PORT",
+                "value": "8080"
+              },
+              {
+                "name": "MANAGEMENT_SERVER_PORT",
+                "value": "8081"
+              },
+              {
+                "name": "POD_NAMESPACE",
+                "valueFrom": {
+                  "fieldRef": {
+                    "apiVersion": "v1",
+                    "fieldPath": "metadata.namespace"
+                  }
+                }
+              },
+              {
+                "name": "NANOFAAS_REGISTRY_PATH",
+                "value": "/var/lib/nanofaas/functions.json"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACKURL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "NANOFAAS_SCHEDULER_STRATEGY"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_INGRESS_BODY_BYTES",
+                "value": "1048576"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_GLOBAL",
+                "value": "4096"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_PER_FUNCTION",
+                "value": "512"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_GLOBAL",
+                "value": "134217728"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_PER_FUNCTION",
+                "value": "33554432"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_GLOBAL",
+                "value": "67108864"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_PER_FUNCTION",
+                "value": "16777216"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_GLOBAL",
+                "value": "8192"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_PER_FUNCTION",
+                "value": "1024"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_MAX_INPUT_REFERENCES",
+                "value": "64"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_DEPTH",
+                "value": "32"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_CONTAINER_ENTRIES",
+                "value": "16384"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_VISITED_NODES",
+                "value": "65536"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_BYTES_PER_EXECUTION",
+                "value": "1048576"
+              },
+              {
+                "name": "JAVA_TOOL_OPTIONS",
+                "value": "-Dreactor.netty.ioWorkerCount=2"
+              },
+              {
+                "name": "NANOFAAS_DEPLOYMENT_DEFAULT_BACKEND",
+                "value": "k8s"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "SYNC_QUEUE_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_ADMISSION_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_DEPTH",
+                "value": "20"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_ESTIMATED_WAIT",
+                "value": "2s"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_QUEUE_WAIT",
+                "value": "30s"
+              },
+              {
+                "name": "SYNC_QUEUE_RETRY_AFTER_SECONDS",
+                "value": "2"
+              },
+              {
+                "name": "SYNC_QUEUE_THROUGHPUT_WINDOW",
+                "value": "10s"
+              },
+              {
+                "name": "SYNC_QUEUE_PER_FUNCTION_MIN_SAMPLES",
+                "value": "1"
+              },
+              {
+                "name": "NANOFAAS_METRICS_PROFILE",
+                "value": "advanced"
+              },
+              {
+                "name": "NANOFAAS_ADMISSION_PROFILE",
+                "value": "SYNC_QUEUE"
+              },
+              {
+                "name": "NANOFAAS_OFFLOAD_TARGETURL",
+                "value": "http://20.16.128.252:30080"
+              }
+            ]
+          }
+        },
+        "concurrency_observed": [
+          2.0
+        ]
+      },
+      "cloud": {
+        "cpu": {
+          "function": {
+            "start": 1793656089.27,
+            "end": 1793656264.27,
+            "seconds": 175.0,
+            "cpu_seconds": 118.630342,
+            "mean_cores": 0.6778876685714286,
+            "samples": 36
+          },
+          "control-plane": {
+            "start": 1793656089.27,
+            "end": 1793656264.27,
+            "seconds": 175.0,
+            "cpu_seconds": 104.984609,
+            "mean_cores": 0.5999120514285715,
+            "samples": 36
+          }
+        },
+        "raw_counters": {
+          "before": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 0.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          },
+          "after": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 73205.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 73205.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          }
+        },
+        "deployed": {
+          "function": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "512Mi"
+              },
+              "requests": {
+                "cpu": "1",
+                "memory": "256Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "FUNCTION_NAME",
+                "value": "word-stats-java"
+              },
+              {
+                "name": "WARM",
+                "value": "true"
+              },
+              {
+                "name": "TIMEOUT_MS",
+                "value": "30000"
+              },
+              {
+                "name": "CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              }
+            ]
+          },
+          "control-plane": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "2Gi"
+              },
+              "requests": {
+                "cpu": "250m",
+                "memory": "512Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "NANOFAAS_P2P_SHAREFUNCTIONS",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHAREIMAGES",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHARERESOURCES",
+                "value": "false"
+              },
+              {
+                "name": "SERVER_PORT",
+                "value": "8080"
+              },
+              {
+                "name": "MANAGEMENT_SERVER_PORT",
+                "value": "8081"
+              },
+              {
+                "name": "POD_NAMESPACE",
+                "valueFrom": {
+                  "fieldRef": {
+                    "apiVersion": "v1",
+                    "fieldPath": "metadata.namespace"
+                  }
+                }
+              },
+              {
+                "name": "NANOFAAS_REGISTRY_PATH",
+                "value": "/var/lib/nanofaas/functions.json"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACKURL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "NANOFAAS_SCHEDULER_STRATEGY"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_INGRESS_BODY_BYTES",
+                "value": "1048576"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_GLOBAL",
+                "value": "4096"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_PER_FUNCTION",
+                "value": "512"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_GLOBAL",
+                "value": "134217728"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_PER_FUNCTION",
+                "value": "33554432"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_GLOBAL",
+                "value": "67108864"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_PER_FUNCTION",
+                "value": "16777216"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_GLOBAL",
+                "value": "8192"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_PER_FUNCTION",
+                "value": "1024"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_MAX_INPUT_REFERENCES",
+                "value": "64"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_DEPTH",
+                "value": "32"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_CONTAINER_ENTRIES",
+                "value": "16384"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_VISITED_NODES",
+                "value": "65536"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_BYTES_PER_EXECUTION",
+                "value": "1048576"
+              },
+              {
+                "name": "JAVA_TOOL_OPTIONS",
+                "value": "-Dreactor.netty.ioWorkerCount=2"
+              },
+              {
+                "name": "NANOFAAS_DEPLOYMENT_DEFAULT_BACKEND",
+                "value": "k8s"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "SYNC_QUEUE_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_ADMISSION_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_DEPTH",
+                "value": "100"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_ESTIMATED_WAIT",
+                "value": "2s"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_QUEUE_WAIT",
+                "value": "30s"
+              },
+              {
+                "name": "SYNC_QUEUE_RETRY_AFTER_SECONDS",
+                "value": "2"
+              },
+              {
+                "name": "SYNC_QUEUE_THROUGHPUT_WINDOW",
+                "value": "10s"
+              },
+              {
+                "name": "SYNC_QUEUE_PER_FUNCTION_MIN_SAMPLES",
+                "value": "1"
+              },
+              {
+                "name": "NANOFAAS_METRICS_PROFILE",
+                "value": "advanced"
+              },
+              {
+                "name": "NANOFAAS_ADMISSION_PROFILE",
+                "value": "SYNC_QUEUE"
+              }
+            ]
+          }
+        },
+        "concurrency_observed": [
+          20.0
+        ]
+      }
+    }
+  },
+  "04-pressure-r500": {
+    "estimated_start_epoch": 1793657140.635,
+    "refusal_codes": {
+      "OFFLOAD_FAILED": 1
+    },
+    "refusal_offset_range_seconds": [
+      0.005000114440917969,
+      0.005000114440917969
+    ],
+    "offload_offset_range_seconds": [
+      0.0,
+      1.1459999084472656
+    ],
+    "arrival_bins_30s": [
+      {
+        "success": 15001,
+        "refused": 1
+      },
+      {
+        "success": 15000
+      },
+      {
+        "success": 15000
+      },
+      {
+        "success": 15000
+      },
+      {
+        "success": 15000
+      },
+      {
+        "success": 14999
+      }
+    ],
+    "offload_markers_bins_30s": [
+      129,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "nodes": {
+      "stack": {
+        "cpu": {
+          "function": {
+            "start": 1793657141.983,
+            "end": 1793657316.983,
+            "seconds": 175.0,
+            "cpu_seconds": 91.31600999999999,
+            "mean_cores": 0.5218057714285714,
+            "samples": 36
+          },
+          "control-plane": {
+            "start": 1793657141.983,
+            "end": 1793657316.983,
+            "seconds": 175.0,
+            "cpu_seconds": 74.73583599999999,
+            "mean_cores": 0.42706191999999993,
+            "samples": 36
+          }
+        },
+        "raw_counters": {
+          "before": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 0.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          },
+          "after": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 91077.0,
+            "function_error_total{function=\"word-stats-java\"}": 1.0,
+            "function_success_total{function=\"word-stats-java\"}": 91205.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 66.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 63.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          }
+        },
+        "deployed": {
+          "function": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "512Mi"
+              },
+              "requests": {
+                "cpu": "1",
+                "memory": "256Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "FUNCTION_NAME",
+                "value": "word-stats-java"
+              },
+              {
+                "name": "WARM",
+                "value": "true"
+              },
+              {
+                "name": "TIMEOUT_MS",
+                "value": "30000"
+              },
+              {
+                "name": "CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              }
+            ]
+          },
+          "control-plane": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "2Gi"
+              },
+              "requests": {
+                "cpu": "250m",
+                "memory": "512Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "NANOFAAS_P2P_SHAREFUNCTIONS",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHAREIMAGES",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHARERESOURCES",
+                "value": "false"
+              },
+              {
+                "name": "SERVER_PORT",
+                "value": "8080"
+              },
+              {
+                "name": "MANAGEMENT_SERVER_PORT",
+                "value": "8081"
+              },
+              {
+                "name": "POD_NAMESPACE",
+                "valueFrom": {
+                  "fieldRef": {
+                    "apiVersion": "v1",
+                    "fieldPath": "metadata.namespace"
+                  }
+                }
+              },
+              {
+                "name": "NANOFAAS_REGISTRY_PATH",
+                "value": "/var/lib/nanofaas/functions.json"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACKURL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "NANOFAAS_SCHEDULER_STRATEGY"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_INGRESS_BODY_BYTES",
+                "value": "1048576"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_GLOBAL",
+                "value": "4096"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_PER_FUNCTION",
+                "value": "512"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_GLOBAL",
+                "value": "134217728"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_PER_FUNCTION",
+                "value": "33554432"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_GLOBAL",
+                "value": "67108864"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_PER_FUNCTION",
+                "value": "16777216"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_GLOBAL",
+                "value": "8192"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_PER_FUNCTION",
+                "value": "1024"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_MAX_INPUT_REFERENCES",
+                "value": "64"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_DEPTH",
+                "value": "32"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_CONTAINER_ENTRIES",
+                "value": "16384"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_VISITED_NODES",
+                "value": "65536"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_BYTES_PER_EXECUTION",
+                "value": "1048576"
+              },
+              {
+                "name": "JAVA_TOOL_OPTIONS",
+                "value": "-Dreactor.netty.ioWorkerCount=2"
+              },
+              {
+                "name": "NANOFAAS_DEPLOYMENT_DEFAULT_BACKEND",
+                "value": "k8s"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "SYNC_QUEUE_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_ADMISSION_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_DEPTH",
+                "value": "20"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_ESTIMATED_WAIT",
+                "value": "2s"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_QUEUE_WAIT",
+                "value": "30s"
+              },
+              {
+                "name": "SYNC_QUEUE_RETRY_AFTER_SECONDS",
+                "value": "2"
+              },
+              {
+                "name": "SYNC_QUEUE_THROUGHPUT_WINDOW",
+                "value": "10s"
+              },
+              {
+                "name": "SYNC_QUEUE_PER_FUNCTION_MIN_SAMPLES",
+                "value": "1"
+              },
+              {
+                "name": "NANOFAAS_METRICS_PROFILE",
+                "value": "advanced"
+              },
+              {
+                "name": "NANOFAAS_ADMISSION_PROFILE",
+                "value": "SYNC_QUEUE"
+              },
+              {
+                "name": "NANOFAAS_OFFLOAD_TARGETURL",
+                "value": "http://52.143.58.88:30080"
+              }
+            ]
+          }
+        },
+        "concurrency_observed": [
+          2.0
+        ]
+      },
+      "cloud": {
+        "cpu": {
+          "function": {
+            "start": 1793657142.15,
+            "end": 1793657317.15,
+            "seconds": 175.0,
+            "cpu_seconds": 2.5619899999999998,
+            "mean_cores": 0.014639942857142856,
+            "samples": 36
+          },
+          "control-plane": {
+            "start": 1793657142.15,
+            "end": 1793657317.15,
+            "seconds": 175.0,
+            "cpu_seconds": 3.7385800000000007,
+            "mean_cores": 0.02136331428571429,
+            "samples": 36
+          }
+        },
+        "raw_counters": {
+          "before": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 0.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          },
+          "after": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 132.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 132.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 1.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          }
+        },
+        "deployed": {
+          "function": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "512Mi"
+              },
+              "requests": {
+                "cpu": "1",
+                "memory": "256Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "FUNCTION_NAME",
+                "value": "word-stats-java"
+              },
+              {
+                "name": "WARM",
+                "value": "true"
+              },
+              {
+                "name": "TIMEOUT_MS",
+                "value": "30000"
+              },
+              {
+                "name": "CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              }
+            ]
+          },
+          "control-plane": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "2Gi"
+              },
+              "requests": {
+                "cpu": "250m",
+                "memory": "512Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "NANOFAAS_P2P_SHAREFUNCTIONS",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHAREIMAGES",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHARERESOURCES",
+                "value": "false"
+              },
+              {
+                "name": "SERVER_PORT",
+                "value": "8080"
+              },
+              {
+                "name": "MANAGEMENT_SERVER_PORT",
+                "value": "8081"
+              },
+              {
+                "name": "POD_NAMESPACE",
+                "valueFrom": {
+                  "fieldRef": {
+                    "apiVersion": "v1",
+                    "fieldPath": "metadata.namespace"
+                  }
+                }
+              },
+              {
+                "name": "NANOFAAS_REGISTRY_PATH",
+                "value": "/var/lib/nanofaas/functions.json"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACKURL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "NANOFAAS_SCHEDULER_STRATEGY"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_INGRESS_BODY_BYTES",
+                "value": "1048576"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_GLOBAL",
+                "value": "4096"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_PER_FUNCTION",
+                "value": "512"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_GLOBAL",
+                "value": "134217728"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_PER_FUNCTION",
+                "value": "33554432"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_GLOBAL",
+                "value": "67108864"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_PER_FUNCTION",
+                "value": "16777216"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_GLOBAL",
+                "value": "8192"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_PER_FUNCTION",
+                "value": "1024"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_MAX_INPUT_REFERENCES",
+                "value": "64"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_DEPTH",
+                "value": "32"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_CONTAINER_ENTRIES",
+                "value": "16384"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_VISITED_NODES",
+                "value": "65536"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_BYTES_PER_EXECUTION",
+                "value": "1048576"
+              },
+              {
+                "name": "JAVA_TOOL_OPTIONS",
+                "value": "-Dreactor.netty.ioWorkerCount=2"
+              },
+              {
+                "name": "NANOFAAS_DEPLOYMENT_DEFAULT_BACKEND",
+                "value": "k8s"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "SYNC_QUEUE_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_ADMISSION_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_DEPTH",
+                "value": "100"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_ESTIMATED_WAIT",
+                "value": "2s"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_QUEUE_WAIT",
+                "value": "30s"
+              },
+              {
+                "name": "SYNC_QUEUE_RETRY_AFTER_SECONDS",
+                "value": "2"
+              },
+              {
+                "name": "SYNC_QUEUE_THROUGHPUT_WINDOW",
+                "value": "10s"
+              },
+              {
+                "name": "SYNC_QUEUE_PER_FUNCTION_MIN_SAMPLES",
+                "value": "1"
+              },
+              {
+                "name": "NANOFAAS_METRICS_PROFILE",
+                "value": "advanced"
+              },
+              {
+                "name": "NANOFAAS_ADMISSION_PROFILE",
+                "value": "SYNC_QUEUE"
+              }
+            ]
+          }
+        },
+        "concurrency_observed": [
+          20.0
+        ]
+      }
+    }
+  },
+  "05-disabled-r500": {
+    "estimated_start_epoch": 1793658156.523,
+    "refusal_codes": {
+      "EMPTY_BODY": 19
+    },
+    "refusal_offset_range_seconds": [
+      0.0,
+      0.08699989318847656
+    ],
+    "offload_offset_range_seconds": null,
+    "arrival_bins_30s": [
+      {
+        "refused": 19,
+        "success": 14983
+      },
+      {
+        "success": 15001
+      },
+      {
+        "success": 15000
+      },
+      {
+        "success": 14999
+      },
+      {
+        "success": 15001
+      },
+      {
+        "success": 14998
+      }
+    ],
+    "offload_markers_bins_30s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "nodes": {
+      "stack": {
+        "cpu": {
+          "function": {
+            "start": 1793658157.895,
+            "end": 1793658332.895,
+            "seconds": 175.0,
+            "cpu_seconds": 89.109841,
+            "mean_cores": 0.5091990914285714,
+            "samples": 36
+          },
+          "control-plane": {
+            "start": 1793658157.895,
+            "end": 1793658332.895,
+            "seconds": 175.0,
+            "cpu_seconds": 80.379551,
+            "mean_cores": 0.45931172000000003,
+            "samples": 36
+          }
+        },
+        "raw_counters": {
+          "before": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 0.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          },
+          "after": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 91187.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 91187.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 19.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          }
+        },
+        "deployed": {
+          "function": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "512Mi"
+              },
+              "requests": {
+                "cpu": "1",
+                "memory": "256Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "FUNCTION_NAME",
+                "value": "word-stats-java"
+              },
+              {
+                "name": "WARM",
+                "value": "true"
+              },
+              {
+                "name": "TIMEOUT_MS",
+                "value": "30000"
+              },
+              {
+                "name": "CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              }
+            ]
+          },
+          "control-plane": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "2Gi"
+              },
+              "requests": {
+                "cpu": "250m",
+                "memory": "512Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "NANOFAAS_P2P_SHAREFUNCTIONS",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHAREIMAGES",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHARERESOURCES",
+                "value": "false"
+              },
+              {
+                "name": "SERVER_PORT",
+                "value": "8080"
+              },
+              {
+                "name": "MANAGEMENT_SERVER_PORT",
+                "value": "8081"
+              },
+              {
+                "name": "POD_NAMESPACE",
+                "valueFrom": {
+                  "fieldRef": {
+                    "apiVersion": "v1",
+                    "fieldPath": "metadata.namespace"
+                  }
+                }
+              },
+              {
+                "name": "NANOFAAS_REGISTRY_PATH",
+                "value": "/var/lib/nanofaas/functions.json"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACKURL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "NANOFAAS_SCHEDULER_STRATEGY"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_INGRESS_BODY_BYTES",
+                "value": "1048576"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_GLOBAL",
+                "value": "4096"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_PER_FUNCTION",
+                "value": "512"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_GLOBAL",
+                "value": "134217728"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_PER_FUNCTION",
+                "value": "33554432"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_GLOBAL",
+                "value": "67108864"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_PER_FUNCTION",
+                "value": "16777216"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_GLOBAL",
+                "value": "8192"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_PER_FUNCTION",
+                "value": "1024"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_MAX_INPUT_REFERENCES",
+                "value": "64"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_DEPTH",
+                "value": "32"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_CONTAINER_ENTRIES",
+                "value": "16384"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_VISITED_NODES",
+                "value": "65536"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_BYTES_PER_EXECUTION",
+                "value": "1048576"
+              },
+              {
+                "name": "JAVA_TOOL_OPTIONS",
+                "value": "-Dreactor.netty.ioWorkerCount=2"
+              },
+              {
+                "name": "NANOFAAS_DEPLOYMENT_DEFAULT_BACKEND",
+                "value": "k8s"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "SYNC_QUEUE_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_ADMISSION_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_DEPTH",
+                "value": "20"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_ESTIMATED_WAIT",
+                "value": "2s"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_QUEUE_WAIT",
+                "value": "30s"
+              },
+              {
+                "name": "SYNC_QUEUE_RETRY_AFTER_SECONDS",
+                "value": "2"
+              },
+              {
+                "name": "SYNC_QUEUE_THROUGHPUT_WINDOW",
+                "value": "10s"
+              },
+              {
+                "name": "SYNC_QUEUE_PER_FUNCTION_MIN_SAMPLES",
+                "value": "1"
+              },
+              {
+                "name": "NANOFAAS_METRICS_PROFILE",
+                "value": "advanced"
+              },
+              {
+                "name": "NANOFAAS_ADMISSION_PROFILE",
+                "value": "SYNC_QUEUE"
+              },
+              {
+                "name": "NANOFAAS_OFFLOAD_TARGETURL",
+                "value": "http://20.67.89.88:30080"
+              }
+            ]
+          }
+        },
+        "concurrency_observed": [
+          2.0
+        ]
+      },
+      "cloud": {
+        "cpu": {
+          "function": {
+            "start": 1793658158.091,
+            "end": 1793658333.091,
+            "seconds": 175.0,
+            "cpu_seconds": 1.0871239999999993,
+            "mean_cores": 0.006212137142857139,
+            "samples": 36
+          },
+          "control-plane": {
+            "start": 1793658158.091,
+            "end": 1793658333.091,
+            "seconds": 175.0,
+            "cpu_seconds": 1.2982709999999997,
+            "mean_cores": 0.007418691428571427,
+            "samples": 36
+          }
+        },
+        "raw_counters": {
+          "before": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 0.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          },
+          "after": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 4.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 4.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          }
+        },
+        "deployed": {
+          "function": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "512Mi"
+              },
+              "requests": {
+                "cpu": "1",
+                "memory": "256Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "FUNCTION_NAME",
+                "value": "word-stats-java"
+              },
+              {
+                "name": "WARM",
+                "value": "true"
+              },
+              {
+                "name": "TIMEOUT_MS",
+                "value": "30000"
+              },
+              {
+                "name": "CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              }
+            ]
+          },
+          "control-plane": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "2Gi"
+              },
+              "requests": {
+                "cpu": "250m",
+                "memory": "512Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "NANOFAAS_P2P_SHAREFUNCTIONS",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHAREIMAGES",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHARERESOURCES",
+                "value": "false"
+              },
+              {
+                "name": "SERVER_PORT",
+                "value": "8080"
+              },
+              {
+                "name": "MANAGEMENT_SERVER_PORT",
+                "value": "8081"
+              },
+              {
+                "name": "POD_NAMESPACE",
+                "valueFrom": {
+                  "fieldRef": {
+                    "apiVersion": "v1",
+                    "fieldPath": "metadata.namespace"
+                  }
+                }
+              },
+              {
+                "name": "NANOFAAS_REGISTRY_PATH",
+                "value": "/var/lib/nanofaas/functions.json"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACKURL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "NANOFAAS_SCHEDULER_STRATEGY"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_INGRESS_BODY_BYTES",
+                "value": "1048576"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_GLOBAL",
+                "value": "4096"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_PER_FUNCTION",
+                "value": "512"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_GLOBAL",
+                "value": "134217728"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_PER_FUNCTION",
+                "value": "33554432"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_GLOBAL",
+                "value": "67108864"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_PER_FUNCTION",
+                "value": "16777216"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_GLOBAL",
+                "value": "8192"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_PER_FUNCTION",
+                "value": "1024"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_MAX_INPUT_REFERENCES",
+                "value": "64"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_DEPTH",
+                "value": "32"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_CONTAINER_ENTRIES",
+                "value": "16384"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_VISITED_NODES",
+                "value": "65536"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_BYTES_PER_EXECUTION",
+                "value": "1048576"
+              },
+              {
+                "name": "JAVA_TOOL_OPTIONS",
+                "value": "-Dreactor.netty.ioWorkerCount=2"
+              },
+              {
+                "name": "NANOFAAS_DEPLOYMENT_DEFAULT_BACKEND",
+                "value": "k8s"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "SYNC_QUEUE_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_ADMISSION_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_DEPTH",
+                "value": "100"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_ESTIMATED_WAIT",
+                "value": "2s"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_QUEUE_WAIT",
+                "value": "30s"
+              },
+              {
+                "name": "SYNC_QUEUE_RETRY_AFTER_SECONDS",
+                "value": "2"
+              },
+              {
+                "name": "SYNC_QUEUE_THROUGHPUT_WINDOW",
+                "value": "10s"
+              },
+              {
+                "name": "SYNC_QUEUE_PER_FUNCTION_MIN_SAMPLES",
+                "value": "1"
+              },
+              {
+                "name": "NANOFAAS_METRICS_PROFILE",
+                "value": "advanced"
+              },
+              {
+                "name": "NANOFAAS_ADMISSION_PROFILE",
+                "value": "SYNC_QUEUE"
+              }
+            ]
+          }
+        },
+        "concurrency_observed": [
+          20.0
+        ]
+      }
+    }
+  },
+  "06-cloud-r500": {
+    "estimated_start_epoch": 1793659232.064,
+    "refusal_codes": {
+      "EMPTY_BODY": 1,
+      "RUNTIME_CALLBACK_SATURATED": 739
+    },
+    "refusal_offset_range_seconds": [
+      0.0,
+      14.261000156402588
+    ],
+    "offload_offset_range_seconds": null,
+    "arrival_bins_30s": [
+      {
+        "refused": 740,
+        "success": 14263
+      },
+      {
+        "success": 15001
+      },
+      {
+        "success": 15000
+      },
+      {
+        "success": 14999
+      },
+      {
+        "success": 15001
+      },
+      {
+        "success": 14996
+      }
+    ],
+    "offload_markers_bins_30s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "nodes": {
+      "stack": {
+        "cpu": {
+          "function": {
+            "start": 1793659233.562,
+            "end": 1793659408.562,
+            "seconds": 175.0,
+            "cpu_seconds": 1.0083989999999998,
+            "mean_cores": 0.005762279999999999,
+            "samples": 36
+          },
+          "control-plane": {
+            "start": 1793659233.562,
+            "end": 1793659408.562,
+            "seconds": 175.0,
+            "cpu_seconds": 1.3357029999999996,
+            "mean_cores": 0.0076325885714285694,
+            "samples": 36
+          }
+        },
+        "raw_counters": {
+          "before": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 0.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          },
+          "after": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 4.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 4.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          }
+        },
+        "deployed": {
+          "function": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "512Mi"
+              },
+              "requests": {
+                "cpu": "1",
+                "memory": "256Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "FUNCTION_NAME",
+                "value": "word-stats-java"
+              },
+              {
+                "name": "WARM",
+                "value": "true"
+              },
+              {
+                "name": "TIMEOUT_MS",
+                "value": "30000"
+              },
+              {
+                "name": "CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              }
+            ]
+          },
+          "control-plane": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "2Gi"
+              },
+              "requests": {
+                "cpu": "250m",
+                "memory": "512Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "NANOFAAS_P2P_SHAREFUNCTIONS",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHAREIMAGES",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHARERESOURCES",
+                "value": "false"
+              },
+              {
+                "name": "SERVER_PORT",
+                "value": "8080"
+              },
+              {
+                "name": "MANAGEMENT_SERVER_PORT",
+                "value": "8081"
+              },
+              {
+                "name": "POD_NAMESPACE",
+                "valueFrom": {
+                  "fieldRef": {
+                    "apiVersion": "v1",
+                    "fieldPath": "metadata.namespace"
+                  }
+                }
+              },
+              {
+                "name": "NANOFAAS_REGISTRY_PATH",
+                "value": "/var/lib/nanofaas/functions.json"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACKURL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "NANOFAAS_SCHEDULER_STRATEGY"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_INGRESS_BODY_BYTES",
+                "value": "1048576"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_GLOBAL",
+                "value": "4096"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_PER_FUNCTION",
+                "value": "512"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_GLOBAL",
+                "value": "134217728"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_PER_FUNCTION",
+                "value": "33554432"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_GLOBAL",
+                "value": "67108864"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_PER_FUNCTION",
+                "value": "16777216"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_GLOBAL",
+                "value": "8192"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_PER_FUNCTION",
+                "value": "1024"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_MAX_INPUT_REFERENCES",
+                "value": "64"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_DEPTH",
+                "value": "32"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_CONTAINER_ENTRIES",
+                "value": "16384"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_VISITED_NODES",
+                "value": "65536"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_BYTES_PER_EXECUTION",
+                "value": "1048576"
+              },
+              {
+                "name": "JAVA_TOOL_OPTIONS",
+                "value": "-Dreactor.netty.ioWorkerCount=2"
+              },
+              {
+                "name": "NANOFAAS_DEPLOYMENT_DEFAULT_BACKEND",
+                "value": "k8s"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "SYNC_QUEUE_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_ADMISSION_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_DEPTH",
+                "value": "20"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_ESTIMATED_WAIT",
+                "value": "2s"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_QUEUE_WAIT",
+                "value": "30s"
+              },
+              {
+                "name": "SYNC_QUEUE_RETRY_AFTER_SECONDS",
+                "value": "2"
+              },
+              {
+                "name": "SYNC_QUEUE_THROUGHPUT_WINDOW",
+                "value": "10s"
+              },
+              {
+                "name": "SYNC_QUEUE_PER_FUNCTION_MIN_SAMPLES",
+                "value": "1"
+              },
+              {
+                "name": "NANOFAAS_METRICS_PROFILE",
+                "value": "advanced"
+              },
+              {
+                "name": "NANOFAAS_ADMISSION_PROFILE",
+                "value": "SYNC_QUEUE"
+              },
+              {
+                "name": "NANOFAAS_OFFLOAD_TARGETURL",
+                "value": "http://52.233.251.126:30080"
+              }
+            ]
+          }
+        },
+        "concurrency_observed": [
+          2.0
+        ]
+      },
+      "cloud": {
+        "cpu": {
+          "function": {
+            "start": 1793659233.734,
+            "end": 1793659408.734,
+            "seconds": 175.0,
+            "cpu_seconds": 185.356488,
+            "mean_cores": 1.0591799314285715,
+            "samples": 36
+          },
+          "control-plane": {
+            "start": 1793659233.734,
+            "end": 1793659408.734,
+            "seconds": 175.0,
+            "cpu_seconds": 137.299001,
+            "mean_cores": 0.78456572,
+            "samples": 36
+          }
+        },
+        "raw_counters": {
+          "before": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 0.0,
+            "function_error_total{function=\"word-stats-java\"}": 0.0,
+            "function_success_total{function=\"word-stats-java\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          },
+          "after": {
+            "function_dispatch_total{function=\"word-stats-java\"}": 91204.0,
+            "function_error_total{function=\"word-stats-java\"}": 739.0,
+            "function_success_total{function=\"word-stats-java\"}": 90465.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"depth\"}": 0.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"est_wait\"}": 1.0,
+            "sync_queue_rejected_by_reason_total{function=\"word-stats-java\",reason=\"timeout\"}": 0.0
+          }
+        },
+        "deployed": {
+          "function": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "512Mi"
+              },
+              "requests": {
+                "cpu": "1",
+                "memory": "256Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "FUNCTION_NAME",
+                "value": "word-stats-java"
+              },
+              {
+                "name": "WARM",
+                "value": "true"
+              },
+              {
+                "name": "TIMEOUT_MS",
+                "value": "30000"
+              },
+              {
+                "name": "CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              }
+            ]
+          },
+          "control-plane": {
+            "resources": {
+              "limits": {
+                "cpu": "2",
+                "memory": "2Gi"
+              },
+              "requests": {
+                "cpu": "250m",
+                "memory": "512Mi"
+              }
+            },
+            "env": [
+              {
+                "name": "NANOFAAS_P2P_SHAREFUNCTIONS",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHAREIMAGES",
+                "value": "false"
+              },
+              {
+                "name": "NANOFAAS_P2P_SHARERESOURCES",
+                "value": "false"
+              },
+              {
+                "name": "SERVER_PORT",
+                "value": "8080"
+              },
+              {
+                "name": "MANAGEMENT_SERVER_PORT",
+                "value": "8081"
+              },
+              {
+                "name": "POD_NAMESPACE",
+                "valueFrom": {
+                  "fieldRef": {
+                    "apiVersion": "v1",
+                    "fieldPath": "metadata.namespace"
+                  }
+                }
+              },
+              {
+                "name": "NANOFAAS_REGISTRY_PATH",
+                "value": "/var/lib/nanofaas/functions.json"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACKURL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "NANOFAAS_SCHEDULER_STRATEGY"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_INGRESS_BODY_BYTES",
+                "value": "1048576"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_GLOBAL",
+                "value": "4096"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_EXECUTIONS_PER_FUNCTION",
+                "value": "512"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_GLOBAL",
+                "value": "134217728"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_CANONICAL_INPUT_BYTES_PER_FUNCTION",
+                "value": "33554432"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_GLOBAL",
+                "value": "67108864"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_PHYSICAL_INPUT_COPY_BYTES_PER_FUNCTION",
+                "value": "16777216"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_GLOBAL",
+                "value": "8192"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_WAITERS_PER_FUNCTION",
+                "value": "1024"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_MAX_INPUT_REFERENCES",
+                "value": "64"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_DEPTH",
+                "value": "32"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_CONTAINER_ENTRIES",
+                "value": "16384"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_VISITED_NODES",
+                "value": "65536"
+              },
+              {
+                "name": "NANOFAAS_INVOCATION_CAPACITY_RETAINED_INPUT_MAX_BYTES_PER_EXECUTION",
+                "value": "1048576"
+              },
+              {
+                "name": "JAVA_TOOL_OPTIONS",
+                "value": "-Dreactor.netty.ioWorkerCount=2"
+              },
+              {
+                "name": "NANOFAAS_DEPLOYMENT_DEFAULT_BACKEND",
+                "value": "k8s"
+              },
+              {
+                "name": "NANOFAAS_K8S_CALLBACK_URL",
+                "value": "http://control-plane.nanofaas-e2e.svc.cluster.local:8080/v1/internal/executions"
+              },
+              {
+                "name": "SYNC_QUEUE_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_ADMISSION_ENABLED",
+                "value": "true"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_DEPTH",
+                "value": "100"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_ESTIMATED_WAIT",
+                "value": "2s"
+              },
+              {
+                "name": "SYNC_QUEUE_MAX_QUEUE_WAIT",
+                "value": "30s"
+              },
+              {
+                "name": "SYNC_QUEUE_RETRY_AFTER_SECONDS",
+                "value": "2"
+              },
+              {
+                "name": "SYNC_QUEUE_THROUGHPUT_WINDOW",
+                "value": "10s"
+              },
+              {
+                "name": "SYNC_QUEUE_PER_FUNCTION_MIN_SAMPLES",
+                "value": "1"
+              },
+              {
+                "name": "NANOFAAS_METRICS_PROFILE",
+                "value": "advanced"
+              },
+              {
+                "name": "NANOFAAS_ADMISSION_PROFILE",
+                "value": "SYNC_QUEUE"
+              }
+            ]
+          }
+        },
+        "concurrency_observed": [
+          20.0
+        ]
+      }
+    }
+  }
+}

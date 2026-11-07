@@ -1,0 +1,2946 @@
+{
+  "raw/block-1/analysis.json": {
+    "bytes": 23367,
+    "sha256": "b88b08e228b2b90050f06f9ccc372eb7711f38cb6900bd050582f264f59aa780",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "analysis.json"
+  },
+  "raw/block-1/arms/jvm-base/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "fbae156c79e25d4b2a21f74ccfe6ae667fc4fb196fc59b150bdfbe406951f79b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/boot-id.txt"
+  },
+  "raw/block-1/arms/jvm-base/control-plane.log": {
+    "bytes": 2950,
+    "sha256": "8f3cc01efc06b3bf0bc47e2a399caed8f578fa38d755e9564124af439c928aaa",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/control-plane.log"
+  },
+  "raw/block-1/arms/jvm-base/deployment.json": {
+    "bytes": 2703,
+    "sha256": "063884d93b0996c8dc1f59643d05adc80fb03d54a8ac864a4689e3e540b03e9a",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/deployment.json"
+  },
+  "raw/block-1/arms/jvm-base/lifecycle.jsonl": {
+    "bytes": 5976865,
+    "sha256": "6c5e4827279948f9cb786c47d6051d2ec7b776a56097c7583aa68ac40ec8105b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/lifecycle.jsonl"
+  },
+  "raw/block-1/arms/jvm-base/measurement/clock.json": {
+    "bytes": 221,
+    "sha256": "6491a55cb1fa9bf4b41ee351ffa5df6602956d39d857f057ee5321c68e63bd40",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/measurement/clock.json"
+  },
+  "raw/block-1/arms/jvm-base/measurement/events.jsonl": {
+    "bytes": 8378595,
+    "sha256": "cf81c5129e35c700a4952ef80a44a9a9bca81c1382daa42ee22e761bec3180d1",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/measurement/events.jsonl"
+  },
+  "raw/block-1/arms/jvm-base/measurement/runner.json": {
+    "bytes": 324,
+    "sha256": "fdcaf31a70fe9bf207705a25d06385c8109b0a433bdbd010bac83146d985c7c4",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/measurement/runner.json"
+  },
+  "raw/block-1/arms/jvm-base/measurement/summary.json": {
+    "bytes": 3791,
+    "sha256": "eebd8f6f6647e026f944ec9fe7676f5bea69bc8512f1411bf70a6ae60c530a87",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/measurement/summary.json"
+  },
+  "raw/block-1/arms/jvm-base/measurement.json": {
+    "bytes": 227,
+    "sha256": "ce10ec72dba6e6bdbfd9f9b6c9c498f380b871b5b85763abb8fa7706295544ae",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/measurement.json"
+  },
+  "raw/block-1/arms/jvm-base/metrics/prometheus-snapshot.json": {
+    "bytes": 2175507,
+    "sha256": "37f30d12721e3f0143c640993718314898d406d8fc80c72ded6561ba13912e2e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-1/arms/jvm-base/registration.json": {
+    "bytes": 568,
+    "sha256": "5de99e462d84d2a2c500e68f3e4980cad8163e9e5b80ff50b9da934254d701cb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/registration.json"
+  },
+  "raw/block-1/arms/jvm-base/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "a1b99dfebb936d469477f168f6a2ce6ba5c0c4ddcb5600f22b4a4e75aa60d947",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/spec-after.json"
+  },
+  "raw/block-1/arms/jvm-base/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "a1b99dfebb936d469477f168f6a2ce6ba5c0c4ddcb5600f22b4a4e75aa60d947",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/spec-before.json"
+  },
+  "raw/block-1/arms/jvm-base/warmup/clock.json": {
+    "bytes": 221,
+    "sha256": "59704d8d40ca159895db460934149e0626d013985f023ee1b345a3ba32266184",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/warmup/clock.json"
+  },
+  "raw/block-1/arms/jvm-base/warmup/events.jsonl": {
+    "bytes": 2722713,
+    "sha256": "807812e6db8257c2c63c8867645348e4b6c69d630a211a0a82085f62c1fa4250",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/warmup/events.jsonl"
+  },
+  "raw/block-1/arms/jvm-base/warmup/runner.json": {
+    "bytes": 319,
+    "sha256": "36e1e459546aad341c9362768d9fa1d4b3cefa2014d3f24b6cc5fc5a0f7bbab7",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/warmup/runner.json"
+  },
+  "raw/block-1/arms/jvm-base/warmup/summary.json": {
+    "bytes": 3792,
+    "sha256": "4da8aa1a64362a370bc7dfa4b411e9a79ccfdf1ab521e1a6689aa3613f0a3017",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-base/warmup/summary.json"
+  },
+  "raw/block-1/arms/jvm-c/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "fbae156c79e25d4b2a21f74ccfe6ae667fc4fb196fc59b150bdfbe406951f79b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/boot-id.txt"
+  },
+  "raw/block-1/arms/jvm-c/control-plane.log": {
+    "bytes": 3111,
+    "sha256": "622936c277d1fb80decd751e748d2db1afc9ac0c4ede54ac5ef16f02b9a85839",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/control-plane.log"
+  },
+  "raw/block-1/arms/jvm-c/deployment.json": {
+    "bytes": 2724,
+    "sha256": "555327d1d7caba130a74a095e695773ea2bc951b2eaa20e807c2342283fb71fc",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/deployment.json"
+  },
+  "raw/block-1/arms/jvm-c/lifecycle.jsonl": {
+    "bytes": 6002042,
+    "sha256": "1fb47bde98d7fd89eedc7275439b64b0cc6a9065f38ff634ca1726d6fa3c0ad1",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/lifecycle.jsonl"
+  },
+  "raw/block-1/arms/jvm-c/measurement/clock.json": {
+    "bytes": 222,
+    "sha256": "3f8199bb44dfcdccb6bab3daabae3a5510a73502effc58285aa543e800d06c9f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/measurement/clock.json"
+  },
+  "raw/block-1/arms/jvm-c/measurement/events.jsonl": {
+    "bytes": 8379583,
+    "sha256": "6a630423bae2aa1b95f0f1382c3f0eb238c7730070567aff7c1448d82d528303",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/measurement/events.jsonl"
+  },
+  "raw/block-1/arms/jvm-c/measurement/runner.json": {
+    "bytes": 321,
+    "sha256": "cc7cd8cc8fe589da758399d90c5c1d60e3b0d975bb0bacd3a67c2928e8cf2437",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/measurement/runner.json"
+  },
+  "raw/block-1/arms/jvm-c/measurement/summary.json": {
+    "bytes": 3743,
+    "sha256": "5ad09491b9efb924ccf7c53fd2e9cd4b303a5b752e7d39ac6be54e02acda3022",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/measurement/summary.json"
+  },
+  "raw/block-1/arms/jvm-c/measurement.json": {
+    "bytes": 228,
+    "sha256": "77161988a114337a10dffda0f7a2c7c475ec68f2749def25e23c246a2a586859",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/measurement.json"
+  },
+  "raw/block-1/arms/jvm-c/metrics/prometheus-snapshot.json": {
+    "bytes": 2182163,
+    "sha256": "0b647a24e50a624f1f5c0c8a8d33210976af5c943e549a1c5be82ee0fee55155",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-1/arms/jvm-c/registration.json": {
+    "bytes": 568,
+    "sha256": "5de99e462d84d2a2c500e68f3e4980cad8163e9e5b80ff50b9da934254d701cb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/registration.json"
+  },
+  "raw/block-1/arms/jvm-c/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "a1b99dfebb936d469477f168f6a2ce6ba5c0c4ddcb5600f22b4a4e75aa60d947",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/spec-after.json"
+  },
+  "raw/block-1/arms/jvm-c/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "a1b99dfebb936d469477f168f6a2ce6ba5c0c4ddcb5600f22b4a4e75aa60d947",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/spec-before.json"
+  },
+  "raw/block-1/arms/jvm-c/warmup/clock.json": {
+    "bytes": 223,
+    "sha256": "86c0792b7a741557e03f5cd2ce9b24ea8d7a62eb7753a0ac84d9199aed9983c1",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/warmup/clock.json"
+  },
+  "raw/block-1/arms/jvm-c/warmup/events.jsonl": {
+    "bytes": 2721191,
+    "sha256": "50b986b7762cef72265128bca548b20e66b248cd4b75a13ff92f4bbb5fecff42",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/warmup/events.jsonl"
+  },
+  "raw/block-1/arms/jvm-c/warmup/runner.json": {
+    "bytes": 315,
+    "sha256": "5ec2180216575e4a52a005e4b0059e96f7755b3061b89751b7c0528cc6b74bef",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/warmup/runner.json"
+  },
+  "raw/block-1/arms/jvm-c/warmup/summary.json": {
+    "bytes": 3867,
+    "sha256": "1ee30daa5c4adbf18224ed0b28c15ee14d752354fbc91c072e42f72deb9929fd",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-c/warmup/summary.json"
+  },
+  "raw/block-1/arms/jvm-cs/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "fbae156c79e25d4b2a21f74ccfe6ae667fc4fb196fc59b150bdfbe406951f79b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/boot-id.txt"
+  },
+  "raw/block-1/arms/jvm-cs/control-plane.log": {
+    "bytes": 3271,
+    "sha256": "6ea26df9f3a319410f9f145bfbd20084ac499f27b055aa1de4ca5c159b5bf996",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/control-plane.log"
+  },
+  "raw/block-1/arms/jvm-cs/deployment.json": {
+    "bytes": 2744,
+    "sha256": "f87c1d94ca74e258e50bd485f85443830f1148977a69a469f58ab9aae0d5a022",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/deployment.json"
+  },
+  "raw/block-1/arms/jvm-cs/lifecycle.jsonl": {
+    "bytes": 6004289,
+    "sha256": "56d591af81911c9854084ecd543c904df4b503758588d19143278a4bd4040393",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/lifecycle.jsonl"
+  },
+  "raw/block-1/arms/jvm-cs/measurement/clock.json": {
+    "bytes": 221,
+    "sha256": "b145528ec8f650f8c027dc719bca447bfd0169b1ba194da0d0c920bca4aefbe8",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/measurement/clock.json"
+  },
+  "raw/block-1/arms/jvm-cs/measurement/events.jsonl": {
+    "bytes": 8379668,
+    "sha256": "844980cf12f021fa4fdc9a37f44495ba4e4504a793916063ec46f4b5339f78dc",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/measurement/events.jsonl"
+  },
+  "raw/block-1/arms/jvm-cs/measurement/runner.json": {
+    "bytes": 322,
+    "sha256": "f311a914bd0de3519d7a3e0ec68fa4be6fe1172301e957a0c072552845bdb494",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/measurement/runner.json"
+  },
+  "raw/block-1/arms/jvm-cs/measurement/summary.json": {
+    "bytes": 3732,
+    "sha256": "fa3ba2fbe3bd6e3cec9833b4e03ea3cb05da1c39fa4a6d086e7801775fc3de37",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/measurement/summary.json"
+  },
+  "raw/block-1/arms/jvm-cs/measurement.json": {
+    "bytes": 226,
+    "sha256": "8e6d14d2f43a5c2e3a5e90b992dfa9eddc9c7ec029d15a98bff99ca804c23cf9",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/measurement.json"
+  },
+  "raw/block-1/arms/jvm-cs/metrics/prometheus-snapshot.json": {
+    "bytes": 2184576,
+    "sha256": "29f2f984b7137dfbe48afc3c19eadfe53b017dc903b670e289f04b1b1ac93c40",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-1/arms/jvm-cs/registration.json": {
+    "bytes": 568,
+    "sha256": "5de99e462d84d2a2c500e68f3e4980cad8163e9e5b80ff50b9da934254d701cb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/registration.json"
+  },
+  "raw/block-1/arms/jvm-cs/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "a1b99dfebb936d469477f168f6a2ce6ba5c0c4ddcb5600f22b4a4e75aa60d947",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/spec-after.json"
+  },
+  "raw/block-1/arms/jvm-cs/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "a1b99dfebb936d469477f168f6a2ce6ba5c0c4ddcb5600f22b4a4e75aa60d947",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/spec-before.json"
+  },
+  "raw/block-1/arms/jvm-cs/warmup/clock.json": {
+    "bytes": 220,
+    "sha256": "cea6a86acd0c8fe0fa406b84578ee1f0d01e8cd94cec00902621f5538019d2af",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/warmup/clock.json"
+  },
+  "raw/block-1/arms/jvm-cs/warmup/events.jsonl": {
+    "bytes": 2722290,
+    "sha256": "97e3898a5e9ea5466200907c24915a0b9d276352834db59a93cca687e9b1fa92",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/warmup/events.jsonl"
+  },
+  "raw/block-1/arms/jvm-cs/warmup/runner.json": {
+    "bytes": 316,
+    "sha256": "9d493594492dae874e7eb0bb0c6d45a879a4ae450c9cc27bcf8e2cac91ad97f4",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/warmup/runner.json"
+  },
+  "raw/block-1/arms/jvm-cs/warmup/summary.json": {
+    "bytes": 3786,
+    "sha256": "780dce913c8fe80259d0b53969d3b1b7886a4c91fb090ec8abbacae73740a36a",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-cs/warmup/summary.json"
+  },
+  "raw/block-1/arms/jvm-s/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "fbae156c79e25d4b2a21f74ccfe6ae667fc4fb196fc59b150bdfbe406951f79b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/boot-id.txt"
+  },
+  "raw/block-1/arms/jvm-s/control-plane.log": {
+    "bytes": 3110,
+    "sha256": "70c34e3ca29fee9435062a2a7bbbf6181d5ea95884870b9b8109ad71cd4db722",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/control-plane.log"
+  },
+  "raw/block-1/arms/jvm-s/deployment.json": {
+    "bytes": 2715,
+    "sha256": "55668c17b3872feb3bd3a5116e005c4b68f4d3e437ff3aca3f27c4b4eabf0de7",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/deployment.json"
+  },
+  "raw/block-1/arms/jvm-s/lifecycle.jsonl": {
+    "bytes": 6003254,
+    "sha256": "ddc408fa96ce46ee6856a25228e91571b429fcbacde2ff071a32b02707e2c554",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/lifecycle.jsonl"
+  },
+  "raw/block-1/arms/jvm-s/measurement/clock.json": {
+    "bytes": 219,
+    "sha256": "4f9d7bebbeb93103f6eea0c941ea38a98c68d39ed61515522e58f9c8e8cc60d0",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/measurement/clock.json"
+  },
+  "raw/block-1/arms/jvm-s/measurement/events.jsonl": {
+    "bytes": 8379600,
+    "sha256": "eeb7ff3d75cf619085408b2610f088ac797304953f7ec3e58265f49bfca49df0",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/measurement/events.jsonl"
+  },
+  "raw/block-1/arms/jvm-s/measurement/runner.json": {
+    "bytes": 321,
+    "sha256": "02d598e5438930368fa91c11d89ec1ab82da930435d6f62c5598ab9f6efb71d1",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/measurement/runner.json"
+  },
+  "raw/block-1/arms/jvm-s/measurement/summary.json": {
+    "bytes": 3745,
+    "sha256": "b09f9902a11387c7e078722ce99190ab3fa47c2f1d3d9f614e061fcd0cf6bfee",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/measurement/summary.json"
+  },
+  "raw/block-1/arms/jvm-s/measurement.json": {
+    "bytes": 228,
+    "sha256": "4c81dfcbcdea18d15ca1ddab9ab1bb22f6b62f78732b5befac76de3bacf48663",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/measurement.json"
+  },
+  "raw/block-1/arms/jvm-s/metrics/prometheus-snapshot.json": {
+    "bytes": 2172702,
+    "sha256": "e20bbef99c9efec0ef570646eec7c867958d5d4876f79a4d7684141991e01ae6",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-1/arms/jvm-s/registration.json": {
+    "bytes": 568,
+    "sha256": "5de99e462d84d2a2c500e68f3e4980cad8163e9e5b80ff50b9da934254d701cb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/registration.json"
+  },
+  "raw/block-1/arms/jvm-s/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "a1b99dfebb936d469477f168f6a2ce6ba5c0c4ddcb5600f22b4a4e75aa60d947",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/spec-after.json"
+  },
+  "raw/block-1/arms/jvm-s/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "a1b99dfebb936d469477f168f6a2ce6ba5c0c4ddcb5600f22b4a4e75aa60d947",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/spec-before.json"
+  },
+  "raw/block-1/arms/jvm-s/warmup/clock.json": {
+    "bytes": 222,
+    "sha256": "1d4d428d0082b6890e1ae8b330069fbeea5e7fc8d7683cd6d63be0f3839ec9ec",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/warmup/clock.json"
+  },
+  "raw/block-1/arms/jvm-s/warmup/events.jsonl": {
+    "bytes": 2721197,
+    "sha256": "fd4486433344f299990e8a1ad8bc50ac6ef8119b3565f3bbc600410740a485c3",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/warmup/events.jsonl"
+  },
+  "raw/block-1/arms/jvm-s/warmup/runner.json": {
+    "bytes": 316,
+    "sha256": "592dd0ff6c5517370e5a8c02d84682a3e8a06a5ea65ab11e6b9e417942413861",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/warmup/runner.json"
+  },
+  "raw/block-1/arms/jvm-s/warmup/summary.json": {
+    "bytes": 3833,
+    "sha256": "04133ba44181d5ca338f2ebe5fc1a28a3ea1b864ec8169a7bb2093063e7cec38",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/jvm-s/warmup/summary.json"
+  },
+  "raw/block-1/arms/native-base/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "fbae156c79e25d4b2a21f74ccfe6ae667fc4fb196fc59b150bdfbe406951f79b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/boot-id.txt"
+  },
+  "raw/block-1/arms/native-base/control-plane.log": {
+    "bytes": 3668,
+    "sha256": "2b173f76e95d77c3f51af9a2182608c5fa56a8baa96843b5149f59d84725e1c2",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/control-plane.log"
+  },
+  "raw/block-1/arms/native-base/deployment.json": {
+    "bytes": 2709,
+    "sha256": "96af1874b669c933defbaff84d68042c024526704756c91d0a1ebefef9524a80",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/deployment.json"
+  },
+  "raw/block-1/arms/native-base/lifecycle.jsonl": {
+    "bytes": 6008147,
+    "sha256": "5b9be75c9c82a029e3ae96636b7b699f3152d51818452e7741b592e276ff652f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/lifecycle.jsonl"
+  },
+  "raw/block-1/arms/native-base/measurement/clock.json": {
+    "bytes": 219,
+    "sha256": "fd941cf1e5e94d00ea49cb84bff70b222669a5fd9c898db85ccbbcdd0391df5a",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/measurement/clock.json"
+  },
+  "raw/block-1/arms/native-base/measurement/events.jsonl": {
+    "bytes": 8379585,
+    "sha256": "7d998a63fc6fbb024f58d4ca12d41bc382409a0056bd7ba30761e20c4de4ec84",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/measurement/events.jsonl"
+  },
+  "raw/block-1/arms/native-base/measurement/runner.json": {
+    "bytes": 323,
+    "sha256": "791bbeabb6f99eec01f9e3c589836502b5d474fd24b47d32bc180684428723fc",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/measurement/runner.json"
+  },
+  "raw/block-1/arms/native-base/measurement/summary.json": {
+    "bytes": 3784,
+    "sha256": "73b54f86f742861f76064d326fe85835073557d9d4de98c97f70f21206e6f310",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/measurement/summary.json"
+  },
+  "raw/block-1/arms/native-base/measurement.json": {
+    "bytes": 225,
+    "sha256": "986f071da2c9c4347af59982a4727c450facd709d84f4428515cd2ca494ec650",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/measurement.json"
+  },
+  "raw/block-1/arms/native-base/metrics/prometheus-snapshot.json": {
+    "bytes": 2186151,
+    "sha256": "6a032a58266da8c1937025f61c72f7301de455d6171993abfc43054981ee2c08",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-1/arms/native-base/registration.json": {
+    "bytes": 568,
+    "sha256": "5de99e462d84d2a2c500e68f3e4980cad8163e9e5b80ff50b9da934254d701cb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/registration.json"
+  },
+  "raw/block-1/arms/native-base/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "a1b99dfebb936d469477f168f6a2ce6ba5c0c4ddcb5600f22b4a4e75aa60d947",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/spec-after.json"
+  },
+  "raw/block-1/arms/native-base/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "a1b99dfebb936d469477f168f6a2ce6ba5c0c4ddcb5600f22b4a4e75aa60d947",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/spec-before.json"
+  },
+  "raw/block-1/arms/native-base/warmup/clock.json": {
+    "bytes": 221,
+    "sha256": "c0339307cbd365a82d35d6c8b857c1c10fa93ae08df2d87185f19d374e754c07",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/warmup/clock.json"
+  },
+  "raw/block-1/arms/native-base/warmup/events.jsonl": {
+    "bytes": 2720994,
+    "sha256": "845e71e219845db38216cf655192495a7df2af9de39c9b84a60adebe4b3eb748",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/warmup/events.jsonl"
+  },
+  "raw/block-1/arms/native-base/warmup/runner.json": {
+    "bytes": 318,
+    "sha256": "2abd414f55f35afdc1d8e537fe5cd236f035cd7f709ec4a70d15e56ef8f1da70",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/warmup/runner.json"
+  },
+  "raw/block-1/arms/native-base/warmup/summary.json": {
+    "bytes": 3846,
+    "sha256": "251ef56e6afd7b44471891194d15bd5372b21d0ba3a75a2ff1569eb85217ef45",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-base/warmup/summary.json"
+  },
+  "raw/block-1/arms/native-c/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "fbae156c79e25d4b2a21f74ccfe6ae667fc4fb196fc59b150bdfbe406951f79b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/boot-id.txt"
+  },
+  "raw/block-1/arms/native-c/control-plane.log": {
+    "bytes": 3829,
+    "sha256": "beef23ad4aff2340cefdbb06bf3bc4bf2deef1dafd9150268a64648edecdcc4e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/control-plane.log"
+  },
+  "raw/block-1/arms/native-c/deployment.json": {
+    "bytes": 2730,
+    "sha256": "0284370c2453cb77ed3877d59c59880fd7924f8b72132912d795e317d0b419e6",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/deployment.json"
+  },
+  "raw/block-1/arms/native-c/lifecycle.jsonl": {
+    "bytes": 6005095,
+    "sha256": "b2f8a056df8498e6f31ea3ee7cf8671afaab74697eff2c25566e3b674ce46b1a",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/lifecycle.jsonl"
+  },
+  "raw/block-1/arms/native-c/measurement/clock.json": {
+    "bytes": 221,
+    "sha256": "798512950b7c017517698965b2b107cfc865093ae8a5140fb16a01a78d4781da",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/measurement/clock.json"
+  },
+  "raw/block-1/arms/native-c/measurement/events.jsonl": {
+    "bytes": 8379602,
+    "sha256": "7fff293e560637e0c4e5f4b000d61512e0182a8690d01750808e46df04792ca2",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/measurement/events.jsonl"
+  },
+  "raw/block-1/arms/native-c/measurement/runner.json": {
+    "bytes": 322,
+    "sha256": "0ae06cde536964fea35f42cdf87f2da09a64d8336dd5ea556731a1926358650c",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/measurement/runner.json"
+  },
+  "raw/block-1/arms/native-c/measurement/summary.json": {
+    "bytes": 3759,
+    "sha256": "bd5acb26ed1a8ed635a1317118177b72be543c95f2e9f6bc75b2431851b4013e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/measurement/summary.json"
+  },
+  "raw/block-1/arms/native-c/measurement.json": {
+    "bytes": 226,
+    "sha256": "9e6be6ab96e69777920d95b231b7c6ac9eb0354be25617f8de814548d68d76f3",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/measurement.json"
+  },
+  "raw/block-1/arms/native-c/metrics/prometheus-snapshot.json": {
+    "bytes": 2183635,
+    "sha256": "7134084bf258897114b39e950681399b695fbd8e627ff8bba32cb98f953b8398",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-1/arms/native-c/registration.json": {
+    "bytes": 568,
+    "sha256": "5de99e462d84d2a2c500e68f3e4980cad8163e9e5b80ff50b9da934254d701cb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/registration.json"
+  },
+  "raw/block-1/arms/native-c/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "a1b99dfebb936d469477f168f6a2ce6ba5c0c4ddcb5600f22b4a4e75aa60d947",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/spec-after.json"
+  },
+  "raw/block-1/arms/native-c/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "a1b99dfebb936d469477f168f6a2ce6ba5c0c4ddcb5600f22b4a4e75aa60d947",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/spec-before.json"
+  },
+  "raw/block-1/arms/native-c/warmup/clock.json": {
+    "bytes": 221,
+    "sha256": "8b3c4d633f51e66d1690b48fc74588451f3892e4e360ebad98da85953b6229cf",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/warmup/clock.json"
+  },
+  "raw/block-1/arms/native-c/warmup/events.jsonl": {
+    "bytes": 2722109,
+    "sha256": "80172a0b7b44c20e88b649b24bdd65f6644e7c76f786063819609e6d174d8dcf",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/warmup/events.jsonl"
+  },
+  "raw/block-1/arms/native-c/warmup/runner.json": {
+    "bytes": 319,
+    "sha256": "6992ecf18b2e7b9e8c6a89df001645cf1787e1c7518df034381a9b010d964232",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/warmup/runner.json"
+  },
+  "raw/block-1/arms/native-c/warmup/summary.json": {
+    "bytes": 3766,
+    "sha256": "72be132c537ee9665508f1289d5880ed83257f57bbda9efa1780b20811eebd3f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-c/warmup/summary.json"
+  },
+  "raw/block-1/arms/native-cs/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "fbae156c79e25d4b2a21f74ccfe6ae667fc4fb196fc59b150bdfbe406951f79b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/boot-id.txt"
+  },
+  "raw/block-1/arms/native-cs/control-plane.log": {
+    "bytes": 3989,
+    "sha256": "96a0f42d9e153d5131b626ae4f42a765c6eedc9fdd1117c1d5da0f4bffc4e1b9",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/control-plane.log"
+  },
+  "raw/block-1/arms/native-cs/deployment.json": {
+    "bytes": 2750,
+    "sha256": "95d9e19f637a4e5ce49592706fccec94522a70a45194b98324cd9f1a15411e4f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/deployment.json"
+  },
+  "raw/block-1/arms/native-cs/lifecycle.jsonl": {
+    "bytes": 6006507,
+    "sha256": "0ece95e7f42ccbecc4f4979ac7f6b32d5e8ae57e2a3544e810cc22bd5bbf73e0",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/lifecycle.jsonl"
+  },
+  "raw/block-1/arms/native-cs/measurement/clock.json": {
+    "bytes": 221,
+    "sha256": "0848610750b52a589dba7dda926b226490bc4f1624ef22f013986d9e3a4f4244",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/measurement/clock.json"
+  },
+  "raw/block-1/arms/native-cs/measurement/events.jsonl": {
+    "bytes": 8379609,
+    "sha256": "c35054efb913f289027a003495024eebd9d090c4f463f6b350fba889c6e6b3a5",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/measurement/events.jsonl"
+  },
+  "raw/block-1/arms/native-cs/measurement/runner.json": {
+    "bytes": 324,
+    "sha256": "fda558d30e97522fc6b0a1e631768351319de98591c9ac0572877d93b84ac2ba",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/measurement/runner.json"
+  },
+  "raw/block-1/arms/native-cs/measurement/summary.json": {
+    "bytes": 3747,
+    "sha256": "cc552593c84658d47a4d9ab63c09cab858ae09fa2aa810d64a17fd3b3c69cb29",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/measurement/summary.json"
+  },
+  "raw/block-1/arms/native-cs/measurement.json": {
+    "bytes": 228,
+    "sha256": "2f422509f4b70129d9a446fc10a91ab1f5de8ce0325ebc4d1ef2c5bef4c46fd6",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/measurement.json"
+  },
+  "raw/block-1/arms/native-cs/metrics/prometheus-snapshot.json": {
+    "bytes": 2185166,
+    "sha256": "baa22ea5a00e5e19088912a5c86ded022af00d8a96e777a63f2684d3eac68eaa",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-1/arms/native-cs/registration.json": {
+    "bytes": 568,
+    "sha256": "5de99e462d84d2a2c500e68f3e4980cad8163e9e5b80ff50b9da934254d701cb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/registration.json"
+  },
+  "raw/block-1/arms/native-cs/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "a1b99dfebb936d469477f168f6a2ce6ba5c0c4ddcb5600f22b4a4e75aa60d947",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/spec-after.json"
+  },
+  "raw/block-1/arms/native-cs/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "a1b99dfebb936d469477f168f6a2ce6ba5c0c4ddcb5600f22b4a4e75aa60d947",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/spec-before.json"
+  },
+  "raw/block-1/arms/native-cs/warmup/clock.json": {
+    "bytes": 223,
+    "sha256": "44f98a6b0d79e5d4aa59bb4c4406795006a8e6269f9de19dd02a59c712d9d0b7",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/warmup/clock.json"
+  },
+  "raw/block-1/arms/native-cs/warmup/events.jsonl": {
+    "bytes": 2722127,
+    "sha256": "128104bb6a5b62e5a35c74355cdc0bbf8f8d0d6a1b7604deb0ba5d7759aad2b4",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/warmup/events.jsonl"
+  },
+  "raw/block-1/arms/native-cs/warmup/runner.json": {
+    "bytes": 319,
+    "sha256": "7c3e76170419e03129a392801c118cf8bdda83098e06606a27a14821765784cd",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/warmup/runner.json"
+  },
+  "raw/block-1/arms/native-cs/warmup/summary.json": {
+    "bytes": 3747,
+    "sha256": "4121c05c6cf82db41ce2acc06f177a50232bc1a7079dfa532bff3b1d2fe129c7",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-cs/warmup/summary.json"
+  },
+  "raw/block-1/arms/native-s/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "fbae156c79e25d4b2a21f74ccfe6ae667fc4fb196fc59b150bdfbe406951f79b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/boot-id.txt"
+  },
+  "raw/block-1/arms/native-s/control-plane.log": {
+    "bytes": 3828,
+    "sha256": "ad86438719ac6f3717202e08d832f38adfb35c3177c5a3c169083c1b802f6b62",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/control-plane.log"
+  },
+  "raw/block-1/arms/native-s/deployment.json": {
+    "bytes": 2721,
+    "sha256": "1ee6254b024167cef9227701d4c8199ec574c141967fd2aefa90a5fce023ab98",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/deployment.json"
+  },
+  "raw/block-1/arms/native-s/lifecycle.jsonl": {
+    "bytes": 6006311,
+    "sha256": "ffcd48edb3ee019986503d24804172fc7eeb9426b4c727ca82b7d00e88b577be",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/lifecycle.jsonl"
+  },
+  "raw/block-1/arms/native-s/measurement/clock.json": {
+    "bytes": 221,
+    "sha256": "22c02bdb7b6a15772701773dd5dc978e31fa0b3652a7061a9141523b1c65617f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/measurement/clock.json"
+  },
+  "raw/block-1/arms/native-s/measurement/events.jsonl": {
+    "bytes": 8379634,
+    "sha256": "00c6319b48ce44d3c48b0545d89b5d7b9dce157cbd2b54f573fdcb5b72c8b2b2",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/measurement/events.jsonl"
+  },
+  "raw/block-1/arms/native-s/measurement/runner.json": {
+    "bytes": 324,
+    "sha256": "83fbbb3809b440c0980a450faf9ecf069b16435379c9a9a5cd9a217d583082c1",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/measurement/runner.json"
+  },
+  "raw/block-1/arms/native-s/measurement/summary.json": {
+    "bytes": 3756,
+    "sha256": "3d5b2ed7d34f6db51af066415eeae8de2558ec882ce8701094396f529c037722",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/measurement/summary.json"
+  },
+  "raw/block-1/arms/native-s/measurement.json": {
+    "bytes": 226,
+    "sha256": "8e8e5dd29bd502cfe82fe67ad12376c57b168a7f36f780a6455a7e2c7b67b3fd",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/measurement.json"
+  },
+  "raw/block-1/arms/native-s/metrics/prometheus-snapshot.json": {
+    "bytes": 2184457,
+    "sha256": "5143ea7c9672ca6b37f5a4dd74123cff8f1dbb469537024083f87dd80ff94546",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-1/arms/native-s/registration.json": {
+    "bytes": 568,
+    "sha256": "5de99e462d84d2a2c500e68f3e4980cad8163e9e5b80ff50b9da934254d701cb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/registration.json"
+  },
+  "raw/block-1/arms/native-s/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "a1b99dfebb936d469477f168f6a2ce6ba5c0c4ddcb5600f22b4a4e75aa60d947",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/spec-after.json"
+  },
+  "raw/block-1/arms/native-s/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "a1b99dfebb936d469477f168f6a2ce6ba5c0c4ddcb5600f22b4a4e75aa60d947",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/spec-before.json"
+  },
+  "raw/block-1/arms/native-s/warmup/clock.json": {
+    "bytes": 221,
+    "sha256": "043332f79e694ef4c8c721aae01159c7ebc0df170658fd805118671cb68519bf",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/warmup/clock.json"
+  },
+  "raw/block-1/arms/native-s/warmup/events.jsonl": {
+    "bytes": 2721022,
+    "sha256": "2ff2d721f8d597de3416dd2bf2f313e877f97b04c6f79ebf64bb703c7f7f93e5",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/warmup/events.jsonl"
+  },
+  "raw/block-1/arms/native-s/warmup/runner.json": {
+    "bytes": 319,
+    "sha256": "eff6c66ba50964cc5441c1e4595f7db92fac48bfd8f543622848658225d7cdc3",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/warmup/runner.json"
+  },
+  "raw/block-1/arms/native-s/warmup/summary.json": {
+    "bytes": 3842,
+    "sha256": "d616b8d48b17f061f551c420c6b8d3a43cefbb61eff8e00969d612dcbd704190",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "arms/native-s/warmup/summary.json"
+  },
+  "raw/block-1/protocol.json": {
+    "bytes": 2858,
+    "sha256": "6070cceda356e8c06def09b67392fe1926e37e487e4eada0c081b35091bc4e0e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "protocol.json"
+  },
+  "raw/block-1/run-metadata.json": {
+    "bytes": 21384,
+    "sha256": "d6816d3d6d3dc2a969eac022f1c61f77d25c7040d2ae66ff72504254c5713ccc",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-1.tar.gz",
+    "archiveSha256": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "member": "run-metadata.json"
+  },
+  "raw/block-2/analysis.json": {
+    "bytes": 23368,
+    "sha256": "734d76483d5ed690884319f9b097c0824fb33066bf15f30a09efd4edc0617811",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "analysis.json"
+  },
+  "raw/block-2/arms/jvm-base/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "472bc2203da689e47ab0b43032becf8f00bbe706cd43e4ff4ffcc7afa5608f9e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/boot-id.txt"
+  },
+  "raw/block-2/arms/jvm-base/control-plane.log": {
+    "bytes": 2950,
+    "sha256": "83ab8bcdfa1797b6e37b32e32d97b15d7b50a079f131d2edcf3668fe1702a07f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/control-plane.log"
+  },
+  "raw/block-2/arms/jvm-base/deployment.json": {
+    "bytes": 2703,
+    "sha256": "287911621e98eb43482a30392f450cdf84ecace52f57e03789aa583ac9288f5e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/deployment.json"
+  },
+  "raw/block-2/arms/jvm-base/lifecycle.jsonl": {
+    "bytes": 5947426,
+    "sha256": "29633724542801aaa3b4a74e8ab868306ff9bdbe246a7310661de736d93ad625",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/lifecycle.jsonl"
+  },
+  "raw/block-2/arms/jvm-base/measurement/clock.json": {
+    "bytes": 219,
+    "sha256": "0376ef403064b641550e6dd3edafc3e3c1cf11eeb7a33360223500e896d4ba6b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/measurement/clock.json"
+  },
+  "raw/block-2/arms/jvm-base/measurement/events.jsonl": {
+    "bytes": 8379851,
+    "sha256": "7dcbf864c3ab70c3ff2350edf7285d2b2090676d6d6b4f0bddd26e38ec0075d9",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/measurement/events.jsonl"
+  },
+  "raw/block-2/arms/jvm-base/measurement/runner.json": {
+    "bytes": 324,
+    "sha256": "390ef5e43a905ceda8c2c8690d2d868a53b55d1e23c799dc6e5d4f339f4dd1d0",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/measurement/runner.json"
+  },
+  "raw/block-2/arms/jvm-base/measurement/summary.json": {
+    "bytes": 3765,
+    "sha256": "8d6e6b6e690c680fc6e53a4f07b8d3710a79969a49b266283f5ad6c44ed8e7bd",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/measurement/summary.json"
+  },
+  "raw/block-2/arms/jvm-base/measurement.json": {
+    "bytes": 228,
+    "sha256": "cd728cecddc326230b65951deb003d6a26980d8c9e85908ad7bc5d42c766ff00",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/measurement.json"
+  },
+  "raw/block-2/arms/jvm-base/metrics/prometheus-snapshot.json": {
+    "bytes": 2185735,
+    "sha256": "3c51a3e09f9df9f04df8f37645bfd442b9b6d8eb58d020d6b16f7377aae54263",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-2/arms/jvm-base/registration.json": {
+    "bytes": 568,
+    "sha256": "f63d3d631b178219c3b51a030cdcd10a9c532e6475a8258b040734137a9a7616",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/registration.json"
+  },
+  "raw/block-2/arms/jvm-base/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "af44306acb3af462a7c58389cfdd6f8ac37a2a3388ab8c8b8c4f9114bdc6c0fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/spec-after.json"
+  },
+  "raw/block-2/arms/jvm-base/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "af44306acb3af462a7c58389cfdd6f8ac37a2a3388ab8c8b8c4f9114bdc6c0fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/spec-before.json"
+  },
+  "raw/block-2/arms/jvm-base/warmup/clock.json": {
+    "bytes": 219,
+    "sha256": "482b2f5517a0a2a3ebe6f0649f6d7db6ba64a8bf7f05940ef929cbfe0e0a6ebe",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/warmup/clock.json"
+  },
+  "raw/block-2/arms/jvm-base/warmup/events.jsonl": {
+    "bytes": 2723483,
+    "sha256": "4399e6534bc196ed3a8c6a1b514bb8d6c9a695b8d665c005d9bfd24af30bbfc5",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/warmup/events.jsonl"
+  },
+  "raw/block-2/arms/jvm-base/warmup/runner.json": {
+    "bytes": 319,
+    "sha256": "2c0045c9e0606530faab20d5b9b149a1dda8fecfa8b48dded4d21516629cdd44",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/warmup/runner.json"
+  },
+  "raw/block-2/arms/jvm-base/warmup/summary.json": {
+    "bytes": 3814,
+    "sha256": "dc0b584bc58b019f7af8a3e058dbecaeced85a93de4e86cd9f572d93b6b129b7",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-base/warmup/summary.json"
+  },
+  "raw/block-2/arms/jvm-c/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "472bc2203da689e47ab0b43032becf8f00bbe706cd43e4ff4ffcc7afa5608f9e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/boot-id.txt"
+  },
+  "raw/block-2/arms/jvm-c/control-plane.log": {
+    "bytes": 3111,
+    "sha256": "7b4a6a2fe83fb6aaebd77f8b239059475ec1771fa7faf700309fc7cae0b9cfce",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/control-plane.log"
+  },
+  "raw/block-2/arms/jvm-c/deployment.json": {
+    "bytes": 2724,
+    "sha256": "010cd6a92b07b9b8a5523c9930a1ec987d5c90ebe6ec38451bf81d76170fb51d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/deployment.json"
+  },
+  "raw/block-2/arms/jvm-c/lifecycle.jsonl": {
+    "bytes": 5914176,
+    "sha256": "96abd5059b5b6b190f3ab93c0b81f6c5fdcde458903ff3497b83de09d9fc1f27",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/lifecycle.jsonl"
+  },
+  "raw/block-2/arms/jvm-c/measurement/clock.json": {
+    "bytes": 219,
+    "sha256": "5022b1782ba42e8f12016cd7459124001eb0b429e5176e122076f3f1364e8adc",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/measurement/clock.json"
+  },
+  "raw/block-2/arms/jvm-c/measurement/events.jsonl": {
+    "bytes": 8379881,
+    "sha256": "c0e9e5bd02a1bafcf795da872b234f8459228385b461d198624dd6681c6fd385",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/measurement/events.jsonl"
+  },
+  "raw/block-2/arms/jvm-c/measurement/runner.json": {
+    "bytes": 321,
+    "sha256": "dcbd449bbe5a14bef2b63bbfd0f41eb1452fde0f6fcb672f5605d1edad86057d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/measurement/runner.json"
+  },
+  "raw/block-2/arms/jvm-c/measurement/summary.json": {
+    "bytes": 3750,
+    "sha256": "0f4b35188373917abda122a323b863dbf6ffaa2602b3308c5e1dc3493d9f6f63",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/measurement/summary.json"
+  },
+  "raw/block-2/arms/jvm-c/measurement.json": {
+    "bytes": 227,
+    "sha256": "131046d774d1b4fcf8297d38527eea4c29c3383f0dc43a0acc5889238df4d559",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/measurement.json"
+  },
+  "raw/block-2/arms/jvm-c/metrics/prometheus-snapshot.json": {
+    "bytes": 2184868,
+    "sha256": "b0ac4e4f15bb3161ab541d0949b3f23f760f654a96851e62ea4c6b56fd4b70e9",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-2/arms/jvm-c/registration.json": {
+    "bytes": 568,
+    "sha256": "f63d3d631b178219c3b51a030cdcd10a9c532e6475a8258b040734137a9a7616",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/registration.json"
+  },
+  "raw/block-2/arms/jvm-c/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "af44306acb3af462a7c58389cfdd6f8ac37a2a3388ab8c8b8c4f9114bdc6c0fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/spec-after.json"
+  },
+  "raw/block-2/arms/jvm-c/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "af44306acb3af462a7c58389cfdd6f8ac37a2a3388ab8c8b8c4f9114bdc6c0fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/spec-before.json"
+  },
+  "raw/block-2/arms/jvm-c/warmup/clock.json": {
+    "bytes": 223,
+    "sha256": "c80aee06c7b4c35b7bb19e0b6d5e12f56be32bfd69ac164e3cbae86aa9f44ded",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/warmup/clock.json"
+  },
+  "raw/block-2/arms/jvm-c/warmup/events.jsonl": {
+    "bytes": 2723825,
+    "sha256": "1da36e23b430c413a4be2796e04c03376bcae8463547dae7e17615058d7eba0c",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/warmup/events.jsonl"
+  },
+  "raw/block-2/arms/jvm-c/warmup/runner.json": {
+    "bytes": 316,
+    "sha256": "ea3bcb348d820054e524c6ade941360cc6b4f6e9100b694a478a6c34d3e9c96a",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/warmup/runner.json"
+  },
+  "raw/block-2/arms/jvm-c/warmup/summary.json": {
+    "bytes": 3761,
+    "sha256": "fd1fe1bfd59457ed06233de32d753bf8841e726f4a3adcc806bf40726d9a721b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-c/warmup/summary.json"
+  },
+  "raw/block-2/arms/jvm-cs/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "472bc2203da689e47ab0b43032becf8f00bbe706cd43e4ff4ffcc7afa5608f9e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/boot-id.txt"
+  },
+  "raw/block-2/arms/jvm-cs/control-plane.log": {
+    "bytes": 3271,
+    "sha256": "71e7e442aa2799054ca1a31a541e8d96566b332a3fd065a4629afffdaacdfcc3",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/control-plane.log"
+  },
+  "raw/block-2/arms/jvm-cs/deployment.json": {
+    "bytes": 2744,
+    "sha256": "23c2a21b0afea890b363b4ae317bea4c5ea4370a22ff75eb8e81661f16e63ef6",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/deployment.json"
+  },
+  "raw/block-2/arms/jvm-cs/lifecycle.jsonl": {
+    "bytes": 5945403,
+    "sha256": "37a9275a9771f4419e26c6db68cad6fc50be8590a19bff370ac92b30b7c082ea",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/lifecycle.jsonl"
+  },
+  "raw/block-2/arms/jvm-cs/measurement/clock.json": {
+    "bytes": 219,
+    "sha256": "f807bbd667e8564f9b149dbf6b8d1009cbf9e8e87ae4f0de6f1f765b8bbd29d4",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/measurement/clock.json"
+  },
+  "raw/block-2/arms/jvm-cs/measurement/events.jsonl": {
+    "bytes": 8378600,
+    "sha256": "1f60065e7b6f70087234dd73261d736439d72e1cdfbbd79740a789fe21583fee",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/measurement/events.jsonl"
+  },
+  "raw/block-2/arms/jvm-cs/measurement/runner.json": {
+    "bytes": 322,
+    "sha256": "1fff0acfc29e4f19a3236ea7d2959678eb0c354e371379f1e200476060d0b0d9",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/measurement/runner.json"
+  },
+  "raw/block-2/arms/jvm-cs/measurement/summary.json": {
+    "bytes": 3844,
+    "sha256": "3a23333b33a377a628a918e392d3ec27c5749958c1b233a481a26b60280c7727",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/measurement/summary.json"
+  },
+  "raw/block-2/arms/jvm-cs/measurement.json": {
+    "bytes": 226,
+    "sha256": "8b9833164ac41e1aa0d7addbcffa6fac21820875dd18b8afa588d657de65c2c5",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/measurement.json"
+  },
+  "raw/block-2/arms/jvm-cs/metrics/prometheus-snapshot.json": {
+    "bytes": 2184033,
+    "sha256": "9c8688d76e91ea873d88fc0eec72b10ca5f26d5b7f1b26b903ba5fd2cbe11376",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-2/arms/jvm-cs/registration.json": {
+    "bytes": 568,
+    "sha256": "f63d3d631b178219c3b51a030cdcd10a9c532e6475a8258b040734137a9a7616",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/registration.json"
+  },
+  "raw/block-2/arms/jvm-cs/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "af44306acb3af462a7c58389cfdd6f8ac37a2a3388ab8c8b8c4f9114bdc6c0fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/spec-after.json"
+  },
+  "raw/block-2/arms/jvm-cs/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "af44306acb3af462a7c58389cfdd6f8ac37a2a3388ab8c8b8c4f9114bdc6c0fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/spec-before.json"
+  },
+  "raw/block-2/arms/jvm-cs/warmup/clock.json": {
+    "bytes": 221,
+    "sha256": "13819d6265e847465af764daab9ff9c8bb647967e21aa8dba16a59de2b55ece6",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/warmup/clock.json"
+  },
+  "raw/block-2/arms/jvm-cs/warmup/events.jsonl": {
+    "bytes": 2722196,
+    "sha256": "ac641a147de25c4815d7b3bb0f527731400e435a926808a8b29eeb93f69d923b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/warmup/events.jsonl"
+  },
+  "raw/block-2/arms/jvm-cs/warmup/runner.json": {
+    "bytes": 317,
+    "sha256": "7c944e87df2e5d636442253f12e246919f8511532e76e9c33c3de2ce2283d99b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/warmup/runner.json"
+  },
+  "raw/block-2/arms/jvm-cs/warmup/summary.json": {
+    "bytes": 3889,
+    "sha256": "3c3cbd492a52935e204ccf5b053e066de360212a5008df6057ea460e483f8d6a",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-cs/warmup/summary.json"
+  },
+  "raw/block-2/arms/jvm-s/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "472bc2203da689e47ab0b43032becf8f00bbe706cd43e4ff4ffcc7afa5608f9e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/boot-id.txt"
+  },
+  "raw/block-2/arms/jvm-s/control-plane.log": {
+    "bytes": 3110,
+    "sha256": "755eee9a4251743e8f26c7870450f26dbc32673ccca3abfa6236d6b434d2cf5b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/control-plane.log"
+  },
+  "raw/block-2/arms/jvm-s/deployment.json": {
+    "bytes": 2715,
+    "sha256": "12ba85802f594ad1740b60ccc80261ef4715260ea13176931623b8537f3309a4",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/deployment.json"
+  },
+  "raw/block-2/arms/jvm-s/lifecycle.jsonl": {
+    "bytes": 5944401,
+    "sha256": "3b011f2e717ba12b3bdf0aaf1a931cd5cd720deab2a4ae014abfcad5a99ed5e5",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/lifecycle.jsonl"
+  },
+  "raw/block-2/arms/jvm-s/measurement/clock.json": {
+    "bytes": 219,
+    "sha256": "3c7a96888d0ca61b06b017e8188acf088e6c85f6aa038441c726f48cc64059ff",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/measurement/clock.json"
+  },
+  "raw/block-2/arms/jvm-s/measurement/events.jsonl": {
+    "bytes": 8379678,
+    "sha256": "8275c3ea87751eea4725c3ce5242be82a5048c7bc633d76bd8058903c410015f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/measurement/events.jsonl"
+  },
+  "raw/block-2/arms/jvm-s/measurement/runner.json": {
+    "bytes": 321,
+    "sha256": "0b204823609f70c75fc1c8f8355e350b8d88f7b069e844738e79addab05cad9b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/measurement/runner.json"
+  },
+  "raw/block-2/arms/jvm-s/measurement/summary.json": {
+    "bytes": 3754,
+    "sha256": "698cbdc7d92cba7a23585c988aef0a744d42e38467c003c6374b97308767e342",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/measurement/summary.json"
+  },
+  "raw/block-2/arms/jvm-s/measurement.json": {
+    "bytes": 227,
+    "sha256": "692ff70850f30499264198fa7ac9fdfbb0a878c8936cec6521d0ddd7c9b5284d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/measurement.json"
+  },
+  "raw/block-2/arms/jvm-s/metrics/prometheus-snapshot.json": {
+    "bytes": 2172647,
+    "sha256": "e7fa37becf6c9c6b5a746067ade0f6819c6e55d53a8684ab884b539b79544e3a",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-2/arms/jvm-s/registration.json": {
+    "bytes": 568,
+    "sha256": "f63d3d631b178219c3b51a030cdcd10a9c532e6475a8258b040734137a9a7616",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/registration.json"
+  },
+  "raw/block-2/arms/jvm-s/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "af44306acb3af462a7c58389cfdd6f8ac37a2a3388ab8c8b8c4f9114bdc6c0fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/spec-after.json"
+  },
+  "raw/block-2/arms/jvm-s/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "af44306acb3af462a7c58389cfdd6f8ac37a2a3388ab8c8b8c4f9114bdc6c0fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/spec-before.json"
+  },
+  "raw/block-2/arms/jvm-s/warmup/clock.json": {
+    "bytes": 220,
+    "sha256": "a5fda534c500db9ca71690cbd2992c44ff2b28594b2b8e77bc3936e7b8c31a2a",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/warmup/clock.json"
+  },
+  "raw/block-2/arms/jvm-s/warmup/events.jsonl": {
+    "bytes": 2722208,
+    "sha256": "bd28d818bf04c31ff8f570feee4c495f8608f72998ded82716964525b9e673c4",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/warmup/events.jsonl"
+  },
+  "raw/block-2/arms/jvm-s/warmup/runner.json": {
+    "bytes": 316,
+    "sha256": "e3805b1cce37f595344789c7ad60391aee2a6f53e3eb02ca50781a17d1881f42",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/warmup/runner.json"
+  },
+  "raw/block-2/arms/jvm-s/warmup/summary.json": {
+    "bytes": 3895,
+    "sha256": "2beaa02f84d32547f38113220037ae7ed7ff77c306ee50d141260600a91593f2",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/jvm-s/warmup/summary.json"
+  },
+  "raw/block-2/arms/native-base/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "472bc2203da689e47ab0b43032becf8f00bbe706cd43e4ff4ffcc7afa5608f9e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/boot-id.txt"
+  },
+  "raw/block-2/arms/native-base/control-plane.log": {
+    "bytes": 3668,
+    "sha256": "46a76ac0e49aa80907e75c9d8a7dbfe5d314c0b171f7b1a10a9d9ea00579ab18",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/control-plane.log"
+  },
+  "raw/block-2/arms/native-base/deployment.json": {
+    "bytes": 2709,
+    "sha256": "364fd4320724cc2652cdc4498de6129404371bc5b5ecf2fe043058948817218a",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/deployment.json"
+  },
+  "raw/block-2/arms/native-base/lifecycle.jsonl": {
+    "bytes": 5921001,
+    "sha256": "e40a2b180db05b0fc448739f5757e85ab1dbbaa38d23c99226361baa17f49d3d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/lifecycle.jsonl"
+  },
+  "raw/block-2/arms/native-base/measurement/clock.json": {
+    "bytes": 221,
+    "sha256": "256765653a01719eb2ccf44036d9ea641ca3ac00e90af0a127e57d4db6ecbbb5",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/measurement/clock.json"
+  },
+  "raw/block-2/arms/native-base/measurement/events.jsonl": {
+    "bytes": 8378739,
+    "sha256": "ca6473bd5fcb3e64806dc68145ace559662c6286cf684dd59b3630a6db9c3c9d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/measurement/events.jsonl"
+  },
+  "raw/block-2/arms/native-base/measurement/runner.json": {
+    "bytes": 323,
+    "sha256": "c72dcb681892062e7a25b79aa02bce0d5c9a0efc0bcddc8c9a24870245d49c1a",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/measurement/runner.json"
+  },
+  "raw/block-2/arms/native-base/measurement/summary.json": {
+    "bytes": 3837,
+    "sha256": "ebed66d73768e86ee46aa545ec28f4beef63a8c614c914e209be9d8558d06f95",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/measurement/summary.json"
+  },
+  "raw/block-2/arms/native-base/measurement.json": {
+    "bytes": 228,
+    "sha256": "bce5348ad804341df9d13cceafc42ec0072a74bc3049b83c0d93cc1d1845ca6f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/measurement.json"
+  },
+  "raw/block-2/arms/native-base/metrics/prometheus-snapshot.json": {
+    "bytes": 2187429,
+    "sha256": "c576f0126f064ab9b4ae3a5a183c5dea8a8ec4e75655899718585fabcb302e89",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-2/arms/native-base/registration.json": {
+    "bytes": 568,
+    "sha256": "f63d3d631b178219c3b51a030cdcd10a9c532e6475a8258b040734137a9a7616",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/registration.json"
+  },
+  "raw/block-2/arms/native-base/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "af44306acb3af462a7c58389cfdd6f8ac37a2a3388ab8c8b8c4f9114bdc6c0fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/spec-after.json"
+  },
+  "raw/block-2/arms/native-base/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "af44306acb3af462a7c58389cfdd6f8ac37a2a3388ab8c8b8c4f9114bdc6c0fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/spec-before.json"
+  },
+  "raw/block-2/arms/native-base/warmup/clock.json": {
+    "bytes": 220,
+    "sha256": "0cd14cf072eab5bbb7b46dafde51cfc7367d30282a3d8e9095bf04b86f3d2235",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/warmup/clock.json"
+  },
+  "raw/block-2/arms/native-base/warmup/events.jsonl": {
+    "bytes": 2721306,
+    "sha256": "63b6e31ecc5f33eb998a08b6e2937722adce87e2f43a5f99f2918e9efbd64935",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/warmup/events.jsonl"
+  },
+  "raw/block-2/arms/native-base/warmup/runner.json": {
+    "bytes": 322,
+    "sha256": "02e905278374d6ce25df60dbee77515db854ae71452b172e260c66247750054f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/warmup/runner.json"
+  },
+  "raw/block-2/arms/native-base/warmup/summary.json": {
+    "bytes": 3928,
+    "sha256": "e32c15e0e79db6809504ea37cdae07f7c54ba1baa42c58492b5a709f52b71e5f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-base/warmup/summary.json"
+  },
+  "raw/block-2/arms/native-c/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "472bc2203da689e47ab0b43032becf8f00bbe706cd43e4ff4ffcc7afa5608f9e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/boot-id.txt"
+  },
+  "raw/block-2/arms/native-c/control-plane.log": {
+    "bytes": 3829,
+    "sha256": "bb05b6855492ce3be0153732162b9992235a28b59add231720cccfbe5121f173",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/control-plane.log"
+  },
+  "raw/block-2/arms/native-c/deployment.json": {
+    "bytes": 2730,
+    "sha256": "df2baa2fd337650cbd5b76f8e1e4dbb3d91da99d6d3c00e0f98792fad138706b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/deployment.json"
+  },
+  "raw/block-2/arms/native-c/lifecycle.jsonl": {
+    "bytes": 5917972,
+    "sha256": "b2e8149c588168b046b13a87c0e4347587fe502b853d4def5a66970e922640a3",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/lifecycle.jsonl"
+  },
+  "raw/block-2/arms/native-c/measurement/clock.json": {
+    "bytes": 221,
+    "sha256": "7631d40496737c06018fb736ba2305dadc44f6c65fcab6b10b2e47f10c6d5e01",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/measurement/clock.json"
+  },
+  "raw/block-2/arms/native-c/measurement/events.jsonl": {
+    "bytes": 8379884,
+    "sha256": "824b0cdff4a5d6d61d78132aaf1cafd4e42cefd7441b9d238ec81aa7ad283d49",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/measurement/events.jsonl"
+  },
+  "raw/block-2/arms/native-c/measurement/runner.json": {
+    "bytes": 324,
+    "sha256": "1e0bcf3aaa8ede9da5b7bd7fa5ec5a7b052ca6e79e2ce84b4722112da58bc67e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/measurement/runner.json"
+  },
+  "raw/block-2/arms/native-c/measurement/summary.json": {
+    "bytes": 3752,
+    "sha256": "1cbb00528e255f7b3e85c2b5b1f0db997a16a9d86b57a3166217391aaf2b6bd7",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/measurement/summary.json"
+  },
+  "raw/block-2/arms/native-c/measurement.json": {
+    "bytes": 226,
+    "sha256": "2ad2e068ab27a1865187181909f54f6be90ea52541061bea8b734a36340161f0",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/measurement.json"
+  },
+  "raw/block-2/arms/native-c/metrics/prometheus-snapshot.json": {
+    "bytes": 2174126,
+    "sha256": "d502b07a5296b83b872f5df477c3059f2673495a6b5ae54516e22fb3527527c6",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-2/arms/native-c/registration.json": {
+    "bytes": 568,
+    "sha256": "f63d3d631b178219c3b51a030cdcd10a9c532e6475a8258b040734137a9a7616",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/registration.json"
+  },
+  "raw/block-2/arms/native-c/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "af44306acb3af462a7c58389cfdd6f8ac37a2a3388ab8c8b8c4f9114bdc6c0fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/spec-after.json"
+  },
+  "raw/block-2/arms/native-c/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "af44306acb3af462a7c58389cfdd6f8ac37a2a3388ab8c8b8c4f9114bdc6c0fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/spec-before.json"
+  },
+  "raw/block-2/arms/native-c/warmup/clock.json": {
+    "bytes": 220,
+    "sha256": "a6d6df96e4371a9fd25d9791d72ad1383d56fec56626be1d1faffaac479ffeee",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/warmup/clock.json"
+  },
+  "raw/block-2/arms/native-c/warmup/events.jsonl": {
+    "bytes": 2721309,
+    "sha256": "e57e88cd6fea3f953e3f7794595b371a74dcc6ba31aa5a708e98e1b50845f29e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/warmup/events.jsonl"
+  },
+  "raw/block-2/arms/native-c/warmup/runner.json": {
+    "bytes": 316,
+    "sha256": "e566cb540f073967c761429e338e4b491804ad43fb769f27ba71f283b6930cb0",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/warmup/runner.json"
+  },
+  "raw/block-2/arms/native-c/warmup/summary.json": {
+    "bytes": 3829,
+    "sha256": "480c42fec2a8e7715d249c8e3aaa9073309875c324c84ea1dcfcea0fd7c82227",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-c/warmup/summary.json"
+  },
+  "raw/block-2/arms/native-cs/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "472bc2203da689e47ab0b43032becf8f00bbe706cd43e4ff4ffcc7afa5608f9e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/boot-id.txt"
+  },
+  "raw/block-2/arms/native-cs/control-plane.log": {
+    "bytes": 3989,
+    "sha256": "1f9aa6ed54827b1f13958a3c5b93f6f77b7492e27d268d9877dd4a57c1c792c9",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/control-plane.log"
+  },
+  "raw/block-2/arms/native-cs/deployment.json": {
+    "bytes": 2750,
+    "sha256": "702a83a9196610d202e1779912c109b73cf8579884e298e1a7d71fe17313a3c6",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/deployment.json"
+  },
+  "raw/block-2/arms/native-cs/lifecycle.jsonl": {
+    "bytes": 5948447,
+    "sha256": "bad2c12345462121390364418d7ddef598a97596170c71ae68ba4a9d344c76f0",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/lifecycle.jsonl"
+  },
+  "raw/block-2/arms/native-cs/measurement/clock.json": {
+    "bytes": 223,
+    "sha256": "a08c320b7d1b1de290ba959a78e4d242e2d3d01681f323d96ed397656db35acb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/measurement/clock.json"
+  },
+  "raw/block-2/arms/native-cs/measurement/events.jsonl": {
+    "bytes": 8379666,
+    "sha256": "3784d076f2e694e239835e1abb1b30f26c091c1c56b07e48ec6893bdb32ddcc8",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/measurement/events.jsonl"
+  },
+  "raw/block-2/arms/native-cs/measurement/runner.json": {
+    "bytes": 325,
+    "sha256": "f2e660104961c08a08dd70bf04b55a7263699539347e3f710c0e7284a3177998",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/measurement/runner.json"
+  },
+  "raw/block-2/arms/native-cs/measurement/summary.json": {
+    "bytes": 3759,
+    "sha256": "8ac257d79abff7f46412b1988ccfe0381247292461db267eebf1f24b1a140ffa",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/measurement/summary.json"
+  },
+  "raw/block-2/arms/native-cs/measurement.json": {
+    "bytes": 229,
+    "sha256": "81c70fbf0ee49c085596df644fb9fd4dc6f8d3526251b452b85df4d525df662b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/measurement.json"
+  },
+  "raw/block-2/arms/native-cs/metrics/prometheus-snapshot.json": {
+    "bytes": 2174512,
+    "sha256": "d90c3357a0637c771265cbac741eabb7c6754e3d2fc28c97bfb578b4aaa70cd6",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-2/arms/native-cs/registration.json": {
+    "bytes": 568,
+    "sha256": "f63d3d631b178219c3b51a030cdcd10a9c532e6475a8258b040734137a9a7616",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/registration.json"
+  },
+  "raw/block-2/arms/native-cs/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "af44306acb3af462a7c58389cfdd6f8ac37a2a3388ab8c8b8c4f9114bdc6c0fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/spec-after.json"
+  },
+  "raw/block-2/arms/native-cs/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "af44306acb3af462a7c58389cfdd6f8ac37a2a3388ab8c8b8c4f9114bdc6c0fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/spec-before.json"
+  },
+  "raw/block-2/arms/native-cs/warmup/clock.json": {
+    "bytes": 222,
+    "sha256": "537691a3c2625ee3da80ddf9cdfca5edd81e8d74542c5eb84b3395cc9adf945b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/warmup/clock.json"
+  },
+  "raw/block-2/arms/native-cs/warmup/events.jsonl": {
+    "bytes": 2722311,
+    "sha256": "4092becd6974e0b73f9cc8b6092732adfb67169d624358ff9fe9fdb3718e4f99",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/warmup/events.jsonl"
+  },
+  "raw/block-2/arms/native-cs/warmup/runner.json": {
+    "bytes": 320,
+    "sha256": "de61874db7ba95553e5f03f4cbc14cd96197093b2324fd9db68dcb3cfd7498e6",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/warmup/runner.json"
+  },
+  "raw/block-2/arms/native-cs/warmup/summary.json": {
+    "bytes": 3760,
+    "sha256": "c4a1e599ae3407e6394a5dd362e8d582715e70c5c620664d1bc7904b389f80e3",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-cs/warmup/summary.json"
+  },
+  "raw/block-2/arms/native-s/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "472bc2203da689e47ab0b43032becf8f00bbe706cd43e4ff4ffcc7afa5608f9e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/boot-id.txt"
+  },
+  "raw/block-2/arms/native-s/control-plane.log": {
+    "bytes": 3828,
+    "sha256": "9d8c03884c576b3227239dec5d32a99fc2f39d9ec74a1b12104d2df0c8f440a4",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/control-plane.log"
+  },
+  "raw/block-2/arms/native-s/deployment.json": {
+    "bytes": 2721,
+    "sha256": "2c05e4c0776dee648b5f473c3c65be9e50c6cf0787c493c707e866a4e4af8ba3",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/deployment.json"
+  },
+  "raw/block-2/arms/native-s/lifecycle.jsonl": {
+    "bytes": 5918005,
+    "sha256": "86a2e7c1fadd65b9801e24be920c4f71f0ab772d245ca4bfb878ee11b8251a1a",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/lifecycle.jsonl"
+  },
+  "raw/block-2/arms/native-s/measurement/clock.json": {
+    "bytes": 220,
+    "sha256": "8a5777cdf3d29caa98f2c4abdc8802853019b7138f5b56c9621471f6ec649de5",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/measurement/clock.json"
+  },
+  "raw/block-2/arms/native-s/measurement/events.jsonl": {
+    "bytes": 8379878,
+    "sha256": "df9d895f88e7b7aae94eec54184706f82f80c052ea31c922a01f3607358f5de1",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/measurement/events.jsonl"
+  },
+  "raw/block-2/arms/native-s/measurement/runner.json": {
+    "bytes": 324,
+    "sha256": "aec734b06356aa6dba4416710095e528a56c1e3ab9ffd6964c99eca2081c1c0c",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/measurement/runner.json"
+  },
+  "raw/block-2/arms/native-s/measurement/summary.json": {
+    "bytes": 3742,
+    "sha256": "8c670c7d46ebe1643931a6e0164a0c1aa84d311fee137673091944d6804504b0",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/measurement/summary.json"
+  },
+  "raw/block-2/arms/native-s/measurement.json": {
+    "bytes": 227,
+    "sha256": "a4431285407851e2f5026adab9d675ecd8d44904b563d7a3098ffc6e6958c64c",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/measurement.json"
+  },
+  "raw/block-2/arms/native-s/metrics/prometheus-snapshot.json": {
+    "bytes": 2185857,
+    "sha256": "518211b54106d70183b3f2fe863ee1385c4af2fbb84d2f683ecfac20da5b1a97",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-2/arms/native-s/registration.json": {
+    "bytes": 568,
+    "sha256": "f63d3d631b178219c3b51a030cdcd10a9c532e6475a8258b040734137a9a7616",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/registration.json"
+  },
+  "raw/block-2/arms/native-s/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "af44306acb3af462a7c58389cfdd6f8ac37a2a3388ab8c8b8c4f9114bdc6c0fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/spec-after.json"
+  },
+  "raw/block-2/arms/native-s/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "af44306acb3af462a7c58389cfdd6f8ac37a2a3388ab8c8b8c4f9114bdc6c0fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/spec-before.json"
+  },
+  "raw/block-2/arms/native-s/warmup/clock.json": {
+    "bytes": 222,
+    "sha256": "4e044e155465ca6a4087bec3561c0939d7fcbcc1c1696b1a2f29554d55e1f0bf",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/warmup/clock.json"
+  },
+  "raw/block-2/arms/native-s/warmup/events.jsonl": {
+    "bytes": 2722385,
+    "sha256": "a8625751b12d4dd99fcdbb5ac6cdef43a6e03e9fa36b04900daebb84a891ab9f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/warmup/events.jsonl"
+  },
+  "raw/block-2/arms/native-s/warmup/runner.json": {
+    "bytes": 319,
+    "sha256": "b1ecc4d640f3671497884acbb87237840fb3bde6e098c7fb5743a2760fab88e8",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/warmup/runner.json"
+  },
+  "raw/block-2/arms/native-s/warmup/summary.json": {
+    "bytes": 3780,
+    "sha256": "25a4d6152749416b93f366b9ba8c97f0168194368083cb513c23c623bb996b78",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "arms/native-s/warmup/summary.json"
+  },
+  "raw/block-2/protocol.json": {
+    "bytes": 2858,
+    "sha256": "f575f3928a0241a0f76e7c38fbe76673a76ab58252babdbaadb151b3e307bf7a",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "protocol.json"
+  },
+  "raw/block-2/run-metadata.json": {
+    "bytes": 21384,
+    "sha256": "00139e871976e1100d2c2658c3ee0bb54948a86f22149571765c2e47ea69eb42",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-2.tar.gz",
+    "archiveSha256": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "member": "run-metadata.json"
+  },
+  "raw/block-3/analysis.json": {
+    "bytes": 23397,
+    "sha256": "93d4b359483d3f7e51927b08f50badc527cf14f5f1c192a9d9321507342486ae",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "analysis.json"
+  },
+  "raw/block-3/arms/jvm-base/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "0073c91d978c3cc109ce30ffd7125d8d24c6ba94c2dbff8d1b65ca7e1f3c751d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/boot-id.txt"
+  },
+  "raw/block-3/arms/jvm-base/control-plane.log": {
+    "bytes": 2949,
+    "sha256": "79990778a0c00ed146a72a7f4f5b35f30c74ef9cee4dd2b8bec48e5c31812d37",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/control-plane.log"
+  },
+  "raw/block-3/arms/jvm-base/deployment.json": {
+    "bytes": 2703,
+    "sha256": "a4944d25e6d9cbf6468603148cbd5248de9b74fa48a1850c3227ad52442cb7c9",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/deployment.json"
+  },
+  "raw/block-3/arms/jvm-base/lifecycle.jsonl": {
+    "bytes": 6005099,
+    "sha256": "c443e492eeb0463f2442d29a3b2eadfb90be048519281473497c9a76af4bd942",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/lifecycle.jsonl"
+  },
+  "raw/block-3/arms/jvm-base/measurement/clock.json": {
+    "bytes": 219,
+    "sha256": "e52d9668a74c59d678e0ef06158af8769addaaeb7dbfbd8f49b5614ac14c649b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/measurement/clock.json"
+  },
+  "raw/block-3/arms/jvm-base/measurement/events.jsonl": {
+    "bytes": 8378554,
+    "sha256": "732ebef58726f67f289039bacc39cd2589cad431221834fb3bdc612439867225",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/measurement/events.jsonl"
+  },
+  "raw/block-3/arms/jvm-base/measurement/runner.json": {
+    "bytes": 324,
+    "sha256": "4bfa76feae1bb793d538d5b065401f400eac7d7518fcac18997590f0683c2a66",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/measurement/runner.json"
+  },
+  "raw/block-3/arms/jvm-base/measurement/summary.json": {
+    "bytes": 3855,
+    "sha256": "a0222c380694a179e1942e3a339e7556003f23009b1ebc88d4eac42162793696",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/measurement/summary.json"
+  },
+  "raw/block-3/arms/jvm-base/measurement.json": {
+    "bytes": 229,
+    "sha256": "0558a20a196de45063bf6993e8728351d1f07e18887d086bb05536d9c196c78d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/measurement.json"
+  },
+  "raw/block-3/arms/jvm-base/metrics/prometheus-snapshot.json": {
+    "bytes": 2173892,
+    "sha256": "1149ddab29e1c656a021515dde61a00f35e6954d1d6f02cb1e3140658fa4f287",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-3/arms/jvm-base/registration.json": {
+    "bytes": 568,
+    "sha256": "4d79a31d8c895d31d04de6836958b9fbf3d39c19a184351a0eba129643e8689e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/registration.json"
+  },
+  "raw/block-3/arms/jvm-base/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "d3b284e1c6f81ca90644a72c3e65462f289d1968960ffda2f13bd2f896dc5792",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/spec-after.json"
+  },
+  "raw/block-3/arms/jvm-base/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "d3b284e1c6f81ca90644a72c3e65462f289d1968960ffda2f13bd2f896dc5792",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/spec-before.json"
+  },
+  "raw/block-3/arms/jvm-base/warmup/clock.json": {
+    "bytes": 222,
+    "sha256": "7c1518be564c27fe10ff03d759ef9d815a749d6fba739a570990fcb3efc63d11",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/warmup/clock.json"
+  },
+  "raw/block-3/arms/jvm-base/warmup/events.jsonl": {
+    "bytes": 2722429,
+    "sha256": "f978583d3f6f68c7fc05e24a1844c20e970042abd774e594b4e15a6318bf2f48",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/warmup/events.jsonl"
+  },
+  "raw/block-3/arms/jvm-base/warmup/runner.json": {
+    "bytes": 318,
+    "sha256": "5f7f7be16b7bd78aa6afe22a75489b2863d45b88f8889d64a742274e664a1e05",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/warmup/runner.json"
+  },
+  "raw/block-3/arms/jvm-base/warmup/summary.json": {
+    "bytes": 3785,
+    "sha256": "2760a756a0f9b2d3144e4e6d94d597dae6dd9757a7bd5eae5a4a8aff0c3e3af4",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-base/warmup/summary.json"
+  },
+  "raw/block-3/arms/jvm-c/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "0073c91d978c3cc109ce30ffd7125d8d24c6ba94c2dbff8d1b65ca7e1f3c751d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/boot-id.txt"
+  },
+  "raw/block-3/arms/jvm-c/control-plane.log": {
+    "bytes": 3110,
+    "sha256": "a8636b6f5629814a6dc8a36808fef86c565dbb10b5ddac50e257d9cd346ca024",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/control-plane.log"
+  },
+  "raw/block-3/arms/jvm-c/deployment.json": {
+    "bytes": 2724,
+    "sha256": "92484c1fd1f27b543d401a680ae995f2b3e7d8cbe0519812a85dd8b9689c9673",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/deployment.json"
+  },
+  "raw/block-3/arms/jvm-c/lifecycle.jsonl": {
+    "bytes": 6002015,
+    "sha256": "a3551a1530971e6e80d11226483c97c3a05db2e43efb0acaf622f2f99e9eb5f6",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/lifecycle.jsonl"
+  },
+  "raw/block-3/arms/jvm-c/measurement/clock.json": {
+    "bytes": 220,
+    "sha256": "a3affad824313e5757a0dd734c95fc810bd175f7f1c00d76099e3e0123289182",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/measurement/clock.json"
+  },
+  "raw/block-3/arms/jvm-c/measurement/events.jsonl": {
+    "bytes": 8379699,
+    "sha256": "c24023a5328342dbf5155edb8d7b791036eeec486cca71b927586df4c624ec77",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/measurement/events.jsonl"
+  },
+  "raw/block-3/arms/jvm-c/measurement/runner.json": {
+    "bytes": 319,
+    "sha256": "22591bd1c4e035459a6df9d9d4f5de7538cd62d03a8344346bb7a09307227d49",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/measurement/runner.json"
+  },
+  "raw/block-3/arms/jvm-c/measurement/summary.json": {
+    "bytes": 3777,
+    "sha256": "5c7dd66d265246ca93ad039eef182ec27644880c2a455375f62ffd843e4f4011",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/measurement/summary.json"
+  },
+  "raw/block-3/arms/jvm-c/measurement.json": {
+    "bytes": 225,
+    "sha256": "7126c6bd343962deb935bd02645e925ef12f2596cd35a6961c2e81b8aa6a519e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/measurement.json"
+  },
+  "raw/block-3/arms/jvm-c/metrics/prometheus-snapshot.json": {
+    "bytes": 2171389,
+    "sha256": "9c25d91f8650afa570a35d2fa2639797b05df75f4936d8579a97637fd4d4085f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-3/arms/jvm-c/registration.json": {
+    "bytes": 568,
+    "sha256": "4d79a31d8c895d31d04de6836958b9fbf3d39c19a184351a0eba129643e8689e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/registration.json"
+  },
+  "raw/block-3/arms/jvm-c/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "d3b284e1c6f81ca90644a72c3e65462f289d1968960ffda2f13bd2f896dc5792",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/spec-after.json"
+  },
+  "raw/block-3/arms/jvm-c/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "d3b284e1c6f81ca90644a72c3e65462f289d1968960ffda2f13bd2f896dc5792",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/spec-before.json"
+  },
+  "raw/block-3/arms/jvm-c/warmup/clock.json": {
+    "bytes": 222,
+    "sha256": "6e3b027a71dad10fee8617ae14d66dc5ef7146d3c7d6c588af923330daca0b13",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/warmup/clock.json"
+  },
+  "raw/block-3/arms/jvm-c/warmup/events.jsonl": {
+    "bytes": 2722477,
+    "sha256": "de6ff1aa20bb1e121ee11ea8abf86b39458462c3a53eac557b1bf0ccabc0f821",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/warmup/events.jsonl"
+  },
+  "raw/block-3/arms/jvm-c/warmup/runner.json": {
+    "bytes": 314,
+    "sha256": "ca5610bac4e5bdc3bc1e6eb00141313131a6b0c4711b1985d0ec00be1c5094de",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/warmup/runner.json"
+  },
+  "raw/block-3/arms/jvm-c/warmup/summary.json": {
+    "bytes": 3769,
+    "sha256": "787b571057def3ab7899c2a82cf4edf9407cb6bb7c4914cd01371de5482394db",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-c/warmup/summary.json"
+  },
+  "raw/block-3/arms/jvm-cs/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "0073c91d978c3cc109ce30ffd7125d8d24c6ba94c2dbff8d1b65ca7e1f3c751d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/boot-id.txt"
+  },
+  "raw/block-3/arms/jvm-cs/control-plane.log": {
+    "bytes": 3270,
+    "sha256": "f82d7e65386754b677c04f4555e288a62e65256690999a6dc3ea7b232ad8be01",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/control-plane.log"
+  },
+  "raw/block-3/arms/jvm-cs/deployment.json": {
+    "bytes": 2744,
+    "sha256": "2f700d6805ecb253ff08ebb9107078b68068eab8ece7cef8bc57ed6dc4feab86",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/deployment.json"
+  },
+  "raw/block-3/arms/jvm-cs/lifecycle.jsonl": {
+    "bytes": 6033715,
+    "sha256": "79472230a8e97a0114dd70dc456ffd780d38f05fca88734ca50563cb04a0c5c9",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/lifecycle.jsonl"
+  },
+  "raw/block-3/arms/jvm-cs/measurement/clock.json": {
+    "bytes": 221,
+    "sha256": "e3d4613f71c17a8badc36f3b21482dc632cf92c9ee1070ebdee5edcb63da9b3f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/measurement/clock.json"
+  },
+  "raw/block-3/arms/jvm-cs/measurement/events.jsonl": {
+    "bytes": 8379727,
+    "sha256": "b3444f4fc8cd6c1feb30e44223681a6e10cf04da8890813b4bbe04b929bf28ca",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/measurement/events.jsonl"
+  },
+  "raw/block-3/arms/jvm-cs/measurement/runner.json": {
+    "bytes": 322,
+    "sha256": "adf1be03b3de8bbfae7614a93a4b6a0f51014c2c3f181c5a29a28f4f8ec7f6f4",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/measurement/runner.json"
+  },
+  "raw/block-3/arms/jvm-cs/measurement/summary.json": {
+    "bytes": 3733,
+    "sha256": "4f75d0f2ca8deace4f7a693666661849b2bdbd7e8c0a2551d9b009c6b8b0faea",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/measurement/summary.json"
+  },
+  "raw/block-3/arms/jvm-cs/measurement.json": {
+    "bytes": 227,
+    "sha256": "c2602a5caf02f543f39fca9b845867072bf126dfe2ed4163af9295136682da75",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/measurement.json"
+  },
+  "raw/block-3/arms/jvm-cs/metrics/prometheus-snapshot.json": {
+    "bytes": 2185953,
+    "sha256": "d59d108f15bd7ac5b73743ad6d4047d5a2bc4c56a12989477e1432293dcedf81",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-3/arms/jvm-cs/registration.json": {
+    "bytes": 568,
+    "sha256": "4d79a31d8c895d31d04de6836958b9fbf3d39c19a184351a0eba129643e8689e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/registration.json"
+  },
+  "raw/block-3/arms/jvm-cs/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "d3b284e1c6f81ca90644a72c3e65462f289d1968960ffda2f13bd2f896dc5792",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/spec-after.json"
+  },
+  "raw/block-3/arms/jvm-cs/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "d3b284e1c6f81ca90644a72c3e65462f289d1968960ffda2f13bd2f896dc5792",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/spec-before.json"
+  },
+  "raw/block-3/arms/jvm-cs/warmup/clock.json": {
+    "bytes": 222,
+    "sha256": "c2daa3dafcdffe49f8146010490f2ae2d95c47e7266a57629f30b84b08b61a26",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/warmup/clock.json"
+  },
+  "raw/block-3/arms/jvm-cs/warmup/events.jsonl": {
+    "bytes": 2722445,
+    "sha256": "9e1006483adc8c1b17f05c0b546c3dfd9fc6b6905e4af08a365c668d5876207d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/warmup/events.jsonl"
+  },
+  "raw/block-3/arms/jvm-cs/warmup/runner.json": {
+    "bytes": 317,
+    "sha256": "1f2ebd1807be3b1a3f6f818f834ccc5c662cba5df9089946729e6051987a4609",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/warmup/runner.json"
+  },
+  "raw/block-3/arms/jvm-cs/warmup/summary.json": {
+    "bytes": 3788,
+    "sha256": "879db29470f3deaef6df1fa510a6154e6a0ffa15d6ee9d9614ac9188c09e6b8c",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-cs/warmup/summary.json"
+  },
+  "raw/block-3/arms/jvm-s/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "0073c91d978c3cc109ce30ffd7125d8d24c6ba94c2dbff8d1b65ca7e1f3c751d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/boot-id.txt"
+  },
+  "raw/block-3/arms/jvm-s/control-plane.log": {
+    "bytes": 3110,
+    "sha256": "1f15d163e88ba9854ffb234a3c2dea37c697bd2e423378d008c764f6cc4c66ae",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/control-plane.log"
+  },
+  "raw/block-3/arms/jvm-s/deployment.json": {
+    "bytes": 2715,
+    "sha256": "c99e5ff99829e6c1f3e01558660ee6f50b75e71678305a780153eb22739a54ac",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/deployment.json"
+  },
+  "raw/block-3/arms/jvm-s/lifecycle.jsonl": {
+    "bytes": 6002043,
+    "sha256": "c6960e49ff56bf7925c9aaa6ca342f388dcf0a30504997f449e3dc0efad07d48",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/lifecycle.jsonl"
+  },
+  "raw/block-3/arms/jvm-s/measurement/clock.json": {
+    "bytes": 221,
+    "sha256": "dd890e4a8755c95230d70de99f7f68d92aa208bfb6076a280b12e41e8a06cab3",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/measurement/clock.json"
+  },
+  "raw/block-3/arms/jvm-s/measurement/events.jsonl": {
+    "bytes": 8379710,
+    "sha256": "139606ef1404d87e471f72e6df3dfe8b8331fe96018f364ea26fbc8aa561c24f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/measurement/events.jsonl"
+  },
+  "raw/block-3/arms/jvm-s/measurement/runner.json": {
+    "bytes": 320,
+    "sha256": "2aa0f3ccd7be672d5be72323fb5d877e0ec88c9827ad176a8c4c55e9707bd261",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/measurement/runner.json"
+  },
+  "raw/block-3/arms/jvm-s/measurement/summary.json": {
+    "bytes": 3710,
+    "sha256": "5dbdeb124267b43bfa35dc076a7256105cc037ea7aa88726a94125e7399c8fc1",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/measurement/summary.json"
+  },
+  "raw/block-3/arms/jvm-s/measurement.json": {
+    "bytes": 226,
+    "sha256": "bb2c4c1e386dfd21c1ce50f29a8412d7c35bbdcb9ff20d6922d413f9acd1c24e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/measurement.json"
+  },
+  "raw/block-3/arms/jvm-s/metrics/prometheus-snapshot.json": {
+    "bytes": 2171877,
+    "sha256": "644e56905b1f4ec69e449066a0baf2db9cb0c303592beaec50c4a628ea03306c",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-3/arms/jvm-s/registration.json": {
+    "bytes": 568,
+    "sha256": "4d79a31d8c895d31d04de6836958b9fbf3d39c19a184351a0eba129643e8689e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/registration.json"
+  },
+  "raw/block-3/arms/jvm-s/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "d3b284e1c6f81ca90644a72c3e65462f289d1968960ffda2f13bd2f896dc5792",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/spec-after.json"
+  },
+  "raw/block-3/arms/jvm-s/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "d3b284e1c6f81ca90644a72c3e65462f289d1968960ffda2f13bd2f896dc5792",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/spec-before.json"
+  },
+  "raw/block-3/arms/jvm-s/warmup/clock.json": {
+    "bytes": 223,
+    "sha256": "531870faa4a09055cd82e9f47e5c043e598a02e2f84466aaf10c9b89e33a998a",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/warmup/clock.json"
+  },
+  "raw/block-3/arms/jvm-s/warmup/events.jsonl": {
+    "bytes": 2722609,
+    "sha256": "9f7650da68a41073feab92d8b8ed6232be6816c0e132d81594d4b376b95a4041",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/warmup/events.jsonl"
+  },
+  "raw/block-3/arms/jvm-s/warmup/runner.json": {
+    "bytes": 315,
+    "sha256": "13b3c594f23362695eaab27be5eac421aeeda8ee5caf5ac347e2a24ba8784bcd",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/warmup/runner.json"
+  },
+  "raw/block-3/arms/jvm-s/warmup/summary.json": {
+    "bytes": 3767,
+    "sha256": "03b464095676460694bff7656998c50d2cf732c4f5f7491f0f055140ff31d9f0",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/jvm-s/warmup/summary.json"
+  },
+  "raw/block-3/arms/native-base/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "0073c91d978c3cc109ce30ffd7125d8d24c6ba94c2dbff8d1b65ca7e1f3c751d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/boot-id.txt"
+  },
+  "raw/block-3/arms/native-base/control-plane.log": {
+    "bytes": 3668,
+    "sha256": "99b3542785aec671f587f496d654681269206cf248abbfc60e27e78ddd7e0a15",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/control-plane.log"
+  },
+  "raw/block-3/arms/native-base/deployment.json": {
+    "bytes": 2709,
+    "sha256": "11f16b6b1806db3e5b46b28f69eb774f1d6578a743215c098c02c4cb09214256",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/deployment.json"
+  },
+  "raw/block-3/arms/native-base/lifecycle.jsonl": {
+    "bytes": 6008158,
+    "sha256": "b11723cc164a1511ca639ef63296d8eb3f01a8d84b92720cdb4627e054106d92",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/lifecycle.jsonl"
+  },
+  "raw/block-3/arms/native-base/measurement/clock.json": {
+    "bytes": 219,
+    "sha256": "1e3eabc517141f608cdae67bd48d30bbc42618949fa4f47c7c966a74ff7a538b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/measurement/clock.json"
+  },
+  "raw/block-3/arms/native-base/measurement/events.jsonl": {
+    "bytes": 8379789,
+    "sha256": "215a37973437a1622710770131dbcb3730b67c8cbf4c7623c4648865523801fb",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/measurement/events.jsonl"
+  },
+  "raw/block-3/arms/native-base/measurement/runner.json": {
+    "bytes": 324,
+    "sha256": "10f848204e0e4b50cedd0af4c4de53a8ae3c763ad3af0d285169c12519ec768b",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/measurement/runner.json"
+  },
+  "raw/block-3/arms/native-base/measurement/summary.json": {
+    "bytes": 3733,
+    "sha256": "3d2ffd496d016f0578c3eaf9b1943ce1f310f1ac02965f1108d6c55a01889c99",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/measurement/summary.json"
+  },
+  "raw/block-3/arms/native-base/measurement.json": {
+    "bytes": 227,
+    "sha256": "c069107aee1b0f2d12379be98cc6f5b65df95a3daca870905b47f647bd349664",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/measurement.json"
+  },
+  "raw/block-3/arms/native-base/metrics/prometheus-snapshot.json": {
+    "bytes": 2174823,
+    "sha256": "eb6965060f0b35ec50e4bb01054347426d9e475584c0eadaaed37d82b277ce6f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-3/arms/native-base/registration.json": {
+    "bytes": 568,
+    "sha256": "4d79a31d8c895d31d04de6836958b9fbf3d39c19a184351a0eba129643e8689e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/registration.json"
+  },
+  "raw/block-3/arms/native-base/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "d3b284e1c6f81ca90644a72c3e65462f289d1968960ffda2f13bd2f896dc5792",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/spec-after.json"
+  },
+  "raw/block-3/arms/native-base/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "d3b284e1c6f81ca90644a72c3e65462f289d1968960ffda2f13bd2f896dc5792",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/spec-before.json"
+  },
+  "raw/block-3/arms/native-base/warmup/clock.json": {
+    "bytes": 222,
+    "sha256": "dd6950166e13724aded84ba6cef298ba573c7f8cd203c156493cddeb66370d48",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/warmup/clock.json"
+  },
+  "raw/block-3/arms/native-base/warmup/events.jsonl": {
+    "bytes": 2722263,
+    "sha256": "fc151acdf90a76a9a252b5d87b504686e13ae53a16f3121dc40c8555ee5f3df5",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/warmup/events.jsonl"
+  },
+  "raw/block-3/arms/native-base/warmup/runner.json": {
+    "bytes": 318,
+    "sha256": "8489187afd21c059210a83a985c5bcaf60fb6642b5b8277d6d0a9506a8ec3529",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/warmup/runner.json"
+  },
+  "raw/block-3/arms/native-base/warmup/summary.json": {
+    "bytes": 3743,
+    "sha256": "3ddcad774ab9331e7787aab973d9baff8de7db1661d44effcb324b8062e3810a",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-base/warmup/summary.json"
+  },
+  "raw/block-3/arms/native-c/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "0073c91d978c3cc109ce30ffd7125d8d24c6ba94c2dbff8d1b65ca7e1f3c751d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/boot-id.txt"
+  },
+  "raw/block-3/arms/native-c/control-plane.log": {
+    "bytes": 3829,
+    "sha256": "fb419b1438ebd44ead60edca8f4741447da5121839822a4fc0d335b80fbc2341",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/control-plane.log"
+  },
+  "raw/block-3/arms/native-c/deployment.json": {
+    "bytes": 2730,
+    "sha256": "80fd322d2b3703a8cbe1904d55eebe2b20674f4cd14c985231f14e6f6b74d969",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/deployment.json"
+  },
+  "raw/block-3/arms/native-c/lifecycle.jsonl": {
+    "bytes": 6006320,
+    "sha256": "2d8cb1d202f7cd606e9a72ed634c90871b02b32085e286c2bbf02693ba0fabd7",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/lifecycle.jsonl"
+  },
+  "raw/block-3/arms/native-c/measurement/clock.json": {
+    "bytes": 222,
+    "sha256": "566e8d57873de42e75d54ce3b189d3fb7e24d4b53ea860cd58d8b892bed84e55",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/measurement/clock.json"
+  },
+  "raw/block-3/arms/native-c/measurement/events.jsonl": {
+    "bytes": 8379774,
+    "sha256": "db8f44096571a69681db5f184ecade15a3824ee4d11784d0aa800e1cc43465ca",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/measurement/events.jsonl"
+  },
+  "raw/block-3/arms/native-c/measurement/runner.json": {
+    "bytes": 323,
+    "sha256": "01244431c24cfc15e97324230a909ecc06cb631c6e4731c3e9829fae2145170c",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/measurement/runner.json"
+  },
+  "raw/block-3/arms/native-c/measurement/summary.json": {
+    "bytes": 3743,
+    "sha256": "6d50af35d17d99fc2918ba8d81aa50d1741ef7f5de4af22b6e292782929d2d1e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/measurement/summary.json"
+  },
+  "raw/block-3/arms/native-c/measurement.json": {
+    "bytes": 226,
+    "sha256": "6477bc51fe463f5a7c2c8d9602fe5a3ba8a4a4b056d4ec4d040808ca8a4673b2",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/measurement.json"
+  },
+  "raw/block-3/arms/native-c/metrics/prometheus-snapshot.json": {
+    "bytes": 2174725,
+    "sha256": "8933a3558ffedbc8cd507f65d647c64f2565349ff9fc282aa56b9272ea2162a6",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-3/arms/native-c/registration.json": {
+    "bytes": 568,
+    "sha256": "4d79a31d8c895d31d04de6836958b9fbf3d39c19a184351a0eba129643e8689e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/registration.json"
+  },
+  "raw/block-3/arms/native-c/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "d3b284e1c6f81ca90644a72c3e65462f289d1968960ffda2f13bd2f896dc5792",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/spec-after.json"
+  },
+  "raw/block-3/arms/native-c/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "d3b284e1c6f81ca90644a72c3e65462f289d1968960ffda2f13bd2f896dc5792",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/spec-before.json"
+  },
+  "raw/block-3/arms/native-c/warmup/clock.json": {
+    "bytes": 219,
+    "sha256": "5205302c6a307cee4016aefb0fe1de5c29b0f52fd194c9d21453ea7f68bfa09f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/warmup/clock.json"
+  },
+  "raw/block-3/arms/native-c/warmup/events.jsonl": {
+    "bytes": 2722276,
+    "sha256": "b628900607e71e06b6fa902d3b0c6914d7e88cb6756fecda862efd10f51cc19a",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/warmup/events.jsonl"
+  },
+  "raw/block-3/arms/native-c/warmup/runner.json": {
+    "bytes": 318,
+    "sha256": "bfd7b2a776ccf7e40efe2c21816b5adc44fd5938f9a59eb6cae87a4289e3997f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/warmup/runner.json"
+  },
+  "raw/block-3/arms/native-c/warmup/summary.json": {
+    "bytes": 3774,
+    "sha256": "08e22d8aa4b33a4d054aab6bd2df7ec5050a7653d8dd54c343c9dc43bddc8cd0",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-c/warmup/summary.json"
+  },
+  "raw/block-3/arms/native-cs/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "0073c91d978c3cc109ce30ffd7125d8d24c6ba94c2dbff8d1b65ca7e1f3c751d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/boot-id.txt"
+  },
+  "raw/block-3/arms/native-cs/control-plane.log": {
+    "bytes": 3988,
+    "sha256": "9206785edc7c246847ebb84480c3b0c53886ead21b139e42c7eee4e7711dc7b5",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/control-plane.log"
+  },
+  "raw/block-3/arms/native-cs/deployment.json": {
+    "bytes": 2750,
+    "sha256": "328a5d17be2bba5e26d3e1b6d5a283d2420badb7ee6a5ca8163bfa1496aa6e1d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/deployment.json"
+  },
+  "raw/block-3/arms/native-cs/lifecycle.jsonl": {
+    "bytes": 6007339,
+    "sha256": "37dc5782ebdd0e2cb5baa45bc491b48902f568bda08d591bfca82a8acce0ce83",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/lifecycle.jsonl"
+  },
+  "raw/block-3/arms/native-cs/measurement/clock.json": {
+    "bytes": 222,
+    "sha256": "9e5f280ed40ced0c1169dc71e6fb378e86e0181391f2352758da8996a073616c",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/measurement/clock.json"
+  },
+  "raw/block-3/arms/native-cs/measurement/events.jsonl": {
+    "bytes": 8379853,
+    "sha256": "853cec41f15b64073d325e2af155808824cfff8115934d0de3c63ed04839ba9c",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/measurement/events.jsonl"
+  },
+  "raw/block-3/arms/native-cs/measurement/runner.json": {
+    "bytes": 325,
+    "sha256": "31e8fb14d96a2fe3a024276465a409f8610687e1cde83f994efd491be941436c",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/measurement/runner.json"
+  },
+  "raw/block-3/arms/native-cs/measurement/summary.json": {
+    "bytes": 3711,
+    "sha256": "5a19791e0c53bff8780362e8a24fd231c0d63f16ba9b4b37ff6cf0da5858b0fd",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/measurement/summary.json"
+  },
+  "raw/block-3/arms/native-cs/measurement.json": {
+    "bytes": 228,
+    "sha256": "80451aeb70e695539856839c2091a1ca7654edf7eef413bb979dc517f8496fe9",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/measurement.json"
+  },
+  "raw/block-3/arms/native-cs/metrics/prometheus-snapshot.json": {
+    "bytes": 2185250,
+    "sha256": "29123d408fb87429821032456c4af248596fe4080dcb2b8b03f71a1f868c91f9",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-3/arms/native-cs/registration.json": {
+    "bytes": 568,
+    "sha256": "4d79a31d8c895d31d04de6836958b9fbf3d39c19a184351a0eba129643e8689e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/registration.json"
+  },
+  "raw/block-3/arms/native-cs/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "d3b284e1c6f81ca90644a72c3e65462f289d1968960ffda2f13bd2f896dc5792",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/spec-after.json"
+  },
+  "raw/block-3/arms/native-cs/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "d3b284e1c6f81ca90644a72c3e65462f289d1968960ffda2f13bd2f896dc5792",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/spec-before.json"
+  },
+  "raw/block-3/arms/native-cs/warmup/clock.json": {
+    "bytes": 220,
+    "sha256": "3ee5ec0de3d9f07f04ef37bb4dadb61063c98882f5bfc30e6f65461a1f89884d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/warmup/clock.json"
+  },
+  "raw/block-3/arms/native-cs/warmup/events.jsonl": {
+    "bytes": 2722260,
+    "sha256": "0d640d77256c47a8aaf46740081feadaeda0b981632ebba4680f055f0ea51e17",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/warmup/events.jsonl"
+  },
+  "raw/block-3/arms/native-cs/warmup/runner.json": {
+    "bytes": 319,
+    "sha256": "d41a7b458f8f51c00d074f14a1fff4f89fc15e2a35c9e3f26653f0a2125e3620",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/warmup/runner.json"
+  },
+  "raw/block-3/arms/native-cs/warmup/summary.json": {
+    "bytes": 3806,
+    "sha256": "a9f24d7cef7cc45b05ee2cb2e5c5c1e0d0d60fdcb905989598ac873b6a8f2001",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-cs/warmup/summary.json"
+  },
+  "raw/block-3/arms/native-s/boot-id.txt": {
+    "bytes": 36,
+    "sha256": "0073c91d978c3cc109ce30ffd7125d8d24c6ba94c2dbff8d1b65ca7e1f3c751d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/boot-id.txt"
+  },
+  "raw/block-3/arms/native-s/control-plane.log": {
+    "bytes": 3828,
+    "sha256": "b3e48115dc0c7568071d2bff8ad302eb3f4beba4fb0304bcc49fb4fe2074cc9f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/control-plane.log"
+  },
+  "raw/block-3/arms/native-s/deployment.json": {
+    "bytes": 2721,
+    "sha256": "1d7086b57d52c160e384f21970707578ec906b24cc1f6a9f98b9d97fd1b67258",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/deployment.json"
+  },
+  "raw/block-3/arms/native-s/lifecycle.jsonl": {
+    "bytes": 6034944,
+    "sha256": "87730a9f4662c1e0e27f3d370013582105da672d4e5e52d5eddd5356bd589804",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/lifecycle.jsonl"
+  },
+  "raw/block-3/arms/native-s/measurement/clock.json": {
+    "bytes": 220,
+    "sha256": "1a0717c7a698c7bca8e77e195b0a9a8036e651c7c22946a9b41bba6de9943b3a",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/measurement/clock.json"
+  },
+  "raw/block-3/arms/native-s/measurement/events.jsonl": {
+    "bytes": 8379677,
+    "sha256": "b554ef92dcee4a52217a13bf34966b4d2283b07f0c9264007bf83a9375f50913",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/measurement/events.jsonl"
+  },
+  "raw/block-3/arms/native-s/measurement/runner.json": {
+    "bytes": 323,
+    "sha256": "04c0fe3912b927f7848318eb8682f8a8136ded1a4339063f38581a715dbd058d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/measurement/runner.json"
+  },
+  "raw/block-3/arms/native-s/measurement/summary.json": {
+    "bytes": 3792,
+    "sha256": "1dc033727f7c0a10014f89b4c96b9709029a7f97ce0fea875c1c191acd34dbd5",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/measurement/summary.json"
+  },
+  "raw/block-3/arms/native-s/measurement.json": {
+    "bytes": 228,
+    "sha256": "e7c8a598fcc6b77862648bfebb347d099ca1fd8d57f9ae75373352c0c6e637e4",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/measurement.json"
+  },
+  "raw/block-3/arms/native-s/metrics/prometheus-snapshot.json": {
+    "bytes": 2183757,
+    "sha256": "8e5ef828021c14e2ead5dca2d9be05fa601d847d999cc7fb5cad42c4aa26089f",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/metrics/prometheus-snapshot.json"
+  },
+  "raw/block-3/arms/native-s/registration.json": {
+    "bytes": 568,
+    "sha256": "4d79a31d8c895d31d04de6836958b9fbf3d39c19a184351a0eba129643e8689e",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/registration.json"
+  },
+  "raw/block-3/arms/native-s/spec-after.json": {
+    "bytes": 1323,
+    "sha256": "d3b284e1c6f81ca90644a72c3e65462f289d1968960ffda2f13bd2f896dc5792",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/spec-after.json"
+  },
+  "raw/block-3/arms/native-s/spec-before.json": {
+    "bytes": 1323,
+    "sha256": "d3b284e1c6f81ca90644a72c3e65462f289d1968960ffda2f13bd2f896dc5792",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/spec-before.json"
+  },
+  "raw/block-3/arms/native-s/warmup/clock.json": {
+    "bytes": 220,
+    "sha256": "8b708f429f290239619def6068eae5e6c2b7988b7d0d677efc8859442b5d6018",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/warmup/clock.json"
+  },
+  "raw/block-3/arms/native-s/warmup/events.jsonl": {
+    "bytes": 2721084,
+    "sha256": "59a154d33698346a2768f3b965e243de60c5e69f85c57e718266c79fda8519b6",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/warmup/events.jsonl"
+  },
+  "raw/block-3/arms/native-s/warmup/runner.json": {
+    "bytes": 316,
+    "sha256": "25219fa3a454a5cc7530f1e24ba4c85035899bae8b9c77bef61689d54ba176b9",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/warmup/runner.json"
+  },
+  "raw/block-3/arms/native-s/warmup/summary.json": {
+    "bytes": 3865,
+    "sha256": "0c556732f287dda27522e65ee0a75456f60e8fcb0e9e3457554cd1b56b1e5710",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "arms/native-s/warmup/summary.json"
+  },
+  "raw/block-3/protocol.json": {
+    "bytes": 2858,
+    "sha256": "53900d74c28036926efa7707c504061798c02bcc937093ab9b5e261fd1355f91",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "protocol.json"
+  },
+  "raw/block-3/run-metadata.json": {
+    "bytes": 21386,
+    "sha256": "104b6863b7333ead5de2a8344e5f393ce75e5a2e4cdbd6b6cbe7a62c5b45535d",
+    "sourceArchive": "experiments/module-cost/results/mc-0d280893538b/mc-0d280893538b-3.tar.gz",
+    "archiveSha256": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd",
+    "member": "run-metadata.json"
+  },
+  "derived/arms.csv": {
+    "bytes": 6206,
+    "sha256": "af4db4654a59e5b6358b2222750d83f0a4a869d82159a2cadb45548980b1a347",
+    "source": "experiments/module-cost/generated/arms.csv"
+  },
+  "derived/effects.csv": {
+    "bytes": 3553,
+    "sha256": "4c60b1c07a7cb5a0f6536eed5dc0f5a298a2f969b3917060d953efd161746368",
+    "source": "experiments/module-cost/generated/effects.csv"
+  },
+  "derived/summary.json": {
+    "bytes": 53436,
+    "sha256": "47a95243dff158be205a18798f7f24c303f7b06ca8e1793dce71e7c5ba596cd5",
+    "source": "experiments/module-cost/generated/summary.json"
+  },
+  "derived/verified.json": {
+    "bytes": 74542,
+    "sha256": "61030dead91f01d08026b7076e0ef1b452ed78319521aaef87ba2995ddb6f60a",
+    "source": "experiments/module-cost/generated/verified.json"
+  },
+  "derived/confirmation.json": {
+    "bytes": 933,
+    "sha256": "63b9f59086bf5420454000139dcb00dd7c2ab053210eb7ce7f13aa62d0c3cfbd",
+    "source": "experiments/module-cost/generated/confirmation.json"
+  }
+}

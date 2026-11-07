@@ -1,0 +1,323 @@
+{
+  "sourceCommit": "98201883452d90eb41ef6207706d0582591518aa",
+  "campaign": "one-shot-ten-edge-2026-11-03",
+  "runs": {
+    "Oracle": {
+      "counts": {
+        "local": 122110,
+        "peer": 14290,
+        "cloud": 4843,
+        "notServed": 999
+      },
+      "allOrigin": {
+        "applicationError": 0,
+        "applicationErrorPercentOfEmitted": 0.0,
+        "applicationErrorPercentOfPlanned": 0.0,
+        "duplicateResultEvents": 0,
+        "emitted": 160557,
+        "httpError": 313,
+        "httpErrorPercentOfEmitted": 0.19494634304328057,
+        "httpErrorPercentOfPlanned": 0.19494634304328057,
+        "invalidResponse": 0,
+        "invalidResponsePercentOfEmitted": 0.0,
+        "invalidResponsePercentOfPlanned": 0.0,
+        "missingResult": 0,
+        "missingResultPercentOfEmitted": 0.0,
+        "missingResultPercentOfPlanned": 0.0,
+        "notEmitted": 0,
+        "notEmittedPercentOfEmitted": 0.0,
+        "notEmittedPercentOfPlanned": 0.0,
+        "planned": 160557,
+        "reject": 686,
+        "rejectPercentOfEmitted": 0.4272625921012475,
+        "rejectPercentOfPlanned": 0.4272625921012475,
+        "returnedErrors": 999,
+        "returnedErrorsPercentOfEmitted": 0.6222089351445281,
+        "returnedErrorsPercentOfPlanned": 0.6222089351445281,
+        "successResponse": 159558,
+        "timeoutResponse": 0,
+        "timeoutResponsePercentOfEmitted": 0.0,
+        "timeoutResponsePercentOfPlanned": 0.0,
+        "unresolved": 0,
+        "unresolvedPercentOfEmitted": 0.0,
+        "unresolvedPercentOfPlanned": 0.0
+      },
+      "forecast": {
+        "cells": 2700,
+        "forecasts": 2700,
+        "missing": 0,
+        "zeroActual": 0,
+        "mae": 0.0,
+        "rmse": 0.0,
+        "bias": 0.0,
+        "wape": 0.0,
+        "mape": 0.0,
+        "median": 0.0,
+        "relativeMedian": 0.0,
+        "relativeP05": 0.0,
+        "relativeP95": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "over": 0,
+        "under": 0,
+        "exact": 2700,
+        "absoluteP95": 0.0,
+        "within10Percent": 100.0,
+        "absoluteTail98": 0.0
+      },
+      "activations": {
+        "PREPARED": 519,
+        "DEGRADED": 21
+      },
+      "missingPlans": 0,
+      "anchor": "2026-11-03T14:29:40.284819+00:00",
+      "runtime": "a725f3b2d4ff082350089a1763bd402b972d3090",
+      "physicalCompleted": 7520,
+      "conforming": false,
+      "violations": [
+        "missing physical receipt/completion or unresolved outcome",
+        "physical service drift exceeds tolerance: cloud/one-shot-arithmetic",
+        "physical service drift exceeds tolerance: cloud/one-shot-memory",
+        "physical service drift exceeds tolerance: cloud/one-shot-mixed",
+        "physical service drift exceeds tolerance: edge-1/one-shot-matrix",
+        "physical service drift exceeds tolerance: edge-4/one-shot-matrix",
+        "physical service drift exceeds tolerance: edge-6/one-shot-matrix",
+        "whole-VM resource telemetry coverage incomplete"
+      ],
+      "comparison": {
+        "load": 142242,
+        "system": {
+          "local": {
+            "run": 122110,
+            "model": 123792.0,
+            "loadShareDifference": -0.011824918097327091
+          },
+          "peer": {
+            "run": 14290,
+            "model": 15012.0,
+            "loadShareDifference": -0.005075856638686183
+          },
+          "cloud": {
+            "run": 4843,
+            "model": 3438.0,
+            "loadShareDifference": 0.00987753265561508
+          },
+          "notServed": {
+            "run": 999,
+            "loadShare": 0.007023242080398195
+          }
+        }
+      },
+      "latency": {
+        "local": {
+          "n": 122110,
+          "p50": 0.8704588915,
+          "p95": 1.988648234649988,
+          "p99": 2.9676440426200017
+        },
+        "peer": {
+          "n": 14290,
+          "p50": 1.2095679115,
+          "p95": 3.1266746457999997,
+          "p99": 5.347115460760001
+        },
+        "cloud": {
+          "n": 4843,
+          "p50": 0.548253872,
+          "p95": 1.0232944288999999,
+          "p99": 1.09897863202
+        }
+      },
+      "timing": {
+        "negotiation": [
+          1.933988423552364,
+          3.9934054366778495,
+          8.70186332333833
+        ],
+        "activation": [
+          2.2812388786114752,
+          13.736995488405228,
+          14.478977520018816
+        ],
+        "operational": [
+          4.189079856034368,
+          15.792440343415363,
+          16.815766206011176
+        ]
+      },
+      "plan": {
+        "cells": 2700,
+        "replicaDifferences": 40,
+        "meanL1Rate": 0.003407407407407412,
+        "exactComponentCells": 2691
+      }
+    },
+    "ARI": {
+      "counts": {
+        "local": 120683,
+        "peer": 13420,
+        "cloud": 6656,
+        "notServed": 1483
+      },
+      "allOrigin": {
+        "applicationError": 0,
+        "applicationErrorPercentOfEmitted": 0.0,
+        "applicationErrorPercentOfPlanned": 0.0,
+        "duplicateResultEvents": 0,
+        "emitted": 160557,
+        "httpError": 441,
+        "httpErrorPercentOfEmitted": 0.27466880920794484,
+        "httpErrorPercentOfPlanned": 0.27466880920794484,
+        "invalidResponse": 0,
+        "invalidResponsePercentOfEmitted": 0.0,
+        "invalidResponsePercentOfPlanned": 0.0,
+        "missingResult": 0,
+        "missingResultPercentOfEmitted": 0.0,
+        "missingResultPercentOfPlanned": 0.0,
+        "notEmitted": 0,
+        "notEmittedPercentOfEmitted": 0.0,
+        "notEmittedPercentOfPlanned": 0.0,
+        "planned": 160557,
+        "reject": 1042,
+        "rejectPercentOfEmitted": 0.64899070112172,
+        "rejectPercentOfPlanned": 0.64899070112172,
+        "returnedErrors": 1483,
+        "returnedErrorsPercentOfEmitted": 0.9236595103296649,
+        "returnedErrorsPercentOfPlanned": 0.9236595103296649,
+        "successResponse": 159074,
+        "timeoutResponse": 0,
+        "timeoutResponsePercentOfEmitted": 0.0,
+        "timeoutResponsePercentOfPlanned": 0.0,
+        "unresolved": 0,
+        "unresolvedPercentOfEmitted": 0.0,
+        "unresolvedPercentOfPlanned": 0.0
+      },
+      "forecast": {
+        "cells": 2700,
+        "forecasts": 2700,
+        "missing": 0,
+        "zeroActual": 0,
+        "mae": 0.09993980044473479,
+        "rmse": 0.26923356458203596,
+        "bias": 0.02221699593056995,
+        "wape": 11.382185059298262,
+        "mape": 8.702679046489935,
+        "median": 0.00613995864635955,
+        "relativeMedian": 2.4504539267427123,
+        "relativeP05": -19.485357164221938,
+        "relativeP95": 27.35826282657685,
+        "minimum": -1.2098453086576546,
+        "maximum": 3.459512160845696,
+        "over": 1804,
+        "under": 838,
+        "exact": 58,
+        "absoluteP95": 0.4411607242305698,
+        "within10Percent": 72.70370370370371,
+        "absoluteTail98": 0.7943925596039466
+      },
+      "activations": {
+        "PREPARED": 526,
+        "DEGRADED": 14
+      },
+      "missingPlans": 0,
+      "anchor": "2026-11-03T17:03:34.791275+00:00",
+      "runtime": "0eada3a49fe4f154d1a101c41813905fcc0675f6",
+      "physicalCompleted": 8905,
+      "conforming": false,
+      "violations": [
+        "missing physical receipt/completion or unresolved outcome",
+        "physical service drift exceeds tolerance: cloud/one-shot-arithmetic",
+        "physical service drift exceeds tolerance: cloud/one-shot-memory",
+        "physical service drift exceeds tolerance: cloud/one-shot-mixed",
+        "physical service drift exceeds tolerance: cloud/one-shot-sort",
+        "physical service drift exceeds tolerance: edge-4/one-shot-matrix",
+        "physical service drift exceeds tolerance: edge-6/one-shot-matrix",
+        "physical service drift exceeds tolerance: edge-9/one-shot-matrix",
+        "whole-VM resource telemetry coverage incomplete"
+      ],
+      "comparison": {
+        "load": 142242,
+        "system": {
+          "local": {
+            "run": 120683,
+            "model": 123792.0,
+            "loadShareDifference": -0.02185711674470269
+          },
+          "peer": {
+            "run": 13420,
+            "model": 15012.0,
+            "loadShareDifference": -0.011192193585579505
+          },
+          "cloud": {
+            "run": 6656,
+            "model": 3438.0,
+            "loadShareDifference": 0.022623416431152545
+          },
+          "notServed": {
+            "run": 1483,
+            "loadShare": 0.010425893899129653
+          }
+        }
+      },
+      "latency": {
+        "local": {
+          "n": 120683,
+          "p50": 0.873079627,
+          "p95": 2.0294665310999993,
+          "p99": 3.019074833379999
+        },
+        "peer": {
+          "n": 13420,
+          "p50": 1.2006613019999999,
+          "p95": 3.2479937497499995,
+          "p99": 5.704767010669995
+        },
+        "cloud": {
+          "n": 6656,
+          "p50": 0.47526244749999996,
+          "p95": 0.9896834292500001,
+          "p99": 1.08228746095
+        }
+      },
+      "timing": {
+        "negotiation": [
+          2.0417388705536723,
+          5.183432428957891,
+          7.007245875895023
+        ],
+        "activation": [
+          2.1080907895229757,
+          13.676947599602855,
+          15.534905123524368
+        ],
+        "operational": [
+          4.037712244782597,
+          15.585893829166878,
+          17.891355955973268
+        ]
+      },
+      "plan": {
+        "cells": 2700,
+        "replicaDifferences": 345,
+        "meanL1Rate": 0.16747009234550228,
+        "exactComponentCells": 328
+      }
+    }
+  },
+  "pairedEpochDifference": {
+    "mean": 0.32414481249692706,
+    "median": 0.18643444469513965,
+    "min": -1.6411084207694375,
+    "max": 2.4474319200275767,
+    "ariHigher": 38,
+    "oracleHigher": 13,
+    "equal": 3
+  },
+  "verification": {
+    "equalCalendar": true,
+    "equalPythonModel": true,
+    "allCellsCrosschecked": true,
+    "edgeOriginalsPerRun": 142242,
+    "directCloudOriginalsPerRun": 18315
+  }
+}

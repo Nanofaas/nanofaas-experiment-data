@@ -1,0 +1,1505 @@
+{
+  "archive_sha256": "eb2cac1bc60b604d7aba2a915e0b3cb3123af647c38d6241cf714175d5128216",
+  "nanolab_commit": "c46bed37bffcb8c7193072c41f5cf6f352a13ce9",
+  "arms": [
+    {
+      "arm": "01-disabled-r400",
+      "rate": 400,
+      "mode": "disabled",
+      "outcomes": {
+        "success": 71987,
+        "refused": 14,
+        "transport_error": 0,
+        "http_error": 0,
+        "invalid_body": 0
+      },
+      "counts": {
+        "warmup": {
+          "planned": 1200,
+          "scheduled": 1201,
+          "boundary_extra": 1,
+          "emitted": 1201,
+          "dropped": 0,
+          "missing": 0
+        },
+        "measurement": {
+          "planned": 72000,
+          "scheduled": 72001,
+          "boundary_extra": 1,
+          "emitted": 72001,
+          "dropped": 0,
+          "missing": 0
+        },
+        "total": {
+          "planned": 73200,
+          "scheduled": 73202,
+          "boundary_extra": 2,
+          "emitted": 73202,
+          "dropped": 0,
+          "missing": 0,
+          "k6_iterations": 73202,
+          "missing_ledger_records": 0
+        }
+      },
+      "goodput_per_second": 399.9277777777778,
+      "completion_probability_scheduled": 0.9998055582561354,
+      "latency_ms": {
+        "local": {
+          "count": 71987,
+          "method": "nearest rank",
+          "p50": 3.0,
+          "p95": 5.0,
+          "p99": 7.0
+        },
+        "offloaded": {
+          "count": 0,
+          "method": "nearest rank",
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "unknown": {
+          "count": 0,
+          "method": "nearest rank",
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "overall": {
+          "count": 71987,
+          "method": "nearest rank",
+          "p50": 3.0,
+          "p95": 5.0,
+          "p99": 7.0
+        }
+      },
+      "diagnostics": {
+        "stack": {
+          "deltas": {
+            "function_success_total": 73192.0,
+            "function_retry_total": 0.0,
+            "nanofaas_offload_total": null,
+            "nanofaas_offload_failure_total": null
+          },
+          "counter_observations": {
+            "function_success_total": {
+              "before": 0.0,
+              "after": 73192.0
+            },
+            "function_retry_total": {
+              "before": 0.0,
+              "after": 0.0
+            },
+            "nanofaas_offload_total": {
+              "before": null,
+              "after": null
+            },
+            "nanofaas_offload_failure_total": {
+              "before": null,
+              "after": null
+            }
+          },
+          "inventory_stable": true,
+          "history_available": true,
+          "window": "whole run including qualification and warmup",
+          "identities": {
+            "before": {
+              "nanofaas-control-plane-6fffb6dbf6-2lrbn": {
+                "uid": "b7b11ac9-537c-4264-ab3c-e896dad79fab",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:843854d0aa12047b8e421c3b90ba5061b6df1a771f99d7b2391392f0ba11c4d5",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-t4vcd": {
+                "uid": "a2547c8d-a922-484b-a595-191a341cce43",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:43ebe530de1cea889d50faeb651d58bf39dc230ee9bf4449c613cdc324894209",
+                "restarts": 0
+              }
+            },
+            "after": {
+              "nanofaas-control-plane-6fffb6dbf6-2lrbn": {
+                "uid": "b7b11ac9-537c-4264-ab3c-e896dad79fab",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:843854d0aa12047b8e421c3b90ba5061b6df1a771f99d7b2391392f0ba11c4d5",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-t4vcd": {
+                "uid": "a2547c8d-a922-484b-a595-191a341cce43",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:43ebe530de1cea889d50faeb651d58bf39dc230ee9bf4449c613cdc324894209",
+                "restarts": 0
+              }
+            }
+          },
+          "uptime_seconds": [
+            21.572,
+            306.295
+          ],
+          "unavailable": [
+            "stack before: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "stack after: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "stack before: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}",
+            "stack after: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}"
+          ],
+          "observed_valid_successes": 73192,
+          "server_minus_observed_success": 0.0,
+          "reconciliation_note": "Server successes must cover valid client successes; transport loss may hide additional server completions. Edge successes already include offloads.",
+          "observed_offload_markers": 0
+        },
+        "cloud": {
+          "deltas": {
+            "function_success_total": 4.0,
+            "function_retry_total": 0.0,
+            "nanofaas_offload_total": null,
+            "nanofaas_offload_failure_total": null
+          },
+          "counter_observations": {
+            "function_success_total": {
+              "before": 0.0,
+              "after": 4.0
+            },
+            "function_retry_total": {
+              "before": 0.0,
+              "after": 0.0
+            },
+            "nanofaas_offload_total": {
+              "before": null,
+              "after": null
+            },
+            "nanofaas_offload_failure_total": {
+              "before": null,
+              "after": null
+            }
+          },
+          "inventory_stable": true,
+          "history_available": true,
+          "window": "whole run including qualification and warmup",
+          "identities": {
+            "before": {
+              "nanofaas-control-plane-77b8b7d596-nbcsp": {
+                "uid": "46f7a794-b1d4-41da-9f7d-3ad8d2334f03",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:4adbe644ef1f9b61ffe2bc8f200c755cb6ddb438925b966e9b70ad608c53fa0f",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-kdwsw": {
+                "uid": "ede1f471-bf70-46ef-ab7d-4b689815e73e",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:33c86003a4baddf4a10a5b1ec695381525f731cda0be3da27f1b50c067a9251f",
+                "restarts": 0
+              }
+            },
+            "after": {
+              "nanofaas-control-plane-77b8b7d596-nbcsp": {
+                "uid": "46f7a794-b1d4-41da-9f7d-3ad8d2334f03",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:4adbe644ef1f9b61ffe2bc8f200c755cb6ddb438925b966e9b70ad608c53fa0f",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-kdwsw": {
+                "uid": "ede1f471-bf70-46ef-ab7d-4b689815e73e",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:33c86003a4baddf4a10a5b1ec695381525f731cda0be3da27f1b50c067a9251f",
+                "restarts": 0
+              }
+            }
+          },
+          "uptime_seconds": [
+            51.646,
+            336.48
+          ],
+          "unavailable": [
+            "cloud before: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "cloud after: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "cloud before: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}",
+            "cloud after: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}"
+          ],
+          "observed_valid_successes": 4,
+          "server_minus_observed_success": 0.0,
+          "reconciliation_note": "Server successes must cover valid client successes; transport loss may hide additional server completions. Edge successes already include offloads."
+        }
+      }
+    },
+    {
+      "arm": "02-pressure-r400",
+      "rate": 400,
+      "mode": "pressure",
+      "outcomes": {
+        "success": 72000,
+        "refused": 1,
+        "transport_error": 0,
+        "http_error": 0,
+        "invalid_body": 0
+      },
+      "counts": {
+        "warmup": {
+          "planned": 1200,
+          "scheduled": 1201,
+          "boundary_extra": 1,
+          "emitted": 1201,
+          "dropped": 0,
+          "missing": 0
+        },
+        "measurement": {
+          "planned": 72000,
+          "scheduled": 72001,
+          "boundary_extra": 1,
+          "emitted": 72001,
+          "dropped": 0,
+          "missing": 0
+        },
+        "total": {
+          "planned": 73200,
+          "scheduled": 73202,
+          "boundary_extra": 2,
+          "emitted": 73202,
+          "dropped": 0,
+          "missing": 0,
+          "k6_iterations": 73202,
+          "missing_ledger_records": 0
+        }
+      },
+      "goodput_per_second": 400.0,
+      "completion_probability_scheduled": 0.9999861113040097,
+      "latency_ms": {
+        "local": {
+          "count": 71989,
+          "method": "nearest rank",
+          "p50": 3.0,
+          "p95": 5.0,
+          "p99": 7.0
+        },
+        "offloaded": {
+          "count": 11,
+          "method": "nearest rank",
+          "p50": 120.0,
+          "p95": 194.0,
+          "p99": 194.0
+        },
+        "unknown": {
+          "count": 0,
+          "method": "nearest rank",
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "overall": {
+          "count": 72000,
+          "method": "nearest rank",
+          "p50": 3.0,
+          "p95": 5.0,
+          "p99": 7.0
+        }
+      },
+      "diagnostics": {
+        "stack": {
+          "deltas": {
+            "function_success_total": 73205.0,
+            "function_retry_total": 0.0,
+            "nanofaas_offload_total": null,
+            "nanofaas_offload_failure_total": null
+          },
+          "counter_observations": {
+            "function_success_total": {
+              "before": 0.0,
+              "after": 73205.0
+            },
+            "function_retry_total": {
+              "before": 0.0,
+              "after": 0.0
+            },
+            "nanofaas_offload_total": {
+              "before": null,
+              "after": 12.0
+            },
+            "nanofaas_offload_failure_total": {
+              "before": null,
+              "after": 1.0
+            }
+          },
+          "inventory_stable": true,
+          "history_available": true,
+          "window": "whole run including qualification and warmup",
+          "identities": {
+            "before": {
+              "nanofaas-control-plane-84997954d9-6lkmw": {
+                "uid": "0c004e0f-7581-4e08-b483-3abc117b99a5",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:a52ce063653d7a187e267b9a78db7c48eb7b020949860a215f381f87fd4b7ba4",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-psc2c": {
+                "uid": "06fb7ba0-6120-49ea-9fa2-c9014f9d145d",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:cd748c49d5a49493dd1b1a90b60c7aa15d0862c721bb3459fa56dbb9b763152f",
+                "restarts": 0
+              }
+            },
+            "after": {
+              "nanofaas-control-plane-84997954d9-6lkmw": {
+                "uid": "0c004e0f-7581-4e08-b483-3abc117b99a5",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:a52ce063653d7a187e267b9a78db7c48eb7b020949860a215f381f87fd4b7ba4",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-psc2c": {
+                "uid": "06fb7ba0-6120-49ea-9fa2-c9014f9d145d",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:cd748c49d5a49493dd1b1a90b60c7aa15d0862c721bb3459fa56dbb9b763152f",
+                "restarts": 0
+              }
+            }
+          },
+          "uptime_seconds": [
+            21.8,
+            306.602
+          ],
+          "unavailable": [
+            "stack before: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "stack before: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}"
+          ],
+          "observed_valid_successes": 73205,
+          "server_minus_observed_success": 0.0,
+          "reconciliation_note": "Server successes must cover valid client successes; transport loss may hide additional server completions. Edge successes already include offloads.",
+          "observed_offload_markers": 12,
+          "limitations": [
+            "Offload baseline unavailable: final counter corroborates markers, but no offload delta is claimed"
+          ]
+        },
+        "cloud": {
+          "deltas": {
+            "function_success_total": 15.0,
+            "function_retry_total": 0.0,
+            "nanofaas_offload_total": null,
+            "nanofaas_offload_failure_total": null
+          },
+          "counter_observations": {
+            "function_success_total": {
+              "before": 0.0,
+              "after": 15.0
+            },
+            "function_retry_total": {
+              "before": 0.0,
+              "after": 0.0
+            },
+            "nanofaas_offload_total": {
+              "before": null,
+              "after": null
+            },
+            "nanofaas_offload_failure_total": {
+              "before": null,
+              "after": null
+            }
+          },
+          "inventory_stable": true,
+          "history_available": true,
+          "window": "whole run including qualification and warmup",
+          "identities": {
+            "before": {
+              "nanofaas-control-plane-77b8b7d596-z5j4q": {
+                "uid": "0e094b3d-2b54-4812-b64a-4b8207232557",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:e64e38bce5ea39810176aa86c292b6d4ece0ddf57e50d92af1029cd4f8bfe5c2",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-wpqd7": {
+                "uid": "9e8c8f13-2f26-4bc5-bb65-e5b064a5f687",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:6abd9289ccf50b1aed627df0364e8035e20f17c3b175d052c7646e7c0a600e83",
+                "restarts": 0
+              }
+            },
+            "after": {
+              "nanofaas-control-plane-77b8b7d596-z5j4q": {
+                "uid": "0e094b3d-2b54-4812-b64a-4b8207232557",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:e64e38bce5ea39810176aa86c292b6d4ece0ddf57e50d92af1029cd4f8bfe5c2",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-wpqd7": {
+                "uid": "9e8c8f13-2f26-4bc5-bb65-e5b064a5f687",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:6abd9289ccf50b1aed627df0364e8035e20f17c3b175d052c7646e7c0a600e83",
+                "restarts": 0
+              }
+            }
+          },
+          "uptime_seconds": [
+            54.637,
+            339.589
+          ],
+          "unavailable": [
+            "cloud before: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "cloud after: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "cloud before: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}",
+            "cloud after: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}"
+          ],
+          "observed_valid_successes": 15,
+          "server_minus_observed_success": 0.0,
+          "reconciliation_note": "Server successes must cover valid client successes; transport loss may hide additional server completions. Edge successes already include offloads."
+        }
+      }
+    },
+    {
+      "arm": "03-cloud-r400",
+      "rate": 400,
+      "mode": "cloud",
+      "outcomes": {
+        "success": 72001,
+        "refused": 0,
+        "transport_error": 0,
+        "http_error": 0,
+        "invalid_body": 0
+      },
+      "counts": {
+        "warmup": {
+          "planned": 1200,
+          "scheduled": 1200,
+          "boundary_extra": 0,
+          "emitted": 1200,
+          "dropped": 0,
+          "missing": 0
+        },
+        "measurement": {
+          "planned": 72000,
+          "scheduled": 72001,
+          "boundary_extra": 1,
+          "emitted": 72001,
+          "dropped": 0,
+          "missing": 0
+        },
+        "total": {
+          "planned": 73200,
+          "scheduled": 73201,
+          "boundary_extra": 1,
+          "emitted": 73201,
+          "dropped": 0,
+          "missing": 0,
+          "k6_iterations": 73201,
+          "missing_ledger_records": 0
+        }
+      },
+      "goodput_per_second": 400.00555555555553,
+      "completion_probability_scheduled": 1.0,
+      "latency_ms": {
+        "local": {
+          "count": 72001,
+          "method": "nearest rank",
+          "p50": 43.0,
+          "p95": 61.0,
+          "p99": 68.0
+        },
+        "offloaded": {
+          "count": 0,
+          "method": "nearest rank",
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "unknown": {
+          "count": 0,
+          "method": "nearest rank",
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "overall": {
+          "count": 72001,
+          "method": "nearest rank",
+          "p50": 43.0,
+          "p95": 61.0,
+          "p99": 68.0
+        }
+      },
+      "diagnostics": {
+        "stack": {
+          "deltas": {
+            "function_success_total": 4.0,
+            "function_retry_total": 0.0,
+            "nanofaas_offload_total": null,
+            "nanofaas_offload_failure_total": null
+          },
+          "counter_observations": {
+            "function_success_total": {
+              "before": 0.0,
+              "after": 4.0
+            },
+            "function_retry_total": {
+              "before": 0.0,
+              "after": 0.0
+            },
+            "nanofaas_offload_total": {
+              "before": null,
+              "after": null
+            },
+            "nanofaas_offload_failure_total": {
+              "before": null,
+              "after": null
+            }
+          },
+          "inventory_stable": true,
+          "history_available": true,
+          "window": "whole run including qualification and warmup",
+          "identities": {
+            "before": {
+              "nanofaas-control-plane-f9f58796b-j92wf": {
+                "uid": "1b31e016-1ad0-4f77-b912-e11a752be379",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:87d9b5a6e85cd92b3cd824f762bd8949d3fe50692db88b23f7be8e9235c396a2",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-js2d8": {
+                "uid": "fccdae8e-2bdc-4f04-bb03-55b7230f5ec2",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:516d9ddb80ab4a0270f960328db917cbbfa8da499a6a8639f6c61e0d4dc09f53",
+                "restarts": 0
+              }
+            },
+            "after": {
+              "nanofaas-control-plane-f9f58796b-j92wf": {
+                "uid": "1b31e016-1ad0-4f77-b912-e11a752be379",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:87d9b5a6e85cd92b3cd824f762bd8949d3fe50692db88b23f7be8e9235c396a2",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-js2d8": {
+                "uid": "fccdae8e-2bdc-4f04-bb03-55b7230f5ec2",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:516d9ddb80ab4a0270f960328db917cbbfa8da499a6a8639f6c61e0d4dc09f53",
+                "restarts": 0
+              }
+            }
+          },
+          "uptime_seconds": [
+            19.624,
+            304.566
+          ],
+          "unavailable": [
+            "stack before: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "stack after: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "stack before: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}",
+            "stack after: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}"
+          ],
+          "observed_valid_successes": 4,
+          "server_minus_observed_success": 0.0,
+          "reconciliation_note": "Server successes must cover valid client successes; transport loss may hide additional server completions. Edge successes already include offloads.",
+          "observed_offload_markers": 0
+        },
+        "cloud": {
+          "deltas": {
+            "function_success_total": 73205.0,
+            "function_retry_total": 0.0,
+            "nanofaas_offload_total": null,
+            "nanofaas_offload_failure_total": null
+          },
+          "counter_observations": {
+            "function_success_total": {
+              "before": 0.0,
+              "after": 73205.0
+            },
+            "function_retry_total": {
+              "before": 0.0,
+              "after": 0.0
+            },
+            "nanofaas_offload_total": {
+              "before": null,
+              "after": null
+            },
+            "nanofaas_offload_failure_total": {
+              "before": null,
+              "after": null
+            }
+          },
+          "inventory_stable": true,
+          "history_available": true,
+          "window": "whole run including qualification and warmup",
+          "identities": {
+            "before": {
+              "nanofaas-control-plane-77b8b7d596-lpl6q": {
+                "uid": "b931b1e0-a02c-4ca6-a29d-68b484dd5d9a",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:bb25c68fd982e6d571206b59af458dd637ea315b78da9ad5bfba2e7eb2f85ffe",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-j7kxb": {
+                "uid": "b5b0d826-79d5-4129-afcb-9f02c19e13a9",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:c59a81c8776adb090f9988d226f3fe8510c33188bfff758659577cd37e1116a1",
+                "restarts": 0
+              }
+            },
+            "after": {
+              "nanofaas-control-plane-77b8b7d596-lpl6q": {
+                "uid": "b931b1e0-a02c-4ca6-a29d-68b484dd5d9a",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:bb25c68fd982e6d571206b59af458dd637ea315b78da9ad5bfba2e7eb2f85ffe",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-j7kxb": {
+                "uid": "b5b0d826-79d5-4129-afcb-9f02c19e13a9",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:c59a81c8776adb090f9988d226f3fe8510c33188bfff758659577cd37e1116a1",
+                "restarts": 0
+              }
+            }
+          },
+          "uptime_seconds": [
+            48.762,
+            333.817
+          ],
+          "unavailable": [
+            "cloud before: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "cloud after: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "cloud before: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}",
+            "cloud after: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}"
+          ],
+          "observed_valid_successes": 73205,
+          "server_minus_observed_success": 0.0,
+          "reconciliation_note": "Server successes must cover valid client successes; transport loss may hide additional server completions. Edge successes already include offloads."
+        }
+      }
+    },
+    {
+      "arm": "04-pressure-r500",
+      "rate": 500,
+      "mode": "pressure",
+      "outcomes": {
+        "success": 90000,
+        "refused": 1,
+        "transport_error": 0,
+        "http_error": 0,
+        "invalid_body": 0
+      },
+      "counts": {
+        "warmup": {
+          "planned": 1200,
+          "scheduled": 1201,
+          "boundary_extra": 1,
+          "emitted": 1201,
+          "dropped": 0,
+          "missing": 0
+        },
+        "measurement": {
+          "planned": 90000,
+          "scheduled": 90001,
+          "boundary_extra": 1,
+          "emitted": 90001,
+          "dropped": 0,
+          "missing": 0
+        },
+        "total": {
+          "planned": 91200,
+          "scheduled": 91202,
+          "boundary_extra": 2,
+          "emitted": 91202,
+          "dropped": 0,
+          "missing": 0,
+          "k6_iterations": 91202,
+          "missing_ledger_records": 0
+        }
+      },
+      "goodput_per_second": 500.0,
+      "completion_probability_scheduled": 0.9999888890123443,
+      "latency_ms": {
+        "local": {
+          "count": 89872,
+          "method": "nearest rank",
+          "p50": 3.0,
+          "p95": 5.0,
+          "p99": 9.0
+        },
+        "offloaded": {
+          "count": 128,
+          "method": "nearest rank",
+          "p50": 161.0,
+          "p95": 348.0,
+          "p99": 487.0
+        },
+        "unknown": {
+          "count": 0,
+          "method": "nearest rank",
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "overall": {
+          "count": 90000,
+          "method": "nearest rank",
+          "p50": 3.0,
+          "p95": 5.0,
+          "p99": 10.0
+        }
+      },
+      "diagnostics": {
+        "stack": {
+          "deltas": {
+            "function_success_total": 91205.0,
+            "function_retry_total": 0.0,
+            "nanofaas_offload_total": null,
+            "nanofaas_offload_failure_total": null
+          },
+          "counter_observations": {
+            "function_success_total": {
+              "before": 0.0,
+              "after": 91205.0
+            },
+            "function_retry_total": {
+              "before": 0.0,
+              "after": 0.0
+            },
+            "nanofaas_offload_total": {
+              "before": null,
+              "after": 129.0
+            },
+            "nanofaas_offload_failure_total": {
+              "before": null,
+              "after": 1.0
+            }
+          },
+          "inventory_stable": true,
+          "history_available": true,
+          "window": "whole run including qualification and warmup",
+          "identities": {
+            "before": {
+              "nanofaas-control-plane-696c48884f-mtntq": {
+                "uid": "1ec6475c-1eba-4b56-9854-a631f19ae2ef",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:051b1b07a0bd3c1ab4b0a7623c5346b3537652783ae75e636025bf32cb22045c",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-tgrsx": {
+                "uid": "a564463e-2d13-4275-9bac-d7f146c716cc",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:9e338bfb2ac95eed311d1e1117284e30999dbc07b52953fc2377ece6228dd7cc",
+                "restarts": 0
+              }
+            },
+            "after": {
+              "nanofaas-control-plane-696c48884f-mtntq": {
+                "uid": "1ec6475c-1eba-4b56-9854-a631f19ae2ef",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:051b1b07a0bd3c1ab4b0a7623c5346b3537652783ae75e636025bf32cb22045c",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-tgrsx": {
+                "uid": "a564463e-2d13-4275-9bac-d7f146c716cc",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:9e338bfb2ac95eed311d1e1117284e30999dbc07b52953fc2377ece6228dd7cc",
+                "restarts": 0
+              }
+            }
+          },
+          "uptime_seconds": [
+            21.927,
+            306.851
+          ],
+          "unavailable": [
+            "stack before: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "stack before: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}"
+          ],
+          "observed_valid_successes": 91205,
+          "server_minus_observed_success": 0.0,
+          "reconciliation_note": "Server successes must cover valid client successes; transport loss may hide additional server completions. Edge successes already include offloads.",
+          "observed_offload_markers": 129,
+          "limitations": [
+            "Offload baseline unavailable: final counter corroborates markers, but no offload delta is claimed"
+          ]
+        },
+        "cloud": {
+          "deltas": {
+            "function_success_total": 132.0,
+            "function_retry_total": 0.0,
+            "nanofaas_offload_total": null,
+            "nanofaas_offload_failure_total": null
+          },
+          "counter_observations": {
+            "function_success_total": {
+              "before": 0.0,
+              "after": 132.0
+            },
+            "function_retry_total": {
+              "before": 0.0,
+              "after": 0.0
+            },
+            "nanofaas_offload_total": {
+              "before": null,
+              "after": null
+            },
+            "nanofaas_offload_failure_total": {
+              "before": null,
+              "after": null
+            }
+          },
+          "inventory_stable": true,
+          "history_available": true,
+          "window": "whole run including qualification and warmup",
+          "identities": {
+            "before": {
+              "nanofaas-control-plane-77b8b7d596-9vzd2": {
+                "uid": "2e63b2c1-4be8-4289-b80f-217c6fce139f",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:0af05c46c058f8b9103c3e67a0fc5cfb580e3d660b7c701bb86e19185a121703",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-w4vnh": {
+                "uid": "be2aabd6-faa3-4dc2-ba52-7b0d3bb831f2",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:10090b8b89d36d7fcb73135af57fb6e6d90ca46714665c02411b55d73e0b19c0",
+                "restarts": 0
+              }
+            },
+            "after": {
+              "nanofaas-control-plane-77b8b7d596-9vzd2": {
+                "uid": "2e63b2c1-4be8-4289-b80f-217c6fce139f",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:0af05c46c058f8b9103c3e67a0fc5cfb580e3d660b7c701bb86e19185a121703",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-w4vnh": {
+                "uid": "be2aabd6-faa3-4dc2-ba52-7b0d3bb831f2",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:10090b8b89d36d7fcb73135af57fb6e6d90ca46714665c02411b55d73e0b19c0",
+                "restarts": 0
+              }
+            }
+          },
+          "uptime_seconds": [
+            52.759,
+            337.811
+          ],
+          "unavailable": [
+            "cloud before: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "cloud after: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "cloud before: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}",
+            "cloud after: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}"
+          ],
+          "observed_valid_successes": 132,
+          "server_minus_observed_success": 0.0,
+          "reconciliation_note": "Server successes must cover valid client successes; transport loss may hide additional server completions. Edge successes already include offloads."
+        }
+      }
+    },
+    {
+      "arm": "05-disabled-r500",
+      "rate": 500,
+      "mode": "disabled",
+      "outcomes": {
+        "success": 89982,
+        "refused": 19,
+        "transport_error": 0,
+        "http_error": 0,
+        "invalid_body": 0
+      },
+      "counts": {
+        "warmup": {
+          "planned": 1200,
+          "scheduled": 1201,
+          "boundary_extra": 1,
+          "emitted": 1201,
+          "dropped": 0,
+          "missing": 0
+        },
+        "measurement": {
+          "planned": 90000,
+          "scheduled": 90001,
+          "boundary_extra": 1,
+          "emitted": 90001,
+          "dropped": 0,
+          "missing": 0
+        },
+        "total": {
+          "planned": 91200,
+          "scheduled": 91202,
+          "boundary_extra": 2,
+          "emitted": 91202,
+          "dropped": 0,
+          "missing": 0,
+          "k6_iterations": 91202,
+          "missing_ledger_records": 0
+        }
+      },
+      "goodput_per_second": 499.9,
+      "completion_probability_scheduled": 0.9997888912345418,
+      "latency_ms": {
+        "local": {
+          "count": 89982,
+          "method": "nearest rank",
+          "p50": 3.0,
+          "p95": 5.0,
+          "p99": 8.0
+        },
+        "offloaded": {
+          "count": 0,
+          "method": "nearest rank",
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "unknown": {
+          "count": 0,
+          "method": "nearest rank",
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "overall": {
+          "count": 89982,
+          "method": "nearest rank",
+          "p50": 3.0,
+          "p95": 5.0,
+          "p99": 8.0
+        }
+      },
+      "diagnostics": {
+        "stack": {
+          "deltas": {
+            "function_success_total": 91187.0,
+            "function_retry_total": 0.0,
+            "nanofaas_offload_total": null,
+            "nanofaas_offload_failure_total": null
+          },
+          "counter_observations": {
+            "function_success_total": {
+              "before": 0.0,
+              "after": 91187.0
+            },
+            "function_retry_total": {
+              "before": 0.0,
+              "after": 0.0
+            },
+            "nanofaas_offload_total": {
+              "before": null,
+              "after": null
+            },
+            "nanofaas_offload_failure_total": {
+              "before": null,
+              "after": null
+            }
+          },
+          "inventory_stable": true,
+          "history_available": true,
+          "window": "whole run including qualification and warmup",
+          "identities": {
+            "before": {
+              "nanofaas-control-plane-7cffd98875-ccgpx": {
+                "uid": "e65529fb-4276-4cf7-9b4f-5db3524ec4a9",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:a9cde409b5dc6d307c5aac7431c71a5f1708f9dbbaf421ca464d3cd0abf98ff9",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-gfmgx": {
+                "uid": "8182ad0d-81fc-4ad6-9b8b-ccdd1c81dc15",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:f9eae836d26349368e8a28603dd7e5a2c1ade1a0b00d5bc90d303e4ca8f13f6e",
+                "restarts": 0
+              }
+            },
+            "after": {
+              "nanofaas-control-plane-7cffd98875-ccgpx": {
+                "uid": "e65529fb-4276-4cf7-9b4f-5db3524ec4a9",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:a9cde409b5dc6d307c5aac7431c71a5f1708f9dbbaf421ca464d3cd0abf98ff9",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-gfmgx": {
+                "uid": "8182ad0d-81fc-4ad6-9b8b-ccdd1c81dc15",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:f9eae836d26349368e8a28603dd7e5a2c1ade1a0b00d5bc90d303e4ca8f13f6e",
+                "restarts": 0
+              }
+            }
+          },
+          "uptime_seconds": [
+            20.696,
+            305.571
+          ],
+          "unavailable": [
+            "stack before: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "stack after: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "stack before: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}",
+            "stack after: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}"
+          ],
+          "observed_valid_successes": 91187,
+          "server_minus_observed_success": 0.0,
+          "reconciliation_note": "Server successes must cover valid client successes; transport loss may hide additional server completions. Edge successes already include offloads.",
+          "observed_offload_markers": 0
+        },
+        "cloud": {
+          "deltas": {
+            "function_success_total": 4.0,
+            "function_retry_total": 0.0,
+            "nanofaas_offload_total": null,
+            "nanofaas_offload_failure_total": null
+          },
+          "counter_observations": {
+            "function_success_total": {
+              "before": 0.0,
+              "after": 4.0
+            },
+            "function_retry_total": {
+              "before": 0.0,
+              "after": 0.0
+            },
+            "nanofaas_offload_total": {
+              "before": null,
+              "after": null
+            },
+            "nanofaas_offload_failure_total": {
+              "before": null,
+              "after": null
+            }
+          },
+          "inventory_stable": true,
+          "history_available": true,
+          "window": "whole run including qualification and warmup",
+          "identities": {
+            "before": {
+              "nanofaas-control-plane-77b8b7d596-6px6c": {
+                "uid": "c0f3d037-480a-4624-9b0b-2511ae0096ea",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:02745d58636f708baa3498e5ec698404d76338667f2989f6fd55a2e2e9b6edee",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-l8xqf": {
+                "uid": "2aee5c88-7077-452b-b962-53247fdb7f07",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:1ac539f26a764729d19fbe2c0489052256ae75a7492db0ab15b14eaf5379e1ec",
+                "restarts": 0
+              }
+            },
+            "after": {
+              "nanofaas-control-plane-77b8b7d596-6px6c": {
+                "uid": "c0f3d037-480a-4624-9b0b-2511ae0096ea",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:02745d58636f708baa3498e5ec698404d76338667f2989f6fd55a2e2e9b6edee",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-l8xqf": {
+                "uid": "2aee5c88-7077-452b-b962-53247fdb7f07",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:1ac539f26a764729d19fbe2c0489052256ae75a7492db0ab15b14eaf5379e1ec",
+                "restarts": 0
+              }
+            }
+          },
+          "uptime_seconds": [
+            52.5,
+            337.516
+          ],
+          "unavailable": [
+            "cloud before: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "cloud after: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "cloud before: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}",
+            "cloud after: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}"
+          ],
+          "observed_valid_successes": 4,
+          "server_minus_observed_success": 0.0,
+          "reconciliation_note": "Server successes must cover valid client successes; transport loss may hide additional server completions. Edge successes already include offloads."
+        }
+      }
+    },
+    {
+      "arm": "06-cloud-r500",
+      "rate": 500,
+      "mode": "cloud",
+      "outcomes": {
+        "success": 89260,
+        "refused": 740,
+        "transport_error": 0,
+        "http_error": 0,
+        "invalid_body": 0
+      },
+      "counts": {
+        "warmup": {
+          "planned": 1200,
+          "scheduled": 1201,
+          "boundary_extra": 1,
+          "emitted": 1201,
+          "dropped": 0,
+          "missing": 0
+        },
+        "measurement": {
+          "planned": 90000,
+          "scheduled": 90000,
+          "boundary_extra": 0,
+          "emitted": 90000,
+          "dropped": 0,
+          "missing": 0
+        },
+        "total": {
+          "planned": 91200,
+          "scheduled": 91201,
+          "boundary_extra": 1,
+          "emitted": 91201,
+          "dropped": 0,
+          "missing": 0,
+          "k6_iterations": 91201,
+          "missing_ledger_records": 0
+        }
+      },
+      "goodput_per_second": 495.8888888888889,
+      "completion_probability_scheduled": 0.9917777777777778,
+      "latency_ms": {
+        "local": {
+          "count": 89260,
+          "method": "nearest rank",
+          "p50": 44.0,
+          "p95": 65.0,
+          "p99": 77.0
+        },
+        "offloaded": {
+          "count": 0,
+          "method": "nearest rank",
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "unknown": {
+          "count": 0,
+          "method": "nearest rank",
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "overall": {
+          "count": 89260,
+          "method": "nearest rank",
+          "p50": 44.0,
+          "p95": 65.0,
+          "p99": 77.0
+        }
+      },
+      "diagnostics": {
+        "stack": {
+          "deltas": {
+            "function_success_total": 4.0,
+            "function_retry_total": 0.0,
+            "nanofaas_offload_total": null,
+            "nanofaas_offload_failure_total": null
+          },
+          "counter_observations": {
+            "function_success_total": {
+              "before": 0.0,
+              "after": 4.0
+            },
+            "function_retry_total": {
+              "before": 0.0,
+              "after": 0.0
+            },
+            "nanofaas_offload_total": {
+              "before": null,
+              "after": null
+            },
+            "nanofaas_offload_failure_total": {
+              "before": null,
+              "after": null
+            }
+          },
+          "inventory_stable": true,
+          "history_available": true,
+          "window": "whole run including qualification and warmup",
+          "identities": {
+            "before": {
+              "nanofaas-control-plane-6b6c47cb7-7bgvv": {
+                "uid": "5247e707-f05f-489a-afc4-d54d62c2d698",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:9d5303e6a1314ae6554b784924eb3dcf6cbf88c3fae9cfa6ca0bed1991ae7759",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-xnxms": {
+                "uid": "cc7b2a30-282a-4158-ace5-8009c03affea",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:24b86825c40d2ca5219c40f2950481fa6c796de566d85d3206e1b0a161b2a398",
+                "restarts": 0
+              }
+            },
+            "after": {
+              "nanofaas-control-plane-6b6c47cb7-7bgvv": {
+                "uid": "5247e707-f05f-489a-afc4-d54d62c2d698",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:9d5303e6a1314ae6554b784924eb3dcf6cbf88c3fae9cfa6ca0bed1991ae7759",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-xnxms": {
+                "uid": "cc7b2a30-282a-4158-ace5-8009c03affea",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:24b86825c40d2ca5219c40f2950481fa6c796de566d85d3206e1b0a161b2a398",
+                "restarts": 0
+              }
+            }
+          },
+          "uptime_seconds": [
+            20.47,
+            305.273
+          ],
+          "unavailable": [
+            "stack before: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "stack after: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "stack before: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}",
+            "stack after: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}"
+          ],
+          "observed_valid_successes": 4,
+          "server_minus_observed_success": 0.0,
+          "reconciliation_note": "Server successes must cover valid client successes; transport loss may hide additional server completions. Edge successes already include offloads.",
+          "observed_offload_markers": 0
+        },
+        "cloud": {
+          "deltas": {
+            "function_success_total": 90465.0,
+            "function_retry_total": 0.0,
+            "nanofaas_offload_total": null,
+            "nanofaas_offload_failure_total": null
+          },
+          "counter_observations": {
+            "function_success_total": {
+              "before": 0.0,
+              "after": 90465.0
+            },
+            "function_retry_total": {
+              "before": 0.0,
+              "after": 0.0
+            },
+            "nanofaas_offload_total": {
+              "before": null,
+              "after": null
+            },
+            "nanofaas_offload_failure_total": {
+              "before": null,
+              "after": null
+            }
+          },
+          "inventory_stable": true,
+          "history_available": true,
+          "window": "whole run including qualification and warmup",
+          "identities": {
+            "before": {
+              "nanofaas-control-plane-77b8b7d596-6jkrb": {
+                "uid": "b01cf461-80a6-415f-be18-aabee21f0095",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:dabdf75f5488de49da54243897b7447a6088a83f552ff75b1fe0c0b43dbce618",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-6hps2": {
+                "uid": "8bd15e66-8cd0-4a59-b30f-656bf475a724",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:af716f3a97f17986b1215d8b6509fefe7611c5924c4b83e1bf6fa63bd7e3aa10",
+                "restarts": 0
+              }
+            },
+            "after": {
+              "nanofaas-control-plane-77b8b7d596-6jkrb": {
+                "uid": "b01cf461-80a6-415f-be18-aabee21f0095",
+                "image_id": "127.0.0.1:5000/nanofaas/control-plane@sha256:dabdf75f5488de49da54243897b7447a6088a83f552ff75b1fe0c0b43dbce618",
+                "restarts": 0
+              },
+              "fn-word-stats-java-66794f6cb4-6hps2": {
+                "uid": "8bd15e66-8cd0-4a59-b30f-656bf475a724",
+                "image_id": "127.0.0.1:5000/nanofaas/java-word-stats@sha256:af716f3a97f17986b1215d8b6509fefe7611c5924c4b83e1bf6fa63bd7e3aa10",
+                "restarts": 0
+              }
+            }
+          },
+          "uptime_seconds": [
+            52.668,
+            337.577
+          ],
+          "unavailable": [
+            "cloud before: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "cloud after: missing required counter nanofaas_offload_total for {'function': 'word-stats-java'}",
+            "cloud before: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}",
+            "cloud after: missing required counter nanofaas_offload_failure_total for {'function': 'word-stats-java'}"
+          ],
+          "observed_valid_successes": 90465,
+          "server_minus_observed_success": 0.0,
+          "reconciliation_note": "Server successes must cover valid client successes; transport loss may hide additional server completions. Edge successes already include offloads."
+        }
+      }
+    }
+  ],
+  "independent_confirmation": {
+    "01-disabled-r400": {
+      "refusal_codes": {
+        "EMPTY_BODY": 14
+      },
+      "offload_counter_observations": {
+        "before": null,
+        "after": null
+      },
+      "raw_records_checked": 73210,
+      "measurement_statuses": {
+        "429": 14,
+        "200": 71987
+      },
+      "offloaded_durations_ms": []
+    },
+    "02-pressure-r400": {
+      "refusal_codes": {
+        "OFFLOAD_FAILED": 1
+      },
+      "offload_counter_observations": {
+        "before": null,
+        "after": 12.0
+      },
+      "raw_records_checked": 73210,
+      "measurement_statuses": {
+        "200": 72000,
+        "429": 1
+      },
+      "offloaded_durations_ms": [
+        99,
+        101,
+        106,
+        106,
+        117,
+        120,
+        139,
+        140,
+        144,
+        193,
+        194
+      ]
+    },
+    "03-cloud-r400": {
+      "refusal_codes": {},
+      "offload_counter_observations": {
+        "before": null,
+        "after": null
+      },
+      "raw_records_checked": 73209,
+      "measurement_statuses": {
+        "200": 72001
+      },
+      "offloaded_durations_ms": []
+    },
+    "04-pressure-r500": {
+      "refusal_codes": {
+        "OFFLOAD_FAILED": 1
+      },
+      "offload_counter_observations": {
+        "before": null,
+        "after": 129.0
+      },
+      "raw_records_checked": 91210,
+      "measurement_statuses": {
+        "200": 90000,
+        "429": 1
+      },
+      "offloaded_durations_ms": [
+        47,
+        51,
+        52,
+        52,
+        53,
+        54,
+        54,
+        55,
+        56,
+        58,
+        58,
+        58,
+        58,
+        60,
+        64,
+        65,
+        66,
+        67,
+        77,
+        81,
+        81,
+        81,
+        82,
+        84,
+        91,
+        92,
+        94,
+        94,
+        94,
+        98,
+        98,
+        99,
+        101,
+        102,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        107,
+        110,
+        111,
+        112,
+        114,
+        114,
+        115,
+        116,
+        117,
+        120,
+        124,
+        135,
+        136,
+        136,
+        137,
+        140,
+        142,
+        142,
+        146,
+        151,
+        152,
+        157,
+        159,
+        161,
+        161,
+        162,
+        162,
+        166,
+        166,
+        168,
+        170,
+        172,
+        174,
+        175,
+        176,
+        176,
+        178,
+        181,
+        181,
+        183,
+        187,
+        188,
+        192,
+        193,
+        194,
+        195,
+        199,
+        203,
+        203,
+        204,
+        204,
+        208,
+        208,
+        209,
+        209,
+        210,
+        211,
+        212,
+        214,
+        222,
+        222,
+        224,
+        225,
+        227,
+        230,
+        231,
+        232,
+        235,
+        236,
+        238,
+        239,
+        258,
+        262,
+        266,
+        269,
+        276,
+        278,
+        310,
+        316,
+        318,
+        340,
+        348,
+        379,
+        409,
+        431,
+        449,
+        487,
+        577
+      ]
+    },
+    "05-disabled-r500": {
+      "refusal_codes": {
+        "EMPTY_BODY": 19
+      },
+      "offload_counter_observations": {
+        "before": null,
+        "after": null
+      },
+      "raw_records_checked": 91210,
+      "measurement_statuses": {
+        "429": 19,
+        "200": 89982
+      },
+      "offloaded_durations_ms": []
+    },
+    "06-cloud-r500": {
+      "refusal_codes": {
+        "EMPTY_BODY": 1,
+        "RUNTIME_CALLBACK_SATURATED": 739
+      },
+      "offload_counter_observations": {
+        "before": null,
+        "after": null
+      },
+      "raw_records_checked": 91209,
+      "measurement_statuses": {
+        "429": 740,
+        "200": 89260
+      },
+      "offloaded_durations_ms": []
+    }
+  }
+}

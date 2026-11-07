@@ -1,0 +1,175 @@
+{
+  "selectedFixed": 4,
+  "cells": [
+    {
+      "cell": 0,
+      "policy": "sojourn",
+      "scenario": "burst",
+      "repetition": 3,
+      "fixed": 4
+    },
+    {
+      "cell": 1,
+      "policy": "sojourn",
+      "scenario": "burst",
+      "repetition": 2,
+      "fixed": 4
+    },
+    {
+      "cell": 2,
+      "policy": "sojourn",
+      "scenario": "contention",
+      "repetition": 2,
+      "fixed": 4
+    },
+    {
+      "cell": 3,
+      "policy": "adaptive",
+      "scenario": "contention",
+      "repetition": 1,
+      "fixed": 4
+    },
+    {
+      "cell": 4,
+      "policy": "adaptive",
+      "scenario": "contention",
+      "repetition": 3,
+      "fixed": 4
+    },
+    {
+      "cell": 5,
+      "policy": "budgeted",
+      "scenario": "contention",
+      "repetition": 1,
+      "fixed": 4
+    },
+    {
+      "cell": 6,
+      "policy": "adaptive",
+      "scenario": "burst",
+      "repetition": 2,
+      "fixed": 4
+    },
+    {
+      "cell": 7,
+      "policy": "sojourn",
+      "scenario": "contention",
+      "repetition": 3,
+      "fixed": 4
+    },
+    {
+      "cell": 8,
+      "policy": "sojourn",
+      "scenario": "burst",
+      "repetition": 1,
+      "fixed": 4
+    },
+    {
+      "cell": 9,
+      "policy": "budgeted",
+      "scenario": "contention",
+      "repetition": 3,
+      "fixed": 4
+    },
+    {
+      "cell": 10,
+      "policy": "fixed",
+      "scenario": "burst",
+      "repetition": 3,
+      "fixed": 4
+    },
+    {
+      "cell": 11,
+      "policy": "adaptive",
+      "scenario": "contention",
+      "repetition": 2,
+      "fixed": 4
+    },
+    {
+      "cell": 12,
+      "policy": "budgeted",
+      "scenario": "burst",
+      "repetition": 3,
+      "fixed": 4
+    },
+    {
+      "cell": 13,
+      "policy": "adaptive",
+      "scenario": "burst",
+      "repetition": 3,
+      "fixed": 4
+    },
+    {
+      "cell": 14,
+      "policy": "budgeted",
+      "scenario": "contention",
+      "repetition": 2,
+      "fixed": 4
+    },
+    {
+      "cell": 15,
+      "policy": "fixed",
+      "scenario": "burst",
+      "repetition": 2,
+      "fixed": 4
+    },
+    {
+      "cell": 16,
+      "policy": "fixed",
+      "scenario": "contention",
+      "repetition": 2,
+      "fixed": 4
+    },
+    {
+      "cell": 17,
+      "policy": "budgeted",
+      "scenario": "burst",
+      "repetition": 2,
+      "fixed": 4
+    },
+    {
+      "cell": 18,
+      "policy": "fixed",
+      "scenario": "burst",
+      "repetition": 1,
+      "fixed": 4
+    },
+    {
+      "cell": 19,
+      "policy": "sojourn",
+      "scenario": "contention",
+      "repetition": 1,
+      "fixed": 4
+    },
+    {
+      "cell": 20,
+      "policy": "fixed",
+      "scenario": "contention",
+      "repetition": 1,
+      "fixed": 4
+    },
+    {
+      "cell": 21,
+      "policy": "budgeted",
+      "scenario": "burst",
+      "repetition": 1,
+      "fixed": 4
+    },
+    {
+      "cell": 22,
+      "policy": "adaptive",
+      "scenario": "burst",
+      "repetition": 1,
+      "fixed": 4
+    },
+    {
+      "cell": 23,
+      "policy": "fixed",
+      "scenario": "contention",
+      "repetition": 3,
+      "fixed": 4
+    }
+  ],
+  "calibrationSha256": "1fb79e5fbe54673c94a9aef8f028d371603c3db2f85f8009be18199753051727",
+  "protocolSha256": "9ea76dc2482c87eb8889c6bf163a70460e8ab40e92ab5e7e06de825045a077e9"
+}

@@ -1,0 +1,18 @@
+{
+  "experiment": "03-concurrency-adaptation",
+  "format": "tar.zst split as an ordered byte stream",
+  "release": "paper-main-v1",
+  "archive": {
+    "name": "03-concurrency-adaptation.tar.zst",
+    "bytes": 87498545,
+    "sha256": "69597855bc9d0a12403c688bfc8f5909602fb9926efd3e83b819fd5886e813d0"
+  },
+  "parts": [
+    {
+      "name": "03-concurrency-adaptation.tar.zst.part-001",
+      "bytes": 87498545,
+      "sha256": "69597855bc9d0a12403c688bfc8f5909602fb9926efd3e83b819fd5886e813d0",
+      "url": "https://github.com/Nanofaas/nanofaas-experiment-data/releases/download/paper-main-v1/03-concurrency-adaptation.tar.zst.part-001"
+    }
+  ]
+}

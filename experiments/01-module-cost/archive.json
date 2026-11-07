@@ -1,0 +1,18 @@
+{
+  "experiment": "01-module-cost",
+  "format": "tar.zst split as an ordered byte stream",
+  "release": "paper-main-v1",
+  "archive": {
+    "name": "01-module-cost.tar.zst",
+    "bytes": 11231946,
+    "sha256": "310433084404d2a4a8c4611ceac3f84524e2d40b39e72876791ffe6d74f46225"
+  },
+  "parts": [
+    {
+      "name": "01-module-cost.tar.zst.part-001",
+      "bytes": 11231946,
+      "sha256": "310433084404d2a4a8c4611ceac3f84524e2d40b39e72876791ffe6d74f46225",
+      "url": "https://github.com/Nanofaas/nanofaas-experiment-data/releases/download/paper-main-v1/01-module-cost.tar.zst.part-001"
+    }
+  ]
+}

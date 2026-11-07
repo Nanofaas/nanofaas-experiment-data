@@ -1,0 +1,16 @@
+{
+  "blocks": 3,
+  "arms": 24,
+  "verified_sha256": "61030dead91f01d08026b7076e0ef1b452ed78319521aaef87ba2995ddb6f60a",
+  "checker_sha256": "00afd00590359b5e19521a9ba0d52085312409f82f90bf706b6767e6d258eae6",
+  "archives": {
+    "mc-0d280893538b-1.tar.gz": "04f8c504fb73f2446cdb54413424c9eeba686115f72a5211d88ed94660523196",
+    "mc-0d280893538b-2.tar.gz": "c37a8bcea9aef82b587f8fc92439b8af880e69dd1a13c75cecaa244508de4cdb",
+    "mc-0d280893538b-3.tar.gz": "dc88bb7adccf723cc98cd9726e01118d1c200335f8ccba58b7b79851952bc3dd"
+  },
+  "checks": "protocol, sources, lifecycle and oracle via NanoLab; independent resource integrals, CPU deltas, counts, latency quantiles, readiness, artifact inventory and idle contrasts",
+  "generated_sha256": {
+    "module-cost.pdf": "787a91f60c304473808e8ea5121fe1f9e9df3baf5d60a2f06fcded2aaba1baad",
+    "working-set-table.tex": "30fd419f7aa53be36e105a310fae8dab3d500104126de13d4429d289da47d41a"
+  }
+}

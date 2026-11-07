@@ -1,0 +1,18 @@
+{
+  "experiment": "04-replica-reactivation",
+  "format": "tar.zst split as an ordered byte stream",
+  "release": "paper-main-v1",
+  "archive": {
+    "name": "04-replica-reactivation.tar.zst",
+    "bytes": 818142,
+    "sha256": "9eef6756f7bba9994770abd33bba1d6646342ad6f5e3b000e8106f18e42db2d3"
+  },
+  "parts": [
+    {
+      "name": "04-replica-reactivation.tar.zst.part-001",
+      "bytes": 818142,
+      "sha256": "9eef6756f7bba9994770abd33bba1d6646342ad6f5e3b000e8106f18e42db2d3",
+      "url": "https://github.com/Nanofaas/nanofaas-experiment-data/releases/download/paper-main-v1/04-replica-reactivation.tar.zst.part-001"
+    }
+  ]
+}
