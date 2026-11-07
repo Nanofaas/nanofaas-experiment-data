@@ -69,5 +69,48 @@
     "scannedFiles": 2173,
     "credentialPatternFindings": 0,
     "scope": "selected archive inputs; private-key, GitHub/AWS/Azure token, bearer-credential and assigned-secret patterns"
+  },
+  "remoteAssets": [
+    {
+      "digest": "sha256:310433084404d2a4a8c4611ceac3f84524e2d40b39e72876791ffe6d74f46225",
+      "name": "01-module-cost.tar.zst.part-001",
+      "size": 11231946,
+      "state": "uploaded"
+    },
+    {
+      "digest": "sha256:4f77fb79ed0334a4cd2eea96f368bb13082e1740164797dbbbb4f7081ecc6728",
+      "name": "02-platform-comparison.tar.zst.part-001",
+      "size": 22806660,
+      "state": "uploaded"
+    },
+    {
+      "digest": "sha256:69597855bc9d0a12403c688bfc8f5909602fb9926efd3e83b819fd5886e813d0",
+      "name": "03-concurrency-adaptation.tar.zst.part-001",
+      "size": 87498545,
+      "state": "uploaded"
+    },
+    {
+      "digest": "sha256:9eef6756f7bba9994770abd33bba1d6646342ad6f5e3b000e8106f18e42db2d3",
+      "name": "04-replica-reactivation.tar.zst.part-001",
+      "size": 818142,
+      "state": "uploaded"
+    },
+    {
+      "digest": "sha256:57b972c0ba29477e4fa08257339bc0e0822906f40a976a8cd7780a611f512e09",
+      "name": "05-fixed-target-offloading.tar.zst.part-001",
+      "size": 55462172,
+      "state": "uploaded"
+    },
+    {
+      "digest": "sha256:b46697ae40fb4dcec14984e18859ce9f579d9d5b3d5e645b19d3338c4fc8bdd6",
+      "name": "06-ten-edge-offloading.tar.zst.part-001",
+      "size": 31073742,
+      "state": "uploaded"
+    }
+  ],
+  "anonymousAccess": {
+    "status": "passed",
+    "archiveUrlsChecked": 6,
+    "fullDownloadAndVerification": "04-replica-reactivation: 190 files and 30 cycles verified without GitHub authentication"
   }
 }
