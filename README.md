@@ -1,4 +1,4 @@
-# nanofaas paper data
+# nanofaas experiment data
 
 Experimental data and analysis artifacts for the manuscript maintained in
 [nanofaas-paper-overleaf](https://github.com/Nanofaas/nanofaas-paper-overleaf).
